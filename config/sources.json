@@ -1,0 +1,176 @@
+{
+  "max_items_per_source": 80,
+  "request_delay_seconds": 1.0,
+  "arxiv": {
+    "enabled": true,
+    "categories": ["cs.AI", "cs.LG", "cs.CL", "cs.CV", "cs.RO"]
+  },
+  "rss_feeds": [
+    {"name": "OpenAI News", "url": "https://openai.com/news/rss.xml", "enabled": true},
+    {"name": "Google DeepMind", "url": "https://deepmind.google/blog/rss.xml", "enabled": true},
+    {"name": "Microsoft Research", "url": "https://www.microsoft.com/en-us/research/feed/", "enabled": true},
+    {"name": "Hugging Face", "url": "https://huggingface.co/blog/feed.xml", "enabled": true},
+    {"name": "BAIR Blog", "url": "https://bair.berkeley.edu/blog/feed.xml", "enabled": true},
+    {"name": "NVIDIA Technical Blog", "url": "https://developer.nvidia.com/blog/feed/", "enabled": true},
+    {"name": "ICLR Blog", "url": "https://blog.iclr.cc/feed/", "enabled": true},
+    {"name": "ICML Blog", "url": "https://blog.icml.cc/feed/", "enabled": true},
+    {"name": "NeurIPS Blog", "url": "https://blog.neurips.cc/feed/", "enabled": true}
+  ],
+  "openreview_venues": [
+    {"code": "ICLR", "venue_id": "ICLR.cc/2026/Conference", "enabled": true},
+    {"code": "ICML", "venue_id": "ICML.cc/2026/Conference", "enabled": true},
+    {"code": "NeurIPS", "venue_id": "NeurIPS.cc/2026/Conference", "enabled": true},
+    {"code": "ACL", "venue_id": "aclweb.org/ACL/2026/Conference", "enabled": true}
+  ],
+  "conferences": [
+    {
+      "code": "ICLR", "name": "International Conference on Learning Representations",
+      "field": "General AI · Representation Learning", "edition": 2026,
+      "url": "https://iclr.cc/Conferences/2026", "start_date": "2026-04-23", "end_date": "2026-04-27",
+      "date_label": "2026.04.23–27 · Rio de Janeiro",
+      "timeline": [
+        {"kind": "paper", "label": "초록 · 논문 접수", "start": "2025-09-19", "end": "2025-09-24"},
+        {"kind": "workshop", "label": "워크샵 제안", "start": "2025-09-08", "end": "2025-10-10"},
+        {"kind": "decision", "label": "논문 결과 발표", "start": "2026-01-25", "end": "2026-01-25"},
+        {"kind": "workshop", "label": "워크샵 기여 마감→통지", "start": "2026-01-30", "end": "2026-03-01"},
+        {"kind": "conference", "label": "본학회 · 워크샵", "start": "2026-04-23", "end": "2026-04-27"}
+      ]
+    },
+    {
+      "code": "ICML", "name": "International Conference on Machine Learning",
+      "field": "General AI · Machine Learning", "edition": 2026,
+      "url": "https://icml.cc/Conferences/2026", "start_date": "2026-07-06", "end_date": "2026-07-11",
+      "date_label": "2026.07.06–11 · Seoul",
+      "timeline": [
+        {"kind": "paper", "label": "논문 접수", "start": "2026-01-08", "end": "2026-01-28"},
+        {"kind": "workshop", "label": "워크샵 제안", "start": "2026-01-21", "end": "2026-02-13"},
+        {"kind": "decision", "label": "논문 결과 발표", "start": "2026-04-30", "end": "2026-04-30"},
+        {"kind": "workshop", "label": "워크샵 기여 마감→통지", "start": "2026-04-24", "end": "2026-05-14"},
+        {"kind": "conference", "label": "튜토리얼 · 본학회 · 워크샵", "start": "2026-07-06", "end": "2026-07-11"}
+      ]
+    },
+    {
+      "code": "CVPR", "name": "Conference on Computer Vision and Pattern Recognition",
+      "field": "Computer Vision", "edition": 2026,
+      "url": "https://cvpr.thecvf.com/Conferences/2026", "start_date": "2026-06-03", "end_date": "2026-06-07",
+      "date_label": "2026.06.03–07 · Denver",
+      "timeline": [
+        {"kind": "workshop", "label": "워크샵 제안 마감", "start": "2025-11-03", "end": "2025-11-03"},
+        {"kind": "paper", "label": "논문 · 부록 접수", "start": "2025-11-07", "end": "2025-11-20"},
+        {"kind": "decision", "label": "최종 결과 발표", "start": "2026-02-20", "end": "2026-02-20"},
+        {"kind": "conference", "label": "워크샵 · 본학회", "start": "2026-06-03", "end": "2026-06-07"}
+      ]
+    },
+    {
+      "code": "NeurIPS", "name": "Conference on Neural Information Processing Systems",
+      "field": "General AI · Machine Learning", "edition": 2026,
+      "url": "https://neurips.cc/Conferences/2026", "start_date": "2026-12-06", "end_date": "2026-12-13",
+      "date_label": "2026.12.06–13 · Sydney + Satellites",
+      "timeline": [
+        {"kind": "workshop", "label": "워크샵 제안", "start": "2026-04-21", "end": "2026-06-06"},
+        {"kind": "paper", "label": "초록 · 논문 접수", "start": "2026-05-04", "end": "2026-05-06"},
+        {"kind": "workshop", "label": "워크샵 기여 마감→통지", "start": "2026-08-29", "end": "2026-09-29"},
+        {"kind": "decision", "label": "논문 결과 발표", "start": "2026-09-24", "end": "2026-09-24"},
+        {"kind": "conference", "label": "본학회 · 워크샵", "start": "2026-12-06", "end": "2026-12-13"}
+      ]
+    },
+    {
+      "code": "ACL", "name": "Annual Meeting of the Association for Computational Linguistics",
+      "field": "Natural Language Processing", "edition": 2026,
+      "url": "https://2026.aclweb.org/", "start_date": "2026-07-02", "end_date": "2026-07-07",
+      "date_label": "2026.07.02–07 · San Diego",
+      "timeline": [
+        {"kind": "paper", "label": "ARR 논문 제출", "start": "2026-01-05", "end": "2026-01-05"},
+        {"kind": "decision", "label": "논문 결과 발표", "start": "2026-04-04", "end": "2026-04-04"},
+        {"kind": "workshop", "label": "워크샵", "start": "2026-07-03", "end": "2026-07-04"},
+        {"kind": "conference", "label": "튜토리얼 · 본학회", "start": "2026-07-02", "end": "2026-07-07"}
+      ]
+    },
+    {
+      "code": "AAAI", "name": "AAAI Conference on Artificial Intelligence",
+      "field": "General Artificial Intelligence", "edition": 2026,
+      "url": "https://aaai.org/conference/aaai/aaai-26/", "start_date": "2026-01-20", "end_date": "2026-01-27",
+      "date_label": "2026.01.20–27 · Singapore",
+      "timeline": [
+        {"kind": "paper", "label": "논문 접수", "start": "2025-06-25", "end": "2025-08-04"},
+        {"kind": "decision", "label": "최종 결과 발표", "start": "2025-11-08", "end": "2025-11-08"},
+        {"kind": "conference", "label": "본학회", "start": "2026-01-20", "end": "2026-01-27"},
+        {"kind": "workshop", "label": "워크샵", "start": "2026-01-26", "end": "2026-01-27"}
+      ]
+    },
+    {
+      "code": "AISTATS", "name": "International Conference on Artificial Intelligence and Statistics",
+      "field": "Machine Learning · Statistics", "edition": 2026,
+      "url": "https://virtual.aistats.org/Conferences/2026", "start_date": "2026-05-02", "end_date": "2026-05-05",
+      "date_label": "2026.05.02–05 · Morocco",
+      "timeline": [
+        {"kind": "paper", "label": "논문 · 부록 접수", "start": "2025-09-01", "end": "2025-10-09"},
+        {"kind": "workshop", "label": "워크샵 제안 마감", "start": "2025-10-17", "end": "2025-10-17"},
+        {"kind": "decision", "label": "논문 결과 발표", "start": "2026-01-22", "end": "2026-01-22"},
+        {"kind": "conference", "label": "본학회 · 워크샵", "start": "2026-05-02", "end": "2026-05-05"}
+      ]
+    },
+    {
+      "code": "KDD", "name": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "field": "Data Mining · Applied ML", "edition": 2026,
+      "url": "https://kdd2026.kdd.org/", "start_date": "2026-08-09", "end_date": "2026-08-13",
+      "date_label": "2026.08.09–13 · Jeju",
+      "timeline": [
+        {"kind": "paper", "label": "연구 논문 접수 (Cycle 2)", "start": "2026-02-01", "end": "2026-02-08"},
+        {"kind": "workshop", "label": "워크샵 제안 마감", "start": "2026-02-05", "end": "2026-02-05"},
+        {"kind": "workshop", "label": "워크샵 논문 마감→통지", "start": "2026-04-30", "end": "2026-06-04"},
+        {"kind": "decision", "label": "논문 결과 발표", "start": "2026-05-16", "end": "2026-05-16"},
+        {"kind": "conference", "label": "워크샵 · 본학회", "start": "2026-08-09", "end": "2026-08-13"}
+      ]
+    },
+    {
+      "code": "ECCV", "name": "European Conference on Computer Vision",
+      "field": "Computer Vision", "edition": 2026,
+      "url": "https://eccv.ecva.net/Conferences/2026", "start_date": "2026-09-08", "end_date": "2026-09-12",
+      "date_label": "2026.09.08–12 · Malmö",
+      "timeline": [
+        {"kind": "paper", "label": "논문 · 부록 접수", "start": "2026-02-26", "end": "2026-03-12"},
+        {"kind": "workshop", "label": "워크샵 제안 마감", "start": "2026-02-27", "end": "2026-02-27"},
+        {"kind": "decision", "label": "최종 결과 발표", "start": "2026-06-17", "end": "2026-06-17"},
+        {"kind": "conference", "label": "워크샵 · 본학회", "start": "2026-09-08", "end": "2026-09-12"}
+      ]
+    },
+    {
+      "code": "EMNLP", "name": "Conference on Empirical Methods in Natural Language Processing",
+      "field": "Natural Language Processing", "edition": 2026,
+      "url": "https://2026.emnlp.org/", "start_date": "2026-10-24", "end_date": "2026-10-29",
+      "date_label": "2026.10.24–29 · Budapest",
+      "timeline": [
+        {"kind": "paper", "label": "ARR 제출→커밋", "start": "2026-05-25", "end": "2026-08-02"},
+        {"kind": "workshop", "label": "튜토리얼 제안→통지", "start": "2026-06-01", "end": "2026-07-15"},
+        {"kind": "decision", "label": "논문 결과 발표", "start": "2026-08-20", "end": "2026-08-20"},
+        {"kind": "conference", "label": "본학회 · 워크샵", "start": "2026-10-24", "end": "2026-10-29"}
+      ]
+    },
+    {
+      "code": "COLM", "name": "Conference on Language Modeling",
+      "field": "Language Modeling", "edition": 2026,
+      "url": "https://colmweb.org/", "start_date": "2026-10-06", "end_date": "2026-10-09",
+      "date_label": "2026.10.06–09 · San Francisco",
+      "timeline": [
+        {"kind": "paper", "label": "초록 · 논문 접수", "start": "2026-03-26", "end": "2026-03-31"},
+        {"kind": "workshop", "label": "워크샵 제안→통지", "start": "2026-04-14", "end": "2026-05-12"},
+        {"kind": "workshop", "label": "워크샵 기여 마감→통지", "start": "2026-06-23", "end": "2026-07-24"},
+        {"kind": "decision", "label": "논문 결과 발표", "start": "2026-07-08", "end": "2026-07-08"},
+        {"kind": "conference", "label": "본학회 · 워크샵", "start": "2026-10-06", "end": "2026-10-09"}
+      ]
+    },
+    {
+      "code": "RSS", "name": "Robotics: Science and Systems",
+      "field": "Robotics", "edition": 2026,
+      "url": "https://roboticsconference.org/", "start_date": "2026-07-13", "end_date": "2026-07-17",
+      "date_label": "2026.07.13–17 · Sydney",
+      "timeline": [
+        {"kind": "paper", "label": "초록 · 논문 · 부록 접수", "start": "2026-01-23", "end": "2026-02-06"},
+        {"kind": "workshop", "label": "워크샵 제안 마감", "start": "2026-02-12", "end": "2026-02-12"},
+        {"kind": "decision", "label": "논문 결과 발표", "start": "2026-04-27", "end": "2026-04-27"},
+        {"kind": "conference", "label": "본학회", "start": "2026-07-13", "end": "2026-07-17"}
+      ]
+    }
+  ]
+}

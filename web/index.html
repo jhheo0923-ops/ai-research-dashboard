@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="AI 뉴스, 논문, 학회 동향을 한곳에서 추적하는 리서치 대시보드" />
+    <title>Signal — AI Research Radar</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="sidebar" aria-label="주요 탐색">
+        <a class="brand" href="#overview" aria-label="Signal 홈">
+          <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span>Signal</span>
+        </a>
+
+        <nav class="nav-list">
+          <button class="nav-item active" data-route="overview" type="button">
+            <span class="nav-icon" aria-hidden="true">⌁</span><span>오늘의 브리핑</span>
+          </button>
+          <button class="nav-item" data-route="cards" type="button">
+            <span class="nav-icon" aria-hidden="true">▦</span><span>카드 뉴스</span>
+          </button>
+          <button class="nav-item" data-route="statistics" type="button">
+            <span class="nav-icon" aria-hidden="true">▥</span><span>통계 · 인사이트</span>
+          </button>
+          <button class="nav-item" data-route="search" type="button">
+            <span class="nav-icon" aria-hidden="true">⌕</span><span>검색 · 아카이브</span>
+          </button>
+          <button class="nav-item" data-route="conferences" type="button">
+            <span class="nav-icon" aria-hidden="true">◇</span><span>학회 레이더</span>
+          </button>
+          <button class="nav-item" data-route="sources" type="button">
+            <span class="nav-icon" aria-hidden="true">≋</span><span>수집 소스</span>
+          </button>
+        </nav>
+
+        <div class="sidebar-foot">
+          <div class="sync-card">
+            <span class="live-dot" aria-hidden="true"></span>
+            <div><strong>자동 업데이트</strong><span id="sidebar-sync">초기화 대기</span></div>
+          </div>
+          <p>매일 자동 수집 · SQLite 아카이브</p>
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <button class="menu-button" id="menu-button" type="button" aria-label="메뉴 열기">☰</button>
+          <div>
+            <p class="eyebrow" id="page-eyebrow">DAILY INTELLIGENCE</p>
+            <h1 id="page-title">오늘의 AI 리서치 브리핑</h1>
+          </div>
+          <div class="topbar-actions">
+            <div class="freshness"><span>마지막 수집</span><strong id="last-updated">아직 없음</strong></div>
+            <button class="command-button" data-route="search" type="button"><span>⌕</span> 전체 검색 <kbd>/</kbd></button>
+          </div>
+        </header>
+
+        <section class="view active" id="view-overview" aria-labelledby="page-title">
+          <div class="metric-grid" id="metric-grid"></div>
+
+          <div class="dashboard-grid">
+            <section class="panel briefing-panel">
+              <div class="panel-head">
+                <div><p class="section-kicker">24H SIGNALS</p><h2>핵심 이슈</h2></div>
+                <span class="pill">자동 분석</span>
+              </div>
+              <div id="briefing-list" class="briefing-list"></div>
+            </section>
+
+            <section class="panel trend-panel">
+              <div class="panel-head">
+                <div><p class="section-kicker">MOMENTUM</p><h2>떠오르는 연구 주제</h2></div>
+                <span class="muted">최근 7일</span>
+              </div>
+              <div id="trend-list" class="trend-list"></div>
+            </section>
+
+            <section class="panel latest-panel">
+              <div class="panel-head">
+                <div><p class="section-kicker">LATEST</p><h2>새로 들어온 자료</h2></div>
+                <button class="text-button" data-route="search" type="button">전체 보기 →</button>
+              </div>
+              <div id="latest-list" class="latest-list"></div>
+            </section>
+
+            <section class="panel radar-panel">
+              <div class="panel-head">
+                <div><p class="section-kicker">CONFERENCE WATCH</p><h2>학회 레이더</h2></div>
+                <button class="text-button" data-route="conferences" type="button">일정 보기 →</button>
+              </div>
+              <div id="conference-mini" class="conference-mini"></div>
+            </section>
+          </div>
+        </section>
+
+        <section class="view" id="view-cards" aria-labelledby="cards-heading">
+          <div class="section-intro card-news-intro">
+            <div><p class="section-kicker">RESEARCH DIGEST</p><h2 id="cards-heading">논문 · 뉴스 카드</h2></div>
+            <p>중요한 이슈부터 훑어보고, 읽음과 별표로 개인 리서치 큐를 관리합니다.</p>
+          </div>
+          <div id="card-stats" class="card-stat-grid" aria-label="카드 뉴스 현황"></div>
+          <div class="card-toolbar">
+            <div class="card-filter-row" role="group" aria-label="카드 뉴스 필터">
+              <button class="card-filter active" data-card-filter="all" type="button">전체</button>
+              <button class="card-filter" data-card-filter="unread" type="button">안 읽음</button>
+              <button class="card-filter" data-card-filter="read" type="button">읽음</button>
+              <button class="card-filter" data-card-filter="starred" type="button">별표</button>
+            </div>
+            <label class="card-sort-label" for="card-sort">정렬
+              <select id="card-sort" class="card-sort">
+                <option value="importance">중요도 높은순</option>
+                <option value="latest">최신순</option>
+                <option value="oldest">오래된순</option>
+              </select>
+            </label>
+          </div>
+          <div id="card-grid" class="news-card-grid"></div>
+          <div class="card-more-wrap"><button id="card-more" class="card-more" type="button">카드 더 보기</button></div>
+        </section>
+
+        <section class="view" id="view-search" aria-labelledby="search-heading">
+          <div class="search-hero">
+            <p class="section-kicker">RESEARCH ARCHIVE</p>
+            <h2 id="search-heading">무엇을 찾고 있나요?</h2>
+            <div class="search-box">
+              <span aria-hidden="true">⌕</span>
+              <input id="search-input" type="search" placeholder="예: multimodal agent, reasoning, diffusion…" autocomplete="off" />
+              <kbd>ESC</kbd>
+            </div>
+            <div class="filter-row" role="group" aria-label="검색 필터">
+              <button class="filter active" data-filter="all" type="button">전체</button>
+              <button class="filter" data-filter="paper" type="button">논문</button>
+              <button class="filter" data-filter="news" type="button">뉴스</button>
+              <button class="filter" data-filter="conference" type="button">학회</button>
+              <label class="topic-select-label" for="topic-filter">1차 분류</label>
+              <select id="topic-filter" class="topic-select"><option value="all">모든 연구 분야</option></select>
+            </div>
+          </div>
+          <div class="results-head"><span id="result-count">0개 결과</span><span>최신순</span></div>
+          <div id="search-results" class="search-results"></div>
+        </section>
+
+        <section class="view" id="view-statistics" aria-labelledby="statistics-heading">
+          <div class="section-intro">
+            <div><p class="section-kicker">RESEARCH ANALYTICS</p><h2 id="statistics-heading">아카이브 통계와 분류 지형</h2></div>
+            <p>최근 28일의 수집량과 소스 구성, 1차·2차 연구 주제 분포를 함께 봅니다.</p>
+          </div>
+          <div class="stat-kpi-grid" id="stat-kpis"></div>
+          <div class="statistics-grid">
+            <section class="panel volume-panel">
+              <div class="panel-head"><div><p class="section-kicker">28 DAY VOLUME</p><h2>일별 수집량</h2></div><span class="muted">논문 + 뉴스</span></div>
+              <div id="volume-chart" class="volume-chart" aria-label="최근 28일 일별 수집량 차트"></div>
+              <div class="chart-legend"><span><i class="legend-paper"></i>논문</span><span><i class="legend-news"></i>뉴스</span></div>
+            </section>
+            <section class="panel type-panel">
+              <div class="panel-head"><div><p class="section-kicker">ARCHIVE MIX</p><h2>자료 유형</h2></div></div>
+              <div id="type-mix" class="type-mix"></div>
+            </section>
+            <section class="panel taxonomy-panel">
+              <div class="panel-head"><div><p class="section-kicker">PRIMARY TAXONOMY</p><h2>1차 연구 분야 분포</h2></div><span class="muted">전체 아카이브</span></div>
+              <div id="taxonomy-bars" class="bar-list"></div>
+            </section>
+            <section class="panel source-stat-panel">
+              <div class="panel-head"><div><p class="section-kicker">SOURCE SHARE</p><h2>상위 수집 소스</h2></div></div>
+              <div id="source-bars" class="bar-list"></div>
+            </section>
+            <section class="panel taxonomy-map-panel">
+              <div class="panel-head"><div><p class="section-kicker">TOPIC MAP</p><h2>1차 → 2차 분류 지도</h2></div><span class="muted">자료 수 기준</span></div>
+              <div id="taxonomy-map" class="taxonomy-map"></div>
+            </section>
+          </div>
+        </section>
+
+        <section class="view" id="view-conferences" aria-labelledby="conference-heading">
+          <div class="section-intro">
+            <div><p class="section-kicker">CONFERENCE RADAR</p><h2 id="conference-heading">주요 학회 일정과 새 논문</h2></div>
+            <p>12개 대표 학회의 논문 접수, 결과 발표, 워크샵, 본학회 일정을 1월부터 12월까지 비교합니다.</p>
+          </div>
+          <div class="conference-toolbar">
+            <div id="conference-filters" class="conference-filters" aria-label="학회 분야 필터"></div>
+            <div class="timeline-legend" aria-label="일정 범례">
+              <span><i class="paper"></i>논문 접수</span><span><i class="decision"></i>결과 발표</span>
+              <span><i class="workshop"></i>워크샵</span><span><i class="conference"></i>본학회</span>
+            </div>
+          </div>
+          <p class="timeline-note">※ 2026 에디션 기준입니다. 가로축은 1–12월이며, 각 행의 선은 기간, 큰 원은 종료일을 나타냅니다. 전년도 일정은 연도를 함께 표시합니다.</p>
+          <div id="conference-grid" class="conference-grid"></div>
+        </section>
+
+        <section class="view" id="view-sources" aria-labelledby="sources-heading">
+          <div class="section-intro">
+            <div><p class="section-kicker">PIPELINE STATUS</p><h2 id="sources-heading">수집 소스 상태</h2></div>
+            <p>한 소스가 실패해도 나머지 수집과 HTML 생성은 계속됩니다.</p>
+          </div>
+          <div id="source-grid" class="source-grid"></div>
+          <section class="panel pipeline-note">
+            <span class="big-number">01</span>
+            <div><h3>수집 → 정규화 → 분석 → 발행</h3><p>중복 URL을 제거하고 SQLite에 보관한 뒤, 최근 신호와 키워드 모멘텀을 계산해 이 화면을 갱신합니다.</p></div>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <div class="scrim" id="scrim"></div>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

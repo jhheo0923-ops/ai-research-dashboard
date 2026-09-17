@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.sites-runtime/
+.env
+.env.*
+!.env.example
+.DS_Store
+data/*.db-shm
+data/*.db-wal
+logs/*.log
