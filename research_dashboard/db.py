@@ -57,6 +57,19 @@ CREATE TABLE IF NOT EXISTS source_runs (
 
 CREATE INDEX IF NOT EXISTS idx_source_runs_latest ON source_runs(source, finished_at DESC);
 
+CREATE TABLE IF NOT EXISTS annual_metrics (
+    field_key TEXT NOT NULL,
+    field_label_ko TEXT NOT NULL,
+    category TEXT NOT NULL,
+    year INTEGER NOT NULL,
+    count INTEGER NOT NULL,
+    source_url TEXT NOT NULL,
+    collected_at TEXT NOT NULL,
+    PRIMARY KEY(field_key, year)
+);
+
+CREATE INDEX IF NOT EXISTS idx_annual_metrics_year ON annual_metrics(year, field_key);
+
 CREATE TABLE IF NOT EXISTS conferences (
     code TEXT PRIMARY KEY,
     name TEXT NOT NULL,
@@ -263,6 +276,45 @@ def query_items(path: Path, *, limit: int = 300) -> list[dict[str, Any]]:
             (limit,),
         ).fetchall()
     return [_decode_item(row) for row in rows]
+
+
+def upsert_annual_metric(path: Path, metric: dict[str, Any]) -> None:
+    with connect(path) as connection:
+        connection.execute(
+            """
+            INSERT INTO annual_metrics(
+                field_key, field_label_ko, category, year, count, source_url, collected_at
+            ) VALUES (?, ?, ?, ?, ?, ?, ?)
+            ON CONFLICT(field_key, year) DO UPDATE SET
+                field_label_ko=excluded.field_label_ko,
+                category=excluded.category,
+                count=excluded.count,
+                source_url=excluded.source_url,
+                collected_at=excluded.collected_at
+            """,
+            (
+                metric["field_key"], metric["field_label_ko"], metric["category"],
+                int(metric["year"]), int(metric["count"]), metric["source_url"],
+                metric["collected_at"],
+            ),
+        )
+
+
+def has_annual_metric(path: Path, field_key: str, year: int) -> bool:
+    with connect(path) as connection:
+        row = connection.execute(
+            "SELECT 1 FROM annual_metrics WHERE field_key = ? AND year = ?",
+            (field_key, int(year)),
+        ).fetchone()
+    return row is not None
+
+
+def query_annual_metrics(path: Path) -> list[dict[str, Any]]:
+    with connect(path) as connection:
+        rows = connection.execute(
+            "SELECT * FROM annual_metrics ORDER BY year, field_key"
+        ).fetchall()
+    return [dict(row) for row in rows]
 
 
 def search_items(path: Path, query: str, *, limit: int = 30) -> list[dict[str, Any]]:

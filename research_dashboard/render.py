@@ -48,7 +48,7 @@ def build_payload(database_path: Path, *, item_limit: int = 300) -> dict[str, An
         "metrics": db.aggregate_counts(database_path),
         "briefing": analyze.build_briefing(items, trends),
         "trends": trends,
-        "statistics": _statistics(items, source_runs),
+        "statistics": _statistics(items, source_runs, db.query_annual_metrics(database_path)),
         "items": browser_items,
         "conferences": conferences,
         "sources": sources,
@@ -77,6 +77,7 @@ def _browser_item(item: dict[str, Any], trend_scores: dict[tuple[str, str], int]
         "source": item["source"],
         "title": item["title"],
         "summary": item.get("summary", ""),
+        "summary_ko": analyze.korean_summary(item),
         "url": item["url"],
         "published_at": published,
         "date_label": _date_label(published),
@@ -84,6 +85,8 @@ def _browser_item(item: dict[str, Any], trend_scores: dict[tuple[str, str], int]
         "keywords": analyze.item_keywords(item),
         "primary_topic": item.get("primary_topic"),
         "secondary_topic": item.get("secondary_topic"),
+        "primary_topic_ko": analyze.topic_label_ko(item.get("primary_topic")),
+        "secondary_topic_ko": analyze.topic_label_ko(item.get("secondary_topic")),
         "classification_confidence": item.get("confidence", 0),
         "matched_terms": item.get("matched_terms", []),
         "importance_score": importance["score"],
@@ -166,10 +169,32 @@ def _conference_item(item: dict[str, Any]) -> dict[str, Any]:
         "field": item.get("field", "General AI"),
         "edition": item.get("edition"),
         "timeline": item.get("timeline", []),
+        "cycle": _conference_cycle(item.get("timeline", [])),
     }
 
 
-def _statistics(items: list[dict[str, Any]], source_runs: list[dict[str, Any]]) -> dict[str, Any]:
+def _conference_cycle(timeline: list[dict[str, Any]]) -> dict[str, Any] | None:
+    paper_events = [event for event in timeline if event.get("kind") == "paper" and event.get("start")]
+    decision_events = [event for event in timeline if event.get("kind") == "decision" and event.get("start")]
+    if not paper_events or not decision_events:
+        return None
+    submission_open = min(str(event["start"]) for event in paper_events)
+    submission_deadline = max(str(event.get("end") or event["start"]) for event in paper_events)
+    decision_date = max(str(event.get("end") or event["start"]) for event in decision_events)
+    return {
+        "submission_open": submission_open,
+        "submission_deadline": submission_deadline,
+        "review_start": submission_deadline,
+        "review_end": decision_date,
+        "decision_date": decision_date,
+    }
+
+
+def _statistics(
+    items: list[dict[str, Any]],
+    source_runs: list[dict[str, Any]],
+    annual_metrics: list[dict[str, Any]],
+) -> dict[str, Any]:
     now = datetime.now(timezone.utc)
     first_day = (now - timedelta(days=27)).date()
     daily: dict[str, Counter[str]] = {
@@ -234,11 +259,12 @@ def _statistics(items: list[dict[str, Any]], source_runs: list[dict[str, Any]]) 
         "types": [{"type": kind, "count": count} for kind, count in type_counts.most_common()],
         "sources": [{"source": source, "count": count} for source, count in source_counts.most_common(10)],
         "taxonomy": taxonomy,
+        "annual_trends": analyze.build_annual_trends(items, metrics=annual_metrics),
     }
 
 
 def _source_kind(source: str) -> str:
-    if source == "arXiv":
+    if source.startswith("arXiv"):
         return "논문"
     if source.startswith("OpenReview"):
         return "학회"

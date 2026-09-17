@@ -67,6 +67,38 @@ class DatabaseTests(unittest.TestCase):
         self.assertEqual(result["secondary_topic"], "Agents & Tool Use")
         self.assertGreater(result["confidence"], 0.5)
 
+    def test_korean_card_summary(self) -> None:
+        item = parse_arxiv(ARXIV_XML)[0]
+        summary = analyze.korean_summary(item)
+        self.assertIn("에이전트", summary)
+        self.assertIn("연구입니다", summary)
+
+    def test_annual_topic_share(self) -> None:
+        rows = [
+            {"type": "paper", "published_at": "2025-03-01T00:00:00+00:00", "primary_topic": "Foundation Models"},
+            {"type": "paper", "published_at": "2025-04-01T00:00:00+00:00", "primary_topic": "Learning & Theory"},
+            {"type": "paper", "published_at": "2025-05-01T00:00:00+00:00", "primary_topic": "Learning & Theory"},
+            {"type": "paper", "published_at": "2026-03-01T00:00:00+00:00", "primary_topic": "Foundation Models"},
+            {"type": "paper", "published_at": "2026-04-01T00:00:00+00:00", "primary_topic": "Foundation Models"},
+        ]
+        annual = analyze.build_annual_trends(rows, year_count=2, now=datetime(2026, 9, 1, tzinfo=timezone.utc))
+        foundation = next(row for row in annual["series"] if row["primary"] == "Foundation Models")
+        self.assertEqual(annual["years"], ["2025", "2026"])
+        self.assertGreater(foundation["delta_pp"], 0)
+
+    def test_official_annual_counts(self) -> None:
+        metrics = [
+            {"field_key": "Machine Learning", "field_label_ko": "머신러닝", "category": "cs.LG", "year": 2025, "count": 100, "source_url": "https://arxiv.org/list/cs.LG/2025"},
+            {"field_key": "Machine Learning", "field_label_ko": "머신러닝", "category": "cs.LG", "year": 2026, "count": 125, "source_url": "https://arxiv.org/list/cs.LG/2026"},
+            {"field_key": "Robotics", "field_label_ko": "로보틱스", "category": "cs.RO", "year": 2025, "count": 40, "source_url": "https://arxiv.org/list/cs.RO/2025"},
+            {"field_key": "Robotics", "field_label_ko": "로보틱스", "category": "cs.RO", "year": 2026, "count": 42, "source_url": "https://arxiv.org/list/cs.RO/2026"},
+        ]
+        annual = analyze.build_annual_trends([], metrics=metrics, year_count=2, now=datetime(2026, 9, 1, tzinfo=timezone.utc))
+        machine_learning = next(row for row in annual["series"] if row["primary"] == "Machine Learning")
+        self.assertEqual(annual["value_mode"], "count")
+        self.assertEqual(machine_learning["counts"], [100, 125])
+        self.assertEqual(machine_learning["delta_pp"], 25.0)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -103,6 +103,13 @@
             <p>중요한 이슈부터 훑어보고, 읽음과 별표로 개인 리서치 큐를 관리합니다.</p>
           </div>
           <div id="card-stats" class="card-stat-grid" aria-label="카드 뉴스 현황"></div>
+          <div class="card-category-panel">
+            <div class="card-category-heading"><span>분야별 보기</span><small>1차·2차 연구 분류</small></div>
+            <div id="card-category-filters" class="card-category-filters" role="group" aria-label="카드 연구 분야"></div>
+            <label class="card-subtopic-label" for="card-subtopic-filter">세부 주제
+              <select id="card-subtopic-filter" class="card-sort"><option value="all">모든 세부 주제</option></select>
+            </label>
+          </div>
           <div class="card-toolbar">
             <div class="card-filter-row" role="group" aria-label="카드 뉴스 필터">
               <button class="card-filter active" data-card-filter="all" type="button">전체</button>
@@ -151,6 +158,12 @@
           </div>
           <div class="stat-kpi-grid" id="stat-kpis"></div>
           <div class="statistics-grid">
+            <section class="panel annual-trend-panel">
+              <div class="panel-head"><div><p class="section-kicker">YEARLY RESEARCH SIGNAL</p><h2>연도별 분야 트렌드</h2></div><span class="muted">arXiv 공식 등록 수</span></div>
+              <div id="annual-trend-insights" class="annual-trend-insights"></div>
+              <div id="annual-trend-matrix" class="annual-trend-matrix" aria-label="연도별 연구 분야 arXiv 등록 수"></div>
+              <p id="annual-trend-note" class="annual-trend-note"></p>
+            </section>
             <section class="panel volume-panel">
               <div class="panel-head"><div><p class="section-kicker">28 DAY VOLUME</p><h2>일별 수집량</h2></div><span class="muted">논문 + 뉴스</span></div>
               <div id="volume-chart" class="volume-chart" aria-label="최근 28일 일별 수집량 차트"></div>
@@ -177,17 +190,17 @@
 
         <section class="view" id="view-conferences" aria-labelledby="conference-heading">
           <div class="section-intro">
-            <div><p class="section-kicker">CONFERENCE RADAR</p><h2 id="conference-heading">주요 학회 일정과 새 논문</h2></div>
-            <p>12개 대표 학회의 논문 접수, 결과 발표, 워크샵, 본학회 일정을 1월부터 12월까지 비교합니다.</p>
+            <div><p class="section-kicker">CONFERENCE RADAR</p><h2 id="conference-heading">AI 학회 논문 사이클</h2></div>
+            <p>모든 학회의 논문 접수 시작부터 최종 채택 발표까지를 하나의 시간축에서 비교합니다.</p>
           </div>
           <div class="conference-toolbar">
             <div id="conference-filters" class="conference-filters" aria-label="학회 분야 필터"></div>
             <div class="timeline-legend" aria-label="일정 범례">
-              <span><i class="paper"></i>논문 접수</span><span><i class="decision"></i>결과 발표</span>
-              <span><i class="workshop"></i>워크샵</span><span><i class="conference"></i>본학회</span>
+              <span><i class="paper"></i>제출 가능</span><span><i class="deadline"></i>제출 마감</span>
+              <span><i class="review"></i>리뷰 기간</span><span><i class="decision"></i>최종 채택 발표</span>
             </div>
           </div>
-          <p class="timeline-note">※ 2026 에디션 기준입니다. 가로축은 1–12월이며, 각 행의 선은 기간, 큰 원은 종료일을 나타냅니다. 전년도 일정은 연도를 함께 표시합니다.</p>
+          <p class="timeline-note">※ 2026 에디션 기준입니다. 민트색은 제출 가능 기간, 파란색은 리뷰 기간이며 원에 마감·리뷰·최종 발표 시점이 표시됩니다.</p>
           <div id="conference-grid" class="conference-grid"></div>
         </section>
 

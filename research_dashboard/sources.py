@@ -13,7 +13,7 @@ from typing import Any, Iterable
 
 
 ATOM = {"atom": "http://www.w3.org/2005/Atom", "arxiv": "http://arxiv.org/schemas/atom"}
-USER_AGENT = "SignalAIResearchDashboard/0.1 (+local research archive)"
+USER_AGENT = "SignalAIResearchDashboard/0.2 (https://github.com/jhheo0923-ops/ai-research-dashboard)"
 
 
 def utc_now() -> str:
@@ -25,15 +25,20 @@ def fetch_bytes(url: str, *, timeout: int = 30) -> bytes:
         url,
         headers={
             "User-Agent": USER_AGENT,
-            "Accept": "application/atom+xml, application/rss+xml, application/json, text/xml;q=0.9, */*;q=0.5",
+            "Accept": "application/atom+xml, application/rss+xml, application/json, text/html, text/xml;q=0.9, */*;q=0.5",
         },
     )
     with urllib.request.urlopen(request, timeout=timeout) as response:
         return response.read()
 
 
-def collect_arxiv(categories: Iterable[str], *, max_results: int = 100) -> list[dict[str, Any]]:
-    query = " OR ".join(f"cat:{category}" for category in categories)
+def collect_arxiv(
+    categories: Iterable[str],
+    *,
+    max_results: int = 100,
+) -> list[dict[str, Any]]:
+    category_list = list(categories)
+    query = " OR ".join(f"cat:{category}" for category in category_list)
     params = urllib.parse.urlencode(
         {
             "search_query": query,
@@ -41,10 +46,27 @@ def collect_arxiv(categories: Iterable[str], *, max_results: int = 100) -> list[
             "max_results": max_results,
             "sortBy": "submittedDate",
             "sortOrder": "descending",
-        }
+        },
+        quote_via=urllib.parse.quote,
     )
     payload = fetch_bytes(f"https://export.arxiv.org/api/query?{params}", timeout=45)
     return parse_arxiv(payload)
+
+
+def collect_arxiv_year_count(category: str, year: int) -> dict[str, Any]:
+    """Read the official arXiv yearly listing total for one subject category."""
+    url = f"https://arxiv.org/list/{urllib.parse.quote(category, safe='.')}/{int(year)}"
+    payload = fetch_bytes(url, timeout=45).decode("utf-8", errors="replace")
+    match = re.search(r"Total\s+of\s+([\d,]+)\s+entries", payload, flags=re.IGNORECASE)
+    if not match:
+        raise ValueError(f"arXiv yearly total not found for {category} {year}")
+    return {
+        "category": category,
+        "year": int(year),
+        "count": int(match.group(1).replace(",", "")),
+        "source_url": url,
+        "collected_at": utc_now(),
+    }
 
 
 def parse_arxiv(payload: bytes) -> list[dict[str, Any]]:

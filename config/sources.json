@@ -5,6 +5,18 @@
     "enabled": true,
     "categories": ["cs.AI", "cs.LG", "cs.CL", "cs.CV", "cs.RO"]
   },
+  "arxiv_trends": {
+    "enabled": true,
+    "years": [2022, 2023, 2024, 2025, 2026],
+    "request_delay_seconds": 0.8,
+    "fields": [
+      {"key": "Artificial Intelligence", "label_ko": "인공지능", "category": "cs.AI"},
+      {"key": "Machine Learning", "label_ko": "머신러닝", "category": "cs.LG"},
+      {"key": "Language & LLM", "label_ko": "언어·LLM", "category": "cs.CL"},
+      {"key": "Computer Vision", "label_ko": "컴퓨터 비전", "category": "cs.CV"},
+      {"key": "Robotics", "label_ko": "로보틱스", "category": "cs.RO"}
+    ]
+  },
   "rss_feeds": [
     {"name": "OpenAI News", "url": "https://openai.com/news/rss.xml", "enabled": true},
     {"name": "Google DeepMind", "url": "https://deepmind.google/blog/rss.xml", "enabled": true},

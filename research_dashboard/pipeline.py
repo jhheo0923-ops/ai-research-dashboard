@@ -43,6 +43,10 @@ def collect_all(database_path: Path, config_path: Path, *, max_items: int | None
             )
         )
 
+    trend_config = config.get("arxiv_trends", {})
+    if trend_config.get("enabled", True):
+        results.extend(_collect_arxiv_trends(database_path, trend_config))
+
     for feed in config.get("rss_feeds", []):
         if not feed.get("enabled", True):
             continue
@@ -103,3 +107,45 @@ def _run_source(database_path: Path, source_name: str, collector: Callable[[], l
         message=message,
     )
     return CollectionResult(source=source_name, status=status, count=count, message=message)
+
+
+def _collect_arxiv_trends(database_path: Path, config: dict[str, Any]) -> list[CollectionResult]:
+    current_year = int(config.get("current_year") or time.gmtime().tm_year)
+    years = [int(year) for year in config.get("years", [])]
+    if current_year not in years:
+        years.append(current_year)
+    delay = float(config.get("request_delay_seconds", 0.8))
+    results: list[CollectionResult] = []
+
+    for field in config.get("fields", []):
+        for year in sorted(set(years)):
+            # Historical totals are immutable; only refresh the current year each day.
+            if year != current_year and db.has_annual_metric(database_path, field["key"], year):
+                continue
+            source_name = f"arXiv Stats · {field['category']}"
+            started_at = sources.utc_now()
+            try:
+                metric = sources.collect_arxiv_year_count(field["category"], year)
+                metric.update({"field_key": field["key"], "field_label_ko": field["label_ko"]})
+                db.upsert_annual_metric(database_path, metric)
+                result = CollectionResult(source=source_name, status="ok", count=1)
+            except Exception as exc:
+                result = CollectionResult(
+                    source=source_name,
+                    status="error",
+                    count=0,
+                    message=f"{type(exc).__name__}: {exc}",
+                )
+            finished_at = sources.utc_now()
+            db.record_source_run(
+                database_path,
+                source=source_name,
+                started_at=started_at,
+                finished_at=finished_at,
+                status=result.status,
+                item_count=result.count,
+                message=result.message,
+            )
+            results.append(result)
+            time.sleep(delay)
+    return results
