@@ -307,18 +307,6 @@
     $("#detailed-topic-note").textContent = details.note || "";
   }
 
-  function trendSparkline(values) {
-    const width = 132;
-    const height = 34;
-    const maximum = Math.max(1, ...values.map(Number));
-    const points = values.map((value, index) => {
-      const x = values.length <= 1 ? width / 2 : index / (values.length - 1) * width;
-      const y = height - 3 - (Number(value) / maximum) * (height - 8);
-      return `${x.toFixed(1)},${y.toFixed(1)}`;
-    }).join(" ");
-    return `<svg class="trend-sparkline" viewBox="0 0 ${width} ${height}" role="img" aria-label="연도별 추세"><polyline points="${points}"></polyline>${values.map((value, index) => { const x = values.length <= 1 ? width / 2 : index / (values.length - 1) * width; const y = height - 3 - (Number(value) / maximum) * (height - 8); return `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="2.5"></circle>`; }).join("")}</svg>`;
-  }
-
   function renderAnnualTrends(annual) {
     const years = annual.years || [];
     const series = annual.series || [];
@@ -326,14 +314,21 @@
     const countMode = annual.value_mode === "count";
     $("#annual-trend-insights").innerHTML = insights.map(item => `<article class="annual-insight ${escapeHtml(item.kind)}"><span>${escapeHtml(item.label)}</span><div><strong>${escapeHtml(item.topic)}</strong><b>${escapeHtml(item.value)}</b></div><small>${escapeHtml(item.detail)}</small></article>`).join("");
     const comparisonLabel = annual.comparison_label || "전년 대비";
-    const header = `<div class="annual-row annual-head"><span>연구 분야</span><span>5년 흐름</span>${years.map(year => `<span>${escapeHtml(year)}</span>`).join("")}<span>${escapeHtml(comparisonLabel)}</span></div>`;
-    const rows = series.map(item => {
+    const cards = series.map(item => {
       const chartValues = countMode ? (item.counts || []) : (item.shares || []);
-      const latest = Number(chartValues[chartValues.length - 1] || 0);
+      const maximum = Math.max(1, ...chartValues.map(Number));
       const directionClass = item.direction === "증가" ? "up" : item.direction === "감소" ? "down" : "flat";
-      return `<div class="annual-row"><div class="annual-topic"><strong>${escapeHtml(item.label_ko || item.primary)}</strong><small>${escapeHtml(item.category || item.primary)}</small></div><div class="annual-spark">${trendSparkline(chartValues)}</div>${years.map((year, index) => { const share = Number(item.shares?.[index] || 0); const count = Number(item.counts?.[index] || 0); const heat = Math.min(1, (countMode ? count : share) / Math.max(1, latest)); const display = countMode ? count.toLocaleString("ko-KR") : `${share.toFixed(1)}%`; return `<div class="annual-cell" style="--heat:${heat.toFixed(2)}" title="${escapeHtml(year)} · ${share.toFixed(1)}% · ${count.toLocaleString("ko-KR")}편"><strong>${display}</strong><small>${countMode ? "편" : `${count.toLocaleString("ko-KR")}편`}</small></div>`; }).join("")}<div class="annual-delta ${directionClass}"><strong>${Number(item.delta_pp || 0) >= 0 ? "+" : ""}${Number(item.delta_pp || 0).toFixed(1)}${countMode ? "%" : "%p"}</strong><small>${escapeHtml(item.direction)}</small></div></div>`;
+      const bars = years.map((year, index) => {
+        const value = Number(chartValues[index] || 0);
+        const count = Number(item.counts?.[index] || 0);
+        const height = value > 0 ? Math.max(7, value / maximum * 100) : 0;
+        const display = countMode ? count.toLocaleString("ko-KR") : `${value.toFixed(1)}%`;
+        const isCurrent = index === years.length - 1;
+        return `<div class="annual-bar-column ${isCurrent ? "current" : ""}" title="${escapeHtml(year)} · ${display}${countMode ? "편" : ""}"><div class="annual-bar-plot"><i style="height:${height.toFixed(1)}%"></i></div><span class="annual-bar-year">${escapeHtml(year)}${isCurrent ? "<em>누적</em>" : ""}</span><strong class="annual-bar-value">${display}</strong>${countMode ? "<small>편</small>" : ""}</div>`;
+      }).join("");
+      return `<article class="annual-bar-card"><div class="annual-bar-card-head"><div><span>${escapeHtml(item.category || item.primary)}</span><h3>${escapeHtml(item.label_ko || item.primary)}</h3></div><div class="annual-growth ${directionClass}"><small>${escapeHtml(comparisonLabel)}</small><strong>${Number(item.delta_pp || 0) >= 0 ? "+" : ""}${Number(item.delta_pp || 0).toFixed(1)}${countMode ? "%" : "%p"}</strong><em>${escapeHtml(item.direction)}</em></div></div><div class="annual-bar-chart" role="img" aria-label="${escapeHtml(item.label_ko || item.primary)} 연도별 논문 수 막대그래프">${bars}</div></article>`;
     }).join("");
-    $("#annual-trend-matrix").innerHTML = `<div class="annual-matrix-scroll"><div class="annual-matrix-inner" style="--year-count:${Math.max(1, years.length)}">${header}${rows || `<div class="empty-state">연도별 논문 데이터가 아직 충분하지 않습니다.</div>`}</div></div>`;
+    $("#annual-trend-matrix").innerHTML = cards ? `<div class="annual-bar-grid">${cards}</div>` : `<div class="empty-state">연도별 논문 데이터가 아직 충분하지 않습니다.</div>`;
     $("#annual-trend-note").textContent = annual.note || "";
   }
 

@@ -263,28 +263,31 @@ kbd { padding: 2px 6px; border: 1px solid #3a4751; border-bottom-width: 2px; bor
 .annual-insight.rise b { color: var(--mint); }
 .annual-insight.fall b { color: var(--rose); }
 .annual-insight.sparse b { color: var(--amber); }
-.annual-matrix-scroll { overflow-x: auto; scrollbar-color: #35434e #0b1116; scrollbar-width: thin; }
-.annual-matrix-inner { min-width: 980px; padding: 16px 20px 4px; }
-.annual-row { min-height: 65px; padding: 8px 0; border-bottom: 1px solid var(--line); display: grid; grid-template-columns: minmax(160px, 1.25fr) 145px repeat(var(--year-count), minmax(76px, .65fr)) 92px; align-items: center; gap: 8px; }
-.annual-row:last-child { border-bottom: 0; }
-.annual-row.annual-head { min-height: 34px; padding: 0 0 7px; color: #64727d; font-family: var(--mono); font-size: .6rem; text-align: center; }
-.annual-row.annual-head > span:first-child { text-align: left; }
-.annual-topic { display: grid; gap: 3px; }
-.annual-topic strong { font-size: .78rem; }
-.annual-topic small { color: #65737e; font-family: var(--mono); font-size: .58rem; }
-.annual-spark { padding-right: 8px; }
-.trend-sparkline { width: 132px; height: 34px; overflow: visible; }
-.trend-sparkline polyline { fill: none; stroke: var(--mint); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
-.trend-sparkline circle { fill: #0b1116; stroke: var(--mint); stroke-width: 1.5; }
-.annual-cell { min-height: 44px; padding: 6px 4px; border: 1px solid color-mix(in srgb, var(--mint) calc(var(--heat) * 35%), var(--line)); border-radius: 8px; background: color-mix(in srgb, rgba(118,247,197,.22) calc(var(--heat) * 100%), #0a1015); display: grid; place-content: center; text-align: center; }
-.annual-cell strong { font-family: var(--mono); font-size: .7rem; }
-.annual-cell small { color: #6c7a85; font-size: .56rem; }
-.annual-delta { display: grid; justify-items: end; gap: 3px; }
-.annual-delta strong { font-family: var(--mono); font-size: .72rem; }
-.annual-delta small { color: #687681; font-size: .58rem; }
-.annual-delta.up strong { color: var(--mint); }
-.annual-delta.down strong { color: var(--rose); }
-.annual-delta.flat strong { color: var(--blue); }
+.annual-bar-grid { padding: 18px 20px 5px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.annual-bar-card { min-width: 0; padding: 17px 18px 15px; border: 1px solid var(--line); border-radius: 14px; background: linear-gradient(150deg, #0e161c, #090f14); }
+.annual-bar-card-head { min-height: 52px; display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; }
+.annual-bar-card-head > div:first-child { min-width: 0; }
+.annual-bar-card-head span { color: #71808b; font-family: var(--mono); font-size: .72rem; }
+.annual-bar-card-head h3 { margin: 4px 0 0; font-size: 1rem; }
+.annual-growth { min-width: 88px; display: grid; grid-template-columns: 1fr auto; justify-items: end; gap: 2px 7px; }
+.annual-growth small { grid-column: 1 / -1; color: #677680; font-size: .68rem; }
+.annual-growth strong { font-family: var(--mono); font-size: .86rem; }
+.annual-growth em { color: #71808a; font-size: .68rem; font-style: normal; }
+.annual-growth.up strong { color: var(--mint); }
+.annual-growth.down strong { color: var(--rose); }
+.annual-growth.flat strong { color: var(--blue); }
+.annual-bar-chart { height: 235px; margin-top: 12px; padding: 7px 4px 0; border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); align-items: stretch; gap: 8px; }
+.annual-bar-column { min-width: 0; display: grid; grid-template-rows: 156px auto auto auto; align-items: end; justify-items: center; gap: 3px; }
+.annual-bar-plot { width: 100%; height: 156px; border-bottom: 1px solid #34424d; background: repeating-linear-gradient(to top, transparent 0 38px, rgba(255,255,255,.035) 38px 39px); display: flex; align-items: flex-end; justify-content: center; }
+.annual-bar-plot i { width: min(42px, 65%); min-height: 0; border-radius: 6px 6px 2px 2px; background: linear-gradient(180deg, #78a6ff, #4668ac); box-shadow: 0 -7px 20px rgba(126,166,255,.1); display: block; }
+.annual-bar-column:nth-child(2) .annual-bar-plot i { background: linear-gradient(180deg, #74b9e8, #40739a); }
+.annual-bar-column:nth-child(3) .annual-bar-plot i { background: linear-gradient(180deg, #71d8d0, #3d8e8c); }
+.annual-bar-column:nth-child(4) .annual-bar-plot i { background: linear-gradient(180deg, #76f7c5, #3aa17b); }
+.annual-bar-column.current .annual-bar-plot i { background: repeating-linear-gradient(135deg, #ffcb6b 0 7px, #d49b40 7px 11px); box-shadow: 0 -7px 20px rgba(255,203,107,.12); }
+.annual-bar-year { color: #8b98a2; font-family: var(--mono); font-size: .72rem; text-align: center; }
+.annual-bar-year em { margin-left: 3px; color: var(--amber); font-size: .62rem; font-style: normal; }
+.annual-bar-value { color: #dbe2e7; font-family: var(--mono); font-size: .84rem; line-height: 1.1; text-align: center; }
+.annual-bar-column > small { color: #687781; font-size: .68rem; }
 .annual-trend-note { margin: 0; padding: 12px 20px 17px; color: #64727d; font-size: .65rem; }
 .detailed-topic-panel { grid-column: 1 / -1; overflow: hidden; }
 .detailed-topic-summary { padding: 18px 20px 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
@@ -420,6 +423,7 @@ kbd { padding: 2px 6px; border: 1px solid #3a4751; border-bottom-width: 2px; bor
   .card-category-panel { grid-template-columns: 1fr; }
   .card-subtopic-label { justify-self: stretch; }
   .card-subtopic-label select { width: 100%; }
+  .annual-bar-grid { grid-template-columns: 1fr; }
   .detailed-topic-list { grid-template-columns: 1fr; }
 }
 
@@ -458,6 +462,10 @@ kbd { padding: 2px 6px; border: 1px solid #3a4751; border-bottom-width: 2px; bor
   .news-card-grid { grid-template-columns: 1fr; }
   .news-card { min-height: 380px; }
   .annual-trend-insights { grid-template-columns: 1fr; }
+  .annual-bar-grid { padding-right: 14px; padding-left: 14px; }
+  .annual-bar-card { padding-right: 13px; padding-left: 13px; }
+  .annual-bar-chart { gap: 4px; }
+  .annual-bar-value { font-size: .74rem; }
   .detailed-topic-summary { grid-template-columns: 1fr; }
   .conference-master-foot { align-items: flex-start; flex-direction: column; }
 }
