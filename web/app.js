@@ -336,13 +336,14 @@
         const height = value > 0 ? Math.max(1.5, value / axisMaximum * 100) : 0;
         const display = formatter(value);
         const unit = countMode ? "편" : "";
-        return `<div class="annual-grouped-bar" title="${escapeHtml(year)} · ${escapeHtml(item.label_ko || item.primary)} · ${display}${unit}"><div class="annual-grouped-plot"><i style="height:${height.toFixed(2)}%;--category-color:${palette[categoryIndex % palette.length]}"></i></div><strong>${display}</strong><small>${escapeHtml(shortCode(item.category || item.primary))}</small></div>`;
+        const description = `${year} · ${item.label_ko || item.primary}(${shortCode(item.category || item.primary)}) · ${display}${unit}`;
+        return `<div class="annual-grouped-bar" tabindex="0" role="img" aria-label="${escapeHtml(description)}" title="${escapeHtml(description)}" data-tooltip="${escapeHtml(shortCode(item.category || item.primary))} · ${display}${unit}"><i style="--bar-height:${height.toFixed(2)}%;--category-color:${palette[categoryIndex % palette.length]}"></i></div>`;
       }).join("");
-      return `<section class="annual-year-group ${isCurrent ? "current" : ""}" aria-label="${escapeHtml(year)}년 13개 분야"><div class="annual-year-bars">${bars}</div><div class="annual-year-heading"><strong>${escapeHtml(year)}</strong><span>${isCurrent ? "연중 누적" : `${series.length}개 분야`}</span></div></section>`;
+      return `<section class="annual-year-group ${isCurrent ? "current" : ""}" aria-label="${escapeHtml(year)}년 13개 분야"><div class="annual-year-bars">${bars}</div><div class="annual-year-heading"><strong>${escapeHtml(year)}</strong>${isCurrent ? "<span>누적</span>" : ""}</div></section>`;
     }).join("");
     const axis = axisTicks.map((value, index) => `<span style="top:${index * 25}%">${escapeHtml(formatter(value))}</span>`).join("");
 
-    $("#annual-trend-matrix").innerHTML = `<div class="annual-grouped-shell"><div class="annual-chart-meta"><div><span>공통 Y축</span><strong>최대 ${formatter(axisMaximum)}${countMode ? "편" : ""}</strong></div><p>같은 색은 같은 분야입니다. 가로로 이동해 연도별 13개 분야를 연속 비교하세요.</p></div><div class="annual-category-legend">${legend}</div><div class="annual-grouped-scroll" tabindex="0"><div class="annual-grouped-layout" style="--category-count:${series.length}"><div class="annual-y-axis" aria-hidden="true">${axis}</div><div class="annual-year-groups" role="img" aria-label="연도별 13개 연구 분야 논문 수 통합 막대그래프">${groups}</div></div></div></div>`;
+    $("#annual-trend-matrix").innerHTML = `<div class="annual-grouped-shell"><div class="annual-chart-meta"><div><span>공통 Y축</span><strong>최대 ${formatter(axisMaximum)}${countMode ? "편" : ""}</strong></div><p>연도마다 13개 분야를 한 묶음으로 표시합니다. 막대를 가리키면 정확한 수치가 보입니다.</p></div><div class="annual-grouped-scroll" tabindex="0"><div class="annual-grouped-layout"><div class="annual-y-axis" aria-hidden="true">${axis}</div><div class="annual-year-groups" style="--year-count:${years.length}" role="img" aria-label="연도별 13개 연구 분야 논문 수 통합 막대그래프">${groups}</div></div></div><div class="annual-category-legend">${legend}</div></div>`;
     $("#annual-trend-note").textContent = annual.note || "";
   }
 
