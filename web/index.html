@@ -154,15 +154,21 @@
         <section class="view" id="view-statistics" aria-labelledby="statistics-heading">
           <div class="section-intro">
             <div><p class="section-kicker">RESEARCH ANALYTICS</p><h2 id="statistics-heading">아카이브 통계와 분류 지형</h2></div>
-            <p>최근 28일의 수집량과 소스 구성, 1차·2차 연구 주제 분포를 함께 봅니다.</p>
+            <p>공식 연도별 흐름과 2차 연구 주제 단위의 현재 집중도·탐색 여지를 함께 봅니다.</p>
           </div>
           <div class="stat-kpi-grid" id="stat-kpis"></div>
           <div class="statistics-grid">
             <section class="panel annual-trend-panel">
-              <div class="panel-head"><div><p class="section-kicker">YEARLY RESEARCH SIGNAL</p><h2>연도별 분야 트렌드</h2></div><span class="muted">arXiv 공식 등록 수</span></div>
+              <div class="panel-head"><div><p class="section-kicker">YEARLY RESEARCH SIGNAL</p><h2>연도별 세부 분야 트렌드</h2></div><span class="muted">12개 arXiv 공식 카테고리</span></div>
               <div id="annual-trend-insights" class="annual-trend-insights"></div>
               <div id="annual-trend-matrix" class="annual-trend-matrix" aria-label="연도별 연구 분야 arXiv 등록 수"></div>
               <p id="annual-trend-note" class="annual-trend-note"></p>
+            </section>
+            <section class="panel detailed-topic-panel">
+              <div class="panel-head"><div><p class="section-kicker">SECONDARY TOPIC SIGNALS</p><h2>세부 연구 주제 인사이트</h2></div><span class="muted">2차 분류 · 현재 논문 표본</span></div>
+              <div id="detailed-topic-summary" class="detailed-topic-summary"></div>
+              <div id="detailed-topic-list" class="detailed-topic-list"></div>
+              <p id="detailed-topic-note" class="annual-trend-note"></p>
             </section>
             <section class="panel volume-panel">
               <div class="panel-head"><div><p class="section-kicker">28 DAY VOLUME</p><h2>일별 수집량</h2></div><span class="muted">논문 + 뉴스</span></div>

@@ -14,7 +14,14 @@
       {"key": "Machine Learning", "label_ko": "머신러닝", "category": "cs.LG"},
       {"key": "Language & LLM", "label_ko": "언어·LLM", "category": "cs.CL"},
       {"key": "Computer Vision", "label_ko": "컴퓨터 비전", "category": "cs.CV"},
-      {"key": "Robotics", "label_ko": "로보틱스", "category": "cs.RO"}
+      {"key": "Robotics", "label_ko": "로보틱스", "category": "cs.RO"},
+      {"key": "Information Retrieval", "label_ko": "검색·정보검색", "category": "cs.IR"},
+      {"key": "Security & Privacy", "label_ko": "보안·프라이버시", "category": "cs.CR"},
+      {"key": "Human-AI Interaction", "label_ko": "인간-AI 상호작용", "category": "cs.HC"},
+      {"key": "Multi-Agent Systems", "label_ko": "멀티에이전트", "category": "cs.MA"},
+      {"key": "Neural Computing", "label_ko": "신경·진화 연산", "category": "cs.NE"},
+      {"key": "Audio & Speech", "label_ko": "오디오·음성", "category": "cs.SD"},
+      {"key": "AI & Society", "label_ko": "AI·사회·거버넌스", "category": "cs.CY"}
     ]
   },
   "rss_feeds": [

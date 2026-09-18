@@ -166,7 +166,7 @@
       const importance = Number(item.importance_score || 0);
       const importanceClass = cardImportanceClass(importance);
       const keywords = (item.keywords || []).filter(Boolean).slice(0, 4);
-      return `<article class="news-card ${isRead ? "is-read" : ""} ${isStarred ? "is-starred" : ""}"><div class="news-card-accent ${importanceClass}"></div><div class="news-card-top"><span class="source-badge">${escapeHtml(item.source || typeLabels[item.type])}</span><span class="importance-badge ${importanceClass}"><b>${importance}</b><small>${escapeHtml(item.importance_label || "일반")}</small></span></div><div class="card-label">${escapeHtml(typeLabels[item.type] || item.type)} HEADLINE</div><h3>${escapeHtml(item.title)}</h3><div class="card-topic">${escapeHtml(item.primary_topic_ko || item.primary_topic || "미분류")} <span>›</span> ${escapeHtml(item.secondary_topic_ko || item.secondary_topic || "미분류")}</div><p class="card-summary-ko"><b>한글 요약</b>${escapeHtml((item.summary_ko || "한글 요약 정보가 없습니다.").slice(0, 320))}</p><div class="card-keywords">${keywords.map(keyword => `<span>#${escapeHtml(keyword)}</span>`).join("")}</div><div class="importance-reason">${escapeHtml(item.importance_reason || "연구 신호")} · ${escapeHtml(item.date_label || formatDate(item.published_at))}</div><div class="news-card-actions"><a href="${safeUrl(item.url)}" data-card-open="${id}" target="_blank" rel="noreferrer">원문 읽기 ↗</a><div><button class="card-action star ${isStarred ? "active" : ""}" data-card-action="star" data-card-id="${id}" type="button" aria-label="${isStarred ? "별표 해제" : "별표 추가"}" aria-pressed="${isStarred}">${isStarred ? "★" : "☆"}</button><button class="card-action read ${isRead ? "active" : ""}" data-card-action="read" data-card-id="${id}" type="button" aria-label="${isRead ? "읽지 않음으로 표시" : "읽음으로 표시"}" aria-pressed="${isRead}">${isRead ? "읽음 ✓" : "읽음"}</button></div></div></article>`;
+      return `<article class="news-card ${isRead ? "is-read" : ""} ${isStarred ? "is-starred" : ""}"><div class="news-card-accent ${importanceClass}"></div><div class="news-card-top"><span class="source-badge">${escapeHtml(item.source || typeLabels[item.type])}</span><span class="importance-badge ${importanceClass}"><b>${importance}</b><small>${escapeHtml(item.importance_label || "일반")}</small></span></div><div class="card-label">${escapeHtml(typeLabels[item.type] || item.type)} HEADLINE</div><h3>${escapeHtml(item.title)}</h3><div class="card-topic">${escapeHtml(item.primary_topic_ko || item.primary_topic || "미분류")} <span>›</span> ${escapeHtml(item.secondary_topic_ko || item.secondary_topic || "미분류")}</div><p class="card-summary-ko"><b>한글 요약</b>${escapeHtml((item.summary_ko || "한글 요약 정보가 없습니다.").slice(0, 360))}</p><div class="card-research-analysis"><section><span>WHY · MOTIVATION</span><p>${escapeHtml((item.motivation_ko || "연구 동기를 분석 중입니다.").slice(0, 360))}</p></section><section><span>WHAT · CONTRIBUTION</span><p>${escapeHtml((item.contribution_ko || "핵심 기여를 분석 중입니다.").slice(0, 420))}</p></section></div><div class="card-keywords">${keywords.map(keyword => `<span>#${escapeHtml(keyword)}</span>`).join("")}</div><div class="importance-reason">${escapeHtml(item.importance_reason || "연구 신호")} · ${escapeHtml(item.date_label || formatDate(item.published_at))}</div><div class="news-card-actions"><a href="${safeUrl(item.url)}" data-card-open="${id}" target="_blank" rel="noreferrer">원문 읽기 ↗</a><div><button class="card-action star ${isStarred ? "active" : ""}" data-card-action="star" data-card-id="${id}" type="button" aria-label="${isStarred ? "별표 해제" : "별표 추가"}" aria-pressed="${isStarred}">${isStarred ? "★" : "☆"}</button><button class="card-action read ${isRead ? "active" : ""}" data-card-action="read" data-card-id="${id}" type="button" aria-label="${isRead ? "읽지 않음으로 표시" : "읽음으로 표시"}" aria-pressed="${isRead}">${isRead ? "읽음 ✓" : "읽음"}</button></div></div></article>`;
     }).join("") : `<div class="empty-state card-empty">선택한 조건에 해당하는 카드가 없습니다.</div>`;
     $("#card-more").hidden = items.length <= state.cardLimit;
   }
@@ -291,6 +291,20 @@
     renderBars("#source-bars", stats.sources || [], "source");
     $("#taxonomy-map").innerHTML = (stats.taxonomy || []).map(group => `<article class="taxonomy-group"><div><strong>${escapeHtml(group.primary)}</strong><span>${Number(group.count).toLocaleString("ko-KR")}</span></div><ul>${(group.secondaries || []).slice(0, 6).map(item => `<li><span>${escapeHtml(item.secondary)}</span><em>${item.count}</em></li>`).join("")}</ul></article>`).join("");
     renderAnnualTrends(stats.annual_trends || {});
+    renderDetailedTopics(stats.detailed_topics || {});
+  }
+
+  function renderDetailedTopics(details) {
+    const summaries = details.summaries || [];
+    const rows = details.rows || [];
+    $("#detailed-topic-summary").innerHTML = summaries.map(item => `<article><span>${escapeHtml(item.label)}</span><strong>${escapeHtml(item.value)}</strong><small>${escapeHtml(item.detail)}</small></article>`).join("");
+    const maximum = Math.max(1, ...rows.map(item => Number(item.count || 0)));
+    $("#detailed-topic-list").innerHTML = rows.length ? rows.map(item => {
+      const width = Number(item.count || 0) / maximum * 100;
+      const keywords = (item.keywords || []).map(keyword => `<em>#${escapeHtml(keyword)}</em>`).join("");
+      return `<article class="detailed-topic-item"><div class="detailed-topic-head"><div><span>${escapeHtml(item.primary_label_ko || item.primary)}</span><h3>${escapeHtml(item.secondary_label_ko || item.secondary)}</h3></div><b class="topic-signal ${item.status === "핵심축" ? "core" : item.status === "활성" ? "active" : "niche"}">${escapeHtml(item.status)}</b></div><div class="detailed-topic-metrics"><strong>${Number(item.count || 0).toLocaleString("ko-KR")}편</strong><span>${Number(item.share || 0).toFixed(1)}%</span><i><b style="width:${width.toFixed(1)}%"></b></i></div><p>${escapeHtml(item.interpretation || "")}</p><div class="detailed-topic-foot"><span>분류 신뢰도 ${Number(item.confidence || 0)}%</span><div>${keywords || "<em>세부 키워드 분석 중</em>"}</div></div></article>`;
+    }).join("") : `<div class="empty-state">세부 주제 통계를 만들 논문 표본이 아직 없습니다.</div>`;
+    $("#detailed-topic-note").textContent = details.note || "";
   }
 
   function trendSparkline(values) {
@@ -344,7 +358,7 @@
       if (state.filter !== "all" && item.type !== state.filter) return false;
       if (state.topic !== "all" && item.primary_topic !== state.topic) return false;
       if (!needle) return true;
-      const haystack = [item.title, item.summary_ko, item.summary, item.source, item.primary_topic, item.secondary_topic, item.primary_topic_ko, item.secondary_topic_ko, ...(item.authors || []), ...(item.keywords || [])].join(" ").toLocaleLowerCase("ko");
+      const haystack = [item.title, item.summary_ko, item.motivation_ko, item.contribution_ko, item.summary, item.source, item.primary_topic, item.secondary_topic, item.primary_topic_ko, item.secondary_topic_ko, ...(item.authors || []), ...(item.keywords || [])].join(" ").toLocaleLowerCase("ko");
       return haystack.includes(needle);
     });
     $("#result-count").textContent = `${filtered.length.toLocaleString("ko-KR")}개 결과`;

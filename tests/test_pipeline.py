@@ -69,9 +69,17 @@ class DatabaseTests(unittest.TestCase):
 
     def test_korean_card_summary(self) -> None:
         item = parse_arxiv(ARXIV_XML)[0]
-        summary = analyze.korean_summary(item)
-        self.assertIn("에이전트", summary)
-        self.assertIn("연구입니다", summary)
+        analysis = analyze.korean_card_analysis(item)
+        self.assertIn("에이전트", analysis["overview"])
+        self.assertIn("도구", analysis["motivation"])
+        self.assertIn("벤치마크", analysis["contribution"])
+
+    def test_detailed_topic_insights(self) -> None:
+        rows = parse_arxiv(ARXIV_XML)
+        details = analyze.build_detailed_topic_insights(rows)
+        self.assertEqual(details["total_papers"], 1)
+        self.assertEqual(details["rows"][0]["secondary"], "Agents & Tool Use")
+        self.assertEqual(details["rows"][0]["status"], "핵심축")
 
     def test_annual_topic_share(self) -> None:
         rows = [

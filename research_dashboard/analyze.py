@@ -118,14 +118,52 @@ SECONDARY_LABELS_KO: dict[str, str] = {
     "Needs Review": "분류 검토 필요",
 }
 
+MOTIVATION_KO_BY_TOPIC: dict[str, str] = {
+    "Language Models": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
+    "Reasoning & Inference": "여러 단계의 추론에서는 작은 오류가 누적되며, 답이 맞더라도 추론 과정의 검증 가능성이 낮다는 한계가 있습니다.",
+    "Agents & Tool Use": "에이전트가 계획을 세우고 외부 도구를 호출하는 과정에서 선택 오류가 연쇄적으로 커지고 장기 작업의 안정성이 떨어질 수 있습니다.",
+    "Retrieval & Memory": "검색 결과의 관련성과 최신성이 부족하거나 장기 기억이 왜곡되면 생성 결과 전체의 신뢰성이 낮아집니다.",
+    "Multimodal Foundation Models": "텍스트·이미지·음성 간 표현을 정확히 정렬하고 서로 다른 입력을 근거 있게 결합하는 일이 여전히 어렵습니다.",
+    "Vision-Language": "시각 정보와 언어 지시를 함께 이해할 때 세부 객체·관계·공간 맥락을 놓치는 문제가 남아 있습니다.",
+    "Image Generation": "생성 품질뿐 아니라 프롬프트 충실도, 세부 제어와 반복 생성의 일관성을 동시에 확보해야 합니다.",
+    "Video Generation": "시간축의 움직임과 객체 일관성을 유지하면서도 고해상도 영상을 효율적으로 생성하기 어렵습니다.",
+    "3D & Spatial": "제한된 관측만으로 3차원 구조와 공간 관계를 복원할 때 기하학적 오류와 일반화 문제가 발생합니다.",
+    "Perception & Recognition": "실제 환경의 가림·노이즈·분포 변화에서도 객체와 장면을 안정적으로 인식해야 합니다.",
+    "Robotics & Manipulation": "시뮬레이션과 실제 환경의 차이, 장기 행동 계획의 오차 때문에 로봇 정책을 현실에 안정적으로 적용하기 어렵습니다.",
+    "Reinforcement Learning": "희소하거나 잘못 설계된 보상 아래에서 표본 효율과 정책 안정성을 동시에 얻기 어렵습니다.",
+    "World Models": "환경의 동역학을 압축해 예측하면서도 장기 롤아웃에서 누적 오차를 억제해야 합니다.",
+    "Planning & Control": "불확실한 환경에서 제약을 지키며 실시간으로 계획을 수정하고 제어해야 하는 부담이 큽니다.",
+    "Safety & Alignment": "모델의 의도하지 않은 행동과 우회 공격을 줄이면서 유용성을 유지할 수 있는 검증 방법이 필요합니다.",
+    "Robustness & Security": "적대적 입력과 분포 변화, 프롬프트 주입 상황에서 성능과 보안이 급격히 저하될 수 있습니다.",
+    "Interpretability": "모델 내부 표현과 의사결정 근거를 사람이 검증하기 어려워 오류 원인과 위험을 추적하기 힘듭니다.",
+    "Fairness & Governance": "데이터와 모델의 편향이 실제 의사결정에 확대 재생산될 수 있어 측정·완화·책임 체계가 필요합니다.",
+    "Privacy": "학습 데이터의 민감 정보가 모델 출력이나 공격을 통해 노출될 수 있다는 위험이 있습니다.",
+    "Efficient Training & Inference": "대규모 모델의 연산량·메모리·지연 시간이 연구 재현성과 실제 배포의 주요 제약이 됩니다.",
+    "Evaluation & Benchmarks": "기존 지표가 실제 사용 능력과 실패 유형을 충분히 반영하지 못해 모델 간 공정한 비교가 어렵습니다.",
+    "Data & Synthetic Data": "학습 데이터의 품질·대표성·라이선스 문제가 성능과 안전성에 직접 영향을 줍니다.",
+    "Infrastructure & Hardware": "대규모 학습과 서빙에서 통신·메모리 병목이 비용과 처리량을 제한합니다.",
+    "Optimization & Compression": "모델 크기와 비용을 줄이면 정확도와 강건성이 함께 저하될 수 있는 절충 문제가 있습니다.",
+    "AI for Science": "복잡한 과학 현상을 학습한 모델이 물리적 제약과 불확실성을 함께 반영해야 합니다.",
+    "Biology & Healthcare": "임상·생물 데이터의 희소성 및 기관 간 차이 때문에 높은 정확도와 안전한 일반화가 요구됩니다.",
+    "Climate & Earth": "관측이 불완전한 시공간 데이터에서 극한 현상과 장기 변화를 안정적으로 예측해야 합니다.",
+    "Math & Formal Methods": "정답뿐 아니라 검증 가능한 증명 과정과 엄밀한 제약 만족이 필요합니다.",
+    "Recommenders & Search": "사용자 의도와 최신 정보를 반영하면서 편향·필터버블·관련성 저하를 줄여야 합니다.",
+    "Representation & Self-Supervision": "라벨이 적은 환경에서도 전이 가능한 표현을 학습하고 불필요한 편향을 억제해야 합니다.",
+    "Graph ML": "큰 그래프의 구조적 의존성을 보존하면서 확장성과 새로운 노드·그래프에 대한 일반화를 확보해야 합니다.",
+    "Causal & Probabilistic": "상관관계만으로는 개입 효과와 불확실성을 설명하기 어려워 인과적 추론이 필요합니다.",
+    "Continual & Federated": "새 지식을 학습하면서 기존 능력을 잊지 않고 분산 데이터의 개인정보도 보호해야 합니다.",
+    "General Machine Learning": "새로운 데이터 분포에서도 성능이 유지되고 학습 결과를 재현할 수 있는 일반화가 핵심 과제입니다.",
+    "Needs Review": "새 연구 결과나 시스템이 기존 접근법의 어떤 한계를 해결하며 실제 적용에 어떤 변화를 만드는지 확인할 필요가 있습니다.",
+}
+
 
 def topic_label_ko(value: str | None) -> str:
     label = str(value or "Unclassified")
     return PRIMARY_LABELS_KO.get(label, SECONDARY_LABELS_KO.get(label, label))
 
 
-def korean_summary(item: dict[str, Any]) -> str:
-    """Create a concise Korean digest without depending on a paid translation API."""
+def korean_card_analysis(item: dict[str, Any]) -> dict[str, str]:
+    """Create a structured Korean research digest without a paid translation API."""
     classification = {
         "primary_topic": item.get("primary_topic"),
         "secondary_topic": item.get("secondary_topic"),
@@ -133,14 +171,110 @@ def korean_summary(item: dict[str, Any]) -> str:
     if not classification["primary_topic"] or not classification["secondary_topic"]:
         classification.update(classify_item(item))
 
-    primary = topic_label_ko(classification["primary_topic"])
-    secondary = topic_label_ko(classification["secondary_topic"])
+    primary_key = str(classification["primary_topic"])
+    secondary_key = str(classification["secondary_topic"])
+    primary = topic_label_ko(primary_key)
+    secondary = topic_label_ko(secondary_key)
     text = f" {item.get('title', '')} {item.get('summary', '')} ".lower()
     focus = _korean_focus(text)
+    motivation = _korean_motivation(text, secondary_key)
+    contribution_focus = "제안된 접근법" if secondary_key == "Needs Review" else secondary
+    contribution = _korean_contribution(text, contribution_focus)
     if item.get("type") == "news":
         source = str(item.get("source") or "공식 연구 채널")
-        return f"{source}가 공개한 {primary} 분야의 {secondary} 관련 소식입니다. {focus}"
-    return f"{primary} 분야에서 {secondary}를 다루는 연구입니다. {focus}"
+        overview = f"{source}가 공개한 소식으로, {primary} 분야의 {secondary} 변화에 초점을 둡니다. {focus}"
+    else:
+        overview = f"{primary} 분야에 속하며 핵심 연구 주제는 {secondary}입니다. {focus}"
+    return {"overview": overview, "motivation": motivation, "contribution": contribution}
+
+
+def korean_summary(item: dict[str, Any]) -> str:
+    return korean_card_analysis(item)["overview"]
+
+
+def build_detailed_topic_insights(items: list[dict[str, Any]], *, limit: int = 18) -> dict[str, Any]:
+    """Describe the current archive at second-level topic granularity."""
+    papers = [item for item in items if item.get("type") == "paper"]
+    counts: Counter[tuple[str, str]] = Counter()
+    confidence_totals: Counter[tuple[str, str]] = Counter()
+    term_counts: dict[tuple[str, str], Counter[str]] = defaultdict(Counter)
+
+    for item in papers:
+        primary = str(item.get("primary_topic") or "")
+        secondary = str(item.get("secondary_topic") or "")
+        if not primary or not secondary:
+            classification = classify_item(item)
+            primary = classification["primary_topic"]
+            secondary = classification["secondary_topic"]
+        if secondary == "Needs Review":
+            continue
+        key = (primary, secondary)
+        counts[key] += 1
+        confidence_totals[key] += float(item.get("confidence") or 0)
+        for term in item.get("matched_terms", []):
+            clean = str(term).strip()
+            if clean and not clean.startswith(("cs.", "stat.")):
+                term_counts[key][clean] += 1
+
+    total = sum(counts.values())
+    active_topic_count = len(counts)
+    possible_topic_count = sum(len(topics) for topics in TAXONOMY.values())
+    parent_max: dict[str, int] = defaultdict(int)
+    for (primary, _), count in counts.items():
+        parent_max[primary] = max(parent_max[primary], count)
+
+    rows: list[dict[str, Any]] = []
+    for (primary, secondary), count in counts.items():
+        share = round(count / total * 100, 1) if total else 0
+        confidence = round(confidence_totals[(primary, secondary)] / count * 100) if count else 0
+        status = "핵심축" if count == parent_max[primary] else "활성" if share >= 3 else "니치"
+        rows.append(
+            {
+                "primary": primary,
+                "primary_label_ko": topic_label_ko(primary),
+                "secondary": secondary,
+                "secondary_label_ko": topic_label_ko(secondary),
+                "count": count,
+                "share": share,
+                "confidence": confidence,
+                "status": status,
+                "keywords": [term for term, _ in term_counts[(primary, secondary)].most_common(3)],
+                "interpretation": MOTIVATION_KO_BY_TOPIC.get(secondary, "현재 표본에서 반복적으로 관찰되는 세부 연구 질문입니다."),
+            }
+        )
+
+    rows.sort(key=lambda row: (row["count"], row["confidence"]), reverse=True)
+    selected = rows[:limit]
+    top_three_share = round(sum(row["count"] for row in rows[:3]) / total * 100, 1) if total else 0
+    low_signal_topics = [
+        topic_label_ko(secondary)
+        for primary, topics in TAXONOMY.items()
+        for secondary in topics
+        if counts[(primary, secondary)] <= 1
+    ]
+    summaries = [
+        {
+            "label": "상위 주제 집중도",
+            "value": f"{top_three_share:.1f}%",
+            "detail": " · ".join(row["secondary_label_ko"] for row in rows[:3]) or "데이터 없음",
+        },
+        {
+            "label": "활성 세부 주제",
+            "value": f"{active_topic_count}/{possible_topic_count}",
+            "detail": f"현재 논문 표본 {total:,}편에서 감지",
+        },
+        {
+            "label": "탐색 여지가 큰 주제",
+            "value": f"{len(low_signal_topics)}개",
+            "detail": " · ".join(low_signal_topics[:4]) or "현재 없음",
+        },
+    ]
+    return {
+        "total_papers": total,
+        "rows": selected,
+        "summaries": summaries,
+        "note": "최근 수집된 논문을 2차 연구 주제로 재분류한 표본 통계입니다. ‘탐색 여지’는 학계 전체의 부족이 아니라 현재 아카이브에서 신호가 적다는 뜻입니다.",
+    }
 
 
 def build_annual_trends(
@@ -299,6 +433,45 @@ def _korean_focus(text: str) -> str:
     if any(term in text for term in ("efficient", "inference", "quantization", "compression", "pruning")):
         return "학습·추론 비용을 낮추면서 성능을 유지하거나 높이는 방법을 제안합니다."
     return "새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다."
+
+
+def _korean_motivation(text: str, secondary: str) -> str:
+    base = MOTIVATION_KO_BY_TOPIC.get(
+        secondary,
+        "기존 접근법의 정확성·효율·일반화 한계를 구체적으로 확인하고 개선할 필요가 있습니다.",
+    )
+    if any(term in text for term in ("limited data", "data scarcity", "few-shot", "low-resource")):
+        return f"{base} 특히 제한된 데이터에서도 성능을 유지하는 것이 중요한 동기입니다."
+    if any(term in text for term in ("real-world", "real world", "deployment", "in the wild")):
+        return f"{base} 실제 환경으로 옮겼을 때 발생하는 성능 저하를 줄이는 것이 핵심 동기입니다."
+    return base
+
+
+def _korean_contribution(text: str, secondary_label: str) -> str:
+    if any(term in text for term in ("survey", "systematic review", "literature review", "taxonomy")):
+        base = "기존 연구를 방법·평가 기준·미해결 과제로 체계화해 후속 연구가 비교 가능한 공통 지도를 제공합니다."
+    elif any(term in text for term in ("dataset", "data set", "corpus")):
+        base = "새 데이터셋 또는 데이터 구성 절차를 제시해 학습과 평가에 사용할 수 있는 재현 가능한 기반을 넓힙니다."
+    elif any(term in text for term in ("benchmark", "leaderboard", "evaluation suite")):
+        base = "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다."
+    elif any(term in text for term in ("theorem", "proof", "theoretical", "bound")):
+        base = "이론적 분석과 검증 가능한 조건을 제시해 방법이 작동하는 범위와 한계를 설명합니다."
+    elif any(term in text for term in ("system", "platform", "toolkit", "pipeline")):
+        base = "여러 구성 요소를 연결한 시스템 또는 파이프라인을 구현해 실제 사용과 반복 실험이 가능한 형태로 제시합니다."
+    elif any(term in text for term in ("we propose", "we introduce", "we present", "novel method", "framework", "architecture")):
+        base = "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다."
+    else:
+        base = "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다."
+
+    if any(term in text for term in ("efficient", "latency", "memory", "compute", "quantization", "compression")):
+        focus = "특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다."
+    elif any(term in text for term in ("safety", "robust", "adversarial", "alignment", "privacy")):
+        focus = "특히 안전성·강건성·신뢰성 측면의 실패를 줄이는 데 기여합니다."
+    elif any(term in text for term in ("generalization", "domain shift", "out-of-distribution", "transfer")):
+        focus = "특히 새로운 데이터와 환경으로의 일반화 성능을 검증하는 데 초점을 둡니다."
+    else:
+        focus = f"핵심 검증 대상은 {secondary_label}의 성능과 실제 적용 가능성입니다."
+    return f"{base} {focus}"
 
 
 def classify_item(item: dict[str, Any]) -> dict[str, Any]:

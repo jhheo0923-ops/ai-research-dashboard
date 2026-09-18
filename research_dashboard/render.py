@@ -71,13 +71,16 @@ def write_payload(database_path: Path, web_directory: Path, data_directory: Path
 def _browser_item(item: dict[str, Any], trend_scores: dict[tuple[str, str], int]) -> dict[str, Any]:
     published = item.get("published_at")
     importance = _importance(item, trend_scores)
+    korean_analysis = analyze.korean_card_analysis(item)
     return {
         "external_id": item["external_id"],
         "type": item["type"],
         "source": item["source"],
         "title": item["title"],
         "summary": item.get("summary", ""),
-        "summary_ko": analyze.korean_summary(item),
+        "summary_ko": korean_analysis["overview"],
+        "motivation_ko": korean_analysis["motivation"],
+        "contribution_ko": korean_analysis["contribution"],
         "url": item["url"],
         "published_at": published,
         "date_label": _date_label(published),
@@ -260,6 +263,7 @@ def _statistics(
         "sources": [{"source": source, "count": count} for source, count in source_counts.most_common(10)],
         "taxonomy": taxonomy,
         "annual_trends": analyze.build_annual_trends(items, metrics=annual_metrics),
+        "detailed_topics": analyze.build_detailed_topic_insights(items),
     }
 
 
