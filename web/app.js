@@ -313,22 +313,36 @@
     const insights = annual.insights || [];
     const countMode = annual.value_mode === "count";
     $("#annual-trend-insights").innerHTML = insights.map(item => `<article class="annual-insight ${escapeHtml(item.kind)}"><span>${escapeHtml(item.label)}</span><div><strong>${escapeHtml(item.topic)}</strong><b>${escapeHtml(item.value)}</b></div><small>${escapeHtml(item.detail)}</small></article>`).join("");
-    const comparisonLabel = annual.comparison_label || "전년 대비";
-    const cards = series.map(item => {
-      const chartValues = countMode ? (item.counts || []) : (item.shares || []);
-      const maximum = Math.max(1, ...chartValues.map(Number));
-      const directionClass = item.direction === "증가" ? "up" : item.direction === "감소" ? "down" : "flat";
-      const bars = years.map((year, index) => {
-        const value = Number(chartValues[index] || 0);
-        const count = Number(item.counts?.[index] || 0);
-        const height = value > 0 ? Math.max(7, value / maximum * 100) : 0;
-        const display = countMode ? count.toLocaleString("ko-KR") : `${value.toFixed(1)}%`;
-        const isCurrent = index === years.length - 1;
-        return `<div class="annual-bar-column ${isCurrent ? "current" : ""}" title="${escapeHtml(year)} · ${display}${countMode ? "편" : ""}"><div class="annual-bar-plot"><i style="height:${height.toFixed(1)}%"></i></div><span class="annual-bar-year">${escapeHtml(year)}${isCurrent ? "<em>누적</em>" : ""}</span><strong class="annual-bar-value">${display}</strong>${countMode ? "<small>편</small>" : ""}</div>`;
+    if (!years.length || !series.length) {
+      $("#annual-trend-matrix").innerHTML = `<div class="empty-state">연도별 논문 데이터가 아직 충분하지 않습니다.</div>`;
+      $("#annual-trend-note").textContent = annual.note || "";
+      return;
+    }
+
+    const palette = ["#76f7c5", "#7ea6ff", "#ffcb6b", "#f18f9f", "#9a8cff", "#50d5d0", "#f6a561", "#74b9e8", "#c8ef74", "#d68cff", "#e4d06f", "#77d99e", "#ff8c69"];
+    const values = series.flatMap(item => (countMode ? (item.counts || []) : (item.shares || [])).map(Number));
+    const maximum = Math.max(1, ...values);
+    const formatter = value => countMode ? Number(value).toLocaleString("ko-KR") : `${Number(value).toFixed(1)}%`;
+    const axisMaximum = countMode ? Math.ceil(maximum / 1000) * 1000 : Math.ceil(maximum / 5) * 5;
+    const axisTicks = [axisMaximum, axisMaximum * .75, axisMaximum * .5, axisMaximum * .25, 0];
+    const shortCode = category => String(category || "").replace(/^(cs|stat)\./, "");
+
+    const legend = series.map((item, index) => `<div class="annual-category-key"><i style="--category-color:${palette[index % palette.length]}"></i><span>${escapeHtml(item.label_ko || item.primary)}</span><code>${escapeHtml(item.category || item.primary)}</code></div>`).join("");
+    const groups = years.map((year, yearIndex) => {
+      const isCurrent = yearIndex === years.length - 1;
+      const bars = series.map((item, categoryIndex) => {
+        const chartValues = countMode ? (item.counts || []) : (item.shares || []);
+        const value = Number(chartValues[yearIndex] || 0);
+        const height = value > 0 ? Math.max(1.5, value / axisMaximum * 100) : 0;
+        const display = formatter(value);
+        const unit = countMode ? "편" : "";
+        return `<div class="annual-grouped-bar" title="${escapeHtml(year)} · ${escapeHtml(item.label_ko || item.primary)} · ${display}${unit}"><div class="annual-grouped-plot"><i style="height:${height.toFixed(2)}%;--category-color:${palette[categoryIndex % palette.length]}"></i></div><strong>${display}</strong><small>${escapeHtml(shortCode(item.category || item.primary))}</small></div>`;
       }).join("");
-      return `<article class="annual-bar-card"><div class="annual-bar-card-head"><div><span>${escapeHtml(item.category || item.primary)}</span><h3>${escapeHtml(item.label_ko || item.primary)}</h3></div><div class="annual-growth ${directionClass}"><small>${escapeHtml(comparisonLabel)}</small><strong>${Number(item.delta_pp || 0) >= 0 ? "+" : ""}${Number(item.delta_pp || 0).toFixed(1)}${countMode ? "%" : "%p"}</strong><em>${escapeHtml(item.direction)}</em></div></div><div class="annual-bar-chart" role="img" aria-label="${escapeHtml(item.label_ko || item.primary)} 연도별 논문 수 막대그래프">${bars}</div></article>`;
+      return `<section class="annual-year-group ${isCurrent ? "current" : ""}" aria-label="${escapeHtml(year)}년 13개 분야"><div class="annual-year-bars">${bars}</div><div class="annual-year-heading"><strong>${escapeHtml(year)}</strong><span>${isCurrent ? "연중 누적" : `${series.length}개 분야`}</span></div></section>`;
     }).join("");
-    $("#annual-trend-matrix").innerHTML = cards ? `<div class="annual-bar-grid">${cards}</div>` : `<div class="empty-state">연도별 논문 데이터가 아직 충분하지 않습니다.</div>`;
+    const axis = axisTicks.map((value, index) => `<span style="top:${index * 25}%">${escapeHtml(formatter(value))}</span>`).join("");
+
+    $("#annual-trend-matrix").innerHTML = `<div class="annual-grouped-shell"><div class="annual-chart-meta"><div><span>공통 Y축</span><strong>최대 ${formatter(axisMaximum)}${countMode ? "편" : ""}</strong></div><p>같은 색은 같은 분야입니다. 가로로 이동해 연도별 13개 분야를 연속 비교하세요.</p></div><div class="annual-category-legend">${legend}</div><div class="annual-grouped-scroll" tabindex="0"><div class="annual-grouped-layout" style="--category-count:${series.length}"><div class="annual-y-axis" aria-hidden="true">${axis}</div><div class="annual-year-groups" role="img" aria-label="연도별 13개 연구 분야 논문 수 통합 막대그래프">${groups}</div></div></div></div>`;
     $("#annual-trend-note").textContent = annual.note || "";
   }
 
