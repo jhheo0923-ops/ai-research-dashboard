@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-09-20T22:39:53+00:00",
+  "generated_at": "2026-09-21T22:40:50+00:00",
   "metrics": {
-    "today": 0,
+    "today": 11,
     "papers": 130,
-    "news": 376,
+    "news": 387,
     "conferences": 12
   },
   "briefing": [
     {
-      "title": "Language Models, 최근 신호 28건",
-      "summary": "2개 출처에서 관련 흐름이 포착됐습니다. 대표 자료: Benchmarking LLM Inference at Scale with AIPerf",
+      "title": "Language Models, 최근 신호 29건",
+      "summary": "3개 출처에서 관련 흐름이 포착됐습니다. 대표 자료: Benchmarking LLM Inference at Scale with AIPerf",
       "tags": [
         "FOUNDATION MODELS",
         "LANGUAGE MODELS"
       ]
     },
     {
-      "title": "Evaluation & Benchmarks, 최근 신호 25건",
-      "summary": "1개 출처에서 관련 흐름이 포착됐습니다. 대표 자료: Exponential Hardness of Off-Policy Evaluation under History-Dependent Logging",
+      "title": "Evaluation & Benchmarks, 최근 신호 26건",
+      "summary": "2개 출처에서 관련 흐름이 포착됐습니다. 대표 자료: Building standards for the next phase of AI",
       "tags": [
         "AI SYSTEMS & EVALUATION",
         "EVALUATION & BENCHMARKS"
@@ -32,11 +32,11 @@
       ]
     },
     {
-      "title": "General Machine Learning, 최근 신호 14건",
-      "summary": "1개 출처에서 관련 흐름이 포착됐습니다. 대표 자료: How Model Growth, Recursion, and Boundary Operators Influence Scaling Exponents",
+      "title": "Agents & Tool Use, 최근 신호 21건",
+      "summary": "3개 출처에서 관련 흐름이 포착됐습니다. 대표 자료: Simplifying Model Serving Across Multiple GPUs with NVIDIA TensorRT Multi-Device Integration in NVIDIA Dynamo-Triton",
       "tags": [
-        "LEARNING & THEORY",
-        "GENERAL MACHINE LEARNING"
+        "FOUNDATION MODELS",
+        "AGENTS & TOOL USE"
       ]
     }
   ],
@@ -46,46 +46,46 @@
       "secondary": "Language Models",
       "label": "Language Models",
       "score": 100,
-      "delta": "↑ 12.4×",
-      "count": 28
+      "delta": "↑ 12.9×",
+      "count": 29
     },
     {
       "primary": "AI Systems & Evaluation",
       "secondary": "Evaluation & Benchmarks",
       "label": "Evaluation & Benchmarks",
-      "score": 97,
-      "delta": "↑ 15.6×",
-      "count": 25
+      "score": 98,
+      "delta": "↑ 16.2×",
+      "count": 26
     },
     {
       "primary": "Embodied & Decision AI",
       "secondary": "Robotics & Manipulation",
       "label": "Robotics & Manipulation",
-      "score": 94,
+      "score": 91,
       "delta": "↑ 18.0×",
       "count": 23
-    },
-    {
-      "primary": "Learning & Theory",
-      "secondary": "General Machine Learning",
-      "label": "General Machine Learning",
-      "score": 52,
-      "delta": "↑ 7.5×",
-      "count": 14
     },
     {
       "primary": "Foundation Models",
       "secondary": "Agents & Tool Use",
       "label": "Agents & Tool Use",
-      "score": 46,
-      "delta": "↑ 3.0×",
-      "count": 18
+      "score": 54,
+      "delta": "↑ 3.9×",
+      "count": 21
+    },
+    {
+      "primary": "Learning & Theory",
+      "secondary": "General Machine Learning",
+      "label": "General Machine Learning",
+      "score": 50,
+      "delta": "↑ 7.5×",
+      "count": 14
     },
     {
       "primary": "Foundation Models",
       "secondary": "Multimodal Foundation Models",
       "label": "Multimodal Foundation Models",
-      "score": 35,
+      "score": 34,
       "delta": "↑ 5.4×",
       "count": 8
     },
@@ -101,25 +101,19 @@
       "primary": "Science & Applications",
       "secondary": "Biology & Healthcare",
       "label": "Biology & Healthcare",
-      "score": 24,
+      "score": 23,
       "delta": "↑ 2.5×",
       "count": 4
     }
   ],
   "statistics": {
     "kpis": {
-      "archived_items": 506,
+      "archived_items": 517,
       "active_sources": 22,
-      "unique_authors": 761,
+      "unique_authors": 762,
       "classified_percent": 57
     },
     "daily_volume": [
-      {
-        "day": "2026-08-24",
-        "count": 4,
-        "papers": 0,
-        "news": 4
-      },
       {
         "day": "2026-08-25",
         "count": 9,
@@ -248,9 +242,9 @@
       },
       {
         "day": "2026-09-15",
-        "count": 56,
+        "count": 57,
         "papers": 50,
-        "news": 6
+        "news": 7
       },
       {
         "day": "2026-09-16",
@@ -266,9 +260,9 @@
       },
       {
         "day": "2026-09-18",
-        "count": 2,
+        "count": 1,
         "papers": 0,
-        "news": 2
+        "news": 1
       },
       {
         "day": "2026-09-19",
@@ -281,12 +275,18 @@
         "count": 0,
         "papers": 0,
         "news": 0
+      },
+      {
+        "day": "2026-09-21",
+        "count": 11,
+        "papers": 0,
+        "news": 11
       }
     ],
     "types": [
       {
         "type": "news",
-        "count": 376
+        "count": 387
       },
       {
         "type": "paper",
@@ -300,19 +300,23 @@
       },
       {
         "source": "OpenAI News",
-        "count": 84
+        "count": 89
       },
       {
         "source": "NVIDIA Technical Blog",
-        "count": 81
+        "count": 84
+      },
+      {
+        "source": "Hugging Face",
+        "count": 82
       },
       {
         "source": "Google DeepMind",
         "count": 80
       },
       {
-        "source": "Hugging Face",
-        "count": 80
+        "source": "Microsoft Research",
+        "count": 11
       },
       {
         "source": "NeurIPS Blog",
@@ -320,10 +324,6 @@
       },
       {
         "source": "ICLR Blog",
-        "count": 10
-      },
-      {
-        "source": "Microsoft Research",
         "count": 10
       },
       {
@@ -338,25 +338,25 @@
     "taxonomy": [
       {
         "primary": "Unclassified",
-        "count": 217,
+        "count": 222,
         "secondaries": [
           {
             "secondary": "Needs Review",
-            "count": 217
+            "count": 222
           }
         ]
       },
       {
         "primary": "Foundation Models",
-        "count": 140,
+        "count": 144,
         "secondaries": [
           {
             "secondary": "Agents & Tool Use",
-            "count": 72
+            "count": 75
           },
           {
             "secondary": "Language Models",
-            "count": 43
+            "count": 44
           },
           {
             "secondary": "Multimodal Foundation Models",
@@ -396,11 +396,11 @@
       },
       {
         "primary": "AI Systems & Evaluation",
-        "count": 37,
+        "count": 38,
         "secondaries": [
           {
             "secondary": "Evaluation & Benchmarks",
-            "count": 32
+            "count": 33
           },
           {
             "secondary": "Infrastructure & Hardware",
@@ -440,7 +440,7 @@
       },
       {
         "primary": "Science & Applications",
-        "count": 15,
+        "count": 16,
         "secondaries": [
           {
             "secondary": "Biology & Healthcare",
@@ -452,7 +452,7 @@
           },
           {
             "secondary": "Climate & Earth",
-            "count": 2
+            "count": 3
           },
           {
             "secondary": "Recommenders & Search",
@@ -518,7 +518,7 @@
         124695,
         164861,
         198004,
-        174418
+        175123
       ],
       "series": [
         {
@@ -530,7 +530,7 @@
             21741,
             33036,
             45098,
-            43842
+            43964
           ],
           "shares": [
             15.0,
@@ -539,7 +539,7 @@
             22.8,
             25.1
           ],
-          "latest_count": 43842,
+          "latest_count": 43964,
           "delta_pp": 36.5,
           "direction": "증가",
           "source_url": "https://arxiv.org/list/cs.AI/2026"
@@ -553,7 +553,7 @@
             32898,
             39819,
             46097,
-            39135
+            39283
           ],
           "shares": [
             29.0,
@@ -562,7 +562,7 @@
             23.3,
             22.4
           ],
-          "latest_count": 39135,
+          "latest_count": 39283,
           "delta_pp": 15.8,
           "direction": "증가",
           "source_url": "https://arxiv.org/list/cs.LG/2026"
@@ -576,7 +576,7 @@
             24403,
             30676,
             35025,
-            27711
+            27808
           ],
           "shares": [
             19.9,
@@ -585,7 +585,7 @@
             17.7,
             15.9
           ],
-          "latest_count": 27711,
+          "latest_count": 27808,
           "delta_pp": 14.2,
           "direction": "증가",
           "source_url": "https://arxiv.org/list/cs.CV/2026"
@@ -599,7 +599,7 @@
             13565,
             20654,
             23696,
-            20251
+            20338
           ],
           "shares": [
             9.1,
@@ -608,7 +608,7 @@
             12.0,
             11.6
           ],
-          "latest_count": 20251,
+          "latest_count": 20338,
           "delta_pp": 14.7,
           "direction": "증가",
           "source_url": "https://arxiv.org/list/cs.CL/2026"
@@ -622,7 +622,7 @@
             6737,
             8663,
             10564,
-            10247
+            10361
           ],
           "shares": [
             5.3,
@@ -631,7 +631,7 @@
             5.3,
             5.9
           ],
-          "latest_count": 10247,
+          "latest_count": 10361,
           "delta_pp": 21.9,
           "direction": "증가",
           "source_url": "https://arxiv.org/list/cs.RO/2026"
@@ -645,7 +645,7 @@
             5178,
             6547,
             7926,
-            7463
+            7497
           ],
           "shares": [
             4.5,
@@ -654,7 +654,7 @@
             4.0,
             4.3
           ],
-          "latest_count": 7463,
+          "latest_count": 7497,
           "delta_pp": 21.1,
           "direction": "증가",
           "source_url": "https://arxiv.org/list/cs.CR/2026"
@@ -668,16 +668,16 @@
             3698,
             5405,
             6517,
-            5661
+            5694
           ],
           "shares": [
             2.5,
             3.0,
             3.3,
             3.3,
-            3.2
+            3.3
           ],
-          "latest_count": 5661,
+          "latest_count": 5694,
           "delta_pp": 20.6,
           "direction": "증가",
           "source_url": "https://arxiv.org/list/cs.HC/2026"
@@ -691,7 +691,7 @@
             5326,
             5901,
             6406,
-            5083
+            5105
           ],
           "shares": [
             5.0,
@@ -700,7 +700,7 @@
             3.2,
             2.9
           ],
-          "latest_count": 5083,
+          "latest_count": 5105,
           "delta_pp": 8.6,
           "direction": "증가",
           "source_url": "https://arxiv.org/list/stat.ML/2026"
@@ -714,7 +714,7 @@
             3045,
             4111,
             5064,
-            4295
+            4308
           ],
           "shares": [
             2.2,
@@ -723,7 +723,7 @@
             2.6,
             2.5
           ],
-          "latest_count": 4295,
+          "latest_count": 4308,
           "delta_pp": 23.2,
           "direction": "증가",
           "source_url": "https://arxiv.org/list/cs.CY/2026"
@@ -737,7 +737,7 @@
             2619,
             3621,
             4067,
-            3945
+            3953
           ],
           "shares": [
             2.2,
@@ -746,7 +746,7 @@
             2.1,
             2.3
           ],
-          "latest_count": 3945,
+          "latest_count": 3953,
           "delta_pp": 12.3,
           "direction": "증가",
           "source_url": "https://arxiv.org/list/cs.IR/2026"
@@ -760,7 +760,7 @@
             1197,
             1398,
             2437,
-            2760
+            2767
           ],
           "shares": [
             1.1,
@@ -769,7 +769,7 @@
             1.2,
             1.6
           ],
-          "latest_count": 2760,
+          "latest_count": 2767,
           "delta_pp": 74.3,
           "direction": "증가",
           "source_url": "https://arxiv.org/list/cs.MA/2026"
@@ -783,7 +783,7 @@
             2745,
             3157,
             3486,
-            2681
+            2698
           ],
           "shares": [
             2.7,
@@ -792,7 +792,7 @@
             1.8,
             1.5
           ],
-          "latest_count": 2681,
+          "latest_count": 2698,
           "delta_pp": 10.4,
           "direction": "증가",
           "source_url": "https://arxiv.org/list/cs.SD/2026"
@@ -806,7 +806,7 @@
             1543,
             1873,
             1621,
-            1344
+            1347
           ],
           "shares": [
             1.5,
@@ -815,7 +815,7 @@
             0.8,
             0.8
           ],
-          "latest_count": 1344,
+          "latest_count": 1347,
           "delta_pp": -13.5,
           "direction": "감소",
           "source_url": "https://arxiv.org/list/cs.NE/2026"
@@ -840,7 +840,7 @@
           "kind": "sparse",
           "label": "현재 논문 수가 적은 분야",
           "topic": "신경·진화 연산",
-          "value": "1,344편",
+          "value": "1,347편",
           "detail": "2026년 누적 · cs.NE"
         }
       ],
@@ -1142,6 +1142,72 @@
   },
   "items": [
     {
+      "external_id": "rss:nvidia-technical-blog:837464fefd470eaa54f6549e",
+      "type": "news",
+      "source": "NVIDIA Technical Blog",
+      "title": "Simplifying Model Serving Across Multiple GPUs with NVIDIA TensorRT Multi-Device Integration in NVIDIA Dynamo-Triton",
+      "summary": "The compute and memory demands of generative AI increasingly exceed what a single GPU can provide. NVIDIA TensorRT multi-device inference is a new capability...",
+      "summary_ko": "NVIDIA Technical Blog가 공개한 소식으로, 파운데이션 모델 분야의 에이전트·도구 사용 변화에 초점을 둡니다. 학습·추론 비용을 낮추면서 성능을 유지하거나 높이는 방법을 제안합니다.",
+      "motivation_ko": "에이전트가 계획을 세우고 외부 도구를 호출하는 과정에서 선택 오류가 연쇄적으로 커지고 장기 작업의 안정성이 떨어질 수 있습니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://developer.nvidia.com/blog/simplifying-model-serving-across-multiple-gpus-with-nvidia-tensorrt-multi-device-integration-in-nvidia-dynamo-triton/",
+      "published_at": "2026-09-21T21:51:14+00:00",
+      "date_label": "2026.09.21",
+      "authors": [
+        "Tanya Lenz"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Agents & Tool Use",
+        "agentic"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Agents & Tool Use",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "에이전트·도구 사용",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "agentic"
+      ],
+      "importance_score": 75,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 24시간 내"
+    },
+    {
+      "external_id": "rss:nvidia-technical-blog:3f062ae5d12a3d2b6381ddf9",
+      "type": "news",
+      "source": "NVIDIA Technical Blog",
+      "title": "How to Evaluate AI Agents From Tool Calls to Task Completion",
+      "summary": "When you ship an AI agent, the key question is whether it can execute a chain of work across dozens of sequential tool calls against a live environment, and...",
+      "summary_ko": "NVIDIA Technical Blog가 공개한 소식으로, 파운데이션 모델 분야의 에이전트·도구 사용 변화에 초점을 둡니다. 에이전트의 계획, 도구 선택과 실행 과정의 정확성·안정성을 살펴봅니다.",
+      "motivation_ko": "에이전트가 계획을 세우고 외부 도구를 호출하는 과정에서 선택 오류가 연쇄적으로 커지고 장기 작업의 안정성이 떨어질 수 있습니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 에이전트·도구 사용의 성능과 실제 적용 가능성입니다.",
+      "url": "https://developer.nvidia.com/blog/how-to-evaluate-ai-agents-from-tool-calls-to-task-completion/",
+      "published_at": "2026-09-21T21:05:37+00:00",
+      "date_label": "2026.09.21",
+      "authors": [
+        "Elizabeth Goodman"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Agents & Tool Use",
+        "agentic",
+        "ai agent"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Agents & Tool Use",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "에이전트·도구 사용",
+      "classification_confidence": 0.792,
+      "matched_terms": [
+        "agentic",
+        "ai agent"
+      ],
+      "importance_score": 77,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 24시간 내"
+    },
+    {
       "external_id": "rss:nvidia-technical-blog:127a999e24da184d5065047d",
       "type": "news",
       "source": "NVIDIA Technical Blog",
@@ -1151,8 +1217,8 @@
       "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
       "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 핵심 검증 대상은 언어 모델의 성능과 실제 적용 가능성입니다.",
       "url": "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf/",
-      "published_at": "2026-09-18T19:04:50+00:00",
-      "date_label": "2026.09.18",
+      "published_at": "2026-09-21T18:45:07+00:00",
+      "date_label": "2026.09.21",
       "authors": [
         "Elizabeth Goodman"
       ],
@@ -1169,9 +1235,236 @@
       "matched_terms": [
         "llm"
       ],
+      "importance_score": 92,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 24시간 내"
+    },
+    {
+      "external_id": "rss:microsoft-research:44698b868b1f853c4868b45d",
+      "type": "news",
+      "source": "Microsoft Research",
+      "title": "Improving synthesis prediction of small molecules at scale with RetroChimera",
+      "summary": "Custom-made molecules are advancing medicine, materials, and agriculture, but producing them is slow and expensive. A new Nature paper highlights RetroChimera, a predictive model that helps accelerate chemical synthesis, helping researchers explore a wide range of molecules. The post Improving synthesis prediction of small molecules at scale with RetroChimera appeared first on Microsoft Research .",
+      "summary_ko": "Microsoft Research가 공개한 소식으로, 미분류 분야의 분류 검토 필요 변화에 초점을 둡니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
+      "motivation_ko": "새 연구 결과나 시스템이 기존 접근법의 어떤 한계를 해결하며 실제 적용에 어떤 변화를 만드는지 확인할 필요가 있습니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 제안된 접근법의 성능과 실제 적용 가능성입니다.",
+      "url": "https://www.microsoft.com/en-us/research/blog/improving-synthesis-prediction-of-small-molecules-at-scale-with-retrochimera/",
+      "published_at": "2026-09-21T15:30:19+00:00",
+      "date_label": "2026.09.21",
+      "authors": [
+        "Felix Pultar, John Gardner, Guoqing Liu, Marwin Segler"
+      ],
+      "keywords": [
+        "Unclassified",
+        "Needs Review"
+      ],
+      "primary_topic": "Unclassified",
+      "secondary_topic": "Needs Review",
+      "primary_topic_ko": "미분류",
+      "secondary_topic_ko": "분류 검토 필요",
+      "classification_confidence": 0.18,
+      "matched_terms": [],
+      "importance_score": 53,
+      "importance_label": "주목",
+      "importance_reason": "24시간 내 · 주요 연구 채널"
+    },
+    {
+      "external_id": "rss:hugging-face:ae2a66f3c360fd1788ea542e",
+      "type": "news",
+      "source": "Hugging Face",
+      "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+      "summary": "",
+      "summary_ko": "Hugging Face가 공개한 소식으로, 파운데이션 모델 분야의 언어 모델 변화에 초점을 둡니다. 학습·추론 비용을 낮추면서 성능을 유지하거나 높이는 방법을 제안합니다.",
+      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 언어 모델의 성능과 실제 적용 가능성입니다.",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+      "published_at": "2026-09-21T13:44:34+00:00",
+      "date_label": "2026.09.21",
+      "authors": [],
+      "keywords": [
+        "Foundation Models",
+        "Language Models",
+        "llm"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Language Models",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "언어 모델",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "llm"
+      ],
       "importance_score": 88,
       "importance_label": "핵심",
-      "importance_reason": "급상승 주제 · 최신 자료"
+      "importance_reason": "급상승 주제 · 24시간 내"
+    },
+    {
+      "external_id": "rss:openai-news:08ffdb24bebd9aa2ffda2f84",
+      "type": "news",
+      "source": "OpenAI News",
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+      "summary_ko": "OpenAI News가 공개한 소식으로, 미분류 분야의 분류 검토 필요 변화에 초점을 둡니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
+      "motivation_ko": "새 연구 결과나 시스템이 기존 접근법의 어떤 한계를 해결하며 실제 적용에 어떤 변화를 만드는지 확인할 필요가 있습니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 제안된 접근법의 성능과 실제 적용 가능성입니다.",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "published_at": "2026-09-21T12:00:00+00:00",
+      "date_label": "2026.09.21",
+      "authors": [],
+      "keywords": [
+        "Unclassified",
+        "Needs Review"
+      ],
+      "primary_topic": "Unclassified",
+      "secondary_topic": "Needs Review",
+      "primary_topic_ko": "미분류",
+      "secondary_topic_ko": "분류 검토 필요",
+      "classification_confidence": 0.18,
+      "matched_terms": [],
+      "importance_score": 53,
+      "importance_label": "주목",
+      "importance_reason": "24시간 내 · 주요 연구 채널"
+    },
+    {
+      "external_id": "rss:openai-news:8fe4474fdbb9c4c46a22f878",
+      "type": "news",
+      "source": "OpenAI News",
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "summary_ko": "OpenAI News가 공개한 소식으로, 미분류 분야의 분류 검토 필요 변화에 초점을 둡니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
+      "motivation_ko": "새 연구 결과나 시스템이 기존 접근법의 어떤 한계를 해결하며 실제 적용에 어떤 변화를 만드는지 확인할 필요가 있습니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 제안된 접근법의 성능과 실제 적용 가능성입니다.",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "published_at": "2026-09-21T12:00:00+00:00",
+      "date_label": "2026.09.21",
+      "authors": [],
+      "keywords": [
+        "Unclassified",
+        "Needs Review"
+      ],
+      "primary_topic": "Unclassified",
+      "secondary_topic": "Needs Review",
+      "primary_topic_ko": "미분류",
+      "secondary_topic_ko": "분류 검토 필요",
+      "classification_confidence": 0.18,
+      "matched_terms": [],
+      "importance_score": 53,
+      "importance_label": "주목",
+      "importance_reason": "24시간 내 · 주요 연구 채널"
+    },
+    {
+      "external_id": "rss:openai-news:10538c022345675d1abd4a83",
+      "type": "news",
+      "source": "OpenAI News",
+      "title": "Building standards for the next phase of AI",
+      "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+      "summary_ko": "OpenAI News가 공개한 소식으로, AI 시스템·평가 분야의 평가·벤치마크 변화에 초점을 둡니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "기존 지표가 실제 사용 능력과 실패 유형을 충분히 반영하지 못해 모델 간 공정한 비교가 어렵습니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 특히 안전성·강건성·신뢰성 측면의 실패를 줄이는 데 기여합니다.",
+      "url": "https://openai.com/index/building-standards-next-phase-ai",
+      "published_at": "2026-09-21T10:00:00+00:00",
+      "date_label": "2026.09.21",
+      "authors": [],
+      "keywords": [
+        "AI Systems & Evaluation",
+        "Evaluation & Benchmarks",
+        "evaluation"
+      ],
+      "primary_topic": "AI Systems & Evaluation",
+      "secondary_topic": "Evaluation & Benchmarks",
+      "primary_topic_ko": "AI 시스템·평가",
+      "secondary_topic_ko": "평가·벤치마크",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "evaluation"
+      ],
+      "importance_score": 90,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 24시간 내"
+    },
+    {
+      "external_id": "rss:openai-news:2f8d9b98fc157bb338d3eee2",
+      "type": "news",
+      "source": "OpenAI News",
+      "title": "Expanding OpenAI Academy with new learning paths",
+      "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
+      "summary_ko": "OpenAI News가 공개한 소식으로, 미분류 분야의 분류 검토 필요 변화에 초점을 둡니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
+      "motivation_ko": "새 연구 결과나 시스템이 기존 접근법의 어떤 한계를 해결하며 실제 적용에 어떤 변화를 만드는지 확인할 필요가 있습니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 제안된 접근법의 성능과 실제 적용 가능성입니다.",
+      "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "published_at": "2026-09-21T07:00:00+00:00",
+      "date_label": "2026.09.21",
+      "authors": [],
+      "keywords": [
+        "Unclassified",
+        "Needs Review"
+      ],
+      "primary_topic": "Unclassified",
+      "secondary_topic": "Needs Review",
+      "primary_topic_ko": "미분류",
+      "secondary_topic_ko": "분류 검토 필요",
+      "classification_confidence": 0.18,
+      "matched_terms": [],
+      "importance_score": 53,
+      "importance_label": "주목",
+      "importance_reason": "24시간 내 · 주요 연구 채널"
+    },
+    {
+      "external_id": "rss:openai-news:d2871d486c61275aa1831622",
+      "type": "news",
+      "source": "OpenAI News",
+      "title": "How V7 gives AI agents institutional memory",
+      "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
+      "summary_ko": "OpenAI News가 공개한 소식으로, 파운데이션 모델 분야의 에이전트·도구 사용 변화에 초점을 둡니다. 에이전트의 계획, 도구 선택과 실행 과정의 정확성·안정성을 살펴봅니다.",
+      "motivation_ko": "에이전트가 계획을 세우고 외부 도구를 호출하는 과정에서 선택 오류가 연쇄적으로 커지고 장기 작업의 안정성이 떨어질 수 있습니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://openai.com/index/v7",
+      "published_at": "2026-09-21T00:00:00+00:00",
+      "date_label": "2026.09.21",
+      "authors": [],
+      "keywords": [
+        "Foundation Models",
+        "Agents & Tool Use",
+        "ai agent"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Agents & Tool Use",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "에이전트·도구 사용",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "ai agent"
+      ],
+      "importance_score": 76,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 24시간 내"
+    },
+    {
+      "external_id": "rss:hugging-face:693b3130e25cc8808f585a69",
+      "type": "news",
+      "source": "Hugging Face",
+      "title": "tokenizers v1: encode, decode and scaling, measured",
+      "summary": "",
+      "summary_ko": "Hugging Face가 공개한 소식으로, 미분류 분야의 분류 검토 필요 변화에 초점을 둡니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
+      "motivation_ko": "새 연구 결과나 시스템이 기존 접근법의 어떤 한계를 해결하며 실제 적용에 어떤 변화를 만드는지 확인할 필요가 있습니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 제안된 접근법의 성능과 실제 적용 가능성입니다.",
+      "url": "https://huggingface.co/blog/tokenizers-v1",
+      "published_at": "2026-09-21T00:00:00+00:00",
+      "date_label": "2026.09.21",
+      "authors": [],
+      "keywords": [
+        "Unclassified",
+        "Needs Review"
+      ],
+      "primary_topic": "Unclassified",
+      "secondary_topic": "Needs Review",
+      "primary_topic_ko": "미분류",
+      "secondary_topic_ko": "분류 검토 필요",
+      "classification_confidence": 0.18,
+      "matched_terms": [],
+      "importance_score": 49,
+      "importance_label": "일반",
+      "importance_reason": "24시간 내"
     },
     {
       "external_id": "rss:openai-news:a00923bf4ddda715364788a2",
@@ -1225,9 +1518,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 49,
+      "importance_score": 46,
       "importance_label": "일반",
-      "importance_reason": "최신 자료 · 주요 연구 채널"
+      "importance_reason": "주요 연구 채널"
     },
     {
       "external_id": "rss:nvidia-technical-blog:7a123450627a2d3d1e659e18",
@@ -1257,9 +1550,9 @@
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 69,
+      "importance_score": 68,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 최신 자료"
+      "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
     {
       "external_id": "rss:nvidia-technical-blog:5d6d93f42d6ca9b84a088c4f",
@@ -1291,9 +1584,9 @@
         "agentic",
         "ai agent"
       ],
-      "importance_score": 71,
+      "importance_score": 70,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 최신 자료"
+      "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
     {
       "external_id": "rss:openai-news:d22acfa5d0cc1d093c4a65f6",
@@ -1318,9 +1611,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 49,
+      "importance_score": 46,
       "importance_label": "일반",
-      "importance_reason": "최신 자료 · 주요 연구 채널"
+      "importance_reason": "주요 연구 채널"
     },
     {
       "external_id": "rss:neurips-blog:dc336ea446880920d0486e55",
@@ -1347,9 +1640,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 45,
+      "importance_score": 42,
       "importance_label": "일반",
-      "importance_reason": "최신 자료"
+      "importance_reason": "일반 연구 신호"
     },
     {
       "external_id": "rss:openai-news:192794312f979cbd50ee7eab",
@@ -1374,9 +1667,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 49,
+      "importance_score": 46,
       "importance_label": "일반",
-      "importance_reason": "최신 자료 · 주요 연구 채널"
+      "importance_reason": "주요 연구 채널"
     },
     {
       "external_id": "rss:nvidia-technical-blog:3c695c0ed34fa87bc774a39e",
@@ -1406,7 +1699,7 @@
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 67,
+      "importance_score": 69,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
@@ -1472,7 +1765,7 @@
         "agentic",
         "ai agent"
       ],
-      "importance_score": 68,
+      "importance_score": 70,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
@@ -1623,7 +1916,7 @@
         "robot",
         "manipulation"
       ],
-      "importance_score": 87,
+      "importance_score": 86,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -1672,7 +1965,7 @@
         "robotic",
         "embodied"
       ],
-      "importance_score": 88,
+      "importance_score": 87,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -1711,7 +2004,7 @@
         "robot",
         "manipulation"
       ],
-      "importance_score": 88,
+      "importance_score": 87,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -1854,7 +2147,7 @@
       "matched_terms": [
         "cs.AI"
       ],
-      "importance_score": 68,
+      "importance_score": 70,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -1992,7 +2285,7 @@
         "embodied",
         "manipulation"
       ],
-      "importance_score": 87,
+      "importance_score": 86,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -2059,7 +2352,7 @@
       "matched_terms": [
         "cs.LG"
       ],
-      "importance_score": 70,
+      "importance_score": 69,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -2098,7 +2391,7 @@
         "embodied",
         "manipulation"
       ],
-      "importance_score": 89,
+      "importance_score": 88,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -2186,7 +2479,7 @@
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 71,
+      "importance_score": 73,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -2299,7 +2592,7 @@
       "matched_terms": [
         "ai agent"
       ],
-      "importance_score": 71,
+      "importance_score": 73,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -2371,7 +2664,7 @@
       "matched_terms": [
         "stat.ML"
       ],
-      "importance_score": 70,
+      "importance_score": 69,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -2406,7 +2699,7 @@
       "matched_terms": [
         "robot"
       ],
-      "importance_score": 87,
+      "importance_score": 86,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -2472,7 +2765,7 @@
       "matched_terms": [
         "cs.LG"
       ],
-      "importance_score": 70,
+      "importance_score": 69,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -2551,7 +2844,7 @@
       "matched_terms": [
         "cs.RO"
       ],
-      "importance_score": 84,
+      "importance_score": 83,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -2628,7 +2921,7 @@
         "robotic",
         "manipulation"
       ],
-      "importance_score": 88,
+      "importance_score": 87,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -2667,7 +2960,7 @@
       "matched_terms": [
         "multi-agent"
       ],
-      "importance_score": 71,
+      "importance_score": 73,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -2982,7 +3275,7 @@
       "matched_terms": [
         "machine learning"
       ],
-      "importance_score": 72,
+      "importance_score": 71,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -3020,7 +3313,7 @@
       "matched_terms": [
         "robot"
       ],
-      "importance_score": 87,
+      "importance_score": 86,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -3090,7 +3383,7 @@
         "agentic",
         "ai agent"
       ],
-      "importance_score": 68,
+      "importance_score": 70,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
@@ -3125,7 +3418,7 @@
       "matched_terms": [
         "cs.LG"
       ],
-      "importance_score": 70,
+      "importance_score": 69,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -3192,7 +3485,7 @@
       "matched_terms": [
         "cs.RO"
       ],
-      "importance_score": 84,
+      "importance_score": 83,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -3473,7 +3766,7 @@
         "agentic",
         "ai agent"
       ],
-      "importance_score": 73,
+      "importance_score": 75,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -3506,7 +3799,7 @@
       "matched_terms": [
         "cs.AI"
       ],
-      "importance_score": 68,
+      "importance_score": 70,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -3541,7 +3834,7 @@
       "matched_terms": [
         "cs.RO"
       ],
-      "importance_score": 84,
+      "importance_score": 83,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -3612,7 +3905,7 @@
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 70,
+      "importance_score": 72,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -3765,7 +4058,7 @@
         "deep learning",
         "neural network"
       ],
-      "importance_score": 73,
+      "importance_score": 72,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -3837,7 +4130,7 @@
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 71,
+      "importance_score": 73,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -3906,7 +4199,7 @@
         "robot",
         "manipulation"
       ],
-      "importance_score": 88,
+      "importance_score": 87,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -4089,7 +4382,7 @@
       "matched_terms": [
         "cs.LG"
       ],
-      "importance_score": 70,
+      "importance_score": 69,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -4161,7 +4454,7 @@
       "matched_terms": [
         "robot"
       ],
-      "importance_score": 87,
+      "importance_score": 86,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -4315,7 +4608,7 @@
       "matched_terms": [
         "optimization"
       ],
-      "importance_score": 73,
+      "importance_score": 72,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -4351,7 +4644,7 @@
       "matched_terms": [
         "robot"
       ],
-      "importance_score": 86,
+      "importance_score": 85,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -4454,7 +4747,7 @@
       "matched_terms": [
         "optimization"
       ],
-      "importance_score": 72,
+      "importance_score": 71,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -4651,6 +4944,38 @@
       "importance_reason": "주요 연구 채널"
     },
     {
+      "external_id": "rss:nvidia-technical-blog:8d49e0a966acc1482d66299e",
+      "type": "news",
+      "source": "NVIDIA Technical Blog",
+      "title": "Turn Your Latest Observations Into Timely Weather Decisions With NVIDIA Earth-2",
+      "summary": "Weather-sensitive industries increasingly have access to observations that offer an earlier, more local view of changing conditions. Energy companies collect...",
+      "summary_ko": "NVIDIA Technical Blog가 공개한 소식으로, 과학·산업 응용 분야의 기후·지구 변화에 초점을 둡니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
+      "motivation_ko": "관측이 불완전한 시공간 데이터에서 극한 현상과 장기 변화를 안정적으로 예측해야 합니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 기후·지구의 성능과 실제 적용 가능성입니다.",
+      "url": "https://developer.nvidia.com/blog/turn-your-latest-observations-into-timely-weather-decisions-with-nvidia-earth-2/",
+      "published_at": "2026-09-15T21:44:59+00:00",
+      "date_label": "2026.09.15",
+      "authors": [
+        "Elizabeth Goodman"
+      ],
+      "keywords": [
+        "Science & Applications",
+        "Climate & Earth",
+        "climate"
+      ],
+      "primary_topic": "Science & Applications",
+      "secondary_topic": "Climate & Earth",
+      "primary_topic_ko": "과학·산업 응용",
+      "secondary_topic_ko": "기후·지구",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "climate"
+      ],
+      "importance_score": 50,
+      "importance_label": "주목",
+      "importance_reason": "주요 연구 채널"
+    },
+    {
       "external_id": "arxiv:2609.17527",
       "type": "paper",
       "source": "arXiv",
@@ -4684,7 +5009,7 @@
         "agentic",
         "ai agent"
       ],
-      "importance_score": 72,
+      "importance_score": 74,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -5151,7 +5476,7 @@
         "robot",
         "robotic"
       ],
-      "importance_score": 89,
+      "importance_score": 88,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -5185,7 +5510,7 @@
         "machine learning",
         "optimization"
       ],
-      "importance_score": 74,
+      "importance_score": 73,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -5254,7 +5579,7 @@
       "matched_terms": [
         "cs.LG"
       ],
-      "importance_score": 70,
+      "importance_score": 69,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -5355,7 +5680,7 @@
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 66,
+      "importance_score": 68,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
@@ -5414,7 +5739,7 @@
       "matched_terms": [
         "multi-agent"
       ],
-      "importance_score": 70,
+      "importance_score": 72,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -5448,7 +5773,7 @@
       "matched_terms": [
         "robot"
       ],
-      "importance_score": 87,
+      "importance_score": 86,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -5662,7 +5987,7 @@
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 70,
+      "importance_score": 72,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -5771,7 +6096,7 @@
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 66,
+      "importance_score": 68,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
@@ -5807,7 +6132,7 @@
         "robot",
         "robotic"
       ],
-      "importance_score": 87,
+      "importance_score": 86,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -5840,7 +6165,7 @@
       "matched_terms": [
         "cs.LG"
       ],
-      "importance_score": 70,
+      "importance_score": 69,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -5912,7 +6237,7 @@
         "robot",
         "robotic"
       ],
-      "importance_score": 87,
+      "importance_score": 86,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -5988,7 +6313,7 @@
       "matched_terms": [
         "robot"
       ],
-      "importance_score": 87,
+      "importance_score": 86,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -6028,7 +6353,7 @@
         "robot",
         "manipulation"
       ],
-      "importance_score": 88,
+      "importance_score": 87,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -6143,7 +6468,7 @@
       "matched_terms": [
         "optimization"
       ],
-      "importance_score": 73,
+      "importance_score": 72,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -6216,7 +6541,7 @@
       "matched_terms": [
         "cs.LG"
       ],
-      "importance_score": 70,
+      "importance_score": 69,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -6253,7 +6578,7 @@
       "matched_terms": [
         "robot"
       ],
-      "importance_score": 87,
+      "importance_score": 86,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -6382,7 +6707,7 @@
         "robot",
         "embodied"
       ],
-      "importance_score": 87,
+      "importance_score": 86,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -6527,7 +6852,7 @@
         "robot",
         "embodied"
       ],
-      "importance_score": 88,
+      "importance_score": 87,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -6833,8 +7158,8 @@
         "agentic",
         "ai agent"
       ],
-      "importance_score": 63,
-      "importance_label": "주목",
+      "importance_score": 65,
+      "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
     {
@@ -6919,8 +7244,8 @@
       "matched_terms": [
         "optimization"
       ],
-      "importance_score": 65,
-      "importance_label": "높음",
+      "importance_score": 64,
+      "importance_label": "주목",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
     {
@@ -7086,7 +7411,7 @@
       "matched_terms": [
         "tool use"
       ],
-      "importance_score": 62,
+      "importance_score": 64,
       "importance_label": "주목",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
@@ -7352,7 +7677,7 @@
       "matched_terms": [
         "machine learning"
       ],
-      "importance_score": 60,
+      "importance_score": 59,
       "importance_label": "주목",
       "importance_reason": "주제 모멘텀"
     },
@@ -7768,8 +8093,8 @@
         "agentic",
         "ai agent"
       ],
-      "importance_score": 63,
-      "importance_label": "주목",
+      "importance_score": 65,
+      "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
     {
@@ -7997,7 +8322,7 @@
       "matched_terms": [
         "computer use"
       ],
-      "importance_score": 62,
+      "importance_score": 64,
       "importance_label": "주목",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
@@ -8169,7 +8494,7 @@
       "matched_terms": [
         "ai agent"
       ],
-      "importance_score": 62,
+      "importance_score": 64,
       "importance_label": "주목",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
@@ -8201,8 +8526,8 @@
       "matched_terms": [
         "optimization"
       ],
-      "importance_score": 65,
-      "importance_label": "높음",
+      "importance_score": 64,
+      "importance_label": "주목",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
     {
@@ -8373,8 +8698,8 @@
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 63,
-      "importance_label": "주목",
+      "importance_score": 65,
+      "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
     {
@@ -8405,8 +8730,8 @@
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 63,
-      "importance_label": "주목",
+      "importance_score": 65,
+      "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
     {
@@ -8435,8 +8760,8 @@
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 63,
-      "importance_label": "주목",
+      "importance_score": 65,
+      "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
     {
@@ -8465,7 +8790,7 @@
       "matched_terms": [
         "ai agent"
       ],
-      "importance_score": 62,
+      "importance_score": 64,
       "importance_label": "주목",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
@@ -8669,7 +8994,7 @@
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 62,
+      "importance_score": 64,
       "importance_label": "주목",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
@@ -8850,7 +9175,7 @@
         "robot",
         "robotic"
       ],
-      "importance_score": 79,
+      "importance_score": 78,
       "importance_label": "높음",
       "importance_reason": "급상승 주제 · 주요 연구 채널"
     },
@@ -8998,7 +9323,7 @@
       "matched_terms": [
         "ai agent"
       ],
-      "importance_score": 62,
+      "importance_score": 64,
       "importance_label": "주목",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
@@ -9032,8 +9357,8 @@
         "agentic",
         "ai agent"
       ],
-      "importance_score": 63,
-      "importance_label": "주목",
+      "importance_score": 65,
+      "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
     {
@@ -9206,8 +9531,8 @@
         "agentic",
         "ai agent"
       ],
-      "importance_score": 64,
-      "importance_label": "주목",
+      "importance_score": 66,
+      "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
     {
@@ -9467,8 +9792,8 @@
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 63,
-      "importance_label": "주목",
+      "importance_score": 65,
+      "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
     {
@@ -9725,8 +10050,8 @@
         "agentic",
         "ai agent"
       ],
-      "importance_score": 64,
-      "importance_label": "주목",
+      "importance_score": 66,
+      "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
     {
@@ -9757,8 +10082,8 @@
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 63,
-      "importance_label": "주목",
+      "importance_score": 65,
+      "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
     {
@@ -9818,8 +10143,8 @@
         "agentic",
         "ai agent"
       ],
-      "importance_score": 64,
-      "importance_label": "주목",
+      "importance_score": 66,
+      "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
     {
@@ -9852,7 +10177,7 @@
         "agentic",
         "ai agent"
       ],
-      "importance_score": 64,
+      "importance_score": 62,
       "importance_label": "주목",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
@@ -9886,7 +10211,7 @@
         "agentic",
         "ai agent"
       ],
-      "importance_score": 63,
+      "importance_score": 61,
       "importance_label": "주목",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
@@ -9918,7 +10243,7 @@
       "matched_terms": [
         "recommender"
       ],
-      "importance_score": 47,
+      "importance_score": 43,
       "importance_label": "일반",
       "importance_reason": "주요 연구 채널"
     },
@@ -9947,7 +10272,7 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 42,
+      "importance_score": 38,
       "importance_label": "일반",
       "importance_reason": "주요 연구 채널"
     },
@@ -9974,7 +10299,7 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 42,
+      "importance_score": 38,
       "importance_label": "일반",
       "importance_reason": "주요 연구 채널"
     },
@@ -10001,7 +10326,7 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 38,
+      "importance_score": 34,
       "importance_label": "일반",
       "importance_reason": "일반 연구 신호"
     },
@@ -10031,7 +10356,7 @@
       "matched_terms": [
         "benchmark"
       ],
-      "importance_score": 76,
+      "importance_score": 72,
       "importance_label": "높음",
       "importance_reason": "급상승 주제"
     },
@@ -10065,7 +10390,7 @@
         "agentic",
         "ai agent"
       ],
-      "importance_score": 59,
+      "importance_score": 61,
       "importance_label": "주목",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
@@ -10099,7 +10424,7 @@
         "agentic",
         "ai agent"
       ],
-      "importance_score": 60,
+      "importance_score": 62,
       "importance_label": "주목",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
@@ -10165,7 +10490,7 @@
         "agentic",
         "ai agent"
       ],
-      "importance_score": 59,
+      "importance_score": 61,
       "importance_label": "주목",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
@@ -10228,7 +10553,7 @@
         "robot",
         "robotic"
       ],
-      "importance_score": 77,
+      "importance_score": 76,
       "importance_label": "높음",
       "importance_reason": "급상승 주제 · 주요 연구 채널"
     },
@@ -10262,7 +10587,7 @@
         "agentic",
         "ai agent"
       ],
-      "importance_score": 59,
+      "importance_score": 61,
       "importance_label": "주목",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
@@ -10355,7 +10680,7 @@
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 58,
+      "importance_score": 60,
       "importance_label": "주목",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
@@ -10389,7 +10714,7 @@
         "agentic",
         "ai agent"
       ],
-      "importance_score": 60,
+      "importance_score": 62,
       "importance_label": "주목",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
@@ -10421,7 +10746,7 @@
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 58,
+      "importance_score": 60,
       "importance_label": "주목",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
@@ -10581,7 +10906,7 @@
         "robotic",
         "manipulation"
       ],
-      "importance_score": 77,
+      "importance_score": 76,
       "importance_label": "높음",
       "importance_reason": "급상승 주제 · 주요 연구 채널"
     },
@@ -10615,7 +10940,7 @@
         "agentic",
         "ai agent"
       ],
-      "importance_score": 60,
+      "importance_score": 62,
       "importance_label": "주목",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
@@ -10676,7 +11001,7 @@
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 59,
+      "importance_score": 61,
       "importance_label": "주목",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
@@ -10737,343 +11062,9 @@
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 58,
-      "importance_label": "주목",
-      "importance_reason": "주제 모멘텀 · 주요 연구 채널"
-    },
-    {
-      "external_id": "rss:nvidia-technical-blog:5d228c35c4603b3373782728",
-      "type": "news",
-      "source": "NVIDIA Technical Blog",
-      "title": "Post-Train NVIDIA Cosmos 3 Edge for On-Device Robot Control",
-      "summary": "Robots need policies that can adapt to their sensors, environments, and tasks while running on onboard computing hardware. World models offer a foundation for...",
-      "summary_ko": "NVIDIA Technical Blog가 공개한 소식으로, 로보틱스·의사결정 AI 분야의 로보틱스·조작 변화에 초점을 둡니다. 환경을 인식하고 행동을 계획·제어하는 로봇 지능의 성능을 다룹니다.",
-      "motivation_ko": "시뮬레이션과 실제 환경의 차이, 장기 행동 계획의 오차 때문에 로봇 정책을 현실에 안정적으로 적용하기 어렵습니다.",
-      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 로보틱스·조작의 성능과 실제 적용 가능성입니다.",
-      "url": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-edge-for-on-device-robot-control/",
-      "published_at": "2026-08-20T18:15:24+00:00",
-      "date_label": "2026.08.20",
-      "authors": [
-        "Michelle Horton"
-      ],
-      "keywords": [
-        "Embodied & Decision AI",
-        "Robotics & Manipulation",
-        "robot",
-        "robotic"
-      ],
-      "primary_topic": "Embodied & Decision AI",
-      "secondary_topic": "Robotics & Manipulation",
-      "primary_topic_ko": "로보틱스·의사결정 AI",
-      "secondary_topic_ko": "로보틱스·조작",
-      "classification_confidence": 0.792,
-      "matched_terms": [
-        "robot",
-        "robotic"
-      ],
-      "importance_score": 76,
-      "importance_label": "높음",
-      "importance_reason": "급상승 주제 · 주요 연구 채널"
-    },
-    {
-      "external_id": "rss:nvidia-technical-blog:026c45ae51936df317c028f8",
-      "type": "news",
-      "source": "NVIDIA Technical Blog",
-      "title": "Building Federated Multimodal AI Workflows with NVIDIA FLARE",
-      "summary": "Modern vision-language models (VLMs) can support tasks such as visual question answering, captioning, and image-text reasoning. In practice, however, the data...",
-      "summary_ko": "NVIDIA Technical Blog가 공개한 소식으로, 파운데이션 모델 분야의 멀티모달 파운데이션 모델 변화에 초점을 둡니다. 텍스트와 이미지 등 여러 입력을 함께 이해하고 연결하는 방법을 다룹니다.",
-      "motivation_ko": "텍스트·이미지·음성 간 표현을 정확히 정렬하고 서로 다른 입력을 근거 있게 결합하는 일이 여전히 어렵습니다.",
-      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 멀티모달 파운데이션 모델의 성능과 실제 적용 가능성입니다.",
-      "url": "https://developer.nvidia.com/blog/building-federated-multimodal-ai-workflows-with-nvidia-flare/",
-      "published_at": "2026-08-20T18:15:23+00:00",
-      "date_label": "2026.08.20",
-      "authors": [
-        "Tanya Lenz"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Multimodal Foundation Models",
-        "multimodal",
-        "vision-language"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Multimodal Foundation Models",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "멀티모달 파운데이션 모델",
-      "classification_confidence": 0.834,
-      "matched_terms": [
-        "multimodal",
-        "vision-language",
-        "vlm"
-      ],
-      "importance_score": 56,
-      "importance_label": "주목",
-      "importance_reason": "주제 모멘텀 · 주요 연구 채널"
-    },
-    {
-      "external_id": "rss:nvidia-technical-blog:8e2dd652a3a53547e7dea843",
-      "type": "news",
-      "source": "NVIDIA Technical Blog",
-      "title": "Evaluating AI Agent Skill Performance with NVIDIA SkillEvaluator",
-      "summary": "AI agents are only as effective as the context they receive. Even with capable models and well-documented NVIDIA libraries, agents can spend extra steps finding...",
-      "summary_ko": "NVIDIA Technical Blog가 공개한 소식으로, 파운데이션 모델 분야의 에이전트·도구 사용 변화에 초점을 둡니다. 에이전트의 계획, 도구 선택과 실행 과정의 정확성·안정성을 살펴봅니다.",
-      "motivation_ko": "에이전트가 계획을 세우고 외부 도구를 호출하는 과정에서 선택 오류가 연쇄적으로 커지고 장기 작업의 안정성이 떨어질 수 있습니다.",
-      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 에이전트·도구 사용의 성능과 실제 적용 가능성입니다.",
-      "url": "https://developer.nvidia.com/blog/evaluating-ai-agent-skill-performance-with-nvidia-skillevaluator/",
-      "published_at": "2026-08-20T18:15:23+00:00",
-      "date_label": "2026.08.20",
-      "authors": [
-        "Michelle Horton"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Agents & Tool Use",
-        "agentic",
-        "ai agent"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Agents & Tool Use",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "에이전트·도구 사용",
-      "classification_confidence": 0.792,
-      "matched_terms": [
-        "agentic",
-        "ai agent"
-      ],
       "importance_score": 60,
       "importance_label": "주목",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
-    },
-    {
-      "external_id": "rss:nvidia-technical-blog:875a256198fcdb40c2e61872",
-      "type": "news",
-      "source": "NVIDIA Technical Blog",
-      "title": "Developing NVIDIA Holoscan Applications with CLI, Skills, and AI Coding Agents",
-      "summary": "NVIDIA Holoscan is a platform for building real-time AI applications at the edge, from medical imaging to robotics. HoloHub is its companion repository: a...",
-      "summary_ko": "NVIDIA Technical Blog가 공개한 소식으로, 로보틱스·의사결정 AI 분야의 로보틱스·조작 변화에 초점을 둡니다. 에이전트의 계획, 도구 선택과 실행 과정의 정확성·안정성을 살펴봅니다.",
-      "motivation_ko": "시뮬레이션과 실제 환경의 차이, 장기 행동 계획의 오차 때문에 로봇 정책을 현실에 안정적으로 적용하기 어렵습니다.",
-      "contribution_ko": "여러 구성 요소를 연결한 시스템 또는 파이프라인을 구현해 실제 사용과 반복 실험이 가능한 형태로 제시합니다. 핵심 검증 대상은 로보틱스·조작의 성능과 실제 적용 가능성입니다.",
-      "url": "https://developer.nvidia.com/blog/developing-nvidia-holoscan-applications-with-cli-skills-and-ai-coding-agents/",
-      "published_at": "2026-08-20T18:15:22+00:00",
-      "date_label": "2026.08.20",
-      "authors": [
-        "Elizabeth Goodman"
-      ],
-      "keywords": [
-        "Embodied & Decision AI",
-        "Robotics & Manipulation",
-        "robot",
-        "robotic"
-      ],
-      "primary_topic": "Embodied & Decision AI",
-      "secondary_topic": "Robotics & Manipulation",
-      "primary_topic_ko": "로보틱스·의사결정 AI",
-      "secondary_topic_ko": "로보틱스·조작",
-      "classification_confidence": 0.674,
-      "matched_terms": [
-        "robot",
-        "robotic"
-      ],
-      "importance_score": 75,
-      "importance_label": "높음",
-      "importance_reason": "급상승 주제 · 주요 연구 채널"
-    },
-    {
-      "external_id": "rss:hugging-face:eab5285cfdebeb65a8ef35d4",
-      "type": "news",
-      "source": "Hugging Face",
-      "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
-      "summary": "",
-      "summary_ko": "Hugging Face가 공개한 소식으로, 미분류 분야의 분류 검토 필요 변화에 초점을 둡니다. 학습·추론 비용을 낮추면서 성능을 유지하거나 높이는 방법을 제안합니다.",
-      "motivation_ko": "새 연구 결과나 시스템이 기존 접근법의 어떤 한계를 해결하며 실제 적용에 어떤 변화를 만드는지 확인할 필요가 있습니다.",
-      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 제안된 접근법의 성능과 실제 적용 가능성입니다.",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
-      "published_at": "2026-08-20T16:52:57+00:00",
-      "date_label": "2026.08.20",
-      "authors": [],
-      "keywords": [
-        "Unclassified",
-        "Needs Review"
-      ],
-      "primary_topic": "Unclassified",
-      "secondary_topic": "Needs Review",
-      "primary_topic_ko": "미분류",
-      "secondary_topic_ko": "분류 검토 필요",
-      "classification_confidence": 0.18,
-      "matched_terms": [],
-      "importance_score": 34,
-      "importance_label": "일반",
-      "importance_reason": "일반 연구 신호"
-    },
-    {
-      "external_id": "rss:microsoft-research:90102f3ba8073ad9c5a3b76e",
-      "type": "news",
-      "source": "Microsoft Research",
-      "title": "Broadening access to Skala creates a faster path to predictive DFT",
-      "summary": "Skala 1.1, the updated deep-learning exchange-correlation functional from Microsoft Research, provides greater accuracy, expanded accessibility across the computational chemistry ecosystem, and a living benchmark to track computational performance. The post Broadening access to Skala creates a faster path to predictive DFT appeared first on Microsoft Research .",
-      "summary_ko": "Microsoft Research가 공개한 소식으로, AI 시스템·평가 분야의 평가·벤치마크 변화에 초점을 둡니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "기존 지표가 실제 사용 능력과 실패 유형을 충분히 반영하지 못해 모델 간 공정한 비교가 어렵습니다.",
-      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 핵심 검증 대상은 평가·벤치마크의 성능과 실제 적용 가능성입니다.",
-      "url": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/",
-      "published_at": "2026-08-20T16:00:00+00:00",
-      "date_label": "2026.08.20",
-      "authors": [
-        "Sebastian Ehlert, Stefano Battaglia, Thijs Vogels, Jan Hermann, Jens Wehner, Giulia Luise, Klaas Giesbertz, Chin-Wei Huang, Aaron Kaplan, Kate Milton, Stephanie Marisa Lanius, Derk Kooi, P. Bernát Szabó, Gregor Simm, Rianne van den Berg, Paola Gori Giorgi"
-      ],
-      "keywords": [
-        "AI Systems & Evaluation",
-        "Evaluation & Benchmarks",
-        "benchmark"
-      ],
-      "primary_topic": "AI Systems & Evaluation",
-      "secondary_topic": "Evaluation & Benchmarks",
-      "primary_topic_ko": "AI 시스템·평가",
-      "secondary_topic_ko": "평가·벤치마크",
-      "classification_confidence": 0.58,
-      "matched_terms": [
-        "benchmark"
-      ],
-      "importance_score": 75,
-      "importance_label": "높음",
-      "importance_reason": "급상승 주제 · 주요 연구 채널"
-    },
-    {
-      "external_id": "rss:openai-news:68bd2e32c09542cb22fc0e9c",
-      "type": "news",
-      "source": "OpenAI News",
-      "title": "Introducing Intelligence Age",
-      "summary": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
-      "summary_ko": "OpenAI News가 공개한 소식으로, 미분류 분야의 분류 검토 필요 변화에 초점을 둡니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
-      "motivation_ko": "새 연구 결과나 시스템이 기존 접근법의 어떤 한계를 해결하며 실제 적용에 어떤 변화를 만드는지 확인할 필요가 있습니다.",
-      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 제안된 접근법의 성능과 실제 적용 가능성입니다.",
-      "url": "https://openai.com/index/introducing-intelligence-age",
-      "published_at": "2026-08-20T07:00:00+00:00",
-      "date_label": "2026.08.20",
-      "authors": [],
-      "keywords": [
-        "Unclassified",
-        "Needs Review"
-      ],
-      "primary_topic": "Unclassified",
-      "secondary_topic": "Needs Review",
-      "primary_topic_ko": "미분류",
-      "secondary_topic_ko": "분류 검토 필요",
-      "classification_confidence": 0.18,
-      "matched_terms": [],
-      "importance_score": 38,
-      "importance_label": "일반",
-      "importance_reason": "주요 연구 채널"
-    },
-    {
-      "external_id": "rss:openai-news:ad89fb510e3c78c26282cfd4",
-      "type": "news",
-      "source": "OpenAI News",
-      "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
-      "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
-      "summary_ko": "OpenAI News가 공개한 소식으로, 미분류 분야의 분류 검토 필요 변화에 초점을 둡니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
-      "motivation_ko": "새 연구 결과나 시스템이 기존 접근법의 어떤 한계를 해결하며 실제 적용에 어떤 변화를 만드는지 확인할 필요가 있습니다.",
-      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 제안된 접근법의 성능과 실제 적용 가능성입니다.",
-      "url": "https://openai.com/index/stampli",
-      "published_at": "2026-08-20T00:00:00+00:00",
-      "date_label": "2026.08.20",
-      "authors": [],
-      "keywords": [
-        "Unclassified",
-        "Needs Review"
-      ],
-      "primary_topic": "Unclassified",
-      "secondary_topic": "Needs Review",
-      "primary_topic_ko": "미분류",
-      "secondary_topic_ko": "분류 검토 필요",
-      "classification_confidence": 0.18,
-      "matched_terms": [],
-      "importance_score": 38,
-      "importance_label": "일반",
-      "importance_reason": "주요 연구 채널"
-    },
-    {
-      "external_id": "rss:openai-news:df8f12302a5b421ac18657dd",
-      "type": "news",
-      "source": "OpenAI News",
-      "title": "Offering Zero Data Retention for frontier models",
-      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
-      "summary_ko": "OpenAI News가 공개한 소식으로, 신뢰할 수 있는 AI 분야의 안전·정렬 변화에 초점을 둡니다. 모델의 안전성, 신뢰성 및 예상하지 못한 입력에 대한 대응을 분석합니다.",
-      "motivation_ko": "모델의 의도하지 않은 행동과 우회 공격을 줄이면서 유용성을 유지할 수 있는 검증 방법이 필요합니다.",
-      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 특히 안전성·강건성·신뢰성 측면의 실패를 줄이는 데 기여합니다.",
-      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "published_at": "2026-08-19T19:00:00+00:00",
-      "date_label": "2026.08.19",
-      "authors": [],
-      "keywords": [
-        "Trustworthy AI",
-        "Safety & Alignment",
-        "ai safety"
-      ],
-      "primary_topic": "Trustworthy AI",
-      "secondary_topic": "Safety & Alignment",
-      "primary_topic_ko": "신뢰할 수 있는 AI",
-      "secondary_topic_ko": "안전·정렬",
-      "classification_confidence": 0.58,
-      "matched_terms": [
-        "ai safety"
-      ],
-      "importance_score": 42,
-      "importance_label": "일반",
-      "importance_reason": "주요 연구 채널"
-    },
-    {
-      "external_id": "rss:openai-news:2f00013902a29bc1e23dd248",
-      "type": "news",
-      "source": "OpenAI News",
-      "title": "Replit expands access to software creation with GPT-5.6 Luna",
-      "summary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
-      "summary_ko": "OpenAI News가 공개한 소식으로, 미분류 분야의 분류 검토 필요 변화에 초점을 둡니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
-      "motivation_ko": "새 연구 결과나 시스템이 기존 접근법의 어떤 한계를 해결하며 실제 적용에 어떤 변화를 만드는지 확인할 필요가 있습니다.",
-      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 제안된 접근법의 성능과 실제 적용 가능성입니다.",
-      "url": "https://openai.com/index/replit",
-      "published_at": "2026-08-19T07:00:00+00:00",
-      "date_label": "2026.08.19",
-      "authors": [],
-      "keywords": [
-        "Unclassified",
-        "Needs Review"
-      ],
-      "primary_topic": "Unclassified",
-      "secondary_topic": "Needs Review",
-      "primary_topic_ko": "미분류",
-      "secondary_topic_ko": "분류 검토 필요",
-      "classification_confidence": 0.18,
-      "matched_terms": [],
-      "importance_score": 38,
-      "importance_label": "일반",
-      "importance_reason": "주요 연구 채널"
-    },
-    {
-      "external_id": "rss:openai-news:8393c843a171d72369b2dfab",
-      "type": "news",
-      "source": "OpenAI News",
-      "title": "ChatGPT Ads expands across Europe",
-      "summary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
-      "summary_ko": "OpenAI News가 공개한 소식으로, 미분류 분야의 분류 검토 필요 변화에 초점을 둡니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "새 연구 결과나 시스템이 기존 접근법의 어떤 한계를 해결하며 실제 적용에 어떤 변화를 만드는지 확인할 필요가 있습니다.",
-      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 제안된 접근법의 성능과 실제 적용 가능성입니다.",
-      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "published_at": "2026-08-18T22:00:00+00:00",
-      "date_label": "2026.08.18",
-      "authors": [],
-      "keywords": [
-        "Unclassified",
-        "Needs Review"
-      ],
-      "primary_topic": "Unclassified",
-      "secondary_topic": "Needs Review",
-      "primary_topic_ko": "미분류",
-      "secondary_topic_ko": "분류 검토 필요",
-      "classification_confidence": 0.18,
-      "matched_terms": [],
-      "importance_score": 38,
-      "importance_label": "일반",
-      "importance_reason": "주요 연구 채널"
     }
   ],
   "conferences": [
