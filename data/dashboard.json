@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-26T22:40:32+00:00",
+  "generated_at": "2026-09-27T22:41:40+00:00",
   "metrics": {
-    "today": 1,
+    "today": 0,
     "papers": 130,
     "news": 421,
     "conferences": 12
@@ -114,12 +114,6 @@
       "classified_percent": 56
     },
     "daily_volume": [
-      {
-        "day": "2026-08-30",
-        "count": 0,
-        "papers": 0,
-        "news": 0
-      },
       {
         "day": "2026-08-31",
         "count": 8,
@@ -281,6 +275,12 @@
         "count": 1,
         "papers": 0,
         "news": 1
+      },
+      {
+        "day": "2026-09-27",
+        "count": 0,
+        "papers": 0,
+        "news": 0
       }
     ],
     "types": [
@@ -1198,9 +1198,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 53,
-      "importance_label": "주목",
-      "importance_reason": "24시간 내 · 주요 연구 채널"
+      "importance_score": 49,
+      "importance_label": "일반",
+      "importance_reason": "최신 자료 · 주요 연구 채널"
     },
     {
       "external_id": "rss:neurips-blog:ddccbaa220f2f1646ca3b770",
@@ -1227,9 +1227,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 49,
+      "importance_score": 45,
       "importance_label": "일반",
-      "importance_reason": "24시간 내"
+      "importance_reason": "최신 자료"
     },
     {
       "external_id": "rss:google-deepmind:34692efacd3b982a5758af6c",
@@ -1316,9 +1316,9 @@
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 87,
+      "importance_score": 84,
       "importance_label": "핵심",
-      "importance_reason": "급상승 주제 · 최신 자료"
+      "importance_reason": "급상승 주제 · 주요 연구 채널"
     },
     {
       "external_id": "rss:nvidia-technical-blog:d94b389a2f96d9bbb294719a",
@@ -1348,9 +1348,9 @@
       "matched_terms": [
         "language model"
       ],
-      "importance_score": 79,
+      "importance_score": 76,
       "importance_label": "높음",
-      "importance_reason": "급상승 주제 · 최신 자료"
+      "importance_reason": "급상승 주제 · 주요 연구 채널"
     },
     {
       "external_id": "rss:nvidia-technical-blog:31cb65780954773fe0ded496",
@@ -1380,9 +1380,9 @@
       "matched_terms": [
         "gpu cluster"
       ],
-      "importance_score": 70,
+      "importance_score": 67,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 최신 자료"
+      "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
     {
       "external_id": "rss:hugging-face:30aa7c0acfe7f3809f1c0c2e",
@@ -1412,9 +1412,9 @@
         "robot",
         "robotic"
       ],
-      "importance_score": 63,
+      "importance_score": 60,
       "importance_label": "주목",
-      "importance_reason": "주제 모멘텀 · 최신 자료"
+      "importance_reason": "주제 모멘텀"
     },
     {
       "external_id": "rss:nvidia-technical-blog:87d0de37464be55f33d199ee",
@@ -1441,9 +1441,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 49,
+      "importance_score": 46,
       "importance_label": "일반",
-      "importance_reason": "최신 자료 · 주요 연구 채널"
+      "importance_reason": "주요 연구 채널"
     },
     {
       "external_id": "rss:nvidia-technical-blog:414469594f15a132e944f6b7",
@@ -1475,9 +1475,9 @@
         "language model",
         "large language model"
       ],
-      "importance_score": 80,
-      "importance_label": "핵심",
-      "importance_reason": "급상승 주제 · 최신 자료"
+      "importance_score": 77,
+      "importance_label": "높음",
+      "importance_reason": "급상승 주제 · 주요 연구 채널"
     },
     {
       "external_id": "rss:nvidia-technical-blog:0a65e7be039d0fbfaafe14d7",
@@ -1509,9 +1509,9 @@
         "agentic",
         "ai agent"
       ],
-      "importance_score": 88,
+      "importance_score": 85,
       "importance_label": "핵심",
-      "importance_reason": "급상승 주제 · 최신 자료"
+      "importance_reason": "급상승 주제 · 주요 연구 채널"
     },
     {
       "external_id": "rss:microsoft-research:e31a5a297f20c03e071565e0",
@@ -1543,9 +1543,9 @@
         "robot",
         "robotic"
       ],
-      "importance_score": 67,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 최신 자료"
+      "importance_score": 64,
+      "importance_label": "주목",
+      "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
     {
       "external_id": "rss:google-deepmind:68ead6b6af2b71441cd0f5e7",
@@ -1570,9 +1570,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 49,
+      "importance_score": 46,
       "importance_label": "일반",
-      "importance_reason": "최신 자료 · 주요 연구 채널"
+      "importance_reason": "주요 연구 채널"
     },
     {
       "external_id": "rss:openai-news:52e46e8371e1f69996c0f8fd",
@@ -1597,9 +1597,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 49,
+      "importance_score": 46,
       "importance_label": "일반",
-      "importance_reason": "최신 자료 · 주요 연구 채널"
+      "importance_reason": "주요 연구 채널"
     },
     {
       "external_id": "rss:google-deepmind:81481aa316e38773fdfe4ad8",
@@ -1624,9 +1624,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 49,
+      "importance_score": 46,
       "importance_label": "일반",
-      "importance_reason": "최신 자료 · 주요 연구 채널"
+      "importance_reason": "주요 연구 채널"
     },
     {
       "external_id": "rss:openai-news:9328fa400dd37e6b9e773781",
@@ -1651,9 +1651,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 49,
+      "importance_score": 46,
       "importance_label": "일반",
-      "importance_reason": "최신 자료 · 주요 연구 채널"
+      "importance_reason": "주요 연구 채널"
     },
     {
       "external_id": "rss:openai-news:347b65ce144a221e189c1995",
@@ -1681,9 +1681,9 @@
       "matched_terms": [
         "ai safety"
       ],
-      "importance_score": 74,
+      "importance_score": 71,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 최신 자료"
+      "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
     {
       "external_id": "rss:openai-news:52b80abd4e046c041ffbe2a4",
@@ -1708,9 +1708,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 49,
+      "importance_score": 46,
       "importance_label": "일반",
-      "importance_reason": "최신 자료 · 주요 연구 채널"
+      "importance_reason": "주요 연구 채널"
     },
     {
       "external_id": "rss:openai-news:f2ff7f76056120414cf01f1b",
@@ -1735,9 +1735,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 49,
+      "importance_score": 46,
       "importance_label": "일반",
-      "importance_reason": "최신 자료 · 주요 연구 채널"
+      "importance_reason": "주요 연구 채널"
     },
     {
       "external_id": "rss:openai-news:4e56c7312349a760a0edf744",
@@ -1765,9 +1765,9 @@
       "matched_terms": [
         "ai agent"
       ],
-      "importance_score": 88,
+      "importance_score": 85,
       "importance_label": "핵심",
-      "importance_reason": "급상승 주제 · 최신 자료"
+      "importance_reason": "급상승 주제 · 주요 연구 채널"
     },
     {
       "external_id": "rss:openai-news:3d7b9aab56c8f4fe22c00cc0",
@@ -1795,9 +1795,9 @@
       "matched_terms": [
         "benchmark"
       ],
-      "importance_score": 69,
+      "importance_score": 66,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 최신 자료"
+      "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
     {
       "external_id": "rss:openai-news:bb71e409dd7f29f762c233b6",
@@ -1822,9 +1822,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 49,
+      "importance_score": 46,
       "importance_label": "일반",
-      "importance_reason": "최신 자료 · 주요 연구 채널"
+      "importance_reason": "주요 연구 채널"
     },
     {
       "external_id": "rss:openai-news:0765deb144589280c16b6c38",
@@ -1849,9 +1849,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 49,
+      "importance_score": 46,
       "importance_label": "일반",
-      "importance_reason": "최신 자료 · 주요 연구 채널"
+      "importance_reason": "주요 연구 채널"
     },
     {
       "external_id": "rss:openai-news:5ab590850491008e2cefeb69",
@@ -1876,9 +1876,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 49,
+      "importance_score": 46,
       "importance_label": "일반",
-      "importance_reason": "최신 자료 · 주요 연구 채널"
+      "importance_reason": "주요 연구 채널"
     },
     {
       "external_id": "rss:openai-news:f9027d80e820682e90d7e8a7",
@@ -10317,8 +10317,8 @@
       "matched_terms": [
         "ai agent"
       ],
-      "importance_score": 80,
-      "importance_label": "핵심",
+      "importance_score": 76,
+      "importance_label": "높음",
       "importance_reason": "급상승 주제 · 주요 연구 채널"
     },
     {
@@ -10351,8 +10351,8 @@
         "agentic",
         "ai agent"
       ],
-      "importance_score": 81,
-      "importance_label": "핵심",
+      "importance_score": 77,
+      "importance_label": "높음",
       "importance_reason": "급상승 주제 · 주요 연구 채널"
     },
     {
@@ -10380,7 +10380,7 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 38,
+      "importance_score": 34,
       "importance_label": "일반",
       "importance_reason": "일반 연구 신호"
     },
@@ -10407,7 +10407,7 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 42,
+      "importance_score": 38,
       "importance_label": "일반",
       "importance_reason": "주요 연구 채널"
     },
@@ -10437,7 +10437,7 @@
       "matched_terms": [
         "evaluation"
       ],
-      "importance_score": 63,
+      "importance_score": 59,
       "importance_label": "주목",
       "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
@@ -10464,7 +10464,7 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 42,
+      "importance_score": 38,
       "importance_label": "일반",
       "importance_reason": "주요 연구 채널"
     },
@@ -10491,7 +10491,7 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 42,
+      "importance_score": 38,
       "importance_label": "일반",
       "importance_reason": "주요 연구 채널"
     },
