@@ -1,15 +1,15 @@
 window.RESEARCH_DATA = {
-  "generated_at": "2026-10-06T22:45:49+00:00",
+  "generated_at": "2026-10-07T22:44:36+00:00",
   "metrics": {
-    "today": 8,
-    "papers": 690,
-    "news": 474,
+    "today": 10,
+    "papers": 770,
+    "news": 485,
     "conferences": 12
   },
   "briefing": [
     {
-      "title": "Language Models, 최근 신호 73건",
-      "summary": "3개 출처에서 관련 흐름이 포착됐습니다. 대표 자료: Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+      "title": "Language Models, 최근 신호 70건",
+      "summary": "3개 출처에서 관련 흐름이 포착됐습니다. 대표 자료: IdeaAnchor: Teaching LLMs to Turn Literature into Research Ideas",
       "tags": [
         "FOUNDATION MODELS",
         "LANGUAGE MODELS"
@@ -17,26 +17,26 @@ window.RESEARCH_DATA = {
     },
     {
       "title": "Agents & Tool Use, 최근 신호 36건",
-      "summary": "3개 출처에서 관련 흐름이 포착됐습니다. 대표 자료: Advancing computer use with Ironclad",
+      "summary": "4개 출처에서 관련 흐름이 포착됐습니다. 대표 자료: Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
       "tags": [
         "FOUNDATION MODELS",
         "AGENTS & TOOL USE"
       ]
     },
     {
-      "title": "General Machine Learning, 최근 신호 39건",
-      "summary": "3개 출처에서 관련 흐름이 포착됐습니다. 대표 자료: Deep Learning for Sleep Heart Rate Estimation from Accelerometers: Toward Population-Scale Cardiac Insight Without Optical Sensors",
-      "tags": [
-        "LEARNING & THEORY",
-        "GENERAL MACHINE LEARNING"
-      ]
-    },
-    {
-      "title": "Evaluation & Benchmarks, 최근 신호 41건",
-      "summary": "2개 출처에서 관련 흐름이 포착됐습니다. 대표 자료: Direct Intermediate Initialization for Tilted Diffusion Samplers",
+      "title": "Evaluation & Benchmarks, 최근 신호 44건",
+      "summary": "1개 출처에서 관련 흐름이 포착됐습니다. 대표 자료: Linear Bandits under Exact Sliding-Window Constraints",
       "tags": [
         "AI SYSTEMS & EVALUATION",
         "EVALUATION & BENCHMARKS"
+      ]
+    },
+    {
+      "title": "General Machine Learning, 최근 신호 37건",
+      "summary": "2개 출처에서 관련 흐름이 포착됐습니다. 대표 자료: Scaling Decision Optimization to 100 Million Variables and Beyond with mPDLP in NVIDIA cuOpt",
+      "tags": [
+        "LEARNING & THEORY",
+        "GENERAL MACHINE LEARNING"
       ]
     }
   ],
@@ -46,80 +46,74 @@ window.RESEARCH_DATA = {
       "secondary": "Language Models",
       "label": "Language Models",
       "score": 100,
-      "delta": "↑ 2.7×",
-      "count": 73
+      "delta": "↑ 2.1×",
+      "count": 70
     },
     {
       "primary": "Foundation Models",
       "secondary": "Agents & Tool Use",
       "label": "Agents & Tool Use",
-      "score": 65,
-      "delta": "↑ 3.6×",
+      "score": 71,
+      "delta": "↑ 3.1×",
       "count": 36
-    },
-    {
-      "primary": "Learning & Theory",
-      "secondary": "General Machine Learning",
-      "label": "General Machine Learning",
-      "score": 62,
-      "delta": "↑ 2.7×",
-      "count": 39
     },
     {
       "primary": "AI Systems & Evaluation",
       "secondary": "Evaluation & Benchmarks",
       "label": "Evaluation & Benchmarks",
-      "score": 60,
-      "delta": "↑ 2.3×",
-      "count": 41
+      "score": 70,
+      "delta": "↑ 2.1×",
+      "count": 44
+    },
+    {
+      "primary": "Learning & Theory",
+      "secondary": "General Machine Learning",
+      "label": "General Machine Learning",
+      "score": 63,
+      "delta": "↑ 2.2×",
+      "count": 37
     },
     {
       "primary": "Foundation Models",
       "secondary": "Reasoning & Inference",
       "label": "Reasoning & Inference",
-      "score": 49,
-      "delta": "↑ 3.6×",
-      "count": 24
+      "score": 50,
+      "delta": "↑ 2.9×",
+      "count": 23
     },
     {
       "primary": "Embodied & Decision AI",
       "secondary": "Robotics & Manipulation",
       "label": "Robotics & Manipulation",
-      "score": 44,
-      "delta": "↗ 1.8×",
+      "score": 45,
+      "delta": "↗ 1.4×",
       "count": 30
+    },
+    {
+      "primary": "Vision & Generative Media",
+      "secondary": "Image Generation",
+      "label": "Image Generation",
+      "score": 41,
+      "delta": "↑ 3.4×",
+      "count": 15
     },
     {
       "primary": "Embodied & Decision AI",
       "secondary": "Reinforcement Learning",
       "label": "Reinforcement Learning",
-      "score": 36,
-      "delta": "↑ 4.9×",
-      "count": 12
-    },
-    {
-      "primary": "Embodied & Decision AI",
-      "secondary": "World Models",
-      "label": "World Models",
-      "score": 32,
-      "delta": "↑ 5.0×",
-      "count": 9
+      "score": 35,
+      "delta": "↑ 3.3×",
+      "count": 11
     }
   ],
   "statistics": {
     "kpis": {
-      "archived_items": 1164,
-      "active_sources": 20,
-      "unique_authors": 3720,
-      "classified_percent": 76
+      "archived_items": 1255,
+      "active_sources": 22,
+      "unique_authors": 4061,
+      "classified_percent": 78
     },
     "daily_volume": [
-      {
-        "day": "2026-09-09",
-        "count": 6,
-        "papers": 0,
-        "news": 6
-      },
       {
         "day": "2026-09-10",
         "count": 10,
@@ -248,9 +242,9 @@ window.RESEARCH_DATA = {
       },
       {
         "day": "2026-10-01",
-        "count": 114,
+        "count": 113,
         "papers": 80,
-        "news": 34
+        "news": 33
       },
       {
         "day": "2026-10-02",
@@ -272,43 +266,49 @@ window.RESEARCH_DATA = {
       },
       {
         "day": "2026-10-05",
-        "count": 84,
+        "count": 85,
         "papers": 80,
-        "news": 4
+        "news": 5
       },
       {
         "day": "2026-10-06",
-        "count": 8,
+        "count": 89,
+        "papers": 80,
+        "news": 9
+      },
+      {
+        "day": "2026-10-07",
+        "count": 10,
         "papers": 0,
-        "news": 8
+        "news": 10
       }
     ],
     "types": [
       {
         "type": "paper",
-        "count": 690
+        "count": 770
       },
       {
         "type": "news",
-        "count": 474
+        "count": 485
       }
     ],
     "sources": [
       {
         "source": "arXiv",
-        "count": 690
+        "count": 770
       },
       {
         "source": "OpenAI News",
-        "count": 125
+        "count": 129
       },
       {
         "source": "NVIDIA Technical Blog",
-        "count": 107
+        "count": 111
       },
       {
         "source": "Hugging Face",
-        "count": 97
+        "count": 99
       },
       {
         "source": "Google DeepMind",
@@ -316,7 +316,7 @@ window.RESEARCH_DATA = {
       },
       {
         "source": "Microsoft Research",
-        "count": 16
+        "count": 17
       },
       {
         "source": "NeurIPS Blog",
@@ -338,81 +338,81 @@ window.RESEARCH_DATA = {
     "taxonomy": [
       {
         "primary": "Foundation Models",
-        "count": 375,
+        "count": 405,
         "secondaries": [
           {
             "secondary": "Language Models",
-            "count": 168
+            "count": 184
           },
           {
             "secondary": "Agents & Tool Use",
-            "count": 115
+            "count": 120
           },
           {
             "secondary": "Reasoning & Inference",
-            "count": 49
+            "count": 53
           },
           {
             "secondary": "Multimodal Foundation Models",
-            "count": 39
+            "count": 43
           },
           {
             "secondary": "Retrieval & Memory",
-            "count": 4
-          }
-        ]
-      },
-      {
-        "primary": "Unclassified",
-        "count": 275,
-        "secondaries": [
-          {
-            "secondary": "Needs Review",
-            "count": 275
-          }
-        ]
-      },
-      {
-        "primary": "Embodied & Decision AI",
-        "count": 136,
-        "secondaries": [
-          {
-            "secondary": "Robotics & Manipulation",
-            "count": 100
-          },
-          {
-            "secondary": "Reinforcement Learning",
-            "count": 17
-          },
-          {
-            "secondary": "World Models",
-            "count": 14
-          },
-          {
-            "secondary": "Planning & Control",
             "count": 5
           }
         ]
       },
       {
+        "primary": "Unclassified",
+        "count": 281,
+        "secondaries": [
+          {
+            "secondary": "Needs Review",
+            "count": 281
+          }
+        ]
+      },
+      {
+        "primary": "Embodied & Decision AI",
+        "count": 155,
+        "secondaries": [
+          {
+            "secondary": "Robotics & Manipulation",
+            "count": 113
+          },
+          {
+            "secondary": "Reinforcement Learning",
+            "count": 19
+          },
+          {
+            "secondary": "World Models",
+            "count": 17
+          },
+          {
+            "secondary": "Planning & Control",
+            "count": 6
+          }
+        ]
+      },
+      {
         "primary": "AI Systems & Evaluation",
-        "count": 129,
+        "count": 143,
         "secondaries": [
           {
             "secondary": "Evaluation & Benchmarks",
-            "count": 100
+            "count": 112
           },
           {
             "secondary": "Optimization & Compression",
-            "count": 21
+            "count": 22
+          },
+          {
+            "secondary": "Data & Synthetic Data",
+            "count": 4
           },
           {
             "secondary": "Infrastructure & Hardware",
             "count": 4
-          },
-          {
-            "secondary": "Data & Synthetic Data",
-            "count": 3
           },
           {
             "secondary": "Efficient Training & Inference",
@@ -422,11 +422,11 @@ window.RESEARCH_DATA = {
       },
       {
         "primary": "Learning & Theory",
-        "count": 108,
+        "count": 114,
         "secondaries": [
           {
             "secondary": "General Machine Learning",
-            "count": 85
+            "count": 91
           },
           {
             "secondary": "Representation & Self-Supervision",
@@ -448,23 +448,23 @@ window.RESEARCH_DATA = {
       },
       {
         "primary": "Vision & Generative Media",
-        "count": 70,
+        "count": 80,
         "secondaries": [
           {
             "secondary": "Image Generation",
-            "count": 22
+            "count": 27
           },
           {
             "secondary": "Video Generation",
-            "count": 18
+            "count": 19
           },
           {
             "secondary": "Perception & Recognition",
-            "count": 15
+            "count": 18
           },
           {
             "secondary": "3D & Spatial",
-            "count": 14
+            "count": 15
           },
           {
             "secondary": "Vision-Language",
@@ -474,15 +474,15 @@ window.RESEARCH_DATA = {
       },
       {
         "primary": "Trustworthy AI",
-        "count": 44,
+        "count": 48,
         "secondaries": [
           {
             "secondary": "Safety & Alignment",
-            "count": 23
+            "count": 25
           },
           {
             "secondary": "Robustness & Security",
-            "count": 13
+            "count": 15
           },
           {
             "secondary": "Interpretability",
@@ -500,11 +500,11 @@ window.RESEARCH_DATA = {
       },
       {
         "primary": "Science & Applications",
-        "count": 27,
+        "count": 29,
         "secondaries": [
           {
             "secondary": "Biology & Healthcare",
-            "count": 14
+            "count": 15
           },
           {
             "secondary": "Climate & Earth",
@@ -516,7 +516,7 @@ window.RESEARCH_DATA = {
           },
           {
             "secondary": "Recommenders & Search",
-            "count": 2
+            "count": 3
           },
           {
             "secondary": "Math & Formal Methods",
@@ -538,7 +538,7 @@ window.RESEARCH_DATA = {
         124695,
         164861,
         198004,
-        192379
+        194527
       ],
       "series": [
         {
@@ -550,16 +550,16 @@ window.RESEARCH_DATA = {
             21741,
             33036,
             45098,
-            48313
+            48663
           ],
           "shares": [
             15.0,
             17.4,
             20.0,
             22.8,
-            25.1
+            25.0
           ],
-          "latest_count": 48313,
+          "latest_count": 48663,
           "delta_pp": 36.5,
           "direction": "증가",
           "source_url": "https://arxiv.org/list/cs.AI/2026"
@@ -573,16 +573,16 @@ window.RESEARCH_DATA = {
             32898,
             39819,
             46097,
-            43191
+            44141
           ],
           "shares": [
             29.0,
             26.4,
             24.2,
             23.3,
-            22.5
+            22.7
           ],
-          "latest_count": 43191,
+          "latest_count": 44141,
           "delta_pp": 15.8,
           "direction": "증가",
           "source_url": "https://arxiv.org/list/cs.LG/2026"
@@ -596,16 +596,16 @@ window.RESEARCH_DATA = {
             24403,
             30676,
             35025,
-            30307
+            30471
           ],
           "shares": [
             19.9,
             19.6,
             18.6,
             17.7,
-            15.8
+            15.7
           ],
-          "latest_count": 30307,
+          "latest_count": 30471,
           "delta_pp": 14.2,
           "direction": "증가",
           "source_url": "https://arxiv.org/list/cs.CV/2026"
@@ -619,7 +619,7 @@ window.RESEARCH_DATA = {
             13565,
             20654,
             23696,
-            22340
+            22485
           ],
           "shares": [
             9.1,
@@ -628,7 +628,7 @@ window.RESEARCH_DATA = {
             12.0,
             11.6
           ],
-          "latest_count": 22340,
+          "latest_count": 22485,
           "delta_pp": 14.7,
           "direction": "증가",
           "source_url": "https://arxiv.org/list/cs.CL/2026"
@@ -642,7 +642,7 @@ window.RESEARCH_DATA = {
             6737,
             8663,
             10564,
-            11853
+            11986
           ],
           "shares": [
             5.3,
@@ -651,7 +651,7 @@ window.RESEARCH_DATA = {
             5.3,
             6.2
           ],
-          "latest_count": 11853,
+          "latest_count": 11986,
           "delta_pp": 21.9,
           "direction": "증가",
           "source_url": "https://arxiv.org/list/cs.RO/2026"
@@ -665,7 +665,7 @@ window.RESEARCH_DATA = {
             5178,
             6547,
             7926,
-            8289
+            8363
           ],
           "shares": [
             4.5,
@@ -674,7 +674,7 @@ window.RESEARCH_DATA = {
             4.0,
             4.3
           ],
-          "latest_count": 8289,
+          "latest_count": 8363,
           "delta_pp": 21.1,
           "direction": "증가",
           "source_url": "https://arxiv.org/list/cs.CR/2026"
@@ -688,7 +688,7 @@ window.RESEARCH_DATA = {
             3698,
             5405,
             6517,
-            6097
+            6133
           ],
           "shares": [
             2.5,
@@ -697,7 +697,7 @@ window.RESEARCH_DATA = {
             3.3,
             3.2
           ],
-          "latest_count": 6097,
+          "latest_count": 6133,
           "delta_pp": 20.6,
           "direction": "증가",
           "source_url": "https://arxiv.org/list/cs.HC/2026"
@@ -711,7 +711,7 @@ window.RESEARCH_DATA = {
             5326,
             5901,
             6406,
-            5585
+            5738
           ],
           "shares": [
             5.0,
@@ -720,7 +720,7 @@ window.RESEARCH_DATA = {
             3.2,
             2.9
           ],
-          "latest_count": 5585,
+          "latest_count": 5738,
           "delta_pp": 8.6,
           "direction": "증가",
           "source_url": "https://arxiv.org/list/stat.ML/2026"
@@ -734,7 +734,7 @@ window.RESEARCH_DATA = {
             3045,
             4111,
             5064,
-            4575
+            4631
           ],
           "shares": [
             2.2,
@@ -743,7 +743,7 @@ window.RESEARCH_DATA = {
             2.6,
             2.4
           ],
-          "latest_count": 4575,
+          "latest_count": 4631,
           "delta_pp": 23.2,
           "direction": "증가",
           "source_url": "https://arxiv.org/list/cs.CY/2026"
@@ -757,7 +757,7 @@ window.RESEARCH_DATA = {
             2619,
             3621,
             4067,
-            4259
+            4286
           ],
           "shares": [
             2.2,
@@ -766,7 +766,7 @@ window.RESEARCH_DATA = {
             2.1,
             2.2
           ],
-          "latest_count": 4259,
+          "latest_count": 4286,
           "delta_pp": 12.3,
           "direction": "증가",
           "source_url": "https://arxiv.org/list/cs.IR/2026"
@@ -780,7 +780,7 @@ window.RESEARCH_DATA = {
             2745,
             3157,
             3486,
-            3051
+            3078
           ],
           "shares": [
             2.7,
@@ -789,7 +789,7 @@ window.RESEARCH_DATA = {
             1.8,
             1.6
           ],
-          "latest_count": 3051,
+          "latest_count": 3078,
           "delta_pp": 10.4,
           "direction": "증가",
           "source_url": "https://arxiv.org/list/cs.SD/2026"
@@ -803,7 +803,7 @@ window.RESEARCH_DATA = {
             1197,
             1398,
             2437,
-            3047
+            3072
           ],
           "shares": [
             1.1,
@@ -812,7 +812,7 @@ window.RESEARCH_DATA = {
             1.2,
             1.6
           ],
-          "latest_count": 3047,
+          "latest_count": 3072,
           "delta_pp": 74.3,
           "direction": "증가",
           "source_url": "https://arxiv.org/list/cs.MA/2026"
@@ -826,7 +826,7 @@ window.RESEARCH_DATA = {
             1543,
             1873,
             1621,
-            1472
+            1480
           ],
           "shares": [
             1.5,
@@ -835,7 +835,7 @@ window.RESEARCH_DATA = {
             0.8,
             0.8
           ],
-          "latest_count": 1472,
+          "latest_count": 1480,
           "delta_pp": -13.5,
           "direction": "감소",
           "source_url": "https://arxiv.org/list/cs.NE/2026"
@@ -860,7 +860,7 @@ window.RESEARCH_DATA = {
           "kind": "sparse",
           "label": "현재 논문 수가 적은 분야",
           "topic": "신경·진화 연산",
-          "value": "1,472편",
+          "value": "1,480편",
           "detail": "2026년 누적 · cs.NE"
         }
       ],
@@ -869,15 +869,15 @@ window.RESEARCH_DATA = {
       "note": "arXiv 공식 연도별 카테고리 등록 수입니다. 현재 연도는 연중 누적이며 교차 등록 논문은 카테고리 간 중복될 수 있습니다."
     },
     "detailed_topics": {
-      "total_papers": 690,
+      "total_papers": 770,
       "rows": [
         {
           "primary": "Foundation Models",
           "primary_label_ko": "파운데이션 모델",
           "secondary": "Language Models",
           "secondary_label_ko": "언어 모델",
-          "count": 146,
-          "share": 21.2,
+          "count": 162,
+          "share": 21.0,
           "confidence": 72,
           "status": "핵심축",
           "keywords": [
@@ -892,8 +892,8 @@ window.RESEARCH_DATA = {
           "primary_label_ko": "AI 시스템·평가",
           "secondary": "Evaluation & Benchmarks",
           "secondary_label_ko": "평가·벤치마크",
-          "count": 89,
-          "share": 12.9,
+          "count": 101,
+          "share": 13.1,
           "confidence": 67,
           "status": "핵심축",
           "keywords": [
@@ -908,9 +908,9 @@ window.RESEARCH_DATA = {
           "primary_label_ko": "로보틱스·의사결정 AI",
           "secondary": "Robotics & Manipulation",
           "secondary_label_ko": "로보틱스·조작",
-          "count": 78,
-          "share": 11.3,
-          "confidence": 74,
+          "count": 90,
+          "share": 11.7,
+          "confidence": 73,
           "status": "핵심축",
           "keywords": [
             "robot",
@@ -924,14 +924,14 @@ window.RESEARCH_DATA = {
           "primary_label_ko": "학습 방법·이론",
           "secondary": "General Machine Learning",
           "secondary_label_ko": "일반 머신러닝",
-          "count": 76,
-          "share": 11.0,
+          "count": 81,
+          "share": 10.5,
           "confidence": 53,
           "status": "핵심축",
           "keywords": [
             "optimization",
             "neural network",
-            "deep learning"
+            "machine learning"
           ],
           "interpretation": "새로운 데이터 분포에서도 성능이 유지되고 학습 결과를 재현할 수 있는 일반화가 핵심 과제입니다."
         },
@@ -940,8 +940,8 @@ window.RESEARCH_DATA = {
           "primary_label_ko": "파운데이션 모델",
           "secondary": "Agents & Tool Use",
           "secondary_label_ko": "에이전트·도구 사용",
-          "count": 40,
-          "share": 5.8,
+          "count": 43,
+          "share": 5.6,
           "confidence": 65,
           "status": "활성",
           "keywords": [
@@ -956,14 +956,14 @@ window.RESEARCH_DATA = {
           "primary_label_ko": "파운데이션 모델",
           "secondary": "Reasoning & Inference",
           "secondary_label_ko": "추론·인퍼런스",
-          "count": 38,
+          "count": 42,
           "share": 5.5,
           "confidence": 69,
           "status": "활성",
           "keywords": [
             "reasoning",
             "verifier",
-            "inference-time"
+            "chain-of-thought"
           ],
           "interpretation": "여러 단계의 추론에서는 작은 오류가 누적되며, 답이 맞더라도 추론 과정의 검증 가능성이 낮다는 한계가 있습니다."
         },
@@ -972,14 +972,14 @@ window.RESEARCH_DATA = {
           "primary_label_ko": "파운데이션 모델",
           "secondary": "Multimodal Foundation Models",
           "secondary_label_ko": "멀티모달 파운데이션 모델",
-          "count": 31,
-          "share": 4.5,
+          "count": 34,
+          "share": 4.4,
           "confidence": 72,
           "status": "활성",
           "keywords": [
-            "multimodal",
             "vlm",
-            "vision-language"
+            "vision-language",
+            "multimodal"
           ],
           "interpretation": "텍스트·이미지·음성 간 표현을 정확히 정렬하고 서로 다른 입력을 근거 있게 결합하는 일이 여전히 어렵습니다."
         },
@@ -988,55 +988,23 @@ window.RESEARCH_DATA = {
           "primary_label_ko": "비전·생성 미디어",
           "secondary": "Image Generation",
           "secondary_label_ko": "이미지 생성",
-          "count": 21,
-          "share": 3.0,
-          "confidence": 67,
+          "count": 26,
+          "share": 3.4,
+          "confidence": 66,
           "status": "핵심축",
           "keywords": [
-            "flow matching",
             "diffusion model",
+            "flow matching",
             "text-to-image"
           ],
           "interpretation": "생성 품질뿐 아니라 프롬프트 충실도, 세부 제어와 반복 생성의 일관성을 동시에 확보해야 합니다."
-        },
-        {
-          "primary": "AI Systems & Evaluation",
-          "primary_label_ko": "AI 시스템·평가",
-          "secondary": "Optimization & Compression",
-          "secondary_label_ko": "최적화·압축",
-          "count": 18,
-          "share": 2.6,
-          "confidence": 69,
-          "status": "니치",
-          "keywords": [
-            "distillation",
-            "quantization",
-            "pruning"
-          ],
-          "interpretation": "모델 크기와 비용을 줄이면 정확도와 강건성이 함께 저하될 수 있는 절충 문제가 있습니다."
-        },
-        {
-          "primary": "Vision & Generative Media",
-          "primary_label_ko": "비전·생성 미디어",
-          "secondary": "Video Generation",
-          "secondary_label_ko": "비디오 생성",
-          "count": 17,
-          "share": 2.5,
-          "confidence": 71,
-          "status": "니치",
-          "keywords": [
-            "video generation",
-            "video diffusion",
-            "image-to-video"
-          ],
-          "interpretation": "시간축의 움직임과 객체 일관성을 유지하면서도 고해상도 영상을 효율적으로 생성하기 어렵습니다."
         },
         {
           "primary": "Embodied & Decision AI",
           "primary_label_ko": "로보틱스·의사결정 AI",
           "secondary": "Reinforcement Learning",
           "secondary_label_ko": "강화학습",
-          "count": 17,
+          "count": 19,
           "share": 2.5,
           "confidence": 71,
           "status": "니치",
@@ -1048,60 +1016,61 @@ window.RESEARCH_DATA = {
           "interpretation": "희소하거나 잘못 설계된 보상 아래에서 표본 효율과 정책 안정성을 동시에 얻기 어렵습니다."
         },
         {
-          "primary": "Vision & Generative Media",
-          "primary_label_ko": "비전·생성 미디어",
-          "secondary": "3D & Spatial",
-          "secondary_label_ko": "3D·공간 지능",
-          "count": 14,
-          "share": 2.0,
+          "primary": "AI Systems & Evaluation",
+          "primary_label_ko": "AI 시스템·평가",
+          "secondary": "Optimization & Compression",
+          "secondary_label_ko": "최적화·압축",
+          "count": 19,
+          "share": 2.5,
           "confidence": 69,
           "status": "니치",
           "keywords": [
-            "gaussian splatting",
-            "3d reconstruction",
-            "3d generation"
+            "distillation",
+            "quantization",
+            "low-rank"
           ],
-          "interpretation": "제한된 관측만으로 3차원 구조와 공간 관계를 복원할 때 기하학적 오류와 일반화 문제가 발생합니다."
+          "interpretation": "모델 크기와 비용을 줄이면 정확도와 강건성이 함께 저하될 수 있는 절충 문제가 있습니다."
+        },
+        {
+          "primary": "Vision & Generative Media",
+          "primary_label_ko": "비전·생성 미디어",
+          "secondary": "Video Generation",
+          "secondary_label_ko": "비디오 생성",
+          "count": 18,
+          "share": 2.3,
+          "confidence": 71,
+          "status": "니치",
+          "keywords": [
+            "video generation",
+            "video diffusion",
+            "image-to-video"
+          ],
+          "interpretation": "시간축의 움직임과 객체 일관성을 유지하면서도 고해상도 영상을 효율적으로 생성하기 어렵습니다."
         },
         {
           "primary": "Vision & Generative Media",
           "primary_label_ko": "비전·생성 미디어",
           "secondary": "Perception & Recognition",
           "secondary_label_ko": "인지·인식",
-          "count": 14,
-          "share": 2.0,
+          "count": 17,
+          "share": 2.2,
           "confidence": 49,
           "status": "니치",
           "keywords": [
             "object detection",
             "computer vision",
-            "image segmentation"
+            "image classification"
           ],
           "interpretation": "실제 환경의 가림·노이즈·분포 변화에서도 객체와 장면을 안정적으로 인식해야 합니다."
-        },
-        {
-          "primary": "Trustworthy AI",
-          "primary_label_ko": "신뢰할 수 있는 AI",
-          "secondary": "Robustness & Security",
-          "secondary_label_ko": "강건성·보안",
-          "count": 13,
-          "share": 1.9,
-          "confidence": 64,
-          "status": "핵심축",
-          "keywords": [
-            "robustness",
-            "adversarial"
-          ],
-          "interpretation": "적대적 입력과 분포 변화, 프롬프트 주입 상황에서 성능과 보안이 급격히 저하될 수 있습니다."
         },
         {
           "primary": "Embodied & Decision AI",
           "primary_label_ko": "로보틱스·의사결정 AI",
           "secondary": "World Models",
           "secondary_label_ko": "월드 모델",
-          "count": 12,
-          "share": 1.7,
-          "confidence": 73,
+          "count": 15,
+          "share": 1.9,
+          "confidence": 74,
           "status": "니치",
           "keywords": [
             "world model",
@@ -1111,12 +1080,44 @@ window.RESEARCH_DATA = {
           "interpretation": "환경의 동역학을 압축해 예측하면서도 장기 롤아웃에서 누적 오차를 억제해야 합니다."
         },
         {
+          "primary": "Vision & Generative Media",
+          "primary_label_ko": "비전·생성 미디어",
+          "secondary": "3D & Spatial",
+          "secondary_label_ko": "3D·공간 지능",
+          "count": 15,
+          "share": 1.9,
+          "confidence": 70,
+          "status": "니치",
+          "keywords": [
+            "gaussian splatting",
+            "3d reconstruction",
+            "3d generation"
+          ],
+          "interpretation": "제한된 관측만으로 3차원 구조와 공간 관계를 복원할 때 기하학적 오류와 일반화 문제가 발생합니다."
+        },
+        {
+          "primary": "Trustworthy AI",
+          "primary_label_ko": "신뢰할 수 있는 AI",
+          "secondary": "Robustness & Security",
+          "secondary_label_ko": "강건성·보안",
+          "count": 15,
+          "share": 1.9,
+          "confidence": 64,
+          "status": "핵심축",
+          "keywords": [
+            "robustness",
+            "adversarial",
+            "prompt injection"
+          ],
+          "interpretation": "적대적 입력과 분포 변화, 프롬프트 주입 상황에서 성능과 보안이 급격히 저하될 수 있습니다."
+        },
+        {
           "primary": "Trustworthy AI",
           "primary_label_ko": "신뢰할 수 있는 AI",
           "secondary": "Safety & Alignment",
           "secondary_label_ko": "안전·정렬",
-          "count": 11,
-          "share": 1.6,
+          "count": 13,
+          "share": 1.7,
           "confidence": 64,
           "status": "니치",
           "keywords": [
@@ -1131,7 +1132,7 @@ window.RESEARCH_DATA = {
           "secondary": "Representation & Self-Supervision",
           "secondary_label_ko": "표현학습·자기지도학습",
           "count": 10,
-          "share": 1.4,
+          "share": 1.3,
           "confidence": 75,
           "status": "니치",
           "keywords": [
@@ -1146,14 +1147,14 @@ window.RESEARCH_DATA = {
           "primary_label_ko": "과학·산업 응용",
           "secondary": "Biology & Healthcare",
           "secondary_label_ko": "생명과학·헬스케어",
-          "count": 9,
+          "count": 10,
           "share": 1.3,
-          "confidence": 68,
+          "confidence": 67,
           "status": "핵심축",
           "keywords": [
             "clinical",
-            "protein",
-            "healthcare"
+            "healthcare",
+            "protein"
           ],
           "interpretation": "임상·생물 데이터의 희소성 및 기관 간 차이 때문에 높은 정확도와 안전한 일반화가 요구됩니다."
         }
@@ -1161,13 +1162,13 @@ window.RESEARCH_DATA = {
       "summaries": [
         {
           "label": "상위 주제 집중도",
-          "value": "45.4%",
+          "value": "45.8%",
           "detail": "언어 모델 · 평가·벤치마크 · 로보틱스·조작"
         },
         {
           "label": "활성 세부 주제",
-          "value": "32/34",
-          "detail": "현재 논문 표본 690편에서 감지"
+          "value": "33/34",
+          "detail": "현재 논문 표본 770편에서 감지"
         },
         {
           "label": "탐색 여지가 큰 주제",
@@ -1179,6 +1180,303 @@ window.RESEARCH_DATA = {
     }
   },
   "items": [
+    {
+      "external_id": "rss:nvidia-technical-blog:1fd6b880e95ea1399293529d",
+      "type": "news",
+      "source": "NVIDIA Technical Blog",
+      "title": "The Machines that Make the Machines",
+      "summary": "How we taught robots to assemble GB300 tester trays and what it taught us about robot learning, mechanical intelligence, and good old-fashioned engineering The...",
+      "summary_ko": "NVIDIA Technical Blog가 공개한 소식으로, 로보틱스·의사결정 AI 분야의 로보틱스·조작 변화에 초점을 둡니다. 환경을 인식하고 행동을 계획·제어하는 로봇 지능의 성능을 다룹니다.",
+      "motivation_ko": "시뮬레이션과 실제 환경의 차이, 장기 행동 계획의 오차 때문에 로봇 정책을 현실에 안정적으로 적용하기 어렵습니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 로보틱스·조작의 성능과 실제 적용 가능성입니다.",
+      "url": "https://developer.nvidia.com/blog/the-machines-that-make-the-machines/",
+      "published_at": "2026-10-07T18:21:08+00:00",
+      "date_label": "2026.10.07",
+      "authors": [
+        "Elizabeth Goodman"
+      ],
+      "keywords": [
+        "Embodied & Decision AI",
+        "Robotics & Manipulation",
+        "robot",
+        "robotic"
+      ],
+      "primary_topic": "Embodied & Decision AI",
+      "secondary_topic": "Robotics & Manipulation",
+      "primary_topic_ko": "로보틱스·의사결정 AI",
+      "secondary_topic_ko": "로보틱스·조작",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "robot",
+        "robotic",
+        "manipulation"
+      ],
+      "importance_score": 73,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 24시간 내"
+    },
+    {
+      "external_id": "rss:hugging-face:88e871d5a8d26738db20168d",
+      "type": "news",
+      "source": "Hugging Face",
+      "title": "Multimodal open d1 decision models for the edge",
+      "summary": "",
+      "summary_ko": "Hugging Face가 공개한 소식으로, 파운데이션 모델 분야의 멀티모달 파운데이션 모델 변화에 초점을 둡니다. 텍스트와 이미지 등 여러 입력을 함께 이해하고 연결하는 방법을 다룹니다.",
+      "motivation_ko": "텍스트·이미지·음성 간 표현을 정확히 정렬하고 서로 다른 입력을 근거 있게 결합하는 일이 여전히 어렵습니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 멀티모달 파운데이션 모델의 성능과 실제 적용 가능성입니다.",
+      "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+      "published_at": "2026-10-07T16:54:33+00:00",
+      "date_label": "2026.10.07",
+      "authors": [],
+      "keywords": [
+        "Foundation Models",
+        "Multimodal Foundation Models",
+        "multimodal"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Multimodal Foundation Models",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "멀티모달 파운데이션 모델",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "multimodal"
+      ],
+      "importance_score": 54,
+      "importance_label": "주목",
+      "importance_reason": "24시간 내"
+    },
+    {
+      "external_id": "rss:microsoft-research:47b11e346bad26905363a5ce",
+      "type": "news",
+      "source": "Microsoft Research",
+      "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
+      "summary": "Training AI agents with reinforcement learning can be challenging because their tools, context, and decision-making are managed by complex frameworks. Agent Lightning connects existing agents to RL training, making it easier to improve them without rebuilding them. The post Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses appeared first on Microsoft Research .",
+      "summary_ko": "Microsoft Research가 공개한 소식으로, 파운데이션 모델 분야의 에이전트·도구 사용 변화에 초점을 둡니다. 에이전트의 계획, 도구 선택과 실행 과정의 정확성·안정성을 살펴봅니다.",
+      "motivation_ko": "에이전트가 계획을 세우고 외부 도구를 호출하는 과정에서 선택 오류가 연쇄적으로 커지고 장기 작업의 안정성이 떨어질 수 있습니다.",
+      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 핵심 검증 대상은 에이전트·도구 사용의 성능과 실제 적용 가능성입니다.",
+      "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/",
+      "published_at": "2026-10-07T16:00:00+00:00",
+      "date_label": "2026.10.07",
+      "authors": [
+        "Zhiyuan He, Yuqing Yang"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Agents & Tool Use",
+        "agentic",
+        "ai agent"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Agents & Tool Use",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "에이전트·도구 사용",
+      "classification_confidence": 0.792,
+      "matched_terms": [
+        "agentic",
+        "ai agent"
+      ],
+      "importance_score": 83,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 24시간 내"
+    },
+    {
+      "external_id": "rss:nvidia-technical-blog:f49062ecce59806c8e85c51f",
+      "type": "news",
+      "source": "NVIDIA Technical Blog",
+      "title": "Scaling Decision Optimization to 100 Million Variables and Beyond with mPDLP in NVIDIA cuOpt",
+      "summary": "Supply chain problems are expanding across more SKUs, lanes, and constraints than ever before, while energy grids are balancing more distributed sources in real...",
+      "summary_ko": "NVIDIA Technical Blog가 공개한 소식으로, 학습 방법·이론 분야의 일반 머신러닝 변화에 초점을 둡니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
+      "motivation_ko": "새로운 데이터 분포에서도 성능이 유지되고 학습 결과를 재현할 수 있는 일반화가 핵심 과제입니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 일반 머신러닝의 성능과 실제 적용 가능성입니다.",
+      "url": "https://developer.nvidia.com/blog/scaling-decision-optimization-to-100-million-variables-and-beyond-with-mpdlp-in-nvidia-cuopt/",
+      "published_at": "2026-10-07T15:42:42+00:00",
+      "date_label": "2026.10.07",
+      "authors": [
+        "Tanya Lenz"
+      ],
+      "keywords": [
+        "Learning & Theory",
+        "General Machine Learning",
+        "optimization"
+      ],
+      "primary_topic": "Learning & Theory",
+      "secondary_topic": "General Machine Learning",
+      "primary_topic_ko": "학습 방법·이론",
+      "secondary_topic_ko": "일반 머신러닝",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "optimization"
+      ],
+      "importance_score": 79,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 24시간 내"
+    },
+    {
+      "external_id": "rss:nvidia-technical-blog:bc0a9f75e0f4b798358c89c5",
+      "type": "news",
+      "source": "NVIDIA Technical Blog",
+      "title": "What’s New for Game Developers: DLSS 5 with 3D-Guided Neural Rendering, NVIDIA ACE Updates, and New RTX Kit Capabilities",
+      "summary": "NVIDIA DLSS 5 introduces DLSS 3D-Guided Neural Rendering and granular controls that help game developers add lifelike lighting and material detail while...",
+      "summary_ko": "NVIDIA Technical Blog가 공개한 소식으로, 미분류 분야의 분류 검토 필요 변화에 초점을 둡니다. 환경을 인식하고 행동을 계획·제어하는 로봇 지능의 성능을 다룹니다.",
+      "motivation_ko": "새 연구 결과나 시스템이 기존 접근법의 어떤 한계를 해결하며 실제 적용에 어떤 변화를 만드는지 확인할 필요가 있습니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 제안된 접근법의 성능과 실제 적용 가능성입니다.",
+      "url": "https://developer.nvidia.com/blog/whats-new-for-game-developers-dlss-5-with-3d-guided-neural-rendering-nvidia-ace-updates-and-new-rtx-kit-capabilities/",
+      "published_at": "2026-10-07T15:30:20+00:00",
+      "date_label": "2026.10.07",
+      "authors": [
+        "Elizabeth Goodman"
+      ],
+      "keywords": [
+        "Unclassified",
+        "Needs Review"
+      ],
+      "primary_topic": "Unclassified",
+      "secondary_topic": "Needs Review",
+      "primary_topic_ko": "미분류",
+      "secondary_topic_ko": "분류 검토 필요",
+      "classification_confidence": 0.18,
+      "matched_terms": [],
+      "importance_score": 53,
+      "importance_label": "주목",
+      "importance_reason": "24시간 내 · 주요 연구 채널"
+    },
+    {
+      "external_id": "rss:hugging-face:67f5f61696a2949df2730f40",
+      "type": "news",
+      "source": "Hugging Face",
+      "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+      "summary": "",
+      "summary_ko": "Hugging Face가 공개한 소식으로, 미분류 분야의 분류 검토 필요 변화에 초점을 둡니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
+      "motivation_ko": "새 연구 결과나 시스템이 기존 접근법의 어떤 한계를 해결하며 실제 적용에 어떤 변화를 만드는지 확인할 필요가 있습니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 제안된 접근법의 성능과 실제 적용 가능성입니다.",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "published_at": "2026-10-07T12:45:31+00:00",
+      "date_label": "2026.10.07",
+      "authors": [],
+      "keywords": [
+        "Unclassified",
+        "Needs Review"
+      ],
+      "primary_topic": "Unclassified",
+      "secondary_topic": "Needs Review",
+      "primary_topic_ko": "미분류",
+      "secondary_topic_ko": "분류 검토 필요",
+      "classification_confidence": 0.18,
+      "matched_terms": [],
+      "importance_score": 49,
+      "importance_label": "일반",
+      "importance_reason": "24시간 내"
+    },
+    {
+      "external_id": "rss:openai-news:661f64ddb5f472a2675ed75a",
+      "type": "news",
+      "source": "OpenAI News",
+      "title": "Helping teens learn, plan, and shape the future of AI",
+      "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+      "summary_ko": "OpenAI News가 공개한 소식으로, 미분류 분야의 분류 검토 필요 변화에 초점을 둡니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
+      "motivation_ko": "새 연구 결과나 시스템이 기존 접근법의 어떤 한계를 해결하며 실제 적용에 어떤 변화를 만드는지 확인할 필요가 있습니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 제안된 접근법의 성능과 실제 적용 가능성입니다.",
+      "url": "https://openai.com/index/teens-learn-and-plan",
+      "published_at": "2026-10-07T12:00:00+00:00",
+      "date_label": "2026.10.07",
+      "authors": [],
+      "keywords": [
+        "Unclassified",
+        "Needs Review"
+      ],
+      "primary_topic": "Unclassified",
+      "secondary_topic": "Needs Review",
+      "primary_topic_ko": "미분류",
+      "secondary_topic_ko": "분류 검토 필요",
+      "classification_confidence": 0.18,
+      "matched_terms": [],
+      "importance_score": 53,
+      "importance_label": "주목",
+      "importance_reason": "24시간 내 · 주요 연구 채널"
+    },
+    {
+      "external_id": "rss:openai-news:4e324623ab7ca6fee0e14241",
+      "type": "news",
+      "source": "OpenAI News",
+      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+      "summary_ko": "OpenAI News가 공개한 소식으로, 미분류 분야의 분류 검토 필요 변화에 초점을 둡니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "새 연구 결과나 시스템이 기존 접근법의 어떤 한계를 해결하며 실제 적용에 어떤 변화를 만드는지 확인할 필요가 있습니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 제안된 접근법의 성능과 실제 적용 가능성입니다.",
+      "url": "https://openai.com/index/radisson",
+      "published_at": "2026-10-07T07:00:00+00:00",
+      "date_label": "2026.10.07",
+      "authors": [],
+      "keywords": [
+        "Unclassified",
+        "Needs Review"
+      ],
+      "primary_topic": "Unclassified",
+      "secondary_topic": "Needs Review",
+      "primary_topic_ko": "미분류",
+      "secondary_topic_ko": "분류 검토 필요",
+      "classification_confidence": 0.18,
+      "matched_terms": [],
+      "importance_score": 53,
+      "importance_label": "주목",
+      "importance_reason": "24시간 내 · 주요 연구 채널"
+    },
+    {
+      "external_id": "rss:nvidia-technical-blog:0c9b7bbd0aa7620897e428e8",
+      "type": "news",
+      "source": "NVIDIA Technical Blog",
+      "title": "Faster Scientific Image Analysis with NVIDIA cuPhoton",
+      "summary": "Observatories and telescopes, lasers and X-ray light sources, and other high-throughput instruments generate image data faster than CPU-bound pipelines can...",
+      "summary_ko": "NVIDIA Technical Blog가 공개한 소식으로, 미분류 분야의 분류 검토 필요 변화에 초점을 둡니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
+      "motivation_ko": "새 연구 결과나 시스템이 기존 접근법의 어떤 한계를 해결하며 실제 적용에 어떤 변화를 만드는지 확인할 필요가 있습니다.",
+      "contribution_ko": "이론적 분석과 검증 가능한 조건을 제시해 방법이 작동하는 범위와 한계를 설명합니다. 핵심 검증 대상은 제안된 접근법의 성능과 실제 적용 가능성입니다.",
+      "url": "https://developer.nvidia.com/blog/faster-scientific-image-analysis-with-nvidia-cuphoton/",
+      "published_at": "2026-10-07T00:12:47+00:00",
+      "date_label": "2026.10.07",
+      "authors": [
+        "Quynh L. Nguyen"
+      ],
+      "keywords": [
+        "Unclassified",
+        "Needs Review"
+      ],
+      "primary_topic": "Unclassified",
+      "secondary_topic": "Needs Review",
+      "primary_topic_ko": "미분류",
+      "secondary_topic_ko": "분류 검토 필요",
+      "classification_confidence": 0.18,
+      "matched_terms": [],
+      "importance_score": 53,
+      "importance_label": "주목",
+      "importance_reason": "24시간 내 · 주요 연구 채널"
+    },
+    {
+      "external_id": "rss:openai-news:a097ef0d441a7216b7cd0e23",
+      "type": "news",
+      "source": "OpenAI News",
+      "title": "GPT-6 and Intelligent UI for everyone",
+      "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+      "summary_ko": "OpenAI News가 공개한 소식으로, 미분류 분야의 분류 검토 필요 변화에 초점을 둡니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
+      "motivation_ko": "새 연구 결과나 시스템이 기존 접근법의 어떤 한계를 해결하며 실제 적용에 어떤 변화를 만드는지 확인할 필요가 있습니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 제안된 접근법의 성능과 실제 적용 가능성입니다.",
+      "url": "https://openai.com/index/gpt-6-for-everyone",
+      "published_at": "2026-10-07T00:00:00+00:00",
+      "date_label": "2026.10.07",
+      "authors": [],
+      "keywords": [
+        "Unclassified",
+        "Needs Review"
+      ],
+      "primary_topic": "Unclassified",
+      "secondary_topic": "Needs Review",
+      "primary_topic_ko": "미분류",
+      "secondary_topic_ko": "분류 검토 필요",
+      "classification_confidence": 0.18,
+      "matched_terms": [],
+      "importance_score": 53,
+      "importance_label": "주목",
+      "importance_reason": "24시간 내 · 주요 연구 채널"
+    },
     {
       "external_id": "rss:google-deepmind:c11a83f73b42d75639443284",
       "type": "news",
@@ -1239,6 +1537,2909 @@ window.RESEARCH_DATA = {
       "importance_reason": "24시간 내 · 주요 연구 채널"
     },
     {
+      "external_id": "arxiv:2610.08791",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "World Models' Last Exam in Physics",
+      "summary": "Video world models can produce visually convincing yet physically inconsistent sequences, raising concerns about their reliability for prediction and planning in embodied AI systems. Existing evaluations often rely on model-based judgments or reference videos, while direct physical tests largely focus on mechanics. We introduce World Models' Last Exam in Physics, a measurement-based benchmark for evaluating physical consistency in video world models. The benchmark comprises 40 controlled tasks spanning mechanics, optics, fluids, thermal and phase-change phenomena, electromagnetism, and surface tension. Each task pairs an initial image and a generation prompt with predefined physical criteria, enabling interpretable tests of observable physical relationships without requiring reference videos. Its evaluator combines task-observability screening with task-specific quantitative physical measurements. Experiments on eight video generation models across 1,280 videos reveal persistent physical inconsistencies and substantial variation across tasks, with the best model achieving an overall score of 57.76 out of 100. Evaluation on synthetic videos with known physical relationships provides evidence for the validity of the measurement module under controlled conditions. The evaluator also achieves higher agreement with human judgments than a direct vision-language model baseline in both within-task rankings and pairwise comparisons. By combining coverage across physical domains with scores grounded in measurable evidence and explicit measurement limitations, the benchmark provides an interpretable basis for diagnosing physical inconsistencies and tracking progress toward physically consistent video world models.",
+      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 월드 모델입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "환경의 동역학을 압축해 예측하면서도 장기 롤아웃에서 누적 오차를 억제해야 합니다.",
+      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 핵심 검증 대상은 월드 모델의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08791v1",
+      "published_at": "2026-10-06T17:59:56+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Mingju Gao",
+        "Qingle Liu",
+        "Yuzhao Peng",
+        "Xinjie Lin",
+        "Ziming Qin",
+        "Zheng Jiang",
+        "Wenyi Li",
+        "Calvin Xiao",
+        "Youjie Zheng",
+        "Kaisen Yang",
+        "Qinhuai Na"
+      ],
+      "keywords": [
+        "Embodied & Decision AI",
+        "World Models",
+        "world model"
+      ],
+      "primary_topic": "Embodied & Decision AI",
+      "secondary_topic": "World Models",
+      "primary_topic_ko": "로보틱스·의사결정 AI",
+      "secondary_topic_ko": "월드 모델",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "world model"
+      ],
+      "importance_score": 62,
+      "importance_label": "주목",
+      "importance_reason": "신규 논문 · 24시간 내"
+    },
+    {
+      "external_id": "arxiv:2610.08790",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Building Rome from a Single Image",
+      "summary": "Single-image scene generation aims to produce a complete 3D scene mesh from a single image, including surfaces the camera did not observe. While pretrained 3D object generators encode a strong shape prior, they are mainly designed for isolated objects in a fixed canonical volume and focus mostly on indoor scenes, since diverse 3D data for outdoor scenes are quite limited. In this work, we present a method that redesigns such an object-centric generator, e.g., Trellis 2, to work on both indoor and outdoor scenes while retaining its prior. We accomplish this by (a) partitioning the scene into adaptive chunks that scale relative to the distance to the camera; nearby chunks have a smaller size to keep the finer detail, while distant structures, e.g., buildings, are covered by large chunks; (b) making the generator capture explicit 2D-3D correspondence by lifting image features and making the model aware of the free space, observed surface, and unobserved region; (c) synthesizing around 4,000 outdoor scenes to broaden the training data, as existing scene datasets are largely indoor. Experiments on Tanks and Temples, ScanNet++, and in-the-wild images show that our method outperforms all baselines in geometric accuracy and perceptual quality across both indoor and outdoor scenes.",
+      "summary_ko": "비전·생성 미디어 분야에 속하며 핵심 연구 주제는 인지·인식입니다. 학습·평가용 데이터의 구성과 품질, 활용 방법을 핵심적으로 살펴봅니다.",
+      "motivation_ko": "실제 환경의 가림·노이즈·분포 변화에서도 객체와 장면을 안정적으로 인식해야 합니다.",
+      "contribution_ko": "새 데이터셋 또는 데이터 구성 절차를 제시해 학습과 평가에 사용할 수 있는 재현 가능한 기반을 넓힙니다. 핵심 검증 대상은 인지·인식의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08790v1",
+      "published_at": "2026-10-06T17:59:50+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Jiraphon Yenphraphai",
+        "Fang Li",
+        "Tianshuo Xu",
+        "Depu Meng",
+        "Quentin Herau",
+        "Yihan Hu",
+        "Raymond A. Yeh",
+        "Wei Zhan"
+      ],
+      "keywords": [
+        "Vision & Generative Media",
+        "Perception & Recognition",
+        "cs.CV"
+      ],
+      "primary_topic": "Vision & Generative Media",
+      "secondary_topic": "Perception & Recognition",
+      "primary_topic_ko": "비전·생성 미디어",
+      "secondary_topic_ko": "인지·인식",
+      "classification_confidence": 0.38,
+      "matched_terms": [
+        "cs.CV"
+      ],
+      "importance_score": 59,
+      "importance_label": "주목",
+      "importance_reason": "신규 논문 · 24시간 내"
+    },
+    {
+      "external_id": "arxiv:2610.08789",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "QF3: Fast Flow RL with Filtered Q-Gradients",
+      "summary": "Flow policies have become a standard policy class for learning robot behaviors from demonstrations, but reinforcement learning is still critical for improving pre-trained flow policies or learning them from scratch through interaction. We introduce QF3 (Fast Flow RL with Filtered Q-Gradients), an online off-policy RL algorithm that trains a flow policy with flow matching plus the critic's action gradient, backpropagated through a one-step prediction of the flow's output. To keep updates where the critic and this prediction are reliable, QF3 applies the critic gradient only to action dimensions that stay near the replay action. To our knowledge, QF3 is the first off-policy flow RL method to train humanoid locomotion policies from scratch and transfer them zero-shot to hardware. Paired with a high-throughput off-policy training recipe, it trains humanoid locomotion and motion-tracking policies with a 10x wall-clock speedup over FPO++, a recent on-policy flow RL method. We further apply QF3 to fine-tune pretrained flow-based manipulation policies on both ABC-Sim and Robomimic tasks. These results suggest that QF3 can both learn robot policies from scratch and refine those acquired from demonstrations. Website: https://qf3-rl.github.io/",
+      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 로보틱스·조작입니다. 환경을 인식하고 행동을 계획·제어하는 로봇 지능의 성능을 다룹니다.",
+      "motivation_ko": "시뮬레이션과 실제 환경의 차이, 장기 행동 계획의 오차 때문에 로봇 정책을 현실에 안정적으로 적용하기 어렵습니다.",
+      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 특히 새로운 데이터와 환경으로의 일반화 성능을 검증하는 데 초점을 둡니다.",
+      "url": "https://arxiv.org/abs/2610.08789v1",
+      "published_at": "2026-10-06T17:59:34+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Chung Min Kim",
+        "Brent Yi",
+        "David McAllister",
+        "Hongsuk Choi",
+        "Himanshu Gaurav Singh",
+        "Jinkun Cao",
+        "Ken Goldberg",
+        "Pieter Abbeel",
+        "Carmelo Sferrazza",
+        "Angjoo Kanazawa"
+      ],
+      "keywords": [
+        "Embodied & Decision AI",
+        "Robotics & Manipulation",
+        "robot",
+        "manipulation"
+      ],
+      "primary_topic": "Embodied & Decision AI",
+      "secondary_topic": "Robotics & Manipulation",
+      "primary_topic_ko": "로보틱스·의사결정 AI",
+      "secondary_topic_ko": "로보틱스·조작",
+      "classification_confidence": 0.674,
+      "matched_terms": [
+        "robot",
+        "manipulation"
+      ],
+      "importance_score": 77,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08785",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Conformal Prediction Sets Quantify Information Gain: A Theoretical Perspective",
+      "summary": "Conformal prediction is a popular tool for uncertainty quantification that outputs prediction sets with finite-sample coverage guarantees. While prediction set size is commonly used as a heuristic measure of uncertainty, the information-theoretic basis for this interpretation remains poorly understood. In this work, we provide such a foundation using a decision-theoretic generalization of entropy tailored to set-valued prediction. In particular, we introduce a family of generalized information measures based on the size and coverage of conformal prediction sets. Notably, Shannon mutual information admits an exact integral representation in terms of these measures. We then show that, in standard classification settings, the reduction in conformal set size from additional information (i) is sandwiched between calibration-dependent members of this family and (ii) obeys a data processing inequality, both up to finite-sample calibration and model error terms. Together, our results formally relate conformal prediction to classical information-theoretic quantities and justify using set-size reduction as an information gain metric. Empirically, we validate our theory across 11 classification settings and show that set-size reduction and Shannon mutual information can rank features differently in a greedy feature selection experiment.",
+      "summary_ko": "학습 방법·이론 분야에 속하며 핵심 연구 주제는 일반 머신러닝입니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
+      "motivation_ko": "새로운 데이터 분포에서도 성능이 유지되고 학습 결과를 재현할 수 있는 일반화가 핵심 과제입니다.",
+      "contribution_ko": "이론적 분석과 검증 가능한 조건을 제시해 방법이 작동하는 범위와 한계를 설명합니다. 특히 새로운 데이터와 환경으로의 일반화 성능을 검증하는 데 초점을 둡니다.",
+      "url": "https://arxiv.org/abs/2610.08785v1",
+      "published_at": "2026-10-06T17:59:11+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Kevin Zhang",
+        "Stephen Bates"
+      ],
+      "keywords": [
+        "Learning & Theory",
+        "General Machine Learning",
+        "generalization"
+      ],
+      "primary_topic": "Learning & Theory",
+      "secondary_topic": "General Machine Learning",
+      "primary_topic_ko": "학습 방법·이론",
+      "secondary_topic_ko": "일반 머신러닝",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "generalization"
+      ],
+      "importance_score": 82,
+      "importance_label": "핵심",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08784",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "PEARS: Physical-Prior-Guided Efficient Adaptation via Failure Reasoning and Diffusion Steering for Tactile Manipulation",
+      "summary": "Pretrained robotic policies can suffer substantial performance degradation under out-of-distribution (OOD) conditions encountered during deployment, motivating post-training through real-world interaction. However, reinforcement-learning (RL)-based post-training typically requires substantial environment interactions, a burden that is especially significant in manipulation, where each trial can be slow, costly, or destructive. Therefore, we present PEARS, a physics-prior-guided hybrid RL framework for sample-efficient online adaptation of pretrained policies with tactile feedback. After each episode, its physics-guided force reasoning (PFR) module uses physical priors encoded in a vision-language model (VLM) to diagnose failures from the visual outcome and tactile interaction history and update task-appropriate contact-force bounds. A high-frequency hybrid force-position controller then enforces these bounds during contact. Complementarily, tactile-conditioned diffusion steering reinforcement learning adjusts the latent noise of the frozen flow-matching policy to correct errors in free-space motion and contact timing without updating the base model. In simulation, PEARS improves success rates by 12.4-37.4 percentage points over the strongest per-task baselines. PEARS also reduces the number of interaction episodes required for a certain success threshold by up to 53.2% relative to the fastest baseline. In real-world experiments, PEARS achieves success rates of 95% on Whiteboard Erasing and 90% on Pipette Liquid Aspiration. These results show that combining the PFR module with policy steering can accelerate adaptation while reducing costly interactions. The project website is available at https://song-kun.github.io/pears.",
+      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 로보틱스·조작입니다. 텍스트와 이미지 등 여러 입력을 함께 이해하고 연결하는 방법을 다룹니다.",
+      "motivation_ko": "시뮬레이션과 실제 환경의 차이, 장기 행동 계획의 오차 때문에 로봇 정책을 현실에 안정적으로 적용하기 어렵습니다. 실제 환경으로 옮겼을 때 발생하는 성능 저하를 줄이는 것이 핵심 동기입니다.",
+      "contribution_ko": "이론적 분석과 검증 가능한 조건을 제시해 방법이 작동하는 범위와 한계를 설명합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://arxiv.org/abs/2610.08784v1",
+      "published_at": "2026-10-06T17:59:03+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Kun Song",
+        "Yiming Wang",
+        "Yilin Chen",
+        "Tianyi Ding",
+        "Jiaxin Tian",
+        "Tianqi Gong",
+        "Daolin Ma",
+        "Jia Pan"
+      ],
+      "keywords": [
+        "Embodied & Decision AI",
+        "Robotics & Manipulation",
+        "robot",
+        "robotic"
+      ],
+      "primary_topic": "Embodied & Decision AI",
+      "secondary_topic": "Robotics & Manipulation",
+      "primary_topic_ko": "로보틱스·의사결정 AI",
+      "secondary_topic_ko": "로보틱스·조작",
+      "classification_confidence": 0.834,
+      "matched_terms": [
+        "robot",
+        "robotic",
+        "manipulation"
+      ],
+      "importance_score": 78,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08782",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction",
+      "summary": "Existing methods for 4D hand-object reconstruction often rely on costly per-sequence optimization, while generative approaches typically synthesize interactions from random noise, which can lead to unstable interaction prediction. We introduce 4D-HOF, a feed-forward framework that reconstructs 4D hand-object interactions from coarse but informative estimates produced by vision foundation models. Concretely, we learn a conditional flow matching model that transports foundation-model-derived hand-object states toward an interaction manifold, allowing the model to correct errors in translation, rotation, and alignment in a feed-forward manner. A key advantage of our generative formulation is that it naturally enables test-time guidance within the transport process. Rather than applying a separate post-hoc optimization after reconstruction, we directly steer the evolving generative states using physical interaction constraints and observed 2D evidence, allowing the reconstruction to be refined as part of the generative process itself. By training the generative model on diverse datasets, 4D-HOF generalizes robustly to challenging in-the-wild scenarios. Experiments on out-of-domain benchmarks show that 4D-HOF achieves state-of-the-art performance, producing more stable and accurate 4D hand-object reconstructions.",
+      "summary_ko": "비전·생성 미디어 분야에 속하며 핵심 연구 주제는 이미지 생성입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "생성 품질뿐 아니라 프롬프트 충실도, 세부 제어와 반복 생성의 일관성을 동시에 확보해야 합니다.",
+      "contribution_ko": "새 데이터셋 또는 데이터 구성 절차를 제시해 학습과 평가에 사용할 수 있는 재현 가능한 기반을 넓힙니다. 특히 안전성·강건성·신뢰성 측면의 실패를 줄이는 데 기여합니다.",
+      "url": "https://arxiv.org/abs/2610.08782v1",
+      "published_at": "2026-10-06T17:59:02+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Shiqi Li",
+        "Sean Cho",
+        "Yijie Li",
+        "Fengzhi Guo",
+        "Bowen Wen",
+        "Cheng Zhang"
+      ],
+      "keywords": [
+        "Vision & Generative Media",
+        "Image Generation",
+        "flow matching"
+      ],
+      "primary_topic": "Vision & Generative Media",
+      "secondary_topic": "Image Generation",
+      "primary_topic_ko": "비전·생성 미디어",
+      "secondary_topic_ko": "이미지 생성",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "flow matching"
+      ],
+      "importance_score": 76,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08781",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "IdeaAnchor: Teaching LLMs to Turn Literature into Research Ideas",
+      "summary": "Scientific research often begins by synthesizing ideas from a set of related papers to identify gaps and formulate new directions. However, training language models to perform this form of literature-grounded ideation remains challenging, as existing approaches based on prompting or feedback lack structured supervision for how papers should be synthesized. We introduce IdeaAnchor, a paradigm for training LLMs to perform research ideation using structured specifications as privileged signals. Each IdeaAnchor instance encodes how each input paper should be synthesized into a successful idea, including their functional roles, relationships, and target synthesis criteria. We build this paradigm by mining instances from published papers, capturing how real ideas emerge from prior literature. We then train models via demonstration, self-distillation, and reinforcement learning, and further enhance generation with retrieval at inference time. Experiments show consistent improvements in ideation quality. Our analysis reveals a functional decomposition: anchor-based training strengthens creative synthesis, retrieval enhances detail elaboration, and combining both yields the best performance.",
+      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 학습·추론 비용을 낮추면서 성능을 유지하거나 높이는 방법을 제안합니다.",
+      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
+      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 핵심 검증 대상은 언어 모델의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08781v1",
+      "published_at": "2026-10-06T17:59:01+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Ziyu Chen",
+        "Yilun Zhao",
+        "Jiashuo Sun",
+        "Yiling Ma",
+        "Manasi Patwardhan",
+        "Arman Cohan"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Language Models",
+        "language model",
+        "llm"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Language Models",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "언어 모델",
+      "classification_confidence": 0.792,
+      "matched_terms": [
+        "language model",
+        "llm"
+      ],
+      "importance_score": 97,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08780",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "DepthWorld: 3D World Model for Robot Manipulation",
+      "summary": "World models offer a data-driven alternative to traditional simulators for robotics, with applications spanning policy evaluation, improvement, and planning. All of these uses depend on faithful 3D geometry, yet current video-based world models are trained on RGB alone and produce rollouts that look correct frame-by-frame but do not compose into a consistent 3D world. Closing this gap requires progress on two fronts: large-scale 3D supervision for manipulation, and an architecture that can absorb it without disturbing strong pretrained video priors. We introduce a calibration pipeline that combines learned stereo depth with a joint factor graph, pooling all episodes collected from the same physical robot to recover its shared kinematic parameters alongside per-scene extrinsics. Applied to the DROID dataset, this yields DROID-3D, a calibrated 3D dataset providing dense metric depth and recalibrated multi-view extrinsics (achieving <0.7 px reprojection error on 90% of episodes for external cameras). We then train DepthWorld, a Stable Video Diffusion-based world model that jointly predicts multi-view RGB and depth via spatial latent tiling, leaving the pretrained Variational Autoencoder (VAE) unchanged. Depth supervision improves RGB prediction itself by +1.48 dB PSNR over an identical RGB-only baseline at equal training budget, while simultaneously yielding accurate metric depth for downstream geometric reasoning.",
+      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 로보틱스·조작입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "시뮬레이션과 실제 환경의 차이, 장기 행동 계획의 오차 때문에 로봇 정책을 현실에 안정적으로 적용하기 어렵습니다.",
+      "contribution_ko": "새 데이터셋 또는 데이터 구성 절차를 제시해 학습과 평가에 사용할 수 있는 재현 가능한 기반을 넓힙니다. 핵심 검증 대상은 로보틱스·조작의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08780v1",
+      "published_at": "2026-10-06T17:59:00+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Jai Bardhan",
+        "Josef Sivic",
+        "Vladimir Petrik"
+      ],
+      "keywords": [
+        "Embodied & Decision AI",
+        "Robotics & Manipulation",
+        "robot",
+        "robotic"
+      ],
+      "primary_topic": "Embodied & Decision AI",
+      "secondary_topic": "Robotics & Manipulation",
+      "primary_topic_ko": "로보틱스·의사결정 AI",
+      "secondary_topic_ko": "로보틱스·조작",
+      "classification_confidence": 0.9,
+      "matched_terms": [
+        "robot",
+        "robotic",
+        "manipulation"
+      ],
+      "importance_score": 79,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08779",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "ALIVE: Interaction-Aligned Object Insertion for First-Frame-Guided Video Editing",
+      "summary": "Current video editors can insert objects but often struggle to make them participate in interactions such as being picked up or manipulated. We introduce ALIVE, a framework that makes inserted objects \"alive\" through coherent interactions with the source video's contents, using an edited first frame and an instruction naming only the added object. We curate 35,800 editing pairs combining 3D-rendered, model-generated, and real-world videos with general editing pairs from ROSE. Each pair differs in the target object's presence while preserving the surrounding action, teaching editors coordinated object behavior and source preservation. We further train a vision-language model (VLM) to predict interaction guidance from the same inputs. We introduce the ALIVE-interaction benchmark to assess interaction fidelity, source preservation, and visual coherence using a unified VLM-based protocol, and evaluate on the general video object insertion benchmark. Without VLM guidance, ALIVE improves Overall over the strongest evaluated baseline by 43.9% and 4.4% on the two benchmarks, respectively. VLM-predicted guidance further improves the ALIVE-interaction score by 0.95 points without additional user inputs.",
+      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 멀티모달 파운데이션 모델입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "텍스트·이미지·음성 간 표현을 정확히 정렬하고 서로 다른 입력을 근거 있게 결합하는 일이 여전히 어렵습니다. 실제 환경으로 옮겼을 때 발생하는 성능 저하를 줄이는 것이 핵심 동기입니다.",
+      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 핵심 검증 대상은 멀티모달 파운데이션 모델의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08779v1",
+      "published_at": "2026-10-06T17:58:51+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Zhenghong Zhou",
+        "Zhe Lin",
+        "Jiebo Luo",
+        "Yuqian Zhou"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Multimodal Foundation Models",
+        "vision-language",
+        "vlm"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Multimodal Foundation Models",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "멀티모달 파운데이션 모델",
+      "classification_confidence": 0.674,
+      "matched_terms": [
+        "vision-language",
+        "vlm"
+      ],
+      "importance_score": 62,
+      "importance_label": "주목",
+      "importance_reason": "신규 논문 · 24시간 내"
+    },
+    {
+      "external_id": "arxiv:2610.08778",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Sherpa: Teaching LLMs to Teach Adaptively",
+      "summary": "Large language models (LLMs) have become increasingly capable problem solvers, but being able to solve a problem is not the same as being able to teach it. Existing approaches to training LLMs as teachers rely on demonstrations, preference data, or predefined pedagogical criteria that specify what good teaching looks like. However, these signals are often not grounded in individual student learning outcomes, where effective teaching strategies can vary substantially across learners. To address this, we introduce Sherpa, a multi-turn reinforcement learning framework that instantiates multiple student archetypes with LLMs conditioned on distinct learning preferences and trains a teacher model to adapt its instruction by directly maximizing their learning outcomes. Teacher LLMs trained with Sherpa improve instructed students' performance across all archetypes by an average of 20.5 percentage points. Under MathTutorBench's evaluation, Sherpa raises the overall pedagogy score from 52.5% to 79.2%, indicating better teaching responses. Our human studies show that the trained teacher is preferred over the base model in 79.6% of pairwise comparisons. Together, Sherpa trains LLM teachers to adapt to diverse simulated students and become better aligned with human teachers, paving the road towards AI tutors teaching real students.",
+      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
+      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 핵심 검증 대상은 언어 모델의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08778v1",
+      "published_at": "2026-10-06T17:58:18+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Weixian Xu",
+        "Yanzhe Zhang",
+        "Zora Zhiruo Wang",
+        "Changyu Chen",
+        "Diyi Yang"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Language Models",
+        "language model",
+        "large language model"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Language Models",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "언어 모델",
+      "classification_confidence": 0.834,
+      "matched_terms": [
+        "language model",
+        "large language model",
+        "llm"
+      ],
+      "importance_score": 97,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08777",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "CtrlCache: Accelerating Interactive Video World Models with Control-Aware Caching",
+      "summary": "Interactive video world models need to generate each video chunk efficiently while responding faithfully to user controls. Many systems use chunk-wise autoregressive generation with few-step denoising, but each chunk still requires several costly denoising iterations. Training-free caching can reduce this cost, yet existing policies make reuse decisions primarily from model-internal denoising dynamics and do not explicitly account for control transitions. Actually, interactive generation explicitly exposes a signal they do not use: the controls for a chunk arrive before it is denoised, so a schedule derived from them costs no forward pass. To this end, we analyze adjacent chunks under different control regimes and find that structural similarity drops around action changes, while low-frequency structure remains more persistent than high-frequency detail. Motivated by these observations, we propose CtrlCache, a training-free control-aware caching framework that adapts computation to the current control sequence. Specifically, the action-aware scheduling and refresh policy detects action changes across and within chunks, and labels each chunk as initial, transition, turning, or steady state. At one selected interior denoising step, initial and transition chunks retain full computation, while turning and steady chunks reuse the transformer residual from the most recent fully computed step in the same chunk. To exploit the persistence of low-frequency structure during steady interaction, we further introduce a frequency-mixed history prior guidance that incorporates complementary information from the preceding clean latent without an additional DiT forward pass. Evaluated on Matrix-Game 2.0 and LingBot-World v1/v2, CtrlCache achieves 1.21x to 1.41x DiT-backbone speedups without model retraining while improving WBench Overall scores over original inference across all three models.",
+      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 월드 모델입니다. 환경을 인식하고 행동을 계획·제어하는 로봇 지능의 성능을 다룹니다.",
+      "motivation_ko": "환경의 동역학을 압축해 예측하면서도 장기 롤아웃에서 누적 오차를 억제해야 합니다.",
+      "contribution_ko": "여러 구성 요소를 연결한 시스템 또는 파이프라인을 구현해 실제 사용과 반복 실험이 가능한 형태로 제시합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://arxiv.org/abs/2610.08777v1",
+      "published_at": "2026-10-06T17:57:29+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Shangye Song",
+        "Dong Gong",
+        "Hong Jia",
+        "Yun Sing Koh",
+        "Xinyu Zhang"
+      ],
+      "keywords": [
+        "Embodied & Decision AI",
+        "World Models",
+        "world model"
+      ],
+      "primary_topic": "Embodied & Decision AI",
+      "secondary_topic": "World Models",
+      "primary_topic_ko": "로보틱스·의사결정 AI",
+      "secondary_topic_ko": "월드 모델",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "world model"
+      ],
+      "importance_score": 62,
+      "importance_label": "주목",
+      "importance_reason": "신규 논문 · 24시간 내"
+    },
+    {
+      "external_id": "arxiv:2610.08775",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?",
+      "summary": "Large language models (LLMs) can solve many narrow tasks, but querying them separately for millions of related instances can be prohibitively expensive. Can LLM agents autonomously create cheaper solutions for such workloads? We call this ability \"bottling\": the ability to turn general capabilities into task-specific solutions that balance answer quality and amortised cost. We introduce BOTTLED, a benchmark in which agents receive an entire unlabelled workload and must complete it under fixed time, compute and LLM API budgets. Agents choose their own approach, such as training a small model or writing a reusable program. Across ten models and three tasks, we find that strong zero-shot task performance does not reliably translate into strong bottling capabilities. Models with similar zero-shot scores can differ substantially after bottling, and 48 of 60 bottling runs score below the lower bound of the 95% confidence interval of their model's zero-shot performance. Moreover, 31 of 60 runs underperform the stronger of two small-model distillation baselines with the same token budget. Nevertheless, bottling can yield substantial savings: on query-product relevance classification, Opus 5 retains about 82% of its zero-shot macro-F1 at roughly 657 times lower reported cost. Bottling is also competitive with Jev, a \"system one\" model built especially for cheap, repetitive inference: Opus 5 on the same task recovers about 94% of Jev's macro-F1 at a quarter of Jev's projected full-workload cost. BOTTLED provides a basis for evaluating and improving agents' ability to invest limited resources in reusable solutions for large, repetitive workloads.",
+      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
+      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://arxiv.org/abs/2610.08775v1",
+      "published_at": "2026-10-06T17:57:19+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Ankit Sonthalia",
+        "Haritz Puerto",
+        "Alexander Rubinstein",
+        "Martin Gubri",
+        "Seong Joon Oh"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Language Models",
+        "language model",
+        "large language model"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Language Models",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "언어 모델",
+      "classification_confidence": 0.834,
+      "matched_terms": [
+        "language model",
+        "large language model",
+        "llm"
+      ],
+      "importance_score": 97,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08773",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model",
+      "summary": "Web agents complete user requests by reading and acting on pages that third parties write, so an instruction planted on a page can redirect the agent away from the user's goal. The agent cannot simply ignore the page, because the page also holds the values and controls the task requires. Current defenses fine-tune the agent on injections fixed before training, and attackers that adapt to the trained model bypass them. Adversarial training lets the attacker adapt but keeps the tasks fixed, so a task stops teaching once the agent solves it. We introduce AdvSim2Real, which co-evolves a task curriculum, an injection adversary, and the agent inside a frozen web world model. The curriculum is rewarded for tasks the agent solves about half of the time, and the adversary only for a success flip, an injection that turns a judged success into a failure. Training in the simulator makes a 4B agent both more capable and more robust: its completion rises with and without attacks, holds against a frontier-model adversary it never trained against, and its capability gain carries over to a real browser. On 150 web tasks, AdvSim2Real raises completion under this unseen adversary by 33.6\\% relative to the base agent.",
+      "summary_ko": "신뢰할 수 있는 AI 분야에 속하며 핵심 연구 주제는 강건성·보안입니다. 에이전트의 계획, 도구 선택과 실행 과정의 정확성·안정성을 살펴봅니다.",
+      "motivation_ko": "적대적 입력과 분포 변화, 프롬프트 주입 상황에서 성능과 보안이 급격히 저하될 수 있습니다.",
+      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 특히 안전성·강건성·신뢰성 측면의 실패를 줄이는 데 기여합니다.",
+      "url": "https://arxiv.org/abs/2610.08773v1",
+      "published_at": "2026-10-06T17:56:43+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Sarim Hashmi",
+        "Mukul Ranjan",
+        "Kshitij Mishra",
+        "Mikhail Kuznetsov",
+        "Praneeth Vepakomma",
+        "Nils Lukas"
+      ],
+      "keywords": [
+        "Trustworthy AI",
+        "Robustness & Security",
+        "adversarial",
+        "prompt injection"
+      ],
+      "primary_topic": "Trustworthy AI",
+      "secondary_topic": "Robustness & Security",
+      "primary_topic_ko": "신뢰할 수 있는 AI",
+      "secondary_topic_ko": "강건성·보안",
+      "classification_confidence": 0.792,
+      "matched_terms": [
+        "adversarial",
+        "prompt injection"
+      ],
+      "importance_score": 63,
+      "importance_label": "주목",
+      "importance_reason": "신규 논문 · 24시간 내"
+    },
+    {
+      "external_id": "arxiv:2610.08772",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Backend-Agnostic Sparse Attention for Fast High-Resolution Visual Generation",
+      "summary": "Diffusion Transformers (DiTs) have achieved strong performance in image and video generation, but the quadratic complexity of full attention makes high-resolution generation computationally expensive. Window attention offers an efficient alternative, yet existing methods face a practical trade-off: partitioned window attention typically achieves computational efficiency consistent with its theoretical complexity. However, isolated windows block cross-window interaction, often introducing visible grid-like artifacts in the generated results. Fine-grained sliding-window attention effectively restores interactions across neighboring windows and improves visual quality. However, its irregular computation patterns create a substantial gap between theoretical and practical speedups and require specialized kernels tailored to each hardware backend. To tackle these challenges, we propose BASA, a backend-agnostic sparse attention, which brings the best of both worlds: visual quality and practical acceleration. Specifically, BASA replaces visual self-attention with shifted local-window attention. By introducing a structured window-shifting scheme across DiT blocks, we allow tokens divided by window boundaries in one layer to communicate in the following layers, thereby achieving global information exchange and eliminating window-induced visual artifacts. Notably, our design introduces no additional irregular operators or customized kernels, making it readily deployable on existing attention backends and closing the gap between theoretical sparsity and practical acceleration. Experiments demonstrate that BASA achieves measured speedups exceeding 90\\% of the theoretical estimates on FLUX and delivers a 4.52$\\times$ attention speedup on Wan while maintaining competitive generation quality.",
+      "summary_ko": "비전·생성 미디어 분야에 속하며 핵심 연구 주제는 비디오 생성입니다. 생성 품질과 제어 가능성, 학습·추론 효율을 개선하는 방법을 다룹니다.",
+      "motivation_ko": "시간축의 움직임과 객체 일관성을 유지하면서도 고해상도 영상을 효율적으로 생성하기 어렵습니다.",
+      "contribution_ko": "이론적 분석과 검증 가능한 조건을 제시해 방법이 작동하는 범위와 한계를 설명합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://arxiv.org/abs/2610.08772v1",
+      "published_at": "2026-10-06T17:55:24+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Liao Ma",
+        "Jiayi Song",
+        "Yunfeng Wu",
+        "Songhua Liu",
+        "Peilin Zhao"
+      ],
+      "keywords": [
+        "Vision & Generative Media",
+        "Video Generation",
+        "video generation"
+      ],
+      "primary_topic": "Vision & Generative Media",
+      "secondary_topic": "Video Generation",
+      "primary_topic_ko": "비전·생성 미디어",
+      "secondary_topic_ko": "비디오 생성",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "video generation"
+      ],
+      "importance_score": 61,
+      "importance_label": "주목",
+      "importance_reason": "신규 논문 · 24시간 내"
+    },
+    {
+      "external_id": "arxiv:2610.08771",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Mission-Aware Attestation Envelopes for Time-Critical Autonomous Action: A Hardware-in-the-Loop V2I Study",
+      "summary": "An autonomous system that asks for a privileged physical action is usually gated on integrity evidence: a platform proves what it is running, and the request is granted or refused on that basis. Such a gate is normally treated as a predicate, yet the evidence behind it has an age, the decision that consumes it has a latency, and the physical system that waits for it has a deadline. We formulate mission-aware attestation as a runtime assurance contract that holds only when integrity is valid, the evidence is fresh enough, and the decision completes inside a budget derived from the current physical state. The contract yields four operational outcomes where a binary gate yields two, separating a refusal caused by tampering from one caused by stale evidence and from one caused by a late decision. We evaluate it on a hardware-in-the-loop vehicle-to-infrastructure platform: a driving simulator supplies the physical state and the authorisation deadline, while a microcontroller on-board unit and a TPM-backed roadside unit running Linux integrity measurement supply the assurance evidence. A security-blind model admits the whole operating space and a hardware-informed one three quarters of it, and every point it refuses fails the freshness margin rather than the response margin. Moving the attestation interval across the range the verifier permits costs about as much as a fivefold scaling of the latency distribution, and the interval is directly configurable, which makes it the immediately actionable deployment parameter. If the freshness bound does not exceed the authorisation budget, every late decision is also stale and lateness becomes unobservable, so the attestation interval and the freshness bound cannot be chosen from security requirements alone.",
+      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 추론·인퍼런스입니다. 환경을 인식하고 행동을 계획·제어하는 로봇 지능의 성능을 다룹니다.",
+      "motivation_ko": "여러 단계의 추론에서는 작은 오류가 누적되며, 답이 맞더라도 추론 과정의 검증 가능성이 낮다는 한계가 있습니다. 실제 환경으로 옮겼을 때 발생하는 성능 저하를 줄이는 것이 핵심 동기입니다.",
+      "contribution_ko": "이론적 분석과 검증 가능한 조건을 제시해 방법이 작동하는 범위와 한계를 설명합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://arxiv.org/abs/2610.08771v1",
+      "published_at": "2026-10-06T17:55:18+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Dimitrios Nikou",
+        "Nikolaos Kekatos",
+        "Sophia Petridou",
+        "Stylianos Basagiannis"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Reasoning & Inference",
+        "verifier"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Reasoning & Inference",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "추론·인퍼런스",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "verifier"
+      ],
+      "importance_score": 78,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08770",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Data Leakage in Patch-Based Hyperspectral Image Classification: Quantifying the Impact of Spatial Overlap",
+      "summary": "Patch-based learning improves hyperspectral image (HSI) classification by exploiting local spectral-spatial information, but random train-test sampling from the same image can cause spatial patch overlap, leading to data leakage and optimistic performance estimates. This paper investigates same-class train-test spatial overlap in patch-based HSI classification using two measures: overlap percentage (OP), which quantifies the global amount of overlapped testing patch pixels, and average overlap ratio (AOR), which measures the local severity among affected testing patches. Experiments on the Pavia University dataset compare random and non-random spatial sampling using SVM, MLP, 2D-CNN, 3D-CNN, ViT, and MorpMamba. The results show that deep patch-based models achieve high accuracy under random sampling, with 3D-CNN reaching 96.17% Overall Accuracy (OA), but drop substantially under non-random spatial sampling, where 3D-CNN decreases to 55.20% and ViT and 2D-CNN drop by 40.71 and 38.81 percentage points (PP), respectively. Patch-size analysis further shows that increasing the patch size from 5x5 to 19x19 raises the random-sampling overlap percentage from 23.28% to 77.02%. These findings demonstrate that random patch-based evaluation can substantially inflate classification performance, especially for models that strongly exploit spatial context. The code associated with this paper is available at: https://github.com/mqalkhatib/Data_Leakage_in_HSI_Classification.",
+      "summary_ko": "비전·생성 미디어 분야에 속하며 핵심 연구 주제는 인지·인식입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "실제 환경의 가림·노이즈·분포 변화에서도 객체와 장면을 안정적으로 인식해야 합니다.",
+      "contribution_ko": "새 데이터셋 또는 데이터 구성 절차를 제시해 학습과 평가에 사용할 수 있는 재현 가능한 기반을 넓힙니다. 핵심 검증 대상은 인지·인식의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08770v1",
+      "published_at": "2026-10-06T17:55:05+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Mohammed Q. Alkhatib"
+      ],
+      "keywords": [
+        "Vision & Generative Media",
+        "Perception & Recognition",
+        "image classification"
+      ],
+      "primary_topic": "Vision & Generative Media",
+      "secondary_topic": "Perception & Recognition",
+      "primary_topic_ko": "비전·생성 미디어",
+      "secondary_topic_ko": "인지·인식",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "image classification"
+      ],
+      "importance_score": 62,
+      "importance_label": "주목",
+      "importance_reason": "신규 논문 · 24시간 내"
+    },
+    {
+      "external_id": "arxiv:2610.08765",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "LBA-CBF: Rapidly Adaptive Safety Filters via Parallel Dynamics Inference",
+      "summary": "Control barrier functions (CBFs) certify commands through an assumed dynamics model, so an abrupt, unmeasured regime change can undermine the certificate exactly when safety matters most. We present Look-Back Adaptive Control Barrier Functions (LBA-CBF), which rank a finite bank of candidate dynamics by recent prediction error over a short look-back window and enforce the high-order CBF condition against every model within a tolerance of the best, spanning best-fit adaptation to full-bank robust filtering. The dynamics may depend nonlinearly on the unknown parameters, and no switching model or continuously parameterized estimator is required. We prove that any feasible filtered input satisfies the true CBF condition whenever a safety-representative candidate is retained. In quadrotor simulation with abrupt wind reversals and an unknown payload, LBA-CBF is safe and reaches the goal from all random initial conditions, matching an oracle, while adaptive and robust baselines achieve 0-88% success. Banks of up to 250,000 models run inside the control loop, and Crazyflie 2.1 and F1TENTH experiments demonstrate adaptation to wind, payload release, and varying tire-road friction. Code, videos, and project details are available at: https://lla-control.github.io",
+      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 로보틱스·조작입니다. 모델의 안전성, 신뢰성 및 예상하지 못한 입력에 대한 대응을 분석합니다.",
+      "motivation_ko": "시뮬레이션과 실제 환경의 차이, 장기 행동 계획의 오차 때문에 로봇 정책을 현실에 안정적으로 적용하기 어렵습니다.",
+      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 특히 안전성·강건성·신뢰성 측면의 실패를 줄이는 데 기여합니다.",
+      "url": "https://arxiv.org/abs/2610.08765v1",
+      "published_at": "2026-10-06T17:51:12+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Maitham F. AL-Sunni",
+        "Timeea-Andreea Radu",
+        "Hassan Almubarak",
+        "Henry Z. Liao",
+        "Michael Görner",
+        "Francesco Maurelli",
+        "John M. Dolan"
+      ],
+      "keywords": [
+        "Embodied & Decision AI",
+        "Robotics & Manipulation",
+        "cs.RO"
+      ],
+      "primary_topic": "Embodied & Decision AI",
+      "secondary_topic": "Robotics & Manipulation",
+      "primary_topic_ko": "로보틱스·의사결정 AI",
+      "secondary_topic_ko": "로보틱스·조작",
+      "classification_confidence": 0.38,
+      "matched_terms": [
+        "cs.RO"
+      ],
+      "importance_score": 74,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08764",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion",
+      "summary": "We develop the first feedback design for rapid stabilization of the Kuramoto--Sivashinsky equation with a spatially varying anti-diffusion coefficient. For constant coefficients, the single-input Fredholm design of Coron and Lü (2015) excludes a discrete set of values at which repeated unstable eigenvalues cause a loss of controllability. We overcome this obstruction by introducing a second boundary input and assigning the two inputs distinct roles. The key idea, inspired by Heymann's Lemma, is to use the boundary value $u(0,t)$ entirely for a pre-feedback that renders the modified plant controllable through the curvature input $u_{xx}(0,t)$. The latter input then stabilizes the plant through a Fredholm backstepping transformation. We show that two inputs suffice for controllability and are necessary when the plant has an unstable double eigenvalue. However, the Fredholm kernel still must be approximated for implementation. Hence, to enable kernel and gain approximation, we prove continuity of the coefficient-to-gain design map on compact admissible design classes. Unlike Volterra-based continuity proofs using successive approximations, our proof uses the modal representation to control the spectral data, the inverse coefficient system, and the tails of the kernel and gain series. This yields a single neural operator approximation of the gain to any prescribed $L^2$ accuracy across the class. Finally, we establish rapid local stabilization of the nonlinear closed-loop system under both the exact gains and sufficiently accurate approximations. We conclude with numerical results that illustrate prescribed decay rates and the computational cost of the approximations. In particular, we train a Fourier neural operator that achieves typical relative gain errors of approximately $0.1\\%$ and stabilizes all held-out cases tested, including a plant with an unstable double eigenvalue.",
+      "summary_ko": "학습 방법·이론 분야에 속하며 핵심 연구 주제는 일반 머신러닝입니다. 생성 품질과 제어 가능성, 학습·추론 효율을 개선하는 방법을 다룹니다.",
+      "motivation_ko": "새로운 데이터 분포에서도 성능이 유지되고 학습 결과를 재현할 수 있는 일반화가 핵심 과제입니다.",
+      "contribution_ko": "이론적 분석과 검증 가능한 조건을 제시해 방법이 작동하는 범위와 한계를 설명합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://arxiv.org/abs/2610.08764v1",
+      "published_at": "2026-10-06T17:50:54+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Luke Bhan",
+        "Miroslav Krstic",
+        "Yuanyuan Shi"
+      ],
+      "keywords": [
+        "Learning & Theory",
+        "General Machine Learning",
+        "cs.LG"
+      ],
+      "primary_topic": "Learning & Theory",
+      "secondary_topic": "General Machine Learning",
+      "primary_topic_ko": "학습 방법·이론",
+      "secondary_topic_ko": "일반 머신러닝",
+      "classification_confidence": 0.38,
+      "matched_terms": [
+        "cs.LG"
+      ],
+      "importance_score": 80,
+      "importance_label": "핵심",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08761",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "VeriFine: Scaling Verification for Self-Improvement in Embodied Reasoning",
+      "summary": "Self-improving policies continually expose new failure patterns, changing what their judges must be able to verify. However, current fixed judges constrain both optimization feedback and the discovery of useful training examples, limiting further self-improvement. This challenge is even more acute in embodied reasoning, where reliable evaluation must account for spatial grounding, causal reasoning, and safety-aware decision-making. We introduce VeriFine, an agent harness framework that scales verification through the co-evolution of the policy, training curriculum, and judge. The Policy Improvement Loop uses a rubric judge to diagnose recurring failures, construct an adaptive curriculum, and optimize the policy. When progress plateaus and verification becomes a bottleneck, the Judge Improvement Loop selectively queries human guidance on informative failure cases and refines the judge through coactive calibration, in which humans and agents resolve disagreements and converge toward the objective rubric of physical reasoning. The revised judge then guides the next stage of data selection and policy optimization. Experiments on driving and robot navigation tasks demonstrate continuous self-improvement in both policy and judge capability across reinforcement and supervised fine-tuning. These results show how scaling verification supports continuous self-improvement as policy failure patterns evolve.",
+      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 로보틱스·조작입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "시뮬레이션과 실제 환경의 차이, 장기 행동 계획의 오차 때문에 로봇 정책을 현실에 안정적으로 적용하기 어렵습니다.",
+      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 특히 안전성·강건성·신뢰성 측면의 실패를 줄이는 데 기여합니다.",
+      "url": "https://arxiv.org/abs/2610.08761v1",
+      "published_at": "2026-10-06T17:50:29+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Zewei Zhou",
+        "Rachel Luo",
+        "Yulong Cao",
+        "Chaowei Xiao",
+        "Chensheng Peng",
+        "Boyi Li",
+        "Thomas Tian",
+        "Zheng Lian",
+        "Yan Wang",
+        "Jiaqi Ma",
+        "Boris Ivanovic",
+        "Marco Pavone",
+        "Wenhao Ding"
+      ],
+      "keywords": [
+        "Embodied & Decision AI",
+        "Robotics & Manipulation",
+        "robot",
+        "embodied"
+      ],
+      "primary_topic": "Embodied & Decision AI",
+      "secondary_topic": "Robotics & Manipulation",
+      "primary_topic_ko": "로보틱스·의사결정 AI",
+      "secondary_topic_ko": "로보틱스·조작",
+      "classification_confidence": 0.792,
+      "matched_terms": [
+        "robot",
+        "embodied"
+      ],
+      "importance_score": 78,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08760",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "WorldSonus: Bringing Sound to Worlds",
+      "summary": "Recent advances in world models have enabled increasingly realistic visual synthesis. However, these generated environments remain largely silent. Bringing sound to world models poses three core challenges: real-time generation to keep pace with interactive video streams, interactive control to respond to mid-stream sound instructions, and spatially aligned stereo to reflect scene geometry and camera motion. To address these demands, we introduce WorldSonus, an interactive video-to-audio framework designed for real-time spatial sound synthesis in world models. For real-time generation, WorldSonus employs a streaming causal autoregressive diffusion architecture that synthesizes audio chunks at a low real-time factor (RTF) of 0.41. For interactive control, we incorporate an audio-centric captioning pipeline with chunk-indexed prompt scheduling, enabling dynamic manipulation of sound events during generation. For spatial alignment, we leverage high-quality stereo supervision curated from diverse stereo and ambisonic data. Extensive experiments demonstrate that while tailored for world models, WorldSonus generalizes effectively to open-domain video-to-audio benchmarks, matching or outperforming state-of-the-art bidirectional models in both acoustic quality and spatial alignment. Project page: https://noizai.github.io/WorldSonus/",
+      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 로보틱스·조작입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "시뮬레이션과 실제 환경의 차이, 장기 행동 계획의 오차 때문에 로봇 정책을 현실에 안정적으로 적용하기 어렵습니다.",
+      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 특히 안전성·강건성·신뢰성 측면의 실패를 줄이는 데 기여합니다.",
+      "url": "https://arxiv.org/abs/2610.08760v1",
+      "published_at": "2026-10-06T17:50:18+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Pengjun Fang",
+        "Jingyi Fa",
+        "Kam Man Wu",
+        "Jiaming Wang",
+        "Haoyuan Huang",
+        "Yaguang Wu",
+        "Xiangjun Huang",
+        "Ziyang Ma",
+        "Weijia Chen",
+        "Hongyu Liu",
+        "Zeyue Tian",
+        "Qifeng Chen"
+      ],
+      "keywords": [
+        "Embodied & Decision AI",
+        "Robotics & Manipulation",
+        "manipulation"
+      ],
+      "primary_topic": "Embodied & Decision AI",
+      "secondary_topic": "Robotics & Manipulation",
+      "primary_topic_ko": "로보틱스·의사결정 AI",
+      "secondary_topic_ko": "로보틱스·조작",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "manipulation"
+      ],
+      "importance_score": 76,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08756",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Post-Training Semantic Lifting for 3D Gaussian Splatting: Separating Detector, Lifting and Representation Error",
+      "summary": "The same Gaussian of a 3D Gaussian Splatting model is seen from many views, and these views do not always agree on the class it belongs to. The Gaussian may be occluded in some of them, and the confidence of the detector is not the same from one view to another. The ground truth, on the other hand, is given as an annotated mesh, because two training runs do not produce the same Gaussians. In this work, we propose a post-training lifting method that works with one target class at a time and combines the information coming from all the views. Target and non-target evidence are accumulated simultaneously, weighted by the visibility of each Gaussian in each view. After that, the Gaussians are filtered with two thresholds: a main threshold $β$ selects the high-confidence seeds, and a lower one $γβ$ adds the connected components around them. For the evaluation, the labels are transferred from the Gaussians to the mesh vertices that are both visible and annotated. With this design, we can separate three sources of error: the 2D detector, the lifting and the transfer between representations. The thresholds and the transfer operator are chosen on seven Replica validation scenes, and the method is evaluated on ten held-out ScanNet++ scenes with the same values for every scene and class. The mean mIoU on the validation scenes was 0.93 with masks from the dataset annotations and 0.65 with YOLO masks, and on the ScanNet++ test scenes it was 0.80 and 0.54. Compared with thresholding the evidence per view, as a previous version of the method did, the fraction improves the test mIoU by 0.24 and makes it possible to use a single threshold for all the classes and scenes of both datasets. Finally, the error analysis shows that most of the remaining error comes from the detector.",
+      "summary_ko": "비전·생성 미디어 분야에 속하며 핵심 연구 주제는 3D·공간 지능입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "제한된 관측만으로 3차원 구조와 공간 관계를 복원할 때 기하학적 오류와 일반화 문제가 발생합니다.",
+      "contribution_ko": "새 데이터셋 또는 데이터 구성 절차를 제시해 학습과 평가에 사용할 수 있는 재현 가능한 기반을 넓힙니다. 특히 새로운 데이터와 환경으로의 일반화 성능을 검증하는 데 초점을 둡니다.",
+      "url": "https://arxiv.org/abs/2610.08756v1",
+      "published_at": "2026-10-06T17:47:47+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Iván Verdugo Guerra",
+        "Ezequiel López Rubio",
+        "Jorge García González"
+      ],
+      "keywords": [
+        "Vision & Generative Media",
+        "3D & Spatial",
+        "gaussian splatting"
+      ],
+      "primary_topic": "Vision & Generative Media",
+      "secondary_topic": "3D & Spatial",
+      "primary_topic_ko": "비전·생성 미디어",
+      "secondary_topic_ko": "3D·공간 지능",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "gaussian splatting"
+      ],
+      "importance_score": 62,
+      "importance_label": "주목",
+      "importance_reason": "신규 논문 · 24시간 내"
+    },
+    {
+      "external_id": "arxiv:2610.08750",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Neural Petri flows for chemical reactions",
+      "summary": "Petri nets have been used to describe chemical processes such as reactions.They map well to chemistry: Places are the bonds between atoms and the free valence of each atom, a token is a unit of bond order, a transition forms or breaks a bond, the conserved quantities are the valence budgets of the atoms, and the enabling rule is the valence rule. These semantics are not guaranteed by learned models of reactions or neural networks that are built on Petri nets that use the net as a scaffold for message passing. Here, we ask what architecture remains a Petri net for every value of its weights. We find the answer in the theory, where all semantics of a net share the firing form $m^\\prime=m+Cσ$, locality, as enabling reads only the inputs of a transition, and the enabling rule, and we prove that conservation forces the firing form and that non-negativity forces the enabling rule on local rate laws. This leaves free the rate law, which is the propensity of each transition to fire. We introduce Neural Petri Flow, which learns this rate law, or a readout for classification, and hard-wires the rest as parameter-free layers. On what we denote a valence net, atom mapping, reaction classification, and forward prediction become three tasks on one firing vector. Without training, the minimum firing vector maps 88.8% of the curated Golden set against 85.6% for RXNMapper, and 88.7 against 77.9% of the enzymatic reactions of EnzymeMap. On USPTO-480K, NPF trained on these firing vectors predicts 87.7% of the products and 67.4% when trained on a 1% subset of the training reactions. EC numbers of ECREACT are predicted at the third level for 90.2% of reactions, 5.6 points ahead of the best published method. With electrons as tokens, the same token game predicts 90.5% of the elementary steps of FlowER first, ahead of the published baseline, and every top-1 prediction is a valid molecule without a filter.",
+      "summary_ko": "학습 방법·이론 분야에 속하며 핵심 연구 주제는 일반 머신러닝입니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
+      "motivation_ko": "새로운 데이터 분포에서도 성능이 유지되고 학습 결과를 재현할 수 있는 일반화가 핵심 과제입니다.",
+      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 핵심 검증 대상은 일반 머신러닝의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08750v1",
+      "published_at": "2026-10-06T17:44:56+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Jose Eduardo Escrig Molina",
+        "Daniel Probst"
+      ],
+      "keywords": [
+        "Learning & Theory",
+        "General Machine Learning",
+        "neural network"
+      ],
+      "primary_topic": "Learning & Theory",
+      "secondary_topic": "General Machine Learning",
+      "primary_topic_ko": "학습 방법·이론",
+      "secondary_topic_ko": "일반 머신러닝",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "neural network"
+      ],
+      "importance_score": 82,
+      "importance_label": "핵심",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08747",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "The Missing Minimal Pair: Stereotype Evaluation in LLMs",
+      "summary": "A common approach to measuring bias in Large Language Models is to compare the log-likelihoods of two contrastive stereotype sentences. We argue that such single-pair comparisons are often unreliable: simply rewriting the same stereotype with an alternative attribute can yield logically inconsistent preferences. To address this, we propose a dual minimal pair setup that introduces two axes of comparison for robust stereotype evaluation. First, we present a data-augmentation framework that fills critical gaps in existing stereotype datasets by generating paraphrases and alternate attributes. We apply our framework on a set of English, Russian, Spanish and Chinese stereotypes. Second, we introduce two evaluation metrics tailored to the dual minimal pair setup. One of these metrics provides a new perspective on bias by modeling the mutual information (MI) between social groups and stereotyped attributes. This MI-based metric is better suited for aggregation and enables more robust comparisons of stereotype strength across different languages and models. Our code is available at https://github.com/stepanat/missing-minimal-pair/.",
+      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
+      "contribution_ko": "새 데이터셋 또는 데이터 구성 절차를 제시해 학습과 평가에 사용할 수 있는 재현 가능한 기반을 넓힙니다. 특히 안전성·강건성·신뢰성 측면의 실패를 줄이는 데 기여합니다.",
+      "url": "https://arxiv.org/abs/2610.08747v1",
+      "published_at": "2026-10-06T17:41:44+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Nataliya Stepanova",
+        "Ivan Titov",
+        "Emily Allaway",
+        "Björn Ross"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Language Models",
+        "language model",
+        "large language model"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Language Models",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "언어 모델",
+      "classification_confidence": 0.834,
+      "matched_terms": [
+        "language model",
+        "large language model",
+        "llm"
+      ],
+      "importance_score": 97,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08745",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Linear Bandits under Exact Sliding-Window Constraints",
+      "summary": "We study linear bandits under exact sliding-window constraints, where every consecutive block of actions must belong to a prescribed feasible set. In the offline setting, where the reward function is known, we show that convexity and cyclic-shift invariance make a stationary solution optimal when $w\\mid T$ and within an additive $O(w)$ gap otherwise. In the online setting, we show that geometric structure alone is insufficient for learning, and sublinear regret can be impossible. We introduce a transition diameter $τ$ that quantifies feasible reachability and develop a rare-switching OFUL algorithm with regret $\\widetilde{O}(d\\sqrt{T}+τd+w)$ against the offline-optimal feasible trajectory. Finally, we remove cyclic invariance and consider general sliding-window constraints, where optimal behavior may be non-stationary. We represent recent action history as the state of a finite-memory control problem and introduce a history-state diameter $D$ that measures feasible communication between viable histories. Combining optimistic remaining-horizon planning with rare policy updates, we obtain a regret bound of $\\widetilde{O}(d\\sqrt{T}+dD+w)$. We evaluate our approach on real-world and synthetic benchmarks, showing that it maintains exact feasibility while achieving reward and regret comparable to baselines with substantially fewer policy updates.",
+      "summary_ko": "AI 시스템·평가 분야에 속하며 핵심 연구 주제는 평가·벤치마크입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "기존 지표가 실제 사용 능력과 실패 유형을 충분히 반영하지 못해 모델 간 공정한 비교가 어렵습니다. 실제 환경으로 옮겼을 때 발생하는 성능 저하를 줄이는 것이 핵심 동기입니다.",
+      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://arxiv.org/abs/2610.08745v1",
+      "published_at": "2026-10-06T17:41:08+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Seyed Mohammad Hadi Hosseini",
+        "Yasin Abbasi-Yadkori",
+        "Sattar Vakili"
+      ],
+      "keywords": [
+        "AI Systems & Evaluation",
+        "Evaluation & Benchmarks",
+        "benchmark"
+      ],
+      "primary_topic": "AI Systems & Evaluation",
+      "secondary_topic": "Evaluation & Benchmarks",
+      "primary_topic_ko": "AI 시스템·평가",
+      "secondary_topic_ko": "평가·벤치마크",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "benchmark"
+      ],
+      "importance_score": 85,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08743",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Reinforcement Learning with Conformal Action Sets: An Application to Sequential Recommendation",
+      "summary": "Sequential recommenders typically use a fixed slate size even though the number of useful alternatives changes within a session. We propose Reinforcement Learning with Calibrated Pruning (RLCP), which adapts the retained action set using critic scores and an online threshold. The threshold is updated from binary feedback indicating whether the set contains an action in a proxy target. We prove a deterministic bound on the observed proxy miss rate along adaptive trajectories. To quantify the effect of pruning on reward, we derive an exact decomposition of value loss into filtering and selection losses. Under explicit proxy and critic approximation conditions, this decomposition yields a finite session reward bound that also accounts for imperfect selection and set truncation, without requiring the learning parameters to converge. Experiments on KuaiRand-Pure and MovieLens 1M compare two RLCP implementations with four RL baselines. In each of the 19 configurations, at least one RLCP variant achieves the highest catalog diversity, reaching $1.11\\times$ to $5.21\\times$ that of the strongest baseline, with competitive session depth and no larger retained sets.",
+      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 강화학습입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "희소하거나 잘못 설계된 보상 아래에서 표본 효율과 정책 안정성을 동시에 얻기 어렵습니다.",
+      "contribution_ko": "이론적 분석과 검증 가능한 조건을 제시해 방법이 작동하는 범위와 한계를 설명합니다. 핵심 검증 대상은 강화학습의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08743v1",
+      "published_at": "2026-10-06T17:40:52+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Wenwen Si",
+        "Honghao Wei"
+      ],
+      "keywords": [
+        "Embodied & Decision AI",
+        "Reinforcement Learning",
+        "reinforcement learning"
+      ],
+      "primary_topic": "Embodied & Decision AI",
+      "secondary_topic": "Reinforcement Learning",
+      "primary_topic_ko": "로보틱스·의사결정 AI",
+      "secondary_topic_ko": "강화학습",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "reinforcement learning"
+      ],
+      "importance_score": 74,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08740",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "On the Computational Tractability of Robust Bandits",
+      "summary": "Learning when the environment does not belong to the learner's hypothesis class is typically handled using agnostic learning guarantees. However, for anything beyond supervised learning, agnostic guarantees are difficult to come by. Recently, imprecise bandits (Kosoy, 2025) (later renamed to robust bandits in Appel and Kosoy, 2025) were introduced as another approach to unrealizable learning in the bandits setting and a $Θ(\\sqrt{T})$ regret learner was shown for a large class. However, no computational guarantees were provided. In this paper we identify a special case that admits a polynomial-time learner with $\\tilde{O}(\\sqrt{T})$ regret. We also show that several small generalizations of this special case are NP-hard thus indicating that the special case is at the boundary of what is tractable. It has been recently suggested (Kosoy, 2018) that computationally efficient learners for unrealizable learning problems are crucial for solving the AI alignment problem. This work is a small step in that direction.",
+      "summary_ko": "신뢰할 수 있는 AI 분야에 속하며 핵심 연구 주제는 안전·정렬입니다. 모델의 안전성, 신뢰성 및 예상하지 못한 입력에 대한 대응을 분석합니다.",
+      "motivation_ko": "모델의 의도하지 않은 행동과 우회 공격을 줄이면서 유용성을 유지할 수 있는 검증 방법이 필요합니다.",
+      "contribution_ko": "이론적 분석과 검증 가능한 조건을 제시해 방법이 작동하는 범위와 한계를 설명합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://arxiv.org/abs/2610.08740v1",
+      "published_at": "2026-10-06T17:38:34+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Vanessa Kosoy",
+        "Vinayak Pathak"
+      ],
+      "keywords": [
+        "Trustworthy AI",
+        "Safety & Alignment",
+        "alignment"
+      ],
+      "primary_topic": "Trustworthy AI",
+      "secondary_topic": "Safety & Alignment",
+      "primary_topic_ko": "신뢰할 수 있는 AI",
+      "secondary_topic_ko": "안전·정렬",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "alignment"
+      ],
+      "importance_score": 61,
+      "importance_label": "주목",
+      "importance_reason": "신규 논문 · 24시간 내"
+    },
+    {
+      "external_id": "arxiv:2610.08737",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "PhoneBot: A Low-Cost Open Humanoid Robot Platform Reusing Smartphones",
+      "summary": "The adoption of humanoid robots in education and research remains limited by high hardware costs, complex sensing systems, and substantial computational requirements. This paper presents PhoneBot, a low-cost, open-source humanoid robot platform that repurposes commodity smartphones as its primary sensing and computing unit. By using a smartphone's integrated inertial measurement unit (IMU), camera, wireless connectivity, and onboard processing capabilities, PhoneBot reduces hardware costs and simplifies the system architecture. The robot combines a modular lower-body structure driven by 13 low-cost actuators with a torso-mounted smartphone that supports perception, control computation, and user interaction. We describe the mechanical design, software architecture, and real-time communication framework that support stable locomotion and capabilities including vision-based human following, conversational interaction, filming, and mobile telepresence. Experimental evaluations demonstrate reliable walking, perception-driven interaction, and straightforward deployment using off-the-shelf consumer smartphones. With fully open-source hardware and software designs, PhoneBot provides an affordable, reproducible platform for education, research, and rapid prototyping. More details are available at https://phonebot.dev.",
+      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 로보틱스·조작입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "시뮬레이션과 실제 환경의 차이, 장기 행동 계획의 오차 때문에 로봇 정책을 현실에 안정적으로 적용하기 어렵습니다. 실제 환경으로 옮겼을 때 발생하는 성능 저하를 줄이는 것이 핵심 동기입니다.",
+      "contribution_ko": "여러 구성 요소를 연결한 시스템 또는 파이프라인을 구현해 실제 사용과 반복 실험이 가능한 형태로 제시합니다. 핵심 검증 대상은 로보틱스·조작의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08737v1",
+      "published_at": "2026-10-06T17:38:19+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Ruochen Hou",
+        "Quanyou Wang",
+        "Daniel Koh",
+        "Dennis W. Hong"
+      ],
+      "keywords": [
+        "Embodied & Decision AI",
+        "Robotics & Manipulation",
+        "robot"
+      ],
+      "primary_topic": "Embodied & Decision AI",
+      "secondary_topic": "Robotics & Manipulation",
+      "primary_topic_ko": "로보틱스·의사결정 AI",
+      "secondary_topic_ko": "로보틱스·조작",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "robot"
+      ],
+      "importance_score": 77,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08738",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Denoising Hierarchical Representations: Joint Continuous Diffusion for Language Modeling",
+      "summary": "Diffusion Language Models (DLMs) hold the promise of order-agnostic, parallel text generation. Recently, continuous diffusion and flow matching models have seen substantial gains, driven by carefully crafted token representations and diffusion/flow spaces. In this work, we introduce Hierarchical Continuous Diffusion Language Models (H-CDLMs), a simple framework that further improves continuous DLMs with minimal compute and parameter overhead. Drawing on the discrete DLM and continuous image diffusion literature on joint diffusion, we diffuse multiple modalities in parallel. These modalities represent tokens at different semantic granularities: in our instantiation, the tokens themselves and coarser clusters obtained by clustering pretrained token embeddings. We propose a general setup that allows per-modality samplers and schedules to enhance the interplay between modalities. Applied to CoBit, this yields H-CoBit, which delivers large empirical gains across benchmarks. At dataset entropy, H-CoBit improves MAUVE and reaches a generative perplexity (GenPPL) of 49.4 on LM1B and 50.4 on OWT, improving on the baseline by 24.2 and 20.7 points and surpassing even discrete DLMs of comparable size. On GSM8K, it reaches 27.4% accuracy, outperforming prior continuous diffusion and flow-based models. We further apply H-CDLM to the flow matching model FLM, obtaining consistent gains with H-FLM and demonstrating that the framework generalizes across continuous generative paradigms. Our code will be made publicly available at https://github.com/matol-16/HCDLM.git .",
+      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
+      "contribution_ko": "새 데이터셋 또는 데이터 구성 절차를 제시해 학습과 평가에 사용할 수 있는 재현 가능한 기반을 넓힙니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://arxiv.org/abs/2610.08738v1",
+      "published_at": "2026-10-06T17:38:19+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Mathias Ollu",
+        "Nikos Komodakis"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Language Models",
+        "language model"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Language Models",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "언어 모델",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "language model"
+      ],
+      "importance_score": 96,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08735",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Optimal and Efficient Online Inverse Optimization",
+      "summary": "In online inverse linear optimization, a learner recommends an action and then observes the choice of an expert who maximizes a fixed, unknown linear objective on $\\mathbb{R}^{d}$; the goal is to learn to optimize this objective without observing it. Sakaue recently obtained the optimal regret $O(\\sqrt d)$ with a randomized algorithm making $(dT)^{O(d)}$ linear optimizations per round, and asked whether it can be attained in polynomial time. We answer positively: our deterministic algorithm has regret $O(\\sqrt d)$ for every horizon $T$ and runs in time polynomial in $d$ and $T$. It is a variant of the variable-metric algorithms of Sakaue et al.\\ and Cai et al., in which a metric update is revoked once the query point moves far enough from where the update was made.",
+      "summary_ko": "학습 방법·이론 분야에 속하며 핵심 연구 주제는 일반 머신러닝입니다. 학습·추론 비용을 낮추면서 성능을 유지하거나 높이는 방법을 제안합니다.",
+      "motivation_ko": "새로운 데이터 분포에서도 성능이 유지되고 학습 결과를 재현할 수 있는 일반화가 핵심 과제입니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://arxiv.org/abs/2610.08735v1",
+      "published_at": "2026-10-06T17:37:24+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Anupam Gupta",
+        "Guru Guruganesh",
+        "Honghao Lin",
+        "Vahab Mirrokni",
+        "Renato Paes Leme",
+        "David P. Woodruff"
+      ],
+      "keywords": [
+        "Learning & Theory",
+        "General Machine Learning",
+        "optimization"
+      ],
+      "primary_topic": "Learning & Theory",
+      "secondary_topic": "General Machine Learning",
+      "primary_topic_ko": "학습 방법·이론",
+      "secondary_topic_ko": "일반 머신러닝",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "optimization"
+      ],
+      "importance_score": 83,
+      "importance_label": "핵심",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08733",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Towards an Extensible Benchmark for Spoken Dialogue with Social Robots",
+      "summary": "Language models provide a plug-and-play interface between humans and robots, but important challenges remain when speech, dialogue, fast interaction, and collaboration are required. We propose a benchmark for the community to use as a way to explore common spoken dialogue artifacts between robots and humans, including requests for clarification, interruptions, embodied signals (e.g., head nods or facial cues), and time constraints. We also explain our vision to extend the benchmark for other aspects of human-robot interaction that are important to the larger research community. To facilitate the benchmark, we further propose using \\textit{Retico}, a real-time communication framework that fulfills important technical requirements to enable robots to have spoken dialogue capabilities.",
+      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 로보틱스·조작입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "시뮬레이션과 실제 환경의 차이, 장기 행동 계획의 오차 때문에 로봇 정책을 현실에 안정적으로 적용하기 어렵습니다.",
+      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 핵심 검증 대상은 로보틱스·조작의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08733v1",
+      "published_at": "2026-10-06T17:36:01+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Casey Kennington",
+        "Ross Mead",
+        "Saad Elbeleidy",
+        "Jesse Thomason"
+      ],
+      "keywords": [
+        "Embodied & Decision AI",
+        "Robotics & Manipulation",
+        "robot",
+        "embodied"
+      ],
+      "primary_topic": "Embodied & Decision AI",
+      "secondary_topic": "Robotics & Manipulation",
+      "primary_topic_ko": "로보틱스·의사결정 AI",
+      "secondary_topic_ko": "로보틱스·조작",
+      "classification_confidence": 0.792,
+      "matched_terms": [
+        "robot",
+        "embodied"
+      ],
+      "importance_score": 78,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08732",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "A Systematic Study of Semantic ID Spaces for Generative Information Retrieval",
+      "summary": "Generative Information Retrieval (GIR) has emerged as a transformative paradigm, shifting document retrieval from a traditional \"retrieve-and-rank\" workflow to sequence-to-sequence generation, where a model directly predicts document identifiers (DocIDs). While the semantic design of these DocIDs is known to be critical for performance, a fundamental question remains under-explored: what makes a good DocID? Current approaches rely heavily on computationally expensive downstream evaluations, hindering systematic analysis and rapid iteration. In this work, we address this challenge by presenting a comprehensive study on the properties, metrics, and trade-offs that define effective numerical DocIDs. Specifically, our contributions are threefold: First, we propose a unified framework that unifies Product Quantization (PQ) and Residual Quantization (RQ), and their hybrid variants within a single design space. This enables us to systematically study key DocID properties, such as hierarchy versus parallelism, as well as the impact of hyperparameters like DocID length and codebook size. Second, we define a suite of training-free, intrinsic metrics, to quantify DocID quality and evaluate structural fidelity without the overhead of full model training. Through extensive experiments on MS MARCO 300K and NQ320K, we analyze how these structural properties influence retrieval effectiveness.",
+      "summary_ko": "과학·산업 응용 분야에 속하며 핵심 연구 주제는 추천·검색입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "사용자 의도와 최신 정보를 반영하면서 편향·필터버블·관련성 저하를 줄여야 합니다.",
+      "contribution_ko": "여러 구성 요소를 연결한 시스템 또는 파이프라인을 구현해 실제 사용과 반복 실험이 가능한 형태로 제시합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://arxiv.org/abs/2610.08732v1",
+      "published_at": "2026-10-06T17:33:32+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Alexia Allal",
+        "Hicham Randrianarivo",
+        "Sylvain Lamprier"
+      ],
+      "keywords": [
+        "Science & Applications",
+        "Recommenders & Search",
+        "information retrieval"
+      ],
+      "primary_topic": "Science & Applications",
+      "secondary_topic": "Recommenders & Search",
+      "primary_topic_ko": "과학·산업 응용",
+      "secondary_topic_ko": "추천·검색",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "information retrieval"
+      ],
+      "importance_score": 62,
+      "importance_label": "주목",
+      "importance_reason": "신규 논문 · 24시간 내"
+    },
+    {
+      "external_id": "arxiv:2610.08726",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "EgoLAP: Learning from Egocentric Human Data through Language-Action Reasoning",
+      "summary": "Egocentric human data offer a path to scaling robot learning beyond costly robot demonstrations, yet the embodiment gap makes raw human trajectories a poor supervisory target for control. Our key insight is that, although low-level actions are embodiment-specific, their underlying motion intent can capture task-relevant structure that transfers across humans and robots. We introduce EgoLAP, a VLA pre-training framework that jointly learns from human and robot trajectories through a shared language-based action chain-of-thought. EgoLAP expresses motion intent as structured, temporally abstracted language actions and pairs them with motion-level reasoning grounded in scene geometry, physics, and object affordances. Across extensive real-world and simulated experiments, EgoLAP transfers human experience to robot control more effectively than alternative action representations and reaches 80.1% mean real-world task progress, a 2.3x performance gain over alternative action representations. Motion-level reasoning also outperforms a composite reasoning format that combines subtask, object-box, and visual-trace reasoning.",
+      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 추론·인퍼런스입니다. 환경을 인식하고 행동을 계획·제어하는 로봇 지능의 성능을 다룹니다.",
+      "motivation_ko": "여러 단계의 추론에서는 작은 오류가 누적되며, 답이 맞더라도 추론 과정의 검증 가능성이 낮다는 한계가 있습니다. 실제 환경으로 옮겼을 때 발생하는 성능 저하를 줄이는 것이 핵심 동기입니다.",
+      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 특히 새로운 데이터와 환경으로의 일반화 성능을 검증하는 데 초점을 둡니다.",
+      "url": "https://arxiv.org/abs/2610.08726v1",
+      "published_at": "2026-10-06T17:30:33+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Lihan Zha",
+        "Shresth Grover",
+        "Tenny Yin",
+        "Samuel M. Bateman",
+        "Hengkai Pan",
+        "Mengchao Zhang",
+        "Aykut Onol",
+        "Allen Z. Ren",
+        "Dhruv Shah",
+        "Anirudha Majumdar"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Reasoning & Inference",
+        "reasoning",
+        "chain-of-thought"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Reasoning & Inference",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "추론·인퍼런스",
+      "classification_confidence": 0.792,
+      "matched_terms": [
+        "reasoning",
+        "chain-of-thought"
+      ],
+      "importance_score": 80,
+      "importance_label": "핵심",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08722",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Does an Agent's History Tell You When Compaction Will Hurt? A Modest, Bounded Effect on the TRACE Paired-Replay Corpus",
+      "summary": "Many long-horizon agents compact their context on a global rule, usually a token budget, blind to what the agent was doing. We ask whether the agent's recent behaviour predicts when a compaction will hurt. TRACE's public corpus of 590 harness-triggered AppWorld compaction boundaries replays each boundary from a re-executed prefix state under the pre-compaction context and under the summary, and records the burden of the next actions: calls that error or repeat a call already made. We find that pre-boundary history predicts post-compaction harm only weakly. An internally prespecified contrast by prefix placement is a wide null, and the naive \"has-written\" label behind it turns out to measure trajectory phase. The best extension-protocol trigger reaches held-out AUROC 0.66 (0.64 on the replicate's own label) against a same-boundary replicate of 0.72; the best frozen, interpretable trigger avoids 21% of harmful (positive-burden) boundaries while keeping 84% of compaction opportunities, and exceeds the random-rule expectation on count but not on burden mass (a post hoc comparison). Whether the best trigger beats a token-budget rule at matched retention cannot be evaluated on the release. We state what corpora should ship to answer it.",
+      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 에이전트·도구 사용입니다. 에이전트의 계획, 도구 선택과 실행 과정의 정확성·안정성을 살펴봅니다.",
+      "motivation_ko": "에이전트가 계획을 세우고 외부 도구를 호출하는 과정에서 선택 오류가 연쇄적으로 커지고 장기 작업의 안정성이 떨어질 수 있습니다.",
+      "contribution_ko": "새 데이터셋 또는 데이터 구성 절차를 제시해 학습과 평가에 사용할 수 있는 재현 가능한 기반을 넓힙니다. 핵심 검증 대상은 에이전트·도구 사용의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08722v1",
+      "published_at": "2026-10-06T17:26:57+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Egor Pakhomov",
+        "Erik Nijkamp"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Agents & Tool Use",
+        "cs.AI"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Agents & Tool Use",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "에이전트·도구 사용",
+      "classification_confidence": 0.38,
+      "matched_terms": [
+        "cs.AI"
+      ],
+      "importance_score": 83,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08720",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "WorldSolver: Can LLM Agents Simulate the Physical Dynamics via Solver Generation?",
+      "summary": "LLM-based agents are increasingly advancing scientific and engineering problem solving, with physics simulation emerging as a challenging yet practical testbed for reproducing complex physical phenomena with application in embodied AI, games and films. As the workhorse of such simulation, a solver computes how the state of a dynamic system evolves over time. Building such solvers requires physical understanding to identify appropriate models, mathematical reasoning to formulate the underlying dynamics, and software engineering to implement them as executable code, yet this capability of LLM agents remains underexplored. To this end, we introduce WorldSolver, a benchmark of 168 simulation tasks derived from physical phenomena in 61 classic computer graphics papers, spanning 7 physical domains. Each task contains a code scaffold that provides a fixed simulation environment for the scene, with the solver implementation left for the agent to complete. Specifically, we evaluate them along three dimensions: Execution Checks for successful execution, Visual Fidelity for reproducing the intended dynamic behavior in the rendered simulation, and Physical Plausibility for physics-grounded verification of the generated dynamics. Experiments on frontier agents reveal that producing executable solvers is difficult itself, and satisfying visual and physical correctness is even harder. GPT-5.6-Sol and Claude-Opus-5 perform comparatively better than the other evaluated agents, yet achieve overall scores of only 48.7% and 46.7%, respectively. WorldSolver is an early step toward agentic solver generation, and we hope it helps drive progress toward agents that can faithfully simulate the dynamic physical world. Code is available at https://github.com/sirujiang/WorldSolver.",
+      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
+      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://arxiv.org/abs/2610.08720v1",
+      "published_at": "2026-10-06T17:26:26+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Siru Jiang",
+        "Yongzhe Lyu",
+        "Shuo Lu",
+        "Yubin Wang",
+        "Yuxiang Zhang",
+        "Yue Liao",
+        "Bin Wang",
+        "Jian Liang",
+        "Tieniu Tan"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Language Models",
+        "llm"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Language Models",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "언어 모델",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "llm"
+      ],
+      "importance_score": 96,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08719",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Holdout Best-of-N: Unbiased Evaluation and Its Cost",
+      "summary": "Reusing the scores that select a Best-of-$N$ winner can overstate its expected reward. We study evaluation from a fixed matrix of $K$ independent scores per candidate for a policy that selects using $J$ fresh scores. A single estimator based only on this matrix is exactly unbiased for expected judge reward under every independent, stable collection of candidate-specific score laws if and only if $J<K$, for every pool size $M\\ge N\\ge2$. At $J=K-1$, the selector deepens as $K$ grows. For independent Gaussian scores with common variance and fixed $M\\ge N\\ge2$, the unbiased minimax risk in this regime is of order $σ^2/\\sqrt K$, attained by Holdout; allowing bias improves the rate to $σ^2/K$. For two candidates, we derive the minimum-variance unbiased estimator at known variance and the sharp asymptotic unbiased minimax constant $1/(π\\sqrt2)$, which Holdout attains without knowing the variance. The cyclic average over subsets and ties can be computed in $O(MK\\log M)$ operations. At fixed selector depth, cyclic evaluation of bounded scores has $O(K^{-1})$ risk uniformly in pool size. The impossibility result concerns the fixed matrix: one additional fresh winner score permits unbiased evaluation of the all-$K$ policy.",
+      "summary_ko": "AI 시스템·평가 분야에 속하며 핵심 연구 주제는 평가·벤치마크입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "기존 지표가 실제 사용 능력과 실패 유형을 충분히 반영하지 못해 모델 간 공정한 비교가 어렵습니다.",
+      "contribution_ko": "이론적 분석과 검증 가능한 조건을 제시해 방법이 작동하는 범위와 한계를 설명합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://arxiv.org/abs/2610.08719v1",
+      "published_at": "2026-10-06T17:26:05+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Shrey Shah",
+        "Yinheng Li"
+      ],
+      "keywords": [
+        "AI Systems & Evaluation",
+        "Evaluation & Benchmarks",
+        "evaluation"
+      ],
+      "primary_topic": "AI Systems & Evaluation",
+      "secondary_topic": "Evaluation & Benchmarks",
+      "primary_topic_ko": "AI 시스템·평가",
+      "secondary_topic_ko": "평가·벤치마크",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "evaluation"
+      ],
+      "importance_score": 86,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08718",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "When Forgetting is not Catastrophic: On the Mechanics of Spurious Forgetting",
+      "summary": "Knowledge that a language model appears to forget during finetuning often remains stored and can be recovered, a phenomenon called spurious forgetting. Finetuning on new facts can even produce forgetting that undoes itself: recall of the old facts collapses, recovers as training continues on new facts alone, and only then erodes for good. We seek to understand when such forgetting is not catastrophic. A minimal associative memory reproduces these dynamics with three ingredients: keys with shared structure, concentrated new values, and normalization in the network. Finetuning moves all old representations along a common direction, hiding the old facts while preserving their relative geometry; normalization withdraws this shift once the new facts are learned, whereas fact-specific changes accumulate and cause the erosion. Moreover, subtracting the common shift eliminates the collapse in a Transformer trained on synthetic data, and removing a single direction from each weight update restores old facts in a pretrained language model. Forgetting thus combines a shared, reversible loss of access with a slow erosion of individual facts, and only the second is catastrophic. Which one dominates depends on whether the new data move old memories together or apart.",
+      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 학습·평가용 데이터의 구성과 품질, 활용 방법을 핵심적으로 살펴봅니다.",
+      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://arxiv.org/abs/2610.08718v1",
+      "published_at": "2026-10-06T17:25:48+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Vedant Palit",
+        "Florent Draye",
+        "Nicolas Zucchet",
+        "Zhijing Jin",
+        "Bernhard Schölkopf"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Language Models",
+        "language model"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Language Models",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "언어 모델",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "language model"
+      ],
+      "importance_score": 95,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08717",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Co-Evolving Paths and Flows via Path-Flow Alignment",
+      "summary": "We study path-flow alignment as a unified training objective for flow matching. Instead of fixing the interpolation path and learning only the velocity field, we jointly train an endpoint-preserving path network and a flow network using the same alignment loss: the flow learns to match the path velocity, and the path learns to align its velocity to the current flow. Although every fixed learned path defines a valid flow-matching objective, the alignment loss alone is not a reliable criterion for path learning. We identify path overfitting, a failure mode in which the alignment loss decreases while sample quality worsens. We find that this failure is associated with low-entropy bottlenecks in the induced probability path, where the learned path routes samples through overly concentrated intermediate marginals. Motivated by this diagnosis, we introduce a stochastic path regularizer that hides part of the source information from the path network while preserving exact endpoints. The resulting regularization gives an explicit entropy floor for the stochastic training-path marginals and empirically suppresses the bottleneck in the learned sampler, making joint path-flow training effective. On ImageNet-256x256 with SiT backbones, our method consistently improves FID across model scales, extends to model-guidance training, and leaves the inference-time architecture and sampler unchanged. Code is available at https://github.com/lizeyu090312/traj_opt_paper",
+      "summary_ko": "신뢰할 수 있는 AI 분야에 속하며 핵심 연구 주제는 안전·정렬입니다. 모델의 안전성, 신뢰성 및 예상하지 못한 입력에 대한 대응을 분석합니다.",
+      "motivation_ko": "모델의 의도하지 않은 행동과 우회 공격을 줄이면서 유용성을 유지할 수 있는 검증 방법이 필요합니다.",
+      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 특히 안전성·강건성·신뢰성 측면의 실패를 줄이는 데 기여합니다.",
+      "url": "https://arxiv.org/abs/2610.08717v1",
+      "published_at": "2026-10-06T17:24:36+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Zeyu Michael Li",
+        "William Xingxu Chen",
+        "Xiang Cheng"
+      ],
+      "keywords": [
+        "Trustworthy AI",
+        "Safety & Alignment",
+        "alignment"
+      ],
+      "primary_topic": "Trustworthy AI",
+      "secondary_topic": "Safety & Alignment",
+      "primary_topic_ko": "신뢰할 수 있는 AI",
+      "secondary_topic_ko": "안전·정렬",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "alignment"
+      ],
+      "importance_score": 62,
+      "importance_label": "주목",
+      "importance_reason": "신규 논문 · 24시간 내"
+    },
+    {
+      "external_id": "arxiv:2610.08716",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Disentangling Paradigm, Identifier, and Decoding in Generative Retrieval",
+      "summary": "Generative retrieval trains a language model to generate the identifier of a relevant document. Recent work replaces the autoregressive decoder with diffusion, but changes identifiers, training recipe and decoding at once, so differences cannot be credited to the paradigm. On NQ320K and MS300K, we train autoregressive, masked-diffusion and block-diffusion models with residual-quantised, product-quantised and random identifiers. With identifier length and training budget fixed, we decode each model in several ways. Decoding alone moves a diffusion model's Hit@1 by 6.6 to 13.7 points. Our reference diffusion decoding, generate-and-match, generates an identifier, then retrieves the closest corpus identifiers. The generated identifier is right for 14-21% of NQ320K queries. We test one-pass scoring to decode diffusion retrievers: the model reads a fully masked identifier once, and each document is scored by its codes' probabilities. It matches or beats generate-and-match in 11 of 12 settings. Autoregressive models still lead in Hit@1; on NQ320K, the lead comes from the model, not beam search. Starting from one sampled identifier, one-pass scoring removes 46-83% of masked diffusion's deficit to beam search; from generate-and-match, at most a quarter. On NQ320K, every paradigm largely memorises which identifier answers which query: random identifiers keep 83-90% of the Hit@1 of residual-quantised ones. There, product-quantised identifiers lead residual-quantised ones by 3.4 points in the autoregressive model and by -0.7 to +3.6 in diffusion models; across decodings, AR's gap exceeds diffusion's by 1.5-2.3 points, around our 2-point threshold. Paradigm comparisons must report each paradigm at its own recipe and best decoding.",
+      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 생성 품질과 제어 가능성, 학습·추론 효율을 개선하는 방법을 다룹니다.",
+      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
+      "contribution_ko": "새 데이터셋 또는 데이터 구성 절차를 제시해 학습과 평가에 사용할 수 있는 재현 가능한 기반을 넓힙니다. 핵심 검증 대상은 언어 모델의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08716v1",
+      "published_at": "2026-10-06T17:23:47+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Hicham Randrianarivo",
+        "Logan Renaud",
+        "Alexia Allal"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Language Models",
+        "language model"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Language Models",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "언어 모델",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "language model"
+      ],
+      "importance_score": 95,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08715",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Prediction-powered inference for time series across space",
+      "summary": "The following motif is common in spatiotemporal settings: we have a sequence of covariate and label pairs observed for a relatively short, recent time period. We have access to unlabeled covariates over a longer time period. Data is observed over many spatial locations. For instance, crop yield might be observed over a large geographical area for recent years, but weather data (which is informative about crop yield) is available for a much longer period. The goal is to estimate, at each spatial location, the expected label (e.g., crop yield) in the future and provide a valid confidence interval for this value. The observed time period alone is too short for reliable estimates. Imputing missing labels with machine learning can cause substantial bias. Prediction-powered inference (PPI) can correct for this bias, but it relies on an i.i.d. assumption that breaks under our expected temporal dependencies. Heteroskedasticity and autocorrelation consistent (HAC) procedures account for temporal correlation, but have not been adapted to cases where some labels are imputed. We provide reliable point estimates and confidence intervals given: short labeled time series (across spatial locations), a longer unlabeled time series, and an imperfect predictor of labels given covariates. We show our method outperforms natural alternatives.",
+      "summary_ko": "학습 방법·이론 분야에 속하며 핵심 연구 주제는 일반 머신러닝입니다. 학습·추론 비용을 낮추면서 성능을 유지하거나 높이는 방법을 제안합니다.",
+      "motivation_ko": "새로운 데이터 분포에서도 성능이 유지되고 학습 결과를 재현할 수 있는 일반화가 핵심 과제입니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 일반 머신러닝의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08715v1",
+      "published_at": "2026-10-06T17:22:39+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Shahzar Rizvi",
+        "David Burt",
+        "Vishwak Srinivasan",
+        "Renato Berlinghieri",
+        "Stefano Del Col",
+        "Tamara Broderick"
+      ],
+      "keywords": [
+        "Learning & Theory",
+        "General Machine Learning",
+        "machine learning"
+      ],
+      "primary_topic": "Learning & Theory",
+      "secondary_topic": "General Machine Learning",
+      "primary_topic_ko": "학습 방법·이론",
+      "secondary_topic_ko": "일반 머신러닝",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "machine learning"
+      ],
+      "importance_score": 82,
+      "importance_label": "핵심",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08713",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "SpaTime: Streaming Vision-Language Models for Spatio-temporal Reasoning",
+      "summary": "Embodied agents must reason about 3D space while the video is still arriving, answering questions as soon as they have observed enough of the scene. VLMs that incorporate 3D geometric priors achieve strong spatial reasoning, but they operate offline, i.e., the full video must be available before they produce an answer. Streaming VLMs process frames causally and decide for themselves when to respond, yet they lack explicit 3D representations. We present SpaTime, a streaming VLM that fuses causal geometry tokens into the language model at every frame, using only the frames observed so far. To supervise when the model answers, we propose a response-time loss that maps per-frame response probabilities to a differentiable expected response time and penalizes the distance from the ground-truth frame. For evaluation, we construct StreamVSTI-Bench and StreamVSI-Bench, streaming adaptations of VSTI-Bench and VSI-Bench. On StreamVSTI-Bench, SpaTime reaches 49.2% overall accuracy and reduces the mean response-time error by 66% relative to the strongest streaming baseline.",
+      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 멀티모달 파운데이션 모델입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "텍스트·이미지·음성 간 표현을 정확히 정렬하고 서로 다른 입력을 근거 있게 결합하는 일이 여전히 어렵습니다.",
+      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 핵심 검증 대상은 멀티모달 파운데이션 모델의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08713v1",
+      "published_at": "2026-10-06T17:22:33+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Hairong Yin",
+        "Huangying Zhan",
+        "Shin-Fang Chng",
+        "Yi Xu",
+        "Raymond A. Yeh"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Multimodal Foundation Models",
+        "vision-language",
+        "vlm"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Multimodal Foundation Models",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "멀티모달 파운데이션 모델",
+      "classification_confidence": 0.792,
+      "matched_terms": [
+        "vision-language",
+        "vlm"
+      ],
+      "importance_score": 63,
+      "importance_label": "주목",
+      "importance_reason": "신규 논문 · 24시간 내"
+    },
+    {
+      "external_id": "arxiv:2610.08704",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Local Content-Style Control for Diffusion-based Image Stylization",
+      "summary": "Image stylization with latent-diffusion models entangles two independently refined axes: what a region depicts and how it is depicted. Such pipelines expose only global controls, yet professional retouching demands deliberate, region-specific control. We lift two conditioning weights already present in a ControlNet + IP-Adapter stylization pipeline from global scalars to per-location spatial maps, yielding local, per-axis control of content and style in a single generative pass. Because the two weights act on disjoint pathways, adjusting them independently spans a 2x2 retouching vocabulary, from free regeneration to identity preservation. We validate that edits stay confined to the retouched region and that each weight predominantly steers its own axis. Our approach requires no retraining and drops unchanged into any such pipeline.",
+      "summary_ko": "비전·생성 미디어 분야에 속하며 핵심 연구 주제는 이미지 생성입니다. 생성 품질과 제어 가능성, 학습·추론 효율을 개선하는 방법을 다룹니다.",
+      "motivation_ko": "생성 품질뿐 아니라 프롬프트 충실도, 세부 제어와 반복 생성의 일관성을 동시에 확보해야 합니다.",
+      "contribution_ko": "여러 구성 요소를 연결한 시스템 또는 파이프라인을 구현해 실제 사용과 반복 실험이 가능한 형태로 제시합니다. 핵심 검증 대상은 이미지 생성의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08704v1",
+      "published_at": "2026-10-06T17:16:11+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Amir Semmo"
+      ],
+      "keywords": [
+        "Vision & Generative Media",
+        "Image Generation",
+        "diffusion model"
+      ],
+      "primary_topic": "Vision & Generative Media",
+      "secondary_topic": "Image Generation",
+      "primary_topic_ko": "비전·생성 미디어",
+      "secondary_topic_ko": "이미지 생성",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "diffusion model"
+      ],
+      "importance_score": 75,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08703",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Agreement Is Not Validity: Cross-Model LLM Consensus in Diagnosing Student Failure Modes in K-12 Math Tutoring Dialogue",
+      "summary": "In K-12 mathematics tutoring, student-tutor dialogue provides rich evidence of learners' problem-solving processes and sources of difficulty. Learning analytics research increasingly relies on large language models (LLMs) to extract such information from dialogue for a variety of downstream tasks, including knowledge tracing, behavioral modeling, and diagnosis of student reasoning errors. However, the validity of these model-generated interpretations remains insufficiently understood. In this exploratory study, we examine the validity of LLM classifications of five student failure modes in mathematics tutoring dialogue using an operational diagnostic codebook: uncertainty, misattribution, operator selection, conceptual gap, and procedural slip. Across models, human-LLM agreement was moderate (kappa = .524-.597), while cross-model agreement was substantially higher (kappa = .755-.781; alpha = .769). These findings show that cross-model agreement can create a misleading appearance of correctness, challenging the assumption that consensus among LLMs constitutes evidence of valid learner interpretation. For learning analytics, the implication is clear: scalable labeling is useful only if the inferred constructs are valid, and model consensus cannot substitute for independent evidence of that validity.",
+      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
+      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 언어 모델의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08703v1",
+      "published_at": "2026-10-06T17:16:03+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Clayton Cohn",
+        "Joyce Fonteles",
+        "Kirk Vanacore",
+        "Gianni Mazza",
+        "Candida Crawford",
+        "Tom Hooper",
+        "Gautam Biswas",
+        "Rene Kizilcec"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Language Models",
+        "language model",
+        "large language model"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Language Models",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "언어 모델",
+      "classification_confidence": 0.834,
+      "matched_terms": [
+        "language model",
+        "large language model",
+        "llm"
+      ],
+      "importance_score": 97,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08699",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "nanoMuse: An Open-Source Personal Agent for Every Device You Own",
+      "summary": "Assistants from 2011 answered and waited, and agents from 2023 did a task and stopped. In September 2026 Meta's Muse showed an agent for one person, with accounts, devices, memory and a conversation that lasts, closed, in a vendor's cloud, in one country. Such an agent is expected to act on a person's accounts and devices, remember them across weeks, speak first when it is worth it, and answer for what it did. It is a kind of software, not a model, and until now had no open counterpart. This report defines the personal agent in five questions and three horizons. It reads how Muse is built from Meta's public record and a copy of its production prompt, each statement marked by its source. It then presents nanoMuse, the open-source counterpart under the GPL-3.0, one agent on every device a person owns, with hands on the phone's screen and the computer's. They share one conversation over a relay anyone can run; every action goes through a Sentinel, memory is files the person can read, and the model is their choice. Its size and cost are given as estimates. What is open, memory with provenance, an evaluation suite for the hands and an open model for them, is set out as a roadmap.",
+      "summary_ko": "AI 시스템·평가 분야에 속하며 핵심 연구 주제는 평가·벤치마크입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "기존 지표가 실제 사용 능력과 실패 유형을 충분히 반영하지 못해 모델 간 공정한 비교가 어렵습니다.",
+      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://arxiv.org/abs/2610.08699v1",
+      "published_at": "2026-10-06T17:13:53+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Guangyi Liu",
+        "Yong Liu",
+        "Jiangning Zhang"
+      ],
+      "keywords": [
+        "AI Systems & Evaluation",
+        "Evaluation & Benchmarks",
+        "evaluation"
+      ],
+      "primary_topic": "AI Systems & Evaluation",
+      "secondary_topic": "Evaluation & Benchmarks",
+      "primary_topic_ko": "AI 시스템·평가",
+      "secondary_topic_ko": "평가·벤치마크",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "evaluation"
+      ],
+      "importance_score": 85,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08695",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "NMPP: Nonlinear Model Predictive Planning for Agile UAV Flight in Cluttered Environments",
+      "summary": "Flying a quadrotor through a cluttered environment requires not only planning a collision-free reference trajectory based on perceived obstacles, but the reference also needs to be dynamically feasible and within the actuation limits of the vehicle, so that the controller can track it precisely. Existing methods either optimize a smooth polynomial inside a convex corridor, which limits agility, or treat obstacles as soft costs traded against tracking performance. We propose a Nonlinear Model Predictive Planning (NMPP) that imposes perceived obstacles as hard geometric constraints and hands a full-state reference to an obstacle-blind SE(3) controller. Our planner achieves a 58-67 % lower position RMSE than a linear Model Predictive Control trajectory planner and a 41-70 % lower RMSE than a polynomial trajectory planner. It also completes all forest flights with up to 9.5 m/s speed without collisions, and achieves 86 % flight success rate under a more aggressive speed profile where a state-of-the-art planner has only 26 % success rate. The real-world deployment showed reliable execution flying up to 5.5 m/s in an unknown cluttered environment.",
+      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 계획·제어입니다. 환경을 인식하고 행동을 계획·제어하는 로봇 지능의 성능을 다룹니다.",
+      "motivation_ko": "불확실한 환경에서 제약을 지키며 실시간으로 계획을 수정하고 제어해야 하는 부담이 큽니다. 실제 환경으로 옮겼을 때 발생하는 성능 저하를 줄이는 것이 핵심 동기입니다.",
+      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 핵심 검증 대상은 계획·제어의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08695v1",
+      "published_at": "2026-10-06T17:10:59+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Ondřej Procházka",
+        "Juraj Pauko",
+        "Robert Pěnička",
+        "Martin Saska"
+      ],
+      "keywords": [
+        "Embodied & Decision AI",
+        "Planning & Control",
+        "model predictive control"
+      ],
+      "primary_topic": "Embodied & Decision AI",
+      "secondary_topic": "Planning & Control",
+      "primary_topic_ko": "로보틱스·의사결정 AI",
+      "secondary_topic_ko": "계획·제어",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "model predictive control"
+      ],
+      "importance_score": 61,
+      "importance_label": "주목",
+      "importance_reason": "신규 논문 · 24시간 내"
+    },
+    {
+      "external_id": "arxiv:2610.08694",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "GeneICL: A Tabular Foundation Model for Bulk Transcriptomics",
+      "summary": "Gene expression is widely measured in biomedicine, yet clinical outcome prediction remains challenging due to high dimensionality, strong feature correlations, and limited labeled data. Large self-supervised transcriptomic foundation models often fail to outperform simple supervised baselines. Tabular foundation models offer an alternative through in-context learning, but are typically pretrained on generic synthetic data rather than transcriptomic structure. We ask whether transcriptomics-aware pretraining, rather than scale, is the missing ingredient. Towards this end, we introduce GeneICL, a 4.2M-parameter tabular foundation model combining a semi-synthetic pretraining prior built from measured bulk expression profiles with a parameter-efficient recurrent architecture. We further enable right-censored survival prediction via a training-free reduction to regression using Cox partial-likelihood residuals. We evaluate GeneICL on 80 clinical outcome-prediction tasks spanning classification, regression, and survival. Tabular foundation models consistently outperform self-supervised transcriptomic models, while GeneICL achieves the best overall rank among evaluated foundation models and tuned baselines. GeneICL does so with up to 387$\\times$ fewer parameters, no gradient updates at inference, and predictions within seconds on a laptop CPU.",
+      "summary_ko": "AI 시스템·평가 분야에 속하며 핵심 연구 주제는 데이터·합성 데이터입니다. 학습·평가용 데이터의 구성과 품질, 활용 방법을 핵심적으로 살펴봅니다.",
+      "motivation_ko": "학습 데이터의 품질·대표성·라이선스 문제가 성능과 안전성에 직접 영향을 줍니다.",
+      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://arxiv.org/abs/2610.08694v1",
+      "published_at": "2026-10-06T17:10:37+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Michael Bohl",
+        "Alexander Theus",
+        "David Wissel",
+        "Valentina Boeva"
+      ],
+      "keywords": [
+        "AI Systems & Evaluation",
+        "Data & Synthetic Data",
+        "synthetic data"
+      ],
+      "primary_topic": "AI Systems & Evaluation",
+      "secondary_topic": "Data & Synthetic Data",
+      "primary_topic_ko": "AI 시스템·평가",
+      "secondary_topic_ko": "데이터·합성 데이터",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "synthetic data"
+      ],
+      "importance_score": 61,
+      "importance_label": "주목",
+      "importance_reason": "신규 논문 · 24시간 내"
+    },
+    {
+      "external_id": "arxiv:2610.08691",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "ScienceClaw: Benchmarking Continual Self-Evolution of AI-for-Science Agents Across the Natural and Social Sciences",
+      "summary": "Large language model agents are accelerating scientific automation, yet verified executions rarely become persistent program-level improvements, and existing evaluations do not examine this process across sequential tasks in both the natural and social sciences. We formalize ScienceClaw as fixed-parameter program self-evolution that unifies task solving, scientific verification, and program updates. ScienceClaw-Eval spans 23 disciplines and measures scientific correctness, evolutionary gain, retention, cross-dataset transfer, and evolution cost through sequential streams and independent reset evaluation. Our framework repairs executable workflows through multi-turn interaction, converts re-execution-verified failure--success trajectories into linked Skill and Operator candidates, and retains an update only when source-task replay reproduces the repair and independent scientific tasks improve. Code is available at https://github.com/beita6969/ScienceClaw.",
+      "summary_ko": "AI 시스템·평가 분야에 속하며 핵심 연구 주제는 평가·벤치마크입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "기존 지표가 실제 사용 능력과 실패 유형을 충분히 반영하지 못해 모델 간 공정한 비교가 어렵습니다.",
+      "contribution_ko": "새 데이터셋 또는 데이터 구성 절차를 제시해 학습과 평가에 사용할 수 있는 재현 가능한 기반을 넓힙니다. 특히 새로운 데이터와 환경으로의 일반화 성능을 검증하는 데 초점을 둡니다.",
+      "url": "https://arxiv.org/abs/2610.08691v1",
+      "published_at": "2026-10-06T17:08:03+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Mingda Zhang",
+        "Wenjin Liu",
+        "Tiesunlong Shen",
+        "Zikai Xiao",
+        "Zhenghong Lin",
+        "Qing Xu",
+        "Erik Cambria",
+        "Xiaoying Tang",
+        "Haoran Luo"
+      ],
+      "keywords": [
+        "AI Systems & Evaluation",
+        "Evaluation & Benchmarks",
+        "benchmark",
+        "evaluation"
+      ],
+      "primary_topic": "AI Systems & Evaluation",
+      "secondary_topic": "Evaluation & Benchmarks",
+      "primary_topic_ko": "AI 시스템·평가",
+      "secondary_topic_ko": "평가·벤치마크",
+      "classification_confidence": 0.792,
+      "matched_terms": [
+        "benchmark",
+        "evaluation"
+      ],
+      "importance_score": 87,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08689",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Probabilistic Counterfactual Inference for Discrete Outcomes in Gaussian-Process Causal Models",
+      "summary": "Counterfactual inference in Gaussian-process structural causal models (GP-SCMs) has been developed primarily for continuous endogenous variables, limiting applicability to causal graphs that contain discrete child nodes with continuous parents. We introduce a unified probabilistic framework for counterfactual inference with heterogeneous variable types by pairing GP predictors with explicit exogenous noise mechanisms. For discrete outcomes, we derive exact conditional noise-abduction procedures using a uniform threshold for binary variables, a Gumbel-max race for nominal categories, and a latent Gaussian cut-point model for ordinal ones. In each case, we propagate abducted noise through interventions while accounting for posterior uncertainty in the GP latent functions, and prove that the resulting mechanisms reproduce the fitted model's observational and interventional distributions. On synthetic SCMs with known ground-truth counterfactuals, we evaluate estimation accuracy, consistency, and robustness to coupling misspecification. A key finding is that applying a categorical coupling to ordinal data inflates counterfactual error roughly threefold even when observational fit remains comparable, and that this error does not diminish with more data. As the training set grows, the fitted structural equation converges to the truth while the counterfactual error flattens onto a floor. In the reverse direction, forcing a false order onto nominal data instead degrades the fitted equation itself. The choice of coupling must therefore be justified on structural grounds rather than read off the fit.",
+      "summary_ko": "신뢰할 수 있는 AI 분야에 속하며 핵심 연구 주제는 강건성·보안입니다. 모델의 안전성, 신뢰성 및 예상하지 못한 입력에 대한 대응을 분석합니다.",
+      "motivation_ko": "적대적 입력과 분포 변화, 프롬프트 주입 상황에서 성능과 보안이 급격히 저하될 수 있습니다.",
+      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 특히 안전성·강건성·신뢰성 측면의 실패를 줄이는 데 기여합니다.",
+      "url": "https://arxiv.org/abs/2610.08689v1",
+      "published_at": "2026-10-06T17:06:22+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Juliette Sinnott",
+        "Amir-Hossein Karimi",
+        "Mohammad Kohandel"
+      ],
+      "keywords": [
+        "Trustworthy AI",
+        "Robustness & Security",
+        "robustness"
+      ],
+      "primary_topic": "Trustworthy AI",
+      "secondary_topic": "Robustness & Security",
+      "primary_topic_ko": "신뢰할 수 있는 AI",
+      "secondary_topic_ko": "강건성·보안",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "robustness"
+      ],
+      "importance_score": 61,
+      "importance_label": "주목",
+      "importance_reason": "신규 논문 · 24시간 내"
+    },
+    {
+      "external_id": "arxiv:2610.08684",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "RenderBench: Benchmarking Render-to-Real Video Transfer with Reconstructed Digital Twins",
+      "summary": "Modern video models can generate realistic videos from real appearance references and proxy renders that specify scene structure, viewpoint changes, and motion. Evaluating this render-to-real capability requires a real target video depicting the same scene evolution, paired with an editable, geometrically registered 3D replica. Such data has traditionally required substantial manual modeling, calibration, and animation effort. We introduce RenderBench, a benchmark of 12 reconstructed real-world scenes spanning large-scale indoor environments and egocentric viewpoints, with both static and dynamic settings. Our construction pipeline combines visual geometry, neural reconstruction, and assisted 3D authoring. Each scene is decomposed into static objects and dynamic actors, registered to the capture cameras, and accepted only after multi-view geometric and temporal validation. Each evaluation unit contains appearance reference images, a held-out real target video, an editable digital twin, a matched proxy render, and renderer-native scene annotations. We evaluate transfer models against paired real target videos, retain PAI-Bench-C-compatible structural projections, and use scene annotations to localize failures by object, visibility, articulation, and motion. The first release retains 12 of 14 registered samples (85.7%), comprising 1,496 paired real-proxy frames. All released scenes pass file-integrity and environment-edit audits, while proxy diagnostics yield a depth si-RMSE of 0.2170 and instance mIoU of 0.3673. RenderBench provides paired real observations and editable scene state for assessing both appearance fidelity and preservation of geometry and dynamics.",
+      "summary_ko": "AI 시스템·평가 분야에 속하며 핵심 연구 주제는 평가·벤치마크입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "기존 지표가 실제 사용 능력과 실패 유형을 충분히 반영하지 못해 모델 간 공정한 비교가 어렵습니다. 실제 환경으로 옮겼을 때 발생하는 성능 저하를 줄이는 것이 핵심 동기입니다.",
+      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 특히 새로운 데이터와 환경으로의 일반화 성능을 검증하는 데 초점을 둡니다.",
+      "url": "https://arxiv.org/abs/2610.08684v1",
+      "published_at": "2026-10-06T17:03:55+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Dicong Qiu",
+        "Zhiyuan Xu",
+        "Yaosheng Liu",
+        "Feng Han",
+        "Bo Ye"
+      ],
+      "keywords": [
+        "AI Systems & Evaluation",
+        "Evaluation & Benchmarks",
+        "benchmark",
+        "evaluation"
+      ],
+      "primary_topic": "AI Systems & Evaluation",
+      "secondary_topic": "Evaluation & Benchmarks",
+      "primary_topic_ko": "AI 시스템·평가",
+      "secondary_topic_ko": "평가·벤치마크",
+      "classification_confidence": 0.792,
+      "matched_terms": [
+        "benchmark",
+        "evaluation"
+      ],
+      "importance_score": 87,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08683",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Coupled but Late: Turn-Taking Between Full-Duplex Speech Models in Unscripted Dialogue",
+      "summary": "Full-duplex speech models are trained to converse with a person, but they are increasingly made to converse with each other, in self-play data generation, agent societies, and model-based evaluation. In that loop no human absorbs a timing error: each model's turn-taking is the other's input. We ask what timing the loop settles into. Two PersonaPlex-7B instances exchange audio tokens on a shared clock in unscripted conversation, and one floor-transfer rule is applied to them and to Switchboard. Their timing is coupled: re-pairing speakers across conversations destroys it. But the floor changes hands late, at a median of 400-560 ms against 137 ms for humans, and the last 120 ms of the partner's turn, where human projection places a tenth of its transfers, holds 1% of theirs. Delaying one direction of the channel shifts the response one-for-one and leaves the run-up to it empty, consistent with a reactive wait after the perceived end rather than the turn-end projection human timing requires.",
+      "summary_ko": "AI 시스템·평가 분야에 속하며 핵심 연구 주제는 평가·벤치마크입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "기존 지표가 실제 사용 능력과 실패 유형을 충분히 반영하지 못해 모델 간 공정한 비교가 어렵습니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 특히 새로운 데이터와 환경으로의 일반화 성능을 검증하는 데 초점을 둡니다.",
+      "url": "https://arxiv.org/abs/2610.08683v1",
+      "published_at": "2026-10-06T17:03:54+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Lichen Zhu",
+        "Yueqian Lin",
+        "Yiheng Wang",
+        "Hai \"Helen\" Li",
+        "Yiran Chen"
+      ],
+      "keywords": [
+        "AI Systems & Evaluation",
+        "Evaluation & Benchmarks",
+        "evaluation"
+      ],
+      "primary_topic": "AI Systems & Evaluation",
+      "secondary_topic": "Evaluation & Benchmarks",
+      "primary_topic_ko": "AI 시스템·평가",
+      "secondary_topic_ko": "평가·벤치마크",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "evaluation"
+      ],
+      "importance_score": 85,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08680",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "A Systematic Study of Small Language Models on Abstract Reasoning Tasks",
+      "summary": "Endpoint accuracy on abstract-reasoning benchmarks does not reveal whether a language model has acquired a transferable rule or fit distribution-specific regularities. We study this distinction in small language models on the ARC-TGI benchmark, which organizes abstract grid transformations into controllable task families and supports resampling, spatial shifts, and cross-benchmark transfer. Across more than 1,000 runs, we profile decoder-only, encoder--decoder, and mixture-of-experts model families under supervised fine-tuning. We examine the efficiency and stability of skill acquisition, robustness beyond the training distribution, interactions with model family and task formulation, and layer-wise attention signatures that accompany behavioral differences. Substantial in-distribution accuracy is attainable, but acquisition is sensitive to optimization and unevenly distributed across task families. Performance deteriorates sharply outside the training distribution, including when the rule is retained but grid scale changes. Greater training-set depth and breadth yield uneven gains, while the effect of additional in-context examples depends on model family. Executable-rule induction also yields correct solutions not observed under direct grid generation. On selected tasks, attention diagnostics show distinct concentration and context-dependence profiles, but do not establish general causal mechanisms. Overall, abstract-reasoning scores are conditional on the model, adaptation regime, evaluation distribution, and response format.",
+      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
+      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 특히 안전성·강건성·신뢰성 측면의 실패를 줄이는 데 기여합니다.",
+      "url": "https://arxiv.org/abs/2610.08680v1",
+      "published_at": "2026-10-06T17:01:19+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Nur A Zarin Nishat",
+        "Jens Lehmann",
+        "Andrei Aioanei",
+        "Sahar Vahdati"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Language Models",
+        "language model"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Language Models",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "언어 모델",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "language model"
+      ],
+      "importance_score": 96,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08678",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Secure Speculative Decoding for Large Language Models",
+      "summary": "Speculative decoding accelerates inference for a large language model (LLM), referred to as the \\emph{target model}, by first using a smaller model, referred to as the \\emph{draft model}, to generate candidate tokens and then verifying them with the target model for acceptance or rejection. Prior studies primarily focused on the efficiency-utility trade-off of speculative decoding, e.g., lossy speculative decoding, leaving its security implications largely unexplored. In this work, we bridge this gap by providing the \\emph{first} systematic study of the security implications of speculative decoding. Through a large-scale measurement study, we reveal a pronounced security-utility asymmetry: across a wide range of lossy speculative decoding methods, improvements in inference efficiency come at a disproportionately high cost to security, with attack success rates for jailbreak and prompt injection attacks increasing much faster than utility degrades. We then propose SecureSD, a new theory-guided speculative decoding method that enhances security while maintaining efficiency and utility. Specifically, our theoretical analysis reveals that security degradation primarily originates from the early tokens generated by the draft model. Motivated by this insight, SecureSD applies a stricter verification criterion to draft-model tokens at early decoding positions. Extensive experiments on both security and utility benchmarks demonstrate that SecureSD significantly improves security while preserving efficiency and utility compared to existing speculative decoding methods.",
+      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
+      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 핵심 검증 대상은 언어 모델의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08678v1",
+      "published_at": "2026-10-06T16:59:37+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Yichi Zhang",
+        "Zhiqi Wang",
+        "Neil Gong",
+        "Yuchen Yang"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Language Models",
+        "language model",
+        "large language model"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Language Models",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "언어 모델",
+      "classification_confidence": 0.869,
+      "matched_terms": [
+        "language model",
+        "large language model"
+      ],
+      "importance_score": 98,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08677",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Variance-Optimal Off-Policy Evaluation with Conjunct Effect Modeling",
+      "summary": "Off-policy evaluation (OPE) for contextual bandit policies becomes challenging when action-level importance weighting incurs excessive variance. Doubly robust (DR) estimation remains unbiased under common support but retains these high-variance action-level weights. A prior estimator, Off-policy evaluation with Conjunct Effect Model (OffCEM), replaces them with more stable cluster-level weights, at the cost of relying on local correctness of the reward model. In this paper, we show that, under the assumptions required by DR and OffCEM, there exists an unbiased family of estimators that interpolates between OffCEM and DR. Building on this result, we propose the Variance Optimal-CEM (VOCEM) estimator, which selects the interpolation coefficient to minimize variance. We derive the population-optimal coefficient in closed form and show that the resulting estimator has variance no larger than either endpoint, OffCEM or DR. Experiments in controlled synthetic settings and on two large-action benchmarks show that VOCEM improves upon both endpoints in all 23 evaluated conditions, exhibiting greater stability and empirical robustness.",
+      "summary_ko": "AI 시스템·평가 분야에 속하며 핵심 연구 주제는 평가·벤치마크입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "기존 지표가 실제 사용 능력과 실패 유형을 충분히 반영하지 못해 모델 간 공정한 비교가 어렵습니다.",
+      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://arxiv.org/abs/2610.08677v1",
+      "published_at": "2026-10-06T16:58:26+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Nicolò Felicioni",
+        "Michael Benigni",
+        "Maurizio Ferrari Dacrema",
+        "Paolo Cremonesi"
+      ],
+      "keywords": [
+        "AI Systems & Evaluation",
+        "Evaluation & Benchmarks",
+        "benchmark",
+        "evaluation"
+      ],
+      "primary_topic": "AI Systems & Evaluation",
+      "secondary_topic": "Evaluation & Benchmarks",
+      "primary_topic_ko": "AI 시스템·평가",
+      "secondary_topic_ko": "평가·벤치마크",
+      "classification_confidence": 0.792,
+      "matched_terms": [
+        "benchmark",
+        "evaluation"
+      ],
+      "importance_score": 87,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08675",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Same-Number Citation Swaps: Stress-Testing Jev as a Financial Evidence Judge",
+      "summary": "Financial reports repeat values across periods, metrics and accounting lines, allowing an LLM-generated calculation to be numerically correct while citing the wrong financial role. We evaluate what probabilistic evidence verification adds beyond number matching using Jev as a source-support verifier for GPT-4.1-mini calculation traces. A signed-number-at-pointer baseline explains most recovery over exact quotation checks. To isolate the remaining role-recognition problem, we hold operands and arithmetic fixed, move citations between same-number cells, and retain controls that express equivalent facts. These contrasts reveal both wrong-role citations that pass and valid alternative citations that are withheld. Explicit column labels improve selected wrong-role decisions while also lowering support for some equivalent evidence. A constructed follow-up on 36 new source pages, labeled by a non-author reviewer, extends this evaluation and exposes the same tradeoff between detecting role errors and retaining valid citations. The contribution is a controlled evaluation that identifies what a probabilistic financial verifier distinguishes when numerical matching is held fixed. For LLM-based financial assistants, it makes numerical correctness, cited-role support and acceptance outcomes separately assessable.",
+      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 언어 모델의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08675v1",
+      "published_at": "2026-10-06T16:57:47+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Chuhong Xu",
+        "Bo Su",
+        "Ziyao Chen",
+        "Ruiyang Xu",
+        "Shimeng Dai",
+        "Xinyu Qiu"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Language Models",
+        "llm"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Language Models",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "언어 모델",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "llm"
+      ],
+      "importance_score": 95,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08674",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "EC-RAG: Event Chain Retrieval-Augmented Generation for Long Video Understanding",
+      "summary": "Current large video-language models (LVLMs) still face challenges when dealing with long videos, mainly because frames are often processed independently, making it difficult to capture temporal dependencies across events. Although retrieval-augmented approaches have been introduced to provide additional context, most of them operate at the frame or snippet level, which limits their ability to model how events evolve over time and relate to each other. In this paper, we propose Event Chain Retrieval-Augmented Generation (EC-RAG), a training-free framework that organizes video content into an explicit event chain before question answering. Instead of retrieving isolated frames or text segments, EC-RAG first partitions the video into semantically coherent segments, represents each segment using multi-modal signals, and then links them into a structured chain that preserves temporal order and captures inter-event relationships. Given a query, the system identifies relevant events within this chain and gathers supporting evidence from the associated modalities. Our approach offers several practical advantages: (i) event-level abstraction that better reflects how video content is naturally structured, enabling more reliable localization compared to frame-level retrieval; (ii) structured multi-modal fusion that aggregates speech, text, and visual cues at the event level, allowing complementary information to be more effectively utilized during reasoning; and (iii) plug-and-play compatibility with existing LVLM backbones, requiring no additional training or reliance on proprietary models. Experiments on Video-MME, MLVU, and LongVideoBench show that this event-centric design consistently outperforms frame-level retrieval baselines, highlighting the importance of modeling temporal structure for long-video understanding.",
+      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 검색·메모리입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "검색 결과의 관련성과 최신성이 부족하거나 장기 기억이 왜곡되면 생성 결과 전체의 신뢰성이 낮아집니다.",
+      "contribution_ko": "여러 구성 요소를 연결한 시스템 또는 파이프라인을 구현해 실제 사용과 반복 실험이 가능한 형태로 제시합니다. 핵심 검증 대상은 검색·메모리의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08674v1",
+      "published_at": "2026-10-06T16:57:46+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Yuhao Qin",
+        "Junbo Wang",
+        "Yuke Li",
+        "Yining Zhu"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Retrieval & Memory",
+        "retrieval-augmented"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Retrieval & Memory",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "검색·메모리",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "retrieval-augmented"
+      ],
+      "importance_score": 62,
+      "importance_label": "주목",
+      "importance_reason": "신규 논문 · 24시간 내"
+    },
+    {
+      "external_id": "arxiv:2610.08672",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "PDB: Point-Based Deformation Blending for Facial Animation Retargeting",
+      "summary": "Mesh-agnostic facial animation retargeting transfers expressions across meshes with different structures, but preserving facial motion without surface artifacts remains challenging. To address this, we present PDB, Point-Based Deformation Blending for facial animation retargeting. PDB predicts a compact set of deformed control points from a source neutral-expression pair and blending weights from the target neutral mesh. The weights are computed once per target and reused across frames, while the control points vary with each source expression. ReLU enforces non-negative weights and permits exact zeros, followed by row-wise normalization. The target mesh is reconstructed directly by multiplying the weights and control points, without a predefined cage, precomputed coordinates, a learned per-element deformation decoder, or a global reconstruction solve. Trained only with self-retargeting reconstruction supervision, PDB supports cross-identity transfer without paired cross-identity training expressions. Experiments demonstrate accurate retargeting, fast inference, and localized support in the learned weights. Joint evaluation of expression accuracy and local surface preservation shows reduced surface artifacts relative to the evaluated dense displacement method while retaining the intended motion. Perceptual evaluations further support expression fidelity and visual quality in both self- and cross-retargeting.",
+      "summary_ko": "AI 시스템·평가 분야에 속하며 핵심 연구 주제는 평가·벤치마크입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "기존 지표가 실제 사용 능력과 실패 유형을 충분히 반영하지 못해 모델 간 공정한 비교가 어렵습니다.",
+      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://arxiv.org/abs/2610.08672v1",
+      "published_at": "2026-10-06T16:55:31+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Sihun Cha",
+        "Hyeonseung Shin",
+        "Suah Yu",
+        "Junyong Noh"
+      ],
+      "keywords": [
+        "AI Systems & Evaluation",
+        "Evaluation & Benchmarks",
+        "evaluation"
+      ],
+      "primary_topic": "AI Systems & Evaluation",
+      "secondary_topic": "Evaluation & Benchmarks",
+      "primary_topic_ko": "AI 시스템·평가",
+      "secondary_topic_ko": "평가·벤치마크",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "evaluation"
+      ],
+      "importance_score": 85,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08670",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Principled Under Pressure: Post-Training Decides Whether LLMs Act on Their Own Moral Judgment",
+      "summary": "Language models increasingly act as agents. An agent that says an action is wrong and then takes it anyway is a different failure from one that does not know better, and evaluations of stated values cannot see it. We build a pre-registered panel of 248 scenarios across five kinds of pressure. Each scenario is posed twice to the same model, once as the agent choosing what to do and once in the third person asking which option is right, so the model's own judgment is the reference. Every scenario has a twin with the pressure removed, and every model gets a positive control in which its operator orders the violating action, so that a missing gap can be told apart from a blind instrument. On OLMo-3-7B-Instruct, the model takes the action it judged wrong on about one in five pressuring scenarios, more often than on the same scenarios with the pressure removed. Across four instruct models the gap depends on the post-training recipe: OLMo-3 and Meta's Llama-3.1-8B-Instruct carry it; Tulu 3 shows none on the whole panel (above about 0.01 in probability) or on its own most-pressuring scenarios; Qwen2.5-7B-Instruct shows none on the whole panel (above about 0.02) and is unresolved on its own (0.083, -0.028 to 0.195). Meta's recipe and Ai2's Tulu 3 start from the same Llama-3.1 weights, and only Meta's carries the gap. Reading a chat model outside its chat template reverses the sign of its gap with nothing at stake (-0.038 against +0.055 under the template on OLMo-3), a distortion present on two of three recipes. On both models that carry it, reasoning about the stakes before acting moves the choice back toward the model's own judgment, against a same-length non-moral task, with or without the pressure; on OLMo-3, naming the norm at stake does about a third of that. The gap is a measurable target for post-training recipes, not a fixed property of pretrained weights.",
+      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 언어 모델의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08670v1",
+      "published_at": "2026-10-06T16:52:23+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Orion Reblitz-Richardson"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Language Models",
+        "language model",
+        "llm"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Language Models",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "언어 모델",
+      "classification_confidence": 0.792,
+      "matched_terms": [
+        "language model",
+        "llm"
+      ],
+      "importance_score": 97,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08669",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "MemFLoRA: Memory-Floor LoRA for CNN Adaptation at the Edge",
+      "summary": "On-device learning is necessary when the model encounters user-,sensor-, or environment-specific shifts after deployment. Although parameter-efficient fine-tuning (PEFT) methods, particularly Low-Rank Adaptation (LoRA) variants, enable efficient adaptation at the edge, the limiting resource for Convolutional Neural Network (CNN) adaptation is often not the number of trainable parameters but the activation state that must be retained until the backward pass. This paper introduces Memory-Floor LoRA (MemFLoRA), a low-rank CNN adapter built around a memory-first design principle rather than a direct application of transformer-oriented LoRA. Instead of merely reducing trainable weights, we define an activation-memory-floor criterion: trainable backward computations must not depend on full-width layer inputs. The resulting adapter freezes the down-projection, trains a scale-matched up-projection, and combines eval-mode backbone normalization with activation-minimal backward rules, reducing saved state to the low-rank branch. Evaluated on three Human Activity Recognition (HAR) datasets and two CNN backbones under subject, body-location, and sensor-placement shifts, MemFLoRA reduces saved-activation memory by 98.5-98.7% and peak training-state memory by 94.9-97.3% relative to full fine-tuning, while matching or exceeding CNN PEFT baselines.",
+      "summary_ko": "AI 시스템·평가 분야에 속하며 핵심 연구 주제는 최적화·압축입니다. 학습·평가용 데이터의 구성과 품질, 활용 방법을 핵심적으로 살펴봅니다.",
+      "motivation_ko": "모델 크기와 비용을 줄이면 정확도와 강건성이 함께 저하될 수 있는 절충 문제가 있습니다. 실제 환경으로 옮겼을 때 발생하는 성능 저하를 줄이는 것이 핵심 동기입니다.",
+      "contribution_ko": "새 데이터셋 또는 데이터 구성 절차를 제시해 학습과 평가에 사용할 수 있는 재현 가능한 기반을 넓힙니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://arxiv.org/abs/2610.08669v1",
+      "published_at": "2026-10-06T16:51:20+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Mehmet Emre Akbulut",
+        "Johannes Geier",
+        "Ulf Schlichtmann"
+      ],
+      "keywords": [
+        "AI Systems & Evaluation",
+        "Optimization & Compression",
+        "low-rank"
+      ],
+      "primary_topic": "AI Systems & Evaluation",
+      "secondary_topic": "Optimization & Compression",
+      "primary_topic_ko": "AI 시스템·평가",
+      "secondary_topic_ko": "최적화·압축",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "low-rank"
+      ],
+      "importance_score": 61,
+      "importance_label": "주목",
+      "importance_reason": "신규 논문 · 24시간 내"
+    },
+    {
+      "external_id": "arxiv:2610.08668",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Semantic Behavioral Watermarking: Paraphrase-Robust and Forgery-Resistant Provenance for LLM Agents",
+      "summary": "Behavioral watermarking embeds an owner identifier in an LLM agent's high-level action choices, giving provenance without touching output tokens. Prior agent watermarks break in two ways. First, all three prior schemes bind the watermark to the exact action symbol, so renaming a tool desynchronizes decoding even when the observation is untouched; in AgentMark's own robustness test, paraphrasing the observation alone drops bit-recovery to 16.8%. Second, every prior agent watermark studies only removal: none asks whether an adversary can forge a trajectory that verifies as someone else's, a question answered affirmatively for text watermarks (Jovanović et al., 2024). We present Semantic Behavioral Watermarking (SBW): watermarking over semantic action clusters under history conditioning, with the public-cluster bin replaced by keyed collision-resistant binning whose fresh-bucket assignment is provably unpredictable in the random-oracle model. Across five agent models (3B-14B, four vendors) and three encoders the ordering holds on both benchmarks: on ToolBench (600 trajectories per model) detection under rewriting is 0.49-0.66 for cluster-level versus 0.05-0.17 for exact-symbol at a permutation-calibrated 1% FPR, at 72-83% choice agreement against 22-27% for logit biasing; on ALFWorld (100 episodes per model) it is 0.92-0.97 versus 0.00-0.01. Keyed binning takes adaptive forgery from 100% to the false-positive floor at the primary operating point (bge, r=64). We also mark the boundary that guarantee does not cover: when the adversary copies the victim's own steps, shuffled splicing is neutralized (0.000 on Qwen2.5-3B) but chained replay remains at 0.76-0.98 across the five models, reported as open. Paraphrase robustness costs about half of the per-step watermark capacity. Code is available at https://anonymous.4open.science/r/SBW-Agent-Watermark.",
+      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
+      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 특히 안전성·강건성·신뢰성 측면의 실패를 줄이는 데 기여합니다.",
+      "url": "https://arxiv.org/abs/2610.08668v1",
+      "published_at": "2026-10-06T16:50:42+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Suxin Ji",
+        "Hungtao Wan",
+        "Shaoxuan Chen",
+        "An Zhang"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Language Models",
+        "llm"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Language Models",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "언어 모델",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "llm"
+      ],
+      "importance_score": 96,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08663",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Knowing When to Trust a Prior: Reliability-Gated Cue Fusion for Video Gaze Prediction",
+      "summary": "Video gaze prediction is led by gaze-trained models, yet gaze-free priors carry signal those models have not absorbed, if one knows when to trust them. We propose FocusGate, a gated ensemble of gaze-free priors whose members may abstain. A per-frame gate reads three shape statistics of a defocus map and selects the frames on which the estimator is above chance on average, so rejected frames reduce to the base exactly, while midrank normalisation lets an all-zero prior abstain at zero parameters. Gated fusion is significantly positive on film, sports and web video, whereas unconditional fusion is harmful on sports and null on web. Added to four supervised predictors, the NTIRE 2026 champion among them, FocusGate improves all sixteen model-domain cells in shuffled AUC, fifteen significantly, one domain pre-registered and scored once, while adding only 1% to the champion's latency. Alone, it surpasses TASED-Net and UNISAL in shuffled AUC on film with a 16-frame causal mean.",
+      "summary_ko": "비전·생성 미디어 분야에 속하며 핵심 연구 주제는 인지·인식입니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
+      "motivation_ko": "실제 환경의 가림·노이즈·분포 변화에서도 객체와 장면을 안정적으로 인식해야 합니다.",
+      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://arxiv.org/abs/2610.08663v1",
+      "published_at": "2026-10-06T16:46:33+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Lichen Zhu",
+        "Yueqian Lin",
+        "Yiheng Wang",
+        "Hai \"Helen\" Li",
+        "Yiran Chen"
+      ],
+      "keywords": [
+        "Vision & Generative Media",
+        "Perception & Recognition",
+        "cs.CV"
+      ],
+      "primary_topic": "Vision & Generative Media",
+      "secondary_topic": "Perception & Recognition",
+      "primary_topic_ko": "비전·생성 미디어",
+      "secondary_topic_ko": "인지·인식",
+      "classification_confidence": 0.38,
+      "matched_terms": [
+        "cs.CV"
+      ],
+      "importance_score": 59,
+      "importance_label": "주목",
+      "importance_reason": "신규 논문 · 24시간 내"
+    },
+    {
+      "external_id": "arxiv:2610.08662",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "ParanoiaEval: Benchmarking Unnecessary Defensive Work in Agentic Coding",
+      "summary": "As coding agents increasingly undertake real-world work autonomously, judging whether their risk treatments are warranted has become important. Existing work evaluates related agent behaviors from separate perspectives, but lacks a systematic framework for unifying these behaviors. To bridge this gap, we introduce ParanoiaEval, the first benchmark for unified evaluation of risk-treatment capabilities in coding agents. Grounded in the well-established Avoidance-Transfer-Mitigation-Acceptance framework in software engineering risk management, ParanoiaEval operationalizes its 4 fundamental treatments for coding-agent settings and contains 200 evidence-controlled repository-level task pairs, each differing only in treatment-defining evidence. We further introduce dedicated metrics for risk-treatment violations and evidence responsiveness, using a human-calibrated agentic judge for reliable evaluation. Large-scale experiments on 8 representative models and a post-hoc human study reveal that (I) unnecessary risk treatment occurs in 11.2%-58.7% of runs despite explicit evidence, with substantial variation across agent configurations; (II) stronger task capability does not ensure more appropriate risk treatment, while treatment violations substantially harm developers' experience, establishing risk treatment as an independent capability dimension; and (III) agents exhibit systematic patterns consistent with established risk-management findings, suggesting that knowledge from human practice can guide the diagnosis and improvement of this capability.",
+      "summary_ko": "AI 시스템·평가 분야에 속하며 핵심 연구 주제는 평가·벤치마크입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "기존 지표가 실제 사용 능력과 실패 유형을 충분히 반영하지 못해 모델 간 공정한 비교가 어렵습니다. 실제 환경으로 옮겼을 때 발생하는 성능 저하를 줄이는 것이 핵심 동기입니다.",
+      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 특히 새로운 데이터와 환경으로의 일반화 성능을 검증하는 데 초점을 둡니다.",
+      "url": "https://arxiv.org/abs/2610.08662v1",
+      "published_at": "2026-10-06T16:46:14+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Hanjun Luo",
+        "Xiucheng Zhang",
+        "Zhuoning Xu",
+        "Zhimu Huang",
+        "Yingbin Jin",
+        "Xinfeng Li",
+        "Hanan Salam"
+      ],
+      "keywords": [
+        "AI Systems & Evaluation",
+        "Evaluation & Benchmarks",
+        "benchmark",
+        "evaluation"
+      ],
+      "primary_topic": "AI Systems & Evaluation",
+      "secondary_topic": "Evaluation & Benchmarks",
+      "primary_topic_ko": "AI 시스템·평가",
+      "secondary_topic_ko": "평가·벤치마크",
+      "classification_confidence": 0.792,
+      "matched_terms": [
+        "benchmark",
+        "evaluation"
+      ],
+      "importance_score": 87,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08660",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Evidence-Bound Reasoning: Neuro-Semantic Verification of Biomedical AI in Glioblastoma Radiogenomics",
+      "summary": "Background: Biomedical AI can generate plausible explanations without reliably verifying whether each statement is supported by patient-specific evidence. We developed a neuro-semantic verification framework that converts radiomic measurements into addressable evidence records and machine-checkable claims. Methods: UPenn-GBM radiomics were aligned with de novo CaPTk extraction from standardized MRI and expert-validated segmentations in an independent multicenter cohort. The shared space comprised 1,728 features from T1, T1GD, T2, and FLAIR MRI across three tumor regions. Reference-defined semantic states were derived from 611 UPenn cases. We evaluated cross-cohort transportability, model-linked provenance, deterministic verification, controlled predictive degradation, and an LLM claim-extraction pilot; MGMT prediction served only as a transport stress test. Results: Median semantic-state agreement was 0.786 (weighted kappa 0.709), ranging from 0.918 for morphologic to 0.252 for intensity features. The external evidence ledger contained 1,655 model-linked records for 331 patients. The verifier achieved 100% exact-set accuracy in a 6,620-claim corruption benchmark. In a 24-case pilot, GPT-5.6 Sol reproduced 72/72 prespecified atomic claims, and the frozen verifier recovered 24/24 expected conditions. During controlled degradation, ROC AUC declined from 0.899 to 0.500 while verification accuracy remained 1.000. External MGMT discrimination was weak (ROC AUC 0.543). Conclusions: Verifiability can be engineered and evaluated independently of predictive performance. LLMs may structure explanations, while final evidence-consistency checking remains deterministic.",
+      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 추론·인퍼런스입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "여러 단계의 추론에서는 작은 오류가 누적되며, 답이 맞더라도 추론 과정의 검증 가능성이 낮다는 한계가 있습니다.",
+      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 핵심 검증 대상은 추론·인퍼런스의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08660v1",
+      "published_at": "2026-10-06T16:44:02+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Mariya Miteva",
+        "Maria Nisheva-Pavlova"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Reasoning & Inference",
+        "reasoning",
+        "verifier"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Reasoning & Inference",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "추론·인퍼런스",
+      "classification_confidence": 0.792,
+      "matched_terms": [
+        "reasoning",
+        "verifier"
+      ],
+      "importance_score": 80,
+      "importance_label": "핵심",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08659",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Selective Transfer of RL Updates for Visual Reasoning",
+      "summary": "Model merging provides a training-free way to transfer reasoning capabilities from language models to vision-language models (VLMs), but endpoint-based transfer can conflate pre-existing model differences with changes acquired during reasoning post-training. We instead formulate capability transfer around the training-stage update, isolating the parameter changes induced by reinforcement learning (RL). Yet transferring this update in full remains suboptimal: we find that its components differ substantially in cross-model transferability, with dominant directions transferring more effectively than the complete update. Based on this finding, we introduce Selective-RL, which isolates the RL-stage update, retains its dominant matrix-wise directions with magnitude preservation, and transfers them to the language modules of a VLM. Across three model families and five visual-reasoning benchmarks, Selective-RL improves full-update interpolation in 12 of 15 comparisons, including an 8.55 percentage-point MathVision gain on the Qwen recipient. Matched controls show that update magnitude or arbitrary low rank alone does not reproduce these gains. These results highlight a distinction between what is acquired during post-training and what remains transferable across models, providing a training-stage perspective on cross-model capability transfer. Code is available at https://anonymous.4open.science/r/selective-rl.",
+      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 추론·인퍼런스입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "여러 단계의 추론에서는 작은 오류가 누적되며, 답이 맞더라도 추론 과정의 검증 가능성이 낮다는 한계가 있습니다.",
+      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 특히 새로운 데이터와 환경으로의 일반화 성능을 검증하는 데 초점을 둡니다.",
+      "url": "https://arxiv.org/abs/2610.08659v1",
+      "published_at": "2026-10-06T16:43:55+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Suxin Ji",
+        "Hungtao Wan",
+        "Mingjun Liu",
+        "An Zhang"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Reasoning & Inference",
+        "reasoning"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Reasoning & Inference",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "추론·인퍼런스",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "reasoning"
+      ],
+      "importance_score": 79,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08653",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Magnet-Aware Control of Legged Robots",
+      "summary": "Autonomous robots can increase uptime and reduce human exposure in Big Science facilities, but strong magnetic fields needed for their operation corrupt sensors and induce pose-dependent mechanical wrenches that destabilize robots and challenge conventional reactive controllers. This paper presents a control framework for modeling, estimating, and dynamically compensating for spatially varying magnetic wrenches acting on legged robots to improve robustness in these fields. We introduce a custom physics plugin for the MuJoCo simulator to model magnetic forces on rigid-body elements, alongside an inverse field-estimation framework to infer the latent magnetic field directly from quadruped dynamic responses and any number of sensor readings. Furthermore, we develop a Magnet-Aware Model Predictive Control (MPC) and Whole-Body Control (WBC) architecture that predicts and counteracts magnetic perturbations during locomotion to increase the range of magnetic fields in which the robot can operate. The effectiveness of the framework is validated through both simulation and physical hardware experiments. We show our method increases the the maximum rejectable disturbances from magnetic field in the force space by a factor of 2.5 and and between 1.6-2 times in torque space compared to a non-compensated system. Within the proposed magnetic field, this constitutes an increase in the area in which the robot can operate by 29,34% of which 10,84% would have previously caused an immediate collapse to non-compensated controllers.",
+      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 로보틱스·조작입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "시뮬레이션과 실제 환경의 차이, 장기 행동 계획의 오차 때문에 로봇 정책을 현실에 안정적으로 적용하기 어렵습니다.",
+      "contribution_ko": "여러 구성 요소를 연결한 시스템 또는 파이프라인을 구현해 실제 사용과 반복 실험이 가능한 형태로 제시합니다. 특히 안전성·강건성·신뢰성 측면의 실패를 줄이는 데 기여합니다.",
+      "url": "https://arxiv.org/abs/2610.08653v1",
+      "published_at": "2026-10-06T16:38:19+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "J. Playan Garai",
+        "S. B. Djuve",
+        "C. McGreavy",
+        "M. Khadiv"
+      ],
+      "keywords": [
+        "Embodied & Decision AI",
+        "Robotics & Manipulation",
+        "robot"
+      ],
+      "primary_topic": "Embodied & Decision AI",
+      "secondary_topic": "Robotics & Manipulation",
+      "primary_topic_ko": "로보틱스·의사결정 AI",
+      "secondary_topic_ko": "로보틱스·조작",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "robot"
+      ],
+      "importance_score": 77,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08652",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Steering Diffusion Models to Rare Events with Sequential Monte Carlo",
+      "summary": "Diffusion models are increasingly used as surrogates for expensive simulators in weather prediction, molecular dynamics, and materials design. In these models, computing the probability $p_0[E]$ of an event $E$ is difficult, especially when the event of interest is rare. A stable estimate using Monte Carlo becomes computationally intractable, requiring a growing sample size $\\propto\\!1/p_0[E]$ to compensate for an increasing rarity. In this paper, we present Diffusion Importance Sampling of Rare Events or DireSMC, a sequential Monte Carlo scheme that guides a population of weighted samples towards the rare event, giving access not only to samples but also to a calibrated estimate of its probability. We set up our guidance using an analytical relaxation of the event set, allowing the method to easily extend to a wide range of user-defined rare events. We validate our method on a toy problem with analytical solutions and on a score-based climate emulator, where we obtain accurate rare-event probabilities on a range of rarities from $10^{-3}$ to $10^{-5}$, achieving net speed-ups of $9\\times$ to $1413\\times$ over Monte Carlo.",
+      "summary_ko": "비전·생성 미디어 분야에 속하며 핵심 연구 주제는 이미지 생성입니다. 생성 품질과 제어 가능성, 학습·추론 효율을 개선하는 방법을 다룹니다.",
+      "motivation_ko": "생성 품질뿐 아니라 프롬프트 충실도, 세부 제어와 반복 생성의 일관성을 동시에 확보해야 합니다.",
+      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 핵심 검증 대상은 이미지 생성의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08652v1",
+      "published_at": "2026-10-06T16:38:03+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Aavash Subedi",
+        "Tim Reichelt",
+        "Christopher Williams",
+        "Philip Stier",
+        "Yee Whye Teh",
+        "Saifuddin Syed"
+      ],
+      "keywords": [
+        "Vision & Generative Media",
+        "Image Generation",
+        "diffusion model"
+      ],
+      "primary_topic": "Vision & Generative Media",
+      "secondary_topic": "Image Generation",
+      "primary_topic_ko": "비전·생성 미디어",
+      "secondary_topic_ko": "이미지 생성",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "diffusion model"
+      ],
+      "importance_score": 76,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08651",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "A Case Study in Assuring AI-Written Software",
+      "summary": "Software-engineering agents can enable people without formal software training to build systems they could not otherwise implement and simultaneously can produce more code than even experts can meaningfully inspect. In both cases, exhaustive code review is not reliable as the sole basis for human control. We report a case study of a production healthcare platform built through coding agents and governed by an operator without formal software-engineering training. Over time, its workflow grew into a human-led meta-agent system where one agent wrote code, other agents supervised and reviewed it, and project rules carried lessons forward. The operator found that tests, monitors and reviewing agents used to supervise the system were fallible. Some monitors measured proxies rather than outcomes, some audits failed silently, missing checks disappeared from reported results and one automated repair caused operational disruption. In this case, human control depended on keeping the intended outcome, the evidence used to judge it, the agents' permissions and the final human decision were all tied to the same underlying objective.",
+      "summary_ko": "과학·산업 응용 분야에 속하며 핵심 연구 주제는 생명과학·헬스케어입니다. 에이전트의 계획, 도구 선택과 실행 과정의 정확성·안정성을 살펴봅니다.",
+      "motivation_ko": "임상·생물 데이터의 희소성 및 기관 간 차이 때문에 높은 정확도와 안전한 일반화가 요구됩니다.",
+      "contribution_ko": "여러 구성 요소를 연결한 시스템 또는 파이프라인을 구현해 실제 사용과 반복 실험이 가능한 형태로 제시합니다. 핵심 검증 대상은 생명과학·헬스케어의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08651v1",
+      "published_at": "2026-10-06T16:37:08+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Lindsey Ferris",
+        "Sierra Bonilla"
+      ],
+      "keywords": [
+        "Science & Applications",
+        "Biology & Healthcare",
+        "healthcare"
+      ],
+      "primary_topic": "Science & Applications",
+      "secondary_topic": "Biology & Healthcare",
+      "primary_topic_ko": "과학·산업 응용",
+      "secondary_topic_ko": "생명과학·헬스케어",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "healthcare"
+      ],
+      "importance_score": 61,
+      "importance_label": "주목",
+      "importance_reason": "신규 논문 · 24시간 내"
+    },
+    {
+      "external_id": "arxiv:2610.08650",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Fast Non-Parametric Heteroscedastic Imitation Learning With Geometric Priors",
+      "summary": "When learning probabilistic policies from human demonstrations, data-efficient learning and fast adaptations to new scenarios are key requirements. One popular way to achieve intuitive and reliable adaptations is through non-parametric, typically kernel-based, methods. However, existing solutions either fail to account for the geometry of manifolds common in robotics, limiting data efficiency, or, when geometry-aware, provide unreliable uncertainty estimates or require retraining to adapt. We propose a non-parametric approach leveraging geometric priors in scenarios of data scarcity and heteroscedastic uncertainties for probabilistic modeling. We utilize the method to formulate policies based on time or robot state, where non-separable diagonal kernels allow capturing uncertainty relations between degrees of freedom for same-sized in- and outputs. Fast updates, requiring less than 3 ms for a trajectory involving both position and orientation are possible through an optimized formulation. Our approach supports both manifold-valued input and manifold-valued output with large orientation changes. Using task parameterization, adaptation to different object poses is easily possible. We evaluate the approach on a set of toy examples and on real robot manipulation tasks both in autonomous execution and in shared control scenarios.",
+      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 로보틱스·조작입니다. 환경을 인식하고 행동을 계획·제어하는 로봇 지능의 성능을 다룹니다.",
+      "motivation_ko": "시뮬레이션과 실제 환경의 차이, 장기 행동 계획의 오차 때문에 로봇 정책을 현실에 안정적으로 적용하기 어렵습니다. 특히 제한된 데이터에서도 성능을 유지하는 것이 중요한 동기입니다.",
+      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://arxiv.org/abs/2610.08650v1",
+      "published_at": "2026-10-06T16:36:41+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Maximilian Mühlbauer",
+        "Arne Sachtler",
+        "Markus Knauer",
+        "Cem Küçükgenç",
+        "Yanlong Huang",
+        "Alin Albu-Schäffer",
+        "João Silvério"
+      ],
+      "keywords": [
+        "Embodied & Decision AI",
+        "Robotics & Manipulation",
+        "robot",
+        "robotic"
+      ],
+      "primary_topic": "Embodied & Decision AI",
+      "secondary_topic": "Robotics & Manipulation",
+      "primary_topic_ko": "로보틱스·의사결정 AI",
+      "secondary_topic_ko": "로보틱스·조작",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "robot",
+        "robotic",
+        "manipulation"
+      ],
+      "importance_score": 77,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08649",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Stable Scores, Unstable Answers: Frame Phase and Option Order in Video Multiple-Choice Evaluation",
+      "summary": "Video-language models are ranked by multiple-choice accuracy on frames from a uniform grid. The grid has two parameters, a rate and a phase, and benchmarks report only the rate. The phase moves answers: two deployed samplers differing only by a half-step phase offset answer 23.6% of questions differently while scoring within a point, and across four releases from two families shifting only the phase changes roughly one answer in five after controlling option order. PHASEFUSION decodes three offset grids and averages the option posteriors. The grids are the polyphase components of the dense grid. Fusion matches a 32-frame single pass in accuracy within a prespecified margin (logit-scored) and cuts the answers a half-step shift of all three grids changes from 18.2% to 10.1%. Option order, which changes only the presentation, is flagged instead by a one-pass answer margin. Report the phase convention with the budget, or marginalize it.",
+      "summary_ko": "AI 시스템·평가 분야에 속하며 핵심 연구 주제는 평가·벤치마크입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "기존 지표가 실제 사용 능력과 실패 유형을 충분히 반영하지 못해 모델 간 공정한 비교가 어렵습니다.",
+      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 핵심 검증 대상은 평가·벤치마크의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08649v1",
+      "published_at": "2026-10-06T16:36:06+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Lichen Zhu",
+        "Yiheng Wang",
+        "Yueqian Lin",
+        "Hai \"Helen\" Li",
+        "Yiran Chen"
+      ],
+      "keywords": [
+        "AI Systems & Evaluation",
+        "Evaluation & Benchmarks",
+        "benchmark",
+        "evaluation"
+      ],
+      "primary_topic": "AI Systems & Evaluation",
+      "secondary_topic": "Evaluation & Benchmarks",
+      "primary_topic_ko": "AI 시스템·평가",
+      "secondary_topic_ko": "평가·벤치마크",
+      "classification_confidence": 0.792,
+      "matched_terms": [
+        "benchmark",
+        "evaluation"
+      ],
+      "importance_score": 87,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08647",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "SquidAgent: Parallelize Wisely, Coordinate Efficiently",
+      "summary": "LLM-based agents solve complex multi-step tasks, but sequential execution incurs substantial latency. In principle, parallelizing work across multiple agents should yield near-linear speedups. Yet existing parallel multi-agent systems often run slower than a single-agent baseline. We attribute this gap to two hidden costs that parallel execution incurs but a serial agent avoids. First, there is a re-exploration cost: redundant effort spent by parallel workers reconstructing context that the orchestrator already possesses, such as prior decisions, that would otherwise be inherited implicitly in a serial execution. Second, there is an alignment cost: the overhead required to reconcile inconsistencies across independently generated outputs. We thus derive a principled decision criterion: a layer should be parallelized only when its critical-path cost, plus re-exploration and alignment overheads, is lower than the corresponding serial cost. While this criterion is naturally expressed in wall-clock time, we observe that LLMs are poorly calibrated when asked to estimate task duration. To address this, we instead measure cost in predicted output tokens, which we empirically find LLMs can estimate substantially more reliably than wall-clock time. Building on this token-based criterion, we propose SquidAgent. It estimates all token budgets in a single planning step, forks each worker directly from the orchestrator's session to eliminate re-exploration cost, and replaces post-hoc reconciliation with a pre-generated shared convention block that converts alignment into a bounded upfront cost. A deterministic scheduler then applies the criterion layer by layer. Empirically, SquidAgent achieves a 2.2$\\times$ mean throughput improvement and a 2.6$\\times$ mean wall-time speedup over Claude Code, and a 2.0$\\times$ throughput improvement over the strongest multi-agent baseline.",
+      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 에이전트의 계획, 도구 선택과 실행 과정의 정확성·안정성을 살펴봅니다.",
+      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
+      "contribution_ko": "이론적 분석과 검증 가능한 조건을 제시해 방법이 작동하는 범위와 한계를 설명합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://arxiv.org/abs/2610.08647v1",
+      "published_at": "2026-10-06T16:35:28+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Yexiong Lin",
+        "Shanshan Ye",
+        "Yu Yao",
+        "Zhen Fang",
+        "Bo Han",
+        "Tongliang Liu"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Language Models",
+        "llm"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Language Models",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "언어 모델",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "llm"
+      ],
+      "importance_score": 95,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08642",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "HygieneRoboBench: Benchmarking Hygiene-Aware Planning for Household Robots",
+      "summary": "Contact with contaminated objects can spread hazards through a household robot's grippers, tools, and shared surfaces, while new contacts can make an existing plan unsafe. Existing benchmarks do not jointly assess how planners identify hygiene risks from contact history and plan safe continuations after new contact events. Planners must do so within time and resource limits while respecting user priorities. We introduce HygieneRoboBench, with 624 instances across 134 task families, to evaluate safe resolution of household tasks from a given execution history. Tasks capture contamination through two grippers and shared objects, treatment costs, and user priorities. We combine controlled history, profile, and event comparisons with independent plan evaluation. These assess safe resolution, cost efficiency under user priorities, and responses to contact events. Evaluation of LLM-based and symbolic planners shows that safely completing a task does not guarantee the lowest execution costs under the user's priorities. To address this problem, we introduce Hygiene-NSP. It combines LLM-based grounding, contact-history reconstruction, and CP-SAT to jointly plan hygiene treatment and task execution under user priorities. Hygiene-NSP achieves safe resolution and optimal safe resolution rates of 94.4% and 90.4%, respectively. Both rates are higher than those of the evaluated baseline planners on the full dataset. Project page: https://euron-zc.github.io/HygieneRoboBench/.",
+      "summary_ko": "AI 시스템·평가 분야에 속하며 핵심 연구 주제는 평가·벤치마크입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "기존 지표가 실제 사용 능력과 실패 유형을 충분히 반영하지 못해 모델 간 공정한 비교가 어렵습니다.",
+      "contribution_ko": "새 데이터셋 또는 데이터 구성 절차를 제시해 학습과 평가에 사용할 수 있는 재현 가능한 기반을 넓힙니다. 핵심 검증 대상은 평가·벤치마크의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08642v1",
+      "published_at": "2026-10-06T16:33:44+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Yurun Chen",
+        "Josh Qixuan Sun",
+        "Jason Qin",
+        "Chengtai Li",
+        "Tianyi Wang",
+        "Mark Crowley",
+        "Wentao Zhu"
+      ],
+      "keywords": [
+        "AI Systems & Evaluation",
+        "Evaluation & Benchmarks",
+        "benchmark",
+        "evaluation"
+      ],
+      "primary_topic": "AI Systems & Evaluation",
+      "secondary_topic": "Evaluation & Benchmarks",
+      "primary_topic_ko": "AI 시스템·평가",
+      "secondary_topic_ko": "평가·벤치마크",
+      "classification_confidence": 0.792,
+      "matched_terms": [
+        "benchmark",
+        "evaluation"
+      ],
+      "importance_score": 87,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08640",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "RIWANav: Recursive World-Action Models with Self-Improvement for Urban Navigation",
+      "summary": "Long-horizon urban navigation requires sequential local decisions whose errors can compound over time. Imitation learning (IL) rarely learns from failures, while physical trial-and-error reinforcement learning (RL) is costly. Action-conditioned world models can provide imagined feedback by predicting visual consequences for candidate actions. However, a frozen world model may become less reliable as the policy evolves. In this paper, we introduce RIWANAV, a post-training framework that casts the coupled adaptation of a world model and an action model (policy) as task-specific recursive self-improvement (RSI). Each cycle alternates two updates. The world model evaluates policy actions through imagined outcomes, providing comparative feedback for group-relative policy optimization (GRPO). The improved policy then constructs a grounded self-curriculum, selecting expert-consistent action-video pairs by behavioral novelty and prediction error. The refined world model supplies feedback for the next policy update, closing the recursive self-improvement loop. Experiments show that RIWANAV outperforms training baselines and prior methods, validating the proposed recursive self-improvement loop between the policy and world model. Real-world trials further demonstrate its practical applicability.",
+      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 강화학습입니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
+      "motivation_ko": "희소하거나 잘못 설계된 보상 아래에서 표본 효율과 정책 안정성을 동시에 얻기 어렵습니다. 실제 환경으로 옮겼을 때 발생하는 성능 저하를 줄이는 것이 핵심 동기입니다.",
+      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 핵심 검증 대상은 강화학습의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08640v1",
+      "published_at": "2026-10-06T16:33:01+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Jing Xie",
+        "Shouwei Ruan",
+        "Yubin Wang",
+        "Yuxiang Zhang",
+        "Haitao Yang",
+        "Songchang Jin",
+        "Dianxi Shi"
+      ],
+      "keywords": [
+        "Embodied & Decision AI",
+        "Reinforcement Learning",
+        "reinforcement learning",
+        "policy optimization"
+      ],
+      "primary_topic": "Embodied & Decision AI",
+      "secondary_topic": "Reinforcement Learning",
+      "primary_topic_ko": "로보틱스·의사결정 AI",
+      "secondary_topic_ko": "강화학습",
+      "classification_confidence": 0.674,
+      "matched_terms": [
+        "reinforcement learning",
+        "policy optimization"
+      ],
+      "importance_score": 74,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08639",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Forensic Reserve: Eliciting Latent Knowledge for Image Forgery Detection",
+      "summary": "As generated images become increasingly realistic, reliable forgery detection is essential for maintaining trust in visual information. However, existing methods primarily rely on task-specific supervision to adapt vision foundation model representations, without fully exploiting internal forensic knowledge to guide detection. To address this limitation, we propose Reserve-Guided Elicitation (RGE), a framework that treats sparse, origin-sensitive internal components in pretrained models as a forensic reserve and translates their localization into structural constraints for lightweight adaptation. Specifically, we first use the Forensic Lens (F-lens) to decompose activations across layers and token groups into independent components and globally screen them by their response differences between real and generated images, identifying reserve sites and directions. Next, we map the selected directions back to hidden-state space to construct fixed reserve subspaces and insert Forensic Reserve Adapters (FRA) only at the identified sites. Finally, with the backbone parameters, previously fitted reference classifier, and subspace bases fixed, we train only the FRA coefficient maps to generate input-dependent residual updates constrained to the corresponding subspaces, strengthening existing forensic responses. Using only 500 labeled training images and a trainable parameter budget below 0.2% of the backbone, RGE achieves competitive performance across three detection benchmarks without target-benchmark adaptation. Furthermore, RGE consistently improves over the corresponding frozen detectors across eight encoders spanning self-supervised and vision-language pretraining, eliciting a latent forensic capacity broadly shared across pretrained vision models.",
+      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 멀티모달 파운데이션 모델입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "텍스트·이미지·음성 간 표현을 정확히 정렬하고 서로 다른 입력을 근거 있게 결합하는 일이 여전히 어렵습니다.",
+      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://arxiv.org/abs/2610.08639v1",
+      "published_at": "2026-10-06T16:33:00+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Jiahua Li",
+        "Zixu John",
+        "Tom Zhong",
+        "Fuping Wu",
+        "Tianhao Xu",
+        "Jianqing Zheng",
+        "Yuanhan Mo",
+        "Fei Shen"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Multimodal Foundation Models",
+        "vision-language"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Multimodal Foundation Models",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "멀티모달 파운데이션 모델",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "vision-language"
+      ],
+      "importance_score": 61,
+      "importance_label": "주목",
+      "importance_reason": "신규 논문 · 24시간 내"
+    },
+    {
+      "external_id": "arxiv:2610.08637",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Feeling Through the Load: Compliant Quadruped Locomotion under Payload Interactions",
+      "summary": "Quadruped robots are increasingly expected to carry objects while moving through human environments. But what happens when a person interacts directly with the payload rather than with the robot? If the payload is unrestrained, the robot must distinguish intentional external interactions from ordinary payload motion, while still keeping the load balanced and maintaining stable locomotion. How can a quadruped infer and compliantly respond to such interactions using only onboard measurements? In this work, we develop a force-aware locomotion framework that treats payload interactions as commands that shape the motion of the combined robot-payload system. Our approach separates the learning of force-aware locomotion and force estimation on an unrestrained payload. We combine a compliant load-carrying policy with a causal force estimator, trained through estimator-in-the-loop data aggregation and finetuning, to predict interactions from onboard robot measurements. Our simulations and real-world experiments show that the resulting controller can maintain stable payload-carrying locomotion, yield compliantly to external interactions, and use the inferred force to support human-guided changes in the robot's trajectory.",
+      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 로보틱스·조작입니다. 환경을 인식하고 행동을 계획·제어하는 로봇 지능의 성능을 다룹니다.",
+      "motivation_ko": "시뮬레이션과 실제 환경의 차이, 장기 행동 계획의 오차 때문에 로봇 정책을 현실에 안정적으로 적용하기 어렵습니다. 실제 환경으로 옮겼을 때 발생하는 성능 저하를 줄이는 것이 핵심 동기입니다.",
+      "contribution_ko": "여러 구성 요소를 연결한 시스템 또는 파이프라인을 구현해 실제 사용과 반복 실험이 가능한 형태로 제시합니다. 핵심 검증 대상은 로보틱스·조작의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08637v1",
+      "published_at": "2026-10-06T16:32:23+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Shaunak A. Mehta",
+        "Mayank Mishra",
+        "Prajit KrisshnaKumar",
+        "Sebastian Scherer",
+        "Koichiro Niinuma"
+      ],
+      "keywords": [
+        "Embodied & Decision AI",
+        "Robotics & Manipulation",
+        "robot"
+      ],
+      "primary_topic": "Embodied & Decision AI",
+      "secondary_topic": "Robotics & Manipulation",
+      "primary_topic_ko": "로보틱스·의사결정 AI",
+      "secondary_topic_ko": "로보틱스·조작",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "robot"
+      ],
+      "importance_score": 76,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08630",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Towards In-Parameter Memory Augmentation for Large Language Models",
+      "summary": "Recently Large Language Models (LLMs) and LLM-based agents increasingly need to incorporate knowledge acquired after pretraining, e.g., domain facts, user preferences, documents, and interaction experience. In-context learning (ICL) and ICL-based agent harness remain flexible, but they consume context capacity and incur repeated discretized encoding cost that grows with context length. \\textbf{In-parameter memory} offers a complementary substrate: reusable memory information is represented in model parameters, adapters, or other parameter-like objects that are composed into the forward pass at inference time. This survey focuses on methods that augment LLMs with such parametric memory at deployment: a memory-bearing parameter object is plugged into the forward pass during inference, whether it is acquired before or during deployment. We organize the landscape with two orthogonal axes: \\textbf{Parameter Placement}, which includes Embedding, Attention, FFN layers, or Hybrid when two or more layers are used; and \\textbf{Parameter Acquisition Time}, which distinguishes methods whose memory object is acquired during deployment (online) from those acquired before it (offline). We clarify boundaries, conduct comparisons, and discuss open directions in interference, safety, co-design with ICL, and recursive self-improvement.",
+      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 기존 연구 흐름과 주요 방법, 앞으로의 과제를 체계적으로 정리합니다.",
+      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다. 실제 환경으로 옮겼을 때 발생하는 성능 저하를 줄이는 것이 핵심 동기입니다.",
+      "contribution_ko": "기존 연구를 방법·평가 기준·미해결 과제로 체계화해 후속 연구가 비교 가능한 공통 지도를 제공합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://arxiv.org/abs/2610.08630v1",
+      "published_at": "2026-10-06T16:27:47+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Haoyu Huang",
+        "Zhongwei Xie",
+        "Jiaxin Bai",
+        "Yisen Gao",
+        "Hong Ting Tsang",
+        "Wuganjing Song",
+        "Huihao Jing",
+        "Yufei Li",
+        "Yangqiu Song"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Language Models",
+        "language model",
+        "large language model"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Language Models",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "언어 모델",
+      "classification_confidence": 0.9,
+      "matched_terms": [
+        "language model",
+        "large language model",
+        "llm"
+      ],
+      "importance_score": 98,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08627",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Parallel Predictive World Models for Accurate and Efficient Long-Horizon Planning",
+      "summary": "Long-horizon world-model planning typically relies on autoregressive rollouts, where predicted states are repeatedly fed back into the model. This preserves temporal structure but creates a horizon-length sequential path and exposes later predictions to recursive decoded-state feedback. We introduce Parallel Predictive World Models (PPWM), which predict a finite-horizon trajectory in parallel while retaining causal interaction among future representations. Each horizon is conditioned on its causal action prefix, and future representations interact before decoding, separating temporal causality from state-by-state output recursion. We formalize this distinction by viewing autoregressive rollout as a causal trajectory map and identifying the decoded-state feedback pathway removed by PPWM. Across four visual-control tasks, PPWM achieves the lowest long-horizon prediction error and the highest Cross-Entropy Method (CEM) simulator success among the evaluated predictive interfaces. Meanwhile, PPWM achieves more than a 3$\\times$ average CEM planning speedup over the autoregressive LeWM baseline. These results suggest that accurate and efficient long-horizon world-model planning does not require state-by-state autoregression, but can instead be achieved through parallel causal trajectory prediction.",
+      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 월드 모델입니다. 환경을 인식하고 행동을 계획·제어하는 로봇 지능의 성능을 다룹니다.",
+      "motivation_ko": "환경의 동역학을 압축해 예측하면서도 장기 롤아웃에서 누적 오차를 억제해야 합니다.",
+      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://arxiv.org/abs/2610.08627v1",
+      "published_at": "2026-10-06T16:26:34+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Wanjin Feng",
+        "Baobin Zhang",
+        "Ao Yu",
+        "Shibo Feng",
+        "Xi Wang",
+        "Xingyu Gao"
+      ],
+      "keywords": [
+        "Embodied & Decision AI",
+        "World Models",
+        "world model",
+        "world-model"
+      ],
+      "primary_topic": "Embodied & Decision AI",
+      "secondary_topic": "World Models",
+      "primary_topic_ko": "로보틱스·의사결정 AI",
+      "secondary_topic_ko": "월드 모델",
+      "classification_confidence": 0.792,
+      "matched_terms": [
+        "world model",
+        "world-model"
+      ],
+      "importance_score": 63,
+      "importance_label": "주목",
+      "importance_reason": "신규 논문 · 24시간 내"
+    },
+    {
+      "external_id": "arxiv:2610.08626",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Feature Information Dynamics in Diffusion",
+      "summary": "Diffusion models generate data through a continuum of denoising problems, and are widely observed to reveal coarse structure before fine detail. Yet, this intuition is mostly empirical and qualitative. We introduce feature information dynamics, an information-theoretic framework for localizing when a feature is generated during diffusion. Using the I-MMSE identity, we connect the rate of feature mutual information change to a gap between optimal unconditional and feature-conditional denoising losses, yielding practical estimators for feature information density. We further develop a chained decomposition that separates shared from incremental information in a feature hierarchy. We use this framework first to quantitatively confirm spectral autoregression in pixel diffusion, and then to extend the analysis beyond frequency: under a class $\\to$ mask $\\to$ Canny conditioning chain, the per-feature information densities differ across pixel, SDVAE, VAVAE, and RAE, exposing fundamental differences between these representations and suggesting that ordered generation could be beneficial for training diffusion models. Our code is available at https://github.com/AI4Science-WestlakeU/feature-information-dynamics.",
+      "summary_ko": "비전·생성 미디어 분야에 속하며 핵심 연구 주제는 이미지 생성입니다. 생성 품질과 제어 가능성, 학습·추론 효율을 개선하는 방법을 다룹니다.",
+      "motivation_ko": "생성 품질뿐 아니라 프롬프트 충실도, 세부 제어와 반복 생성의 일관성을 동시에 확보해야 합니다.",
+      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 핵심 검증 대상은 이미지 생성의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08626v1",
+      "published_at": "2026-10-06T16:24:07+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Jia-Shu Pan",
+        "Tao Zhang",
+        "Yufei Huang",
+        "Yanjun Sheng",
+        "Tailin Wu"
+      ],
+      "keywords": [
+        "Vision & Generative Media",
+        "Image Generation",
+        "diffusion model"
+      ],
+      "primary_topic": "Vision & Generative Media",
+      "secondary_topic": "Image Generation",
+      "primary_topic_ko": "비전·생성 미디어",
+      "secondary_topic_ko": "이미지 생성",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "diffusion model"
+      ],
+      "importance_score": 75,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08624",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Early Memory Selection for Balanced Adam",
+      "summary": "We propose a method for choosing the shared memory parameter $β_1=β_2=β$ in Adam from a short pilot training. The selected $β$ remains fixed during the subsequent full training. A local model of Adam's normalized direction balances sampling variability against the delay introduced by averaging past gradients. This balance gives a cubic memory rule, whose two coefficients are estimated from gradient probes at a few pilot checkpoints. The estimator uses the numerator and denominator jointly, preserving their covariance. With a 200-update pilot and sixteen probe gradients at each of four checkpoints, a seed-matched retrospective evaluation on eleven vision and language workloads reduces mean relative validation gap by 40.7% and worst-quarter mean gap by 44.3% against the grid representative of shared $β=0.95$. The mean gap is also 32.3% lower than that of the best constant $β$ chosen across all eleven workloads.",
+      "summary_ko": "AI 시스템·평가 분야에 속하며 핵심 연구 주제는 평가·벤치마크입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "기존 지표가 실제 사용 능력과 실패 유형을 충분히 반영하지 못해 모델 간 공정한 비교가 어렵습니다.",
+      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://arxiv.org/abs/2610.08624v1",
+      "published_at": "2026-10-06T16:22:36+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Alberto Fernández-Hernández",
+        "Cristian Pérez-Corral",
+        "Jose I. Mestre",
+        "Manuel F. Dolz",
+        "Enrique S. Quintana-Ortí"
+      ],
+      "keywords": [
+        "AI Systems & Evaluation",
+        "Evaluation & Benchmarks",
+        "evaluation"
+      ],
+      "primary_topic": "AI Systems & Evaluation",
+      "secondary_topic": "Evaluation & Benchmarks",
+      "primary_topic_ko": "AI 시스템·평가",
+      "secondary_topic_ko": "평가·벤치마크",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "evaluation"
+      ],
+      "importance_score": 85,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08622",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Agentic RCA for Internet-Scale Services Using Constrained Creativity",
+      "summary": "System administrators of Internet-scale services need to resolve failure incidents to maintain reliability of such services. Ideally, we want a troubleshooting system to be: (1) expressive to known and unknown incidents with high accuracy; (2) cost efficient at scale; (3) explainable to provide actionable insights operators can act on; and (4) entail low effort from the operators. Unfortunately, most existing systems, including emerging LLM-assisted agentic workflows and structured frameworks for authoring diverse RCA algorithms fall short of achieving all four requirements. We present E4, a novel agentic system for troubleshooting for Internet-scale services. E4 embodies the paradigm of constrained creativity that combines the best of LLM-assisted automation and exploration with the explainability and efficiency of a structured approach. Instead of allowing an LLM agent to write arbitrary code or generate arbitrary responses, we provide the agent a restricted DSL to generate its response via simple loop-free data flow programs. This DSL, equipped with high level operators for troubleshooting, makes E4's output accurate, verifiable and explainable. On a mix of synthetic and real-world workloads, E4 achieves up to 62% better accuracy compared to state-of-the-art solutions, while providing more explainable responses at up to 12x reduced cost.",
+      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 에이전트·도구 사용입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "에이전트가 계획을 세우고 외부 도구를 호출하는 과정에서 선택 오류가 연쇄적으로 커지고 장기 작업의 안정성이 떨어질 수 있습니다. 실제 환경으로 옮겼을 때 발생하는 성능 저하를 줄이는 것이 핵심 동기입니다.",
+      "contribution_ko": "여러 구성 요소를 연결한 시스템 또는 파이프라인을 구현해 실제 사용과 반복 실험이 가능한 형태로 제시합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://arxiv.org/abs/2610.08622v1",
+      "published_at": "2026-10-06T16:21:57+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Sayan Sinha",
+        "Vipul Harsh",
+        "B. Aditya Prakash",
+        "Vyas Sekar",
+        "Hui Zhang"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Agents & Tool Use",
+        "agentic"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Agents & Tool Use",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "에이전트·도구 사용",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "agentic"
+      ],
+      "importance_score": 86,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08621",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Recursive Game Creator: An Agentic Product-Level Experience-Oriented Game Harness",
+      "summary": "Recent game design agents have made substantial progress in generating playable games. However, program correctness does not ensure an enjoyable experience for players. We present Recursive Game Creator, an experience-oriented harness to advance agentic game development from rough game prototypes into entertaining games. Recursive Game Creator organizes recursive development around four components: Designer, Builder, Player, and Reviewer. The Designer translates user instructions and Reviewer's feedback into detailed plans. The Builder turns these plans into candidate games. The coding-native Player creates and executes reusable policies through programmatic interfaces to efficiently collect diverse gameplay trajectories, mitigating evaluation bias caused by slow GUI-based collection. The Reviewer uses carefully designed trajectory-based metrics to induce player preferences, integrating with visual evidence and explicit textual preferences to evaluate games against game-specific criteria. Finally, the Reviewer accepts the better version and provides improvement reviews for the next round, closing the recursive loop. Our method achieves state-of-the-art overall performance of 77.89 on GameCraft-Bench. On GameASG-Bench, it achieves a strict task success rate of 53.2%, a 34.1% improvement over the same-model baseline, and the highest mean runtime-check pass rate at 93.4% among compared methods. A user study shows longer playtime and higher ratings. Code is coming soon.",
+      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 에이전트·도구 사용입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
+      "motivation_ko": "에이전트가 계획을 세우고 외부 도구를 호출하는 과정에서 선택 오류가 연쇄적으로 커지고 장기 작업의 안정성이 떨어질 수 있습니다.",
+      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://arxiv.org/abs/2610.08621v1",
+      "published_at": "2026-10-06T16:21:44+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Jiajun Chen",
+        "Haoyu Wu",
+        "Mingda Jia",
+        "Xihui Liu"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Agents & Tool Use",
+        "agentic"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Agents & Tool Use",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "에이전트·도구 사용",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "agentic"
+      ],
+      "importance_score": 86,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
+    },
+    {
+      "external_id": "arxiv:2610.08620",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "LiDAR Resolution Recovery via Foundation-Model-Guided Diffusion",
+      "summary": "High-beam-count LiDAR sensors are costly, yet many perception pipelines require dense angular sampling. Using a pretrained Stable Diffusion model as the backbone, we fine-tune a LiDAR-conditioned depth model with pseudo-depth targets from a 2D foundation model. During training, the LiDAR conditioning is randomly decimated at different beam budgets. We then investigate how much of a LiDAR scan can be recovered from heavily decimated input and characterize performance across the input beam budget. We evaluate against physically held-out real beams on nuScenes and report recovery separately from fit accuracy. Our model yields its largest advantage in very sparse regimes, achieving a $δ_{1.25}$ accuracy of $66.8$% from $4$-beam input where scattered interpolation reaches only $45.1$%. A class-stratified error breakdown further reveals that planar surfaces recover first while objects introducing depth discontinuities degrade earliest. Together, these results quantify the recovery/resolution trade-off for foundation-model-guided LiDAR enhancement.",
+      "summary_ko": "비전·생성 미디어 분야에 속하며 핵심 연구 주제는 이미지 생성입니다. 생성 품질과 제어 가능성, 학습·추론 효율을 개선하는 방법을 다룹니다.",
+      "motivation_ko": "생성 품질뿐 아니라 프롬프트 충실도, 세부 제어와 반복 생성의 일관성을 동시에 확보해야 합니다.",
+      "contribution_ko": "여러 구성 요소를 연결한 시스템 또는 파이프라인을 구현해 실제 사용과 반복 실험이 가능한 형태로 제시합니다. 핵심 검증 대상은 이미지 생성의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08620v1",
+      "published_at": "2026-10-06T16:20:20+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Samed Doğan",
+        "Nico Leuze",
+        "Alfred Schöttl"
+      ],
+      "keywords": [
+        "Vision & Generative Media",
+        "Image Generation",
+        "diffusion model"
+      ],
+      "primary_topic": "Vision & Generative Media",
+      "secondary_topic": "Image Generation",
+      "primary_topic_ko": "비전·생성 미디어",
+      "secondary_topic_ko": "이미지 생성",
+      "classification_confidence": 0.58,
+      "matched_terms": [
+        "diffusion model"
+      ],
+      "importance_score": 75,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
+    },
+    {
       "external_id": "rss:microsoft-research:40cfb4650e5548c3c0e23e31",
       "type": "news",
       "source": "Microsoft Research",
@@ -1266,6 +4467,40 @@ window.RESEARCH_DATA = {
       "importance_score": 53,
       "importance_label": "주목",
       "importance_reason": "24시간 내 · 주요 연구 채널"
+    },
+    {
+      "external_id": "arxiv:2610.08618",
+      "type": "paper",
+      "source": "arXiv",
+      "title": "Demo: Closed-Loop Sionna-Isaac Sim Co-Simulation Framework for Wireless-Aware Robot Navigation over ROS 2",
+      "summary": "A robot that offloads its control loop to the network carries the receiver with it, so link quality is decided by where it goes. Simulating this requires both a physics engine and a site-specific propagation model at once; to our knowledge no simulator natively unifies both, with existing couplings of the two limited to offline analyses. We demonstrate a real-time co-simulation framework coupling NVIDIA Isaac Sim and NVIDIA Sionna over ROS 2 that closes the perception-action-communication (PAC) loop between them. Sionna ray-traces the base-station-to-robot channel over the exact geometry Isaac Sim simulates on, rather than modeling it stochastically, and feeds channel states back into the control loop in real time. Ray-traced on GPU, the coverage map is refreshed in ~16ms (~60 Hz), fast enough for real-time control. To showcase the framework's utility, we implement a wireless-aware navigation application in an OpenStreetMap(OSM)-derived SUTD campus twin with two Nova Carter robots: the closed-loop planner eliminates communication outage at only +7.4% traversal time over the shortest-path baseline (which spends 7.9 s of its 81.2 s run disconnected).",
+      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 로보틱스·조작입니다. 환경을 인식하고 행동을 계획·제어하는 로봇 지능의 성능을 다룹니다.",
+      "motivation_ko": "시뮬레이션과 실제 환경의 차이, 장기 행동 계획의 오차 때문에 로봇 정책을 현실에 안정적으로 적용하기 어렵습니다.",
+      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 핵심 검증 대상은 로보틱스·조작의 성능과 실제 적용 가능성입니다.",
+      "url": "https://arxiv.org/abs/2610.08618v1",
+      "published_at": "2026-10-06T16:17:51+00:00",
+      "date_label": "2026.10.06",
+      "authors": [
+        "Yi Shen Lim",
+        "Seungeun Oh",
+        "Jihong Park"
+      ],
+      "keywords": [
+        "Embodied & Decision AI",
+        "Robotics & Manipulation",
+        "robot"
+      ],
+      "primary_topic": "Embodied & Decision AI",
+      "secondary_topic": "Robotics & Manipulation",
+      "primary_topic_ko": "로보틱스·의사결정 AI",
+      "secondary_topic_ko": "로보틱스·조작",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "robot"
+      ],
+      "importance_score": 77,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
     },
     {
       "external_id": "rss:nvidia-technical-blog:3a6288722d36e1e2084f4d33",
@@ -1354,6 +4589,33 @@ window.RESEARCH_DATA = {
       "importance_reason": "24시간 내 · 주요 연구 채널"
     },
     {
+      "external_id": "rss:openai-news:ebb413cc5359756bf9234b81",
+      "type": "news",
+      "source": "OpenAI News",
+      "title": "How Jump Trading is scaling quant research with ChatGPT",
+      "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+      "summary_ko": "OpenAI News가 공개한 소식으로, 미분류 분야의 분류 검토 필요 변화에 초점을 둡니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
+      "motivation_ko": "새 연구 결과나 시스템이 기존 접근법의 어떤 한계를 해결하며 실제 적용에 어떤 변화를 만드는지 확인할 필요가 있습니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 제안된 접근법의 성능과 실제 적용 가능성입니다.",
+      "url": "https://openai.com/index/jump-trading",
+      "published_at": "2026-10-06T12:00:00+00:00",
+      "date_label": "2026.10.06",
+      "authors": [],
+      "keywords": [
+        "Unclassified",
+        "Needs Review"
+      ],
+      "primary_topic": "Unclassified",
+      "secondary_topic": "Needs Review",
+      "primary_topic_ko": "미분류",
+      "secondary_topic_ko": "분류 검토 필요",
+      "classification_confidence": 0.18,
+      "matched_terms": [],
+      "importance_score": 53,
+      "importance_label": "주목",
+      "importance_reason": "24시간 내 · 주요 연구 채널"
+    },
+    {
       "external_id": "rss:openai-news:f57eff9c23a4454b476bbb26",
       "type": "news",
       "source": "OpenAI News",
@@ -1381,9 +4643,9 @@ window.RESEARCH_DATA = {
         "ai agent",
         "computer use"
       ],
-      "importance_score": 81,
+      "importance_score": 83,
       "importance_label": "핵심",
-      "importance_reason": "주제 모멘텀 · 24시간 내"
+      "importance_reason": "급상승 주제 · 24시간 내"
     },
     {
       "external_id": "rss:hugging-face:fe424883c3cacf664f5b2b38",
@@ -1440,9 +4702,9 @@ window.RESEARCH_DATA = {
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 53,
-      "importance_label": "주목",
-      "importance_reason": "24시간 내 · 주요 연구 채널"
+      "importance_score": 49,
+      "importance_label": "일반",
+      "importance_reason": "최신 자료 · 주요 연구 채널"
     },
     {
       "external_id": "rss:nvidia-technical-blog:baf114f2fe3f69e060918af4",
@@ -1474,9 +4736,41 @@ window.RESEARCH_DATA = {
         "agentic",
         "ai agent"
       ],
-      "importance_score": 80,
-      "importance_label": "핵심",
-      "importance_reason": "주제 모멘텀 · 24시간 내"
+      "importance_score": 78,
+      "importance_label": "높음",
+      "importance_reason": "급상승 주제 · 최신 자료"
+    },
+    {
+      "external_id": "rss:nvidia-technical-blog:cdbf7413fbf9a74faf09bf7c",
+      "type": "news",
+      "source": "NVIDIA Technical Blog",
+      "title": "Validate AI Factory Changes with Digital Twins and AI Agents",
+      "summary": "AI factories are some of the most complex operations in the world, combining GPUs, CPUs, switches, DPUs, and SuperNICs alongside schedulers, orchestration...",
+      "summary_ko": "NVIDIA Technical Blog가 공개한 소식으로, 파운데이션 모델 분야의 에이전트·도구 사용 변화에 초점을 둡니다. 에이전트의 계획, 도구 선택과 실행 과정의 정확성·안정성을 살펴봅니다.",
+      "motivation_ko": "에이전트가 계획을 세우고 외부 도구를 호출하는 과정에서 선택 오류가 연쇄적으로 커지고 장기 작업의 안정성이 떨어질 수 있습니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 에이전트·도구 사용의 성능과 실제 적용 가능성입니다.",
+      "url": "https://developer.nvidia.com/blog/validate-ai-factory-changes-with-digital-twins-and-ai-agents/",
+      "published_at": "2026-10-05T18:53:03+00:00",
+      "date_label": "2026.10.05",
+      "authors": [
+        "Avi Alkobi"
+      ],
+      "keywords": [
+        "Foundation Models",
+        "Agents & Tool Use",
+        "ai agent"
+      ],
+      "primary_topic": "Foundation Models",
+      "secondary_topic": "Agents & Tool Use",
+      "primary_topic_ko": "파운데이션 모델",
+      "secondary_topic_ko": "에이전트·도구 사용",
+      "classification_confidence": 0.74,
+      "matched_terms": [
+        "ai agent"
+      ],
+      "importance_score": 78,
+      "importance_label": "높음",
+      "importance_reason": "급상승 주제 · 최신 자료"
     },
     {
       "external_id": "arxiv:2610.06852",
@@ -1511,9 +4805,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 84,
+      "importance_score": 82,
       "importance_label": "핵심",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.06851",
@@ -1548,7 +4842,7 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "language model"
       ],
-      "importance_score": 95,
+      "importance_score": 91,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -1592,7 +4886,7 @@ window.RESEARCH_DATA = {
         "robot",
         "manipulation"
       ],
-      "importance_score": 78,
+      "importance_score": 74,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -1628,9 +4922,9 @@ window.RESEARCH_DATA = {
         "video generation",
         "video diffusion"
       ],
-      "importance_score": 63,
+      "importance_score": 59,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2610.06846",
@@ -1662,9 +4956,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "alignment"
       ],
-      "importance_score": 61,
+      "importance_score": 57,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2610.06844",
@@ -1701,7 +4995,7 @@ window.RESEARCH_DATA = {
         "large language model",
         "llm"
       ],
-      "importance_score": 96,
+      "importance_score": 92,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -1736,9 +5030,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 84,
+      "importance_score": 82,
       "importance_label": "핵심",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.06837",
@@ -1782,9 +5076,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "multimodal"
       ],
-      "importance_score": 62,
+      "importance_score": 58,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2610.06834",
@@ -1816,7 +5110,7 @@ window.RESEARCH_DATA = {
       ],
       "importance_score": 81,
       "importance_label": "핵심",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.06833",
@@ -1852,7 +5146,7 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "language model"
       ],
-      "importance_score": 95,
+      "importance_score": 91,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -1889,7 +5183,7 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "inference-time"
       ],
-      "importance_score": 78,
+      "importance_score": 74,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -1931,9 +5225,9 @@ window.RESEARCH_DATA = {
         "multimodal",
         "vlm"
       ],
-      "importance_score": 63,
+      "importance_score": 59,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2610.06829",
@@ -1972,7 +5266,7 @@ window.RESEARCH_DATA = {
       ],
       "importance_score": 82,
       "importance_label": "핵심",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.06825",
@@ -2011,9 +5305,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "multimodal"
       ],
-      "importance_score": 61,
+      "importance_score": 57,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2610.06824",
@@ -2048,7 +5342,7 @@ window.RESEARCH_DATA = {
       ],
       "importance_score": 82,
       "importance_label": "핵심",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.06823",
@@ -2081,8 +5375,8 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "deep learning"
       ],
-      "importance_score": 83,
-      "importance_label": "핵심",
+      "importance_score": 79,
+      "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
     {
@@ -2113,8 +5407,8 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "cs.LG"
       ],
-      "importance_score": 80,
-      "importance_label": "핵심",
+      "importance_score": 76,
+      "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
     {
@@ -2145,9 +5439,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "alignment"
       ],
-      "importance_score": 61,
+      "importance_score": 57,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2610.06814",
@@ -2190,7 +5484,7 @@ window.RESEARCH_DATA = {
         "robotic",
         "manipulation"
       ],
-      "importance_score": 77,
+      "importance_score": 73,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -2228,9 +5522,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "3d reconstruction"
       ],
-      "importance_score": 61,
+      "importance_score": 57,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2610.06810",
@@ -2264,8 +5558,8 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "optimization"
       ],
-      "importance_score": 82,
-      "importance_label": "핵심",
+      "importance_score": 78,
+      "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
     {
@@ -2304,7 +5598,7 @@ window.RESEARCH_DATA = {
         "robotic",
         "embodied"
       ],
-      "importance_score": 77,
+      "importance_score": 73,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -2340,9 +5634,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "world model"
       ],
-      "importance_score": 73,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_score": 58,
+      "importance_label": "주목",
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2610.06804",
@@ -2378,9 +5672,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "distillation"
       ],
-      "importance_score": 62,
+      "importance_score": 58,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2610.06801",
@@ -2417,9 +5711,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "3d generation"
       ],
-      "importance_score": 61,
+      "importance_score": 57,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2610.06798",
@@ -2453,8 +5747,8 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "cs.LG"
       ],
-      "importance_score": 80,
-      "importance_label": "핵심",
+      "importance_score": 76,
+      "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
     {
@@ -2489,7 +5783,7 @@ window.RESEARCH_DATA = {
       ],
       "importance_score": 81,
       "importance_label": "핵심",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.06790",
@@ -2523,9 +5817,9 @@ window.RESEARCH_DATA = {
         "agentic",
         "multi-agent"
       ],
-      "importance_score": 85,
+      "importance_score": 83,
       "importance_label": "핵심",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.06784",
@@ -2562,7 +5856,7 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "language model"
       ],
-      "importance_score": 95,
+      "importance_score": 91,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -2601,9 +5895,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 84,
+      "importance_score": 82,
       "importance_label": "핵심",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.06778",
@@ -2642,7 +5936,7 @@ window.RESEARCH_DATA = {
       ],
       "importance_score": 81,
       "importance_label": "핵심",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.06777",
@@ -2673,8 +5967,8 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "cs.LG"
       ],
-      "importance_score": 80,
-      "importance_label": "핵심",
+      "importance_score": 76,
+      "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
     {
@@ -2705,8 +5999,8 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "optimization"
       ],
-      "importance_score": 82,
-      "importance_label": "핵심",
+      "importance_score": 78,
+      "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
     {
@@ -2745,7 +6039,7 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "language model"
       ],
-      "importance_score": 96,
+      "importance_score": 92,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -2783,7 +6077,7 @@ window.RESEARCH_DATA = {
       ],
       "importance_score": 81,
       "importance_label": "핵심",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.06750",
@@ -2820,7 +6114,7 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "language model"
       ],
-      "importance_score": 95,
+      "importance_score": 91,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -2862,7 +6156,7 @@ window.RESEARCH_DATA = {
         "large language model",
         "llm"
       ],
-      "importance_score": 97,
+      "importance_score": 93,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -2897,9 +6191,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "representation learning"
       ],
-      "importance_score": 62,
+      "importance_score": 58,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2610.06744",
@@ -2929,9 +6223,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "guardrail"
       ],
-      "importance_score": 61,
+      "importance_score": 57,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2610.06729",
@@ -2965,7 +6259,7 @@ window.RESEARCH_DATA = {
         "large language model",
         "llm"
       ],
-      "importance_score": 97,
+      "importance_score": 93,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -3003,7 +6297,7 @@ window.RESEARCH_DATA = {
       ],
       "importance_score": 81,
       "importance_label": "핵심",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.06725",
@@ -3036,8 +6330,8 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "cs.LG"
       ],
-      "importance_score": 80,
-      "importance_label": "핵심",
+      "importance_score": 76,
+      "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
     {
@@ -3079,7 +6373,7 @@ window.RESEARCH_DATA = {
       ],
       "importance_score": 81,
       "importance_label": "핵심",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.06709",
@@ -3113,8 +6407,8 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "cs.LG"
       ],
-      "importance_score": 80,
-      "importance_label": "핵심",
+      "importance_score": 76,
+      "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
     {
@@ -3145,9 +6439,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "multimodal"
       ],
-      "importance_score": 62,
+      "importance_score": 58,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2610.06704",
@@ -3185,7 +6479,7 @@ window.RESEARCH_DATA = {
       ],
       "importance_score": 81,
       "importance_label": "핵심",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.06703",
@@ -3219,7 +6513,7 @@ window.RESEARCH_DATA = {
         "large language model",
         "llm"
       ],
-      "importance_score": 97,
+      "importance_score": 93,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -3253,8 +6547,8 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "optimization"
       ],
-      "importance_score": 82,
-      "importance_label": "핵심",
+      "importance_score": 78,
+      "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
     {
@@ -3292,9 +6586,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "multi-agent"
       ],
-      "importance_score": 84,
+      "importance_score": 82,
       "importance_label": "핵심",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.06694",
@@ -3327,9 +6621,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "graph learning"
       ],
-      "importance_score": 61,
+      "importance_score": 57,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2610.06693",
@@ -3362,7 +6656,7 @@ window.RESEARCH_DATA = {
       ],
       "importance_score": 81,
       "importance_label": "핵심",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.06691",
@@ -3396,8 +6690,8 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "cs.LG"
       ],
-      "importance_score": 80,
-      "importance_label": "핵심",
+      "importance_score": 76,
+      "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
     {
@@ -3437,9 +6731,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 84,
+      "importance_score": 82,
       "importance_label": "핵심",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.06688",
@@ -3471,9 +6765,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "gaussian splatting"
       ],
-      "importance_score": 62,
+      "importance_score": 58,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2610.06687",
@@ -3508,9 +6802,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "video generation"
       ],
-      "importance_score": 61,
+      "importance_score": 57,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2610.06686",
@@ -3544,7 +6838,7 @@ window.RESEARCH_DATA = {
         "language model",
         "large language model"
       ],
-      "importance_score": 96,
+      "importance_score": 92,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -3588,7 +6882,7 @@ window.RESEARCH_DATA = {
         "large language model",
         "llm"
       ],
-      "importance_score": 97,
+      "importance_score": 93,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -3620,9 +6914,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "alignment"
       ],
-      "importance_score": 62,
+      "importance_score": 58,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2610.06677",
@@ -3654,7 +6948,7 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "language model"
       ],
-      "importance_score": 95,
+      "importance_score": 91,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -3687,8 +6981,8 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "cs.LG"
       ],
-      "importance_score": 80,
-      "importance_label": "핵심",
+      "importance_score": 76,
+      "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
     {
@@ -3719,8 +7013,8 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "machine learning"
       ],
-      "importance_score": 82,
-      "importance_label": "핵심",
+      "importance_score": 78,
+      "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
     {
@@ -3754,7 +7048,7 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "language model"
       ],
-      "importance_score": 96,
+      "importance_score": 92,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -3791,9 +7085,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "multi-agent"
       ],
-      "importance_score": 84,
+      "importance_score": 82,
       "importance_label": "핵심",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.06671",
@@ -3828,7 +7122,7 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "language model"
       ],
-      "importance_score": 95,
+      "importance_score": 91,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -3866,7 +7160,7 @@ window.RESEARCH_DATA = {
         "large language model",
         "llm"
       ],
-      "importance_score": 98,
+      "importance_score": 94,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -3899,7 +7193,7 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "language model"
       ],
-      "importance_score": 96,
+      "importance_score": 92,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -3933,7 +7227,7 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "reasoning"
       ],
-      "importance_score": 79,
+      "importance_score": 75,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -3968,8 +7262,8 @@ window.RESEARCH_DATA = {
         "machine learning",
         "generalization"
       ],
-      "importance_score": 83,
-      "importance_label": "핵심",
+      "importance_score": 79,
+      "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
     {
@@ -4005,9 +7299,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "flow matching"
       ],
-      "importance_score": 61,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_score": 71,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.06657",
@@ -4047,7 +7341,7 @@ window.RESEARCH_DATA = {
       ],
       "importance_score": 81,
       "importance_label": "핵심",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.06653",
@@ -4079,8 +7373,8 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "cs.LG"
       ],
-      "importance_score": 80,
-      "importance_label": "핵심",
+      "importance_score": 76,
+      "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
     {
@@ -4112,9 +7406,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "climate"
       ],
-      "importance_score": 61,
+      "importance_score": 57,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2610.06651",
@@ -4148,9 +7442,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "world model"
       ],
-      "importance_score": 73,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_score": 58,
+      "importance_label": "주목",
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2610.06650",
@@ -4183,9 +7477,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "knowledge graph"
       ],
-      "importance_score": 62,
+      "importance_score": 58,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2610.06648",
@@ -4224,7 +7518,7 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "language model"
       ],
-      "importance_score": 96,
+      "importance_score": 92,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -4266,7 +7560,7 @@ window.RESEARCH_DATA = {
         "large language model",
         "llm"
       ],
-      "importance_score": 97,
+      "importance_score": 93,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -4303,7 +7597,7 @@ window.RESEARCH_DATA = {
         "robot",
         "manipulation"
       ],
-      "importance_score": 77,
+      "importance_score": 73,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -4342,7 +7636,7 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "robot"
       ],
-      "importance_score": 77,
+      "importance_score": 73,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -4379,9 +7673,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "clinical"
       ],
-      "importance_score": 62,
+      "importance_score": 58,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2610.06637",
@@ -4416,7 +7710,7 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "reasoning"
       ],
-      "importance_score": 79,
+      "importance_score": 75,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -4443,9 +7737,9 @@ window.RESEARCH_DATA = {
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 53,
-      "importance_label": "주목",
-      "importance_reason": "24시간 내 · 주요 연구 채널"
+      "importance_score": 49,
+      "importance_label": "일반",
+      "importance_reason": "최신 자료 · 주요 연구 채널"
     },
     {
       "external_id": "rss:openai-news:2d8e70fb45cef7470a5baf36",
@@ -4470,9 +7764,9 @@ window.RESEARCH_DATA = {
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 53,
-      "importance_label": "주목",
-      "importance_reason": "24시간 내 · 주요 연구 채널"
+      "importance_score": 49,
+      "importance_label": "일반",
+      "importance_reason": "최신 자료 · 주요 연구 채널"
     },
     {
       "external_id": "rss:hugging-face:bd1136d0fcfd6f1357de280a",
@@ -4575,9 +7869,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "benchmark"
       ],
-      "importance_score": 74,
+      "importance_score": 78,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.03715",
@@ -4615,9 +7909,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "benchmark"
       ],
-      "importance_score": 75,
+      "importance_score": 79,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.03713",
@@ -4649,9 +7943,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "world model"
       ],
-      "importance_score": 66,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_score": 55,
+      "importance_label": "주목",
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2610.03712",
@@ -4685,9 +7979,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "benchmark"
       ],
-      "importance_score": 75,
+      "importance_score": 79,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.03710",
@@ -4965,9 +8259,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "flow matching"
       ],
-      "importance_score": 54,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
+      "importance_score": 68,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.03689",
@@ -4997,9 +8291,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "evaluation"
       ],
-      "importance_score": 74,
+      "importance_score": 78,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.03679",
@@ -5214,9 +8508,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "evaluation"
       ],
-      "importance_score": 75,
+      "importance_score": 79,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.03656",
@@ -5247,9 +8541,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "cs.AI"
       ],
-      "importance_score": 74,
+      "importance_score": 76,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.03651",
@@ -5499,9 +8793,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "diffusion model"
       ],
-      "importance_score": 55,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
+      "importance_score": 69,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.03640",
@@ -5696,9 +8990,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "benchmark"
       ],
-      "importance_score": 75,
+      "importance_score": 79,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.03631",
@@ -5765,9 +9059,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "evaluation"
       ],
-      "importance_score": 74,
+      "importance_score": 78,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.03625",
@@ -5805,9 +9099,9 @@ window.RESEARCH_DATA = {
         "evaluation",
         "human evaluation"
       ],
-      "importance_score": 75,
+      "importance_score": 79,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.03622",
@@ -5951,9 +9245,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "evaluation"
       ],
-      "importance_score": 74,
+      "importance_score": 78,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.03617",
@@ -5987,9 +9281,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "text-to-image"
       ],
-      "importance_score": 55,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
+      "importance_score": 69,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.03616",
@@ -6306,9 +9600,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "world model"
       ],
-      "importance_score": 66,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_score": 55,
+      "importance_label": "주목",
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2610.03585",
@@ -6344,9 +9638,9 @@ window.RESEARCH_DATA = {
         "benchmark",
         "evaluation"
       ],
-      "importance_score": 76,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_score": 80,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.03577",
@@ -6383,9 +9677,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "evaluation"
       ],
-      "importance_score": 74,
+      "importance_score": 78,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.03574",
@@ -6434,9 +9728,9 @@ window.RESEARCH_DATA = {
         "evaluation",
         "human evaluation"
       ],
-      "importance_score": 75,
+      "importance_score": 79,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.03570",
@@ -6469,9 +9763,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "cs.AI"
       ],
-      "importance_score": 74,
+      "importance_score": 76,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.03567",
@@ -6651,9 +9945,9 @@ window.RESEARCH_DATA = {
         "benchmark",
         "evaluation"
       ],
-      "importance_score": 75,
+      "importance_score": 79,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.03556",
@@ -6688,9 +9982,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "benchmark"
       ],
-      "importance_score": 74,
+      "importance_score": 78,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.03551",
@@ -7103,9 +10397,9 @@ window.RESEARCH_DATA = {
         "benchmark",
         "evaluation"
       ],
-      "importance_score": 76,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_score": 80,
+      "importance_label": "핵심",
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.03525",
@@ -7176,9 +10470,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "benchmark"
       ],
-      "importance_score": 75,
+      "importance_score": 79,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
+      "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.03522",
@@ -7357,9 +10651,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "text-to-image"
       ],
-      "importance_score": 55,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
+      "importance_score": 69,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.03510",
@@ -7509,9 +10803,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "diffusion model"
       ],
-      "importance_score": 54,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
+      "importance_score": 68,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
     },
     {
       "external_id": "rss:hugging-face:e81b1dea7ce0fb42c9785562",
@@ -7622,9 +10916,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 72,
+      "importance_score": 74,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 주요 연구 채널"
+      "importance_reason": "급상승 주제 · 주요 연구 채널"
     },
     {
       "external_id": "rss:nvidia-technical-blog:77c6040294dbed254684a5b4",
@@ -7686,9 +10980,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 72,
+      "importance_score": 74,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 주요 연구 채널"
+      "importance_reason": "급상승 주제 · 주요 연구 채널"
     },
     {
       "external_id": "rss:nvidia-technical-blog:d41c5d0bcd6835d87291cdc3",
@@ -7720,9 +11014,9 @@ window.RESEARCH_DATA = {
         "agentic",
         "ai agent"
       ],
-      "importance_score": 74,
+      "importance_score": 76,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 주요 연구 채널"
+      "importance_reason": "급상승 주제 · 주요 연구 채널"
     },
     {
       "external_id": "rss:nvidia-technical-blog:5d6d93f42d6ca9b84a088c4f",
@@ -7754,9 +11048,9 @@ window.RESEARCH_DATA = {
         "agentic",
         "ai agent"
       ],
-      "importance_score": 74,
+      "importance_score": 76,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 주요 연구 채널"
+      "importance_reason": "급상승 주제 · 주요 연구 채널"
     },
     {
       "external_id": "rss:nvidia-technical-blog:b4adb46d50bf1528d8af0d88",
@@ -7788,9 +11082,9 @@ window.RESEARCH_DATA = {
         "agentic",
         "ai agent"
       ],
-      "importance_score": 74,
+      "importance_score": 76,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 주요 연구 채널"
+      "importance_reason": "급상승 주제 · 주요 연구 채널"
     },
     {
       "external_id": "rss:nvidia-technical-blog:127a999e24da184d5065047d",
@@ -7854,9 +11148,9 @@ window.RESEARCH_DATA = {
         "agentic",
         "ai agent"
       ],
-      "importance_score": 74,
+      "importance_score": 76,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 주요 연구 채널"
+      "importance_reason": "급상승 주제 · 주요 연구 채널"
     },
     {
       "external_id": "rss:nvidia-technical-blog:8d49e0a966acc1482d66299e",
@@ -7918,9 +11212,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 72,
+      "importance_score": 74,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 주요 연구 채널"
+      "importance_reason": "급상승 주제 · 주요 연구 채널"
     },
     {
       "external_id": "rss:nvidia-technical-blog:4738e5cdba071d74efb7a35b",
@@ -7952,38 +11246,9 @@ window.RESEARCH_DATA = {
         "agentic",
         "ai agent"
       ],
-      "importance_score": 74,
+      "importance_score": 76,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 주요 연구 채널"
-    },
-    {
-      "external_id": "rss:nvidia-technical-blog:bc0a9f75e0f4b798358c89c5",
-      "type": "news",
-      "source": "NVIDIA Technical Blog",
-      "title": "What’s New for Game Developers: DLSS 5 with 3D-Guided Neural Rendering, NVIDIA ACE Updates, and New RTX Kit Capabilities",
-      "summary": "NVIDIA DLSS 5 introduces DLSS 3D-Guided Neural Rendering and granular controls that help game developers add lifelike lighting and material detail while...",
-      "summary_ko": "NVIDIA Technical Blog가 공개한 소식으로, 미분류 분야의 분류 검토 필요 변화에 초점을 둡니다. 환경을 인식하고 행동을 계획·제어하는 로봇 지능의 성능을 다룹니다.",
-      "motivation_ko": "새 연구 결과나 시스템이 기존 접근법의 어떤 한계를 해결하며 실제 적용에 어떤 변화를 만드는지 확인할 필요가 있습니다.",
-      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 제안된 접근법의 성능과 실제 적용 가능성입니다.",
-      "url": "https://developer.nvidia.com/blog/whats-new-for-game-developers-dlss-5-with-3d-guided-neural-rendering-nvidia-ace-updates-and-new-rtx-kit-capabilities/",
-      "published_at": "2026-10-01T18:31:23+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Elizabeth Goodman"
-      ],
-      "keywords": [
-        "Unclassified",
-        "Needs Review"
-      ],
-      "primary_topic": "Unclassified",
-      "secondary_topic": "Needs Review",
-      "primary_topic_ko": "미분류",
-      "secondary_topic_ko": "분류 검토 필요",
-      "classification_confidence": 0.18,
-      "matched_terms": [],
-      "importance_score": 46,
-      "importance_label": "일반",
-      "importance_reason": "주요 연구 채널"
+      "importance_reason": "급상승 주제 · 주요 연구 채널"
     },
     {
       "external_id": "rss:nvidia-technical-blog:35179752ab4578e72be1b6c3",
@@ -8081,9 +11346,9 @@ window.RESEARCH_DATA = {
         "agentic",
         "ai agent"
       ],
-      "importance_score": 73,
+      "importance_score": 75,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 주요 연구 채널"
+      "importance_reason": "급상승 주제 · 주요 연구 채널"
     },
     {
       "external_id": "rss:nvidia-technical-blog:31cb65780954773fe0ded496",
@@ -8271,9 +11536,9 @@ window.RESEARCH_DATA = {
         "agentic",
         "ai agent"
       ],
-      "importance_score": 74,
+      "importance_score": 76,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 주요 연구 채널"
+      "importance_reason": "급상승 주제 · 주요 연구 채널"
     },
     {
       "external_id": "rss:nvidia-technical-blog:b2492ef6a6d58b24476c1eb5",
@@ -8305,9 +11570,9 @@ window.RESEARCH_DATA = {
         "agentic",
         "ai agent"
       ],
-      "importance_score": 73,
+      "importance_score": 75,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 주요 연구 채널"
+      "importance_reason": "급상승 주제 · 주요 연구 채널"
     },
     {
       "external_id": "rss:nvidia-technical-blog:250cdf9491b40b01127aaacc",
@@ -8337,9 +11602,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "ai agent"
       ],
-      "importance_score": 73,
+      "importance_score": 75,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 주요 연구 채널"
+      "importance_reason": "급상승 주제 · 주요 연구 채널"
     },
     {
       "external_id": "rss:nvidia-technical-blog:a1b7c3f1faa2ee83a115daa3",
@@ -8369,9 +11634,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 72,
+      "importance_score": 74,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 주요 연구 채널"
+      "importance_reason": "급상승 주제 · 주요 연구 채널"
     },
     {
       "external_id": "rss:nvidia-technical-blog:c551764e90f55e665b107841",
@@ -8403,9 +11668,9 @@ window.RESEARCH_DATA = {
         "agentic",
         "ai agent"
       ],
-      "importance_score": 73,
+      "importance_score": 75,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 주요 연구 채널"
+      "importance_reason": "급상승 주제 · 주요 연구 채널"
     },
     {
       "external_id": "rss:nvidia-technical-blog:2efebb52e52f8375b5e6c72d",
@@ -8496,9 +11761,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 72,
+      "importance_score": 74,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 주요 연구 채널"
+      "importance_reason": "급상승 주제 · 주요 연구 채널"
     },
     {
       "external_id": "rss:nvidia-technical-blog:bc7ec3e2a0e4be9f03cd4752",
@@ -8559,9 +11824,9 @@ window.RESEARCH_DATA = {
         "agentic",
         "ai agent"
       ],
-      "importance_score": 73,
+      "importance_score": 75,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 주요 연구 채널"
+      "importance_reason": "급상승 주제 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2610.02210",
@@ -8594,9 +11859,9 @@ window.RESEARCH_DATA = {
         "text-to-image",
         "diffusion model"
       ],
-      "importance_score": 55,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
+      "importance_score": 69,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 신규 논문"
     },
     {
       "external_id": "arxiv:2610.02208",
@@ -8631,3364 +11896,9 @@ window.RESEARCH_DATA = {
       "matched_terms": [
         "image generation"
       ],
-      "importance_score": 54,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2610.02207",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
-      "summary": "3D Gaussian avatars support fast rendering, however, their real-time animation is often challenged by the costly neural inference. We address this bottleneck and show that the animation of pretrained avatar models can be closely approximated by a linear combination of identity-independent blendshapes. Building on this finding, we introduce GALA (Gaussian Animation via Linear Approximation), a distillation method that replaces per-frame heavy neural decoding with a shallow coefficient predictor and a linear blend. To improve fidelity and reduce memory requirements, we propose to construct the basis using block-local PCA under a rendering-aware metric and a memory budget. Our method learns a shallow MLP network to predict blendshape coefficients and applies to various animation architectures without retraining original models. We validate GALA by accelerating the inference of three distinct avatar models for 3D animation of facial expressions and full-bodies with clothing dynamics. Across these models, our distillation generalizes to held-out identities and reduces CPU animation cost by up to three orders of magnitude while preserving most of the rendering quality. Excellent results of our method confirm the shared linear structure of learned avatar representations and enable highly efficient and accurate animation at frame rates reaching up to 60fps on mobile devices. Project page: https://ramazan793.github.io/gala/",
-      "summary_ko": "AI 시스템·평가 분야에 속하며 핵심 연구 주제는 최적화·압축입니다. 학습·추론 비용을 낮추면서 성능을 유지하거나 높이는 방법을 제안합니다.",
-      "motivation_ko": "모델 크기와 비용을 줄이면 정확도와 강건성이 함께 저하될 수 있는 절충 문제가 있습니다.",
-      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
-      "url": "https://arxiv.org/abs/2610.02207v1",
-      "published_at": "2026-10-01T17:59:58+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Ramazan Fazylov",
-        "Stamatis Lefkimmiatis",
-        "Ivan Laptev"
-      ],
-      "keywords": [
-        "AI Systems & Evaluation",
-        "Optimization & Compression",
-        "distillation"
-      ],
-      "primary_topic": "AI Systems & Evaluation",
-      "secondary_topic": "Optimization & Compression",
-      "primary_topic_ko": "AI 시스템·평가",
-      "secondary_topic_ko": "최적화·압축",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "distillation"
-      ],
-      "importance_score": 55,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2610.02206",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
-      "summary": "LLMs are increasingly applied to cybersecurity workflows, where they are expected to translate analysts' intent into tool invocations. However, existing evaluations focus on knowledge-based assessments or end-to-end agentic tasks, and do not directly measure LLMs' ability to generate executable commands for real-world cybersecurity tools. This gap is critical because cybersecurity operations rely on strict command-line interfaces (CLIs), where minor syntax errors, incorrect flag--value bindings, or argument misordering can invalidate execution. We introduce KaliBench, a fine-grained benchmark and dataset for natural-language--to--CLI translation on Kali Linux, comprising 8,504 query--command pairs spanning 1,642 tools across 23 capability dimensions and 5 security phases. KaliBench is constructed via a manuscript-grounded pipeline with deterministic canonicalization and alias-aware evaluation, enabling precise and reproducible assessment of tool selection and argument construction. To ensure both semantic correctness and practical executability, we develop a multi-stage verification pipeline that combines LLM-based validation, sandboxed terminal execution, and human-in-the-loop refinement. Building on these fine-grained, deterministic signals, KaliBench further enables runtime-free verifiable rewards for training. Across three evaluation modes and 24 configurations of general-purpose and security-focused open-weight models, no open-weight model exceeds 42% exact-command accuracy in the unrestricted setting, highlighting the difficulty of accurate CLI-based cybersecurity tool use without explicit tool hints. We further show that supervised fine-tuning and reinforcement learning with verifiable rewards derived from KaliBench significantly improve an 8B model and achieve performance comparable to a 685B MoE model.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 에이전트·도구 사용입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "에이전트가 계획을 세우고 외부 도구를 호출하는 과정에서 선택 오류가 연쇄적으로 커지고 장기 작업의 안정성이 떨어질 수 있습니다. 실제 환경으로 옮겼을 때 발생하는 성능 저하를 줄이는 것이 핵심 동기입니다.",
-      "contribution_ko": "새 데이터셋 또는 데이터 구성 절차를 제시해 학습과 평가에 사용할 수 있는 재현 가능한 기반을 넓힙니다. 핵심 검증 대상은 에이전트·도구 사용의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02206v1",
-      "published_at": "2026-10-01T17:59:55+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Pengfei Li",
-        "Naufal Suryanto",
-        "Sicheng Zhang",
-        "Muzammal Naseer"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Agents & Tool Use",
-        "agentic",
-        "tool use"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Agents & Tool Use",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "에이전트·도구 사용",
-      "classification_confidence": 0.792,
-      "matched_terms": [
-        "agentic",
-        "tool use"
-      ],
-      "importance_score": 78,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02205",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "ROWBench: Do Video Models Render What the Program Specifies?",
-      "summary": "Programmable world models separate executable dynamics from visual generation, offering a promising foundation for next-generation game engines. However, their visual adherence to explicit rules and interactions remains insufficiently evaluated. Existing benchmarks assess visual quality, controllability, and instruction or physical adherence, but rarely test fidelity to fine-grained, program-specified world events. We introduce PROWBench, comprising 170 programmatically constructed episodes and 600 proxy videos covering diverse scenes and interactions. PROWBench logs entity states and timestamped events, including those outside the camera's field of view, as replayable world records, from which it renders synchronized views and proxy representations. This enables generated videos to be checked against the observable consequences of program execution. An extensible framework constructs scenes, controls behaviors, and can render each camera view in different representations, such as coarse 3D, and bounding boxes. The benchmark covers first- and third-person perspectives, with synchronized multi-view observations available for a subset of episodes. Grounded in these records, PROWBench evaluates entity control, long-horizon memory, and, with two VLM-based metrics, Logic-Render Alignment and Interaction Success Rate, adherence to the prescribed timeline and the visual realization of timestamped engine-recorded events.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 멀티모달 파운데이션 모델입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "텍스트·이미지·음성 간 표현을 정확히 정렬하고 서로 다른 입력을 근거 있게 결합하는 일이 여전히 어렵습니다.",
-      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
-      "url": "https://arxiv.org/abs/2610.02205v1",
-      "published_at": "2026-10-01T17:59:53+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Zheng-Hui Huang",
-        "Guixu Lin",
-        "Yu-Ju Tsai",
-        "Jian-Kai Zhu",
-        "Fengbo Lan",
-        "Yu-Lun Liu",
-        "Yung-Yu Chuang",
-        "Kaipeng Zhang",
-        "Zhixiang Wang"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Multimodal Foundation Models",
-        "vlm"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Multimodal Foundation Models",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "멀티모달 파운데이션 모델",
-      "classification_confidence": 0.58,
-      "matched_terms": [
-        "vlm"
-      ],
-      "importance_score": 54,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2610.02204",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",
-      "summary": "Building reliable robot capabilities across diverse tasks requires substantial human effort to develop and maintain skills, design rewards, and integrate perception with control. We present Reconstruct, Practice, Go Real (RPG), a framework for autonomous improvement of robot execution systems without updating model weights. RPG identifies manipulation capabilities in an offline dataset and constructs related practice tasks in simulation. During practice, RPG uses execution feedback, privileged simulator state, and available dataset videos to diagnose failures. It develops new reusable symbolic skills, refines existing skills, and revises the system prompt based on these diagnoses. Cross-task evaluation tests individual candidate changes and merged revisions before they are retained for reuse. At test time, a multimodal LLM uses the resulting system prompt and skill library to coordinate perception and robot control. On held-out initializations of 22 manipulation tasks, RPG improves task success from 28.6% after the first practice round to 95.0% after 15 rounds, outperforming all evaluated baselines, including ASPIRE (75.5%) and CaP-Agent0 powered by GPT-6 Astra Pro (60.0%). After a common calibration and hardware-adaptation procedure, the frozen system succeeds in all 30 physical trials, with ten trials on each of three tasks. Project Website: https://rpg-robot.github.io/",
-      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 로보틱스·조작입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "시뮬레이션과 실제 환경의 차이, 장기 행동 계획의 오차 때문에 로봇 정책을 현실에 안정적으로 적용하기 어렵습니다.",
-      "contribution_ko": "새 데이터셋 또는 데이터 구성 절차를 제시해 학습과 평가에 사용할 수 있는 재현 가능한 기반을 넓힙니다. 핵심 검증 대상은 로보틱스·조작의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02204v1",
-      "published_at": "2026-10-01T17:59:50+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Yen-Jen Wang",
-        "Haozhe Jiang",
-        "Shuying Deng",
-        "Haoru Xue",
-        "Weirui Ye",
-        "Rocky Duan",
-        "Nika Haghtalab",
-        "S. Shankar Sastry",
-        "Pieter Abbeel",
-        "Haozhi Qi"
-      ],
-      "keywords": [
-        "Embodied & Decision AI",
-        "Robotics & Manipulation",
-        "robot",
-        "embodied"
-      ],
-      "primary_topic": "Embodied & Decision AI",
-      "secondary_topic": "Robotics & Manipulation",
-      "primary_topic_ko": "로보틱스·의사결정 AI",
-      "secondary_topic_ko": "로보틱스·조작",
-      "classification_confidence": 0.834,
-      "matched_terms": [
-        "robot",
-        "embodied",
-        "manipulation"
-      ],
-      "importance_score": 71,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02203",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Embedding Prediction Helps Image Generation",
-      "summary": "In diffusion transformers, a class label or a text prompt is embedded once, and the same condition is reused at every denoising step. We ask whether predicted embeddings can serve as this condition instead. Next-Embedding Predictive Autoregression (NEPA) trains a Transformer to predict the next continuous embedding in a sequence. In generation, the clean image follows the noisy image, so its embeddings are the next embeddings after the condition and the noisy image. We train a NEPA model to predict them all at once with Multi-Embedding Prediction, and in Embedding Conditioned Generation, a DiT generator is conditioned on these predictions, recomputed at every denoising step, so the conditioning signal adapts to the current noisy state. Experiments on class-conditional ImageNet $256\\times256$ study the condition of the generator, the design of Multi-Embedding Prediction, and the scaling of both models. The NEPA model adds a second network to every sampling step; with it, and combined with REPA, our final model, NEPA-DiT-XL, reaches an FID of 1.32 using about a third of the training compute of REPA.",
-      "summary_ko": "비전·생성 미디어 분야에 속하며 핵심 연구 주제는 이미지 생성입니다. 생성 품질과 제어 가능성, 학습·추론 효율을 개선하는 방법을 다룹니다.",
-      "motivation_ko": "생성 품질뿐 아니라 프롬프트 충실도, 세부 제어와 반복 생성의 일관성을 동시에 확보해야 합니다.",
-      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
-      "url": "https://arxiv.org/abs/2610.02203v1",
-      "published_at": "2026-10-01T17:59:49+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Sihan Xu",
-        "Ji Xie",
-        "Zilin Wang",
-        "Hui Shen",
-        "Stella X. Yu"
-      ],
-      "keywords": [
-        "Vision & Generative Media",
-        "Image Generation",
-        "image generation"
-      ],
-      "primary_topic": "Vision & Generative Media",
-      "secondary_topic": "Image Generation",
-      "primary_topic_ko": "비전·생성 미디어",
-      "secondary_topic_ko": "이미지 생성",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "image generation"
-      ],
-      "importance_score": 55,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2610.02202",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
-      "summary": "What makes great scientists great? Even as AI systems start to make progress on open problems, scientists remain far ahead of them at sensing which prior idea, buried in an ever-growing archive of research, a new problem needs. To study this skill, we draw on researchers who know firsthand which earlier work advanced their completed projects, with papers serving as pointers to the ideas within. Using our automated pipeline that makes author annotation scalable, we build ScholarCatalyst by having 184 lead authors of 207 recent computer science papers label which candidates did or could have advanced their project, each with a detailed rationale. We introduce a retrieval task with author-provided judgments: given an initial research question, retrieve these papers from only the literature available when the project began. Agentic search does no better than embedding retrieval (0.42 vs. 0.48 Recall@20) despite calling that same retriever as a tool. Even an agent built on Claude Fable 5.1, which may have seen the completed papers during training, reaches only 0.51 R@20. These results highlight the need for new training recipes that equip models with expert intuition for searching broad corpora. We envision ScholarCatalyst as a step toward scientific agents that can take a half-formed idea and point to the prior research it needs.",
-      "summary_ko": "AI 시스템·평가 분야에 속하며 핵심 연구 주제는 평가·벤치마크입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "기존 지표가 실제 사용 능력과 실패 유형을 충분히 반영하지 못해 모델 간 공정한 비교가 어렵습니다.",
-      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
-      "url": "https://arxiv.org/abs/2610.02202v1",
-      "published_at": "2026-10-01T17:59:47+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Sohyeon Kim",
-        "Yoonho Lee",
-        "Bo Liu",
-        "Dayoon Ko",
-        "Rulin Shao",
-        "Seungone Kim",
-        "Graham Neubig",
-        "Pang Wei Koh",
-        "Aakanksha Chowdhery",
-        "Akari Asai",
-        "Omar Khattab",
-        "Yejin Choi",
-        "Gunhee Kim",
-        "Chelsea Finn"
-      ],
-      "keywords": [
-        "AI Systems & Evaluation",
-        "Evaluation & Benchmarks",
-        "benchmark"
-      ],
-      "primary_topic": "AI Systems & Evaluation",
-      "secondary_topic": "Evaluation & Benchmarks",
-      "primary_topic_ko": "AI 시스템·평가",
-      "secondary_topic_ko": "평가·벤치마크",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "benchmark"
-      ],
-      "importance_score": 75,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02201",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "SILSA: Sliding-Window Slice Latents for Topology-Preserving High-Resolution 3D Generation",
-      "summary": "High-resolution 3D generation increasingly relies on voxel latents and multi-stage pipelines that first predict active structure and then synthesize local geometry. While effective, this design fragments continuous surfaces into many local tokens, inflates generation cost, and often weakens topological consistency for thin or highly connected shapes. We introduce SILSA, a topology-aware 3D generation framework that represents shapes with compact sliding-window slice latents. Instead of generating expensive voxel tokens, SILSA uses a fixed set of overlapping slices along the three canonical axes, where each token summarizes a local depth window to preserve cross-sectional continuity and support single-stage rectified-flow generation. A Slice VAE encodes oriented surface samples into multi-axis slice latents and reconstructs them with a sparse volumetric decoder, while a Volumetric Anchor Lattice coordinates directional slice streams through a shared 3D workspace. To preserve structural correctness, we introduce slice-level topology supervision that matches persistence diagrams and aligns Betti transitions across neighboring slices. Experiments show that SILSA improves structural fidelity while substantially reducing generation cost. SILSA improves PSNR by $8.7\\%$, coverage by $5.96$ absolute points, and Betti error by $9.2\\%$ over the strongest baseline, while using $70.0\\%$ fewer tokens than the next-most compact baseline and over $98\\%$ fewer tokens than sparse or hierarchical tokenizers, effectively reducing training memory by $40.4\\%$ and inference time by $58.5\\%$. Qualitative results further show improved preservation of thin structures, repeated components, and long-range connectivity.",
-      "summary_ko": "비전·생성 미디어 분야에 속하며 핵심 연구 주제는 3D·공간 지능입니다. 학습·추론 비용을 낮추면서 성능을 유지하거나 높이는 방법을 제안합니다.",
-      "motivation_ko": "제한된 관측만으로 3차원 구조와 공간 관계를 복원할 때 기하학적 오류와 일반화 문제가 발생합니다.",
-      "contribution_ko": "여러 구성 요소를 연결한 시스템 또는 파이프라인을 구현해 실제 사용과 반복 실험이 가능한 형태로 제시합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
-      "url": "https://arxiv.org/abs/2610.02201v1",
-      "published_at": "2026-10-01T17:59:46+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Tianjiao Yu",
-        "Xinzhuo Li",
-        "Yifan Shen",
-        "Ying Shen",
-        "Kiet A. Nguyen",
-        "Adheesh Sunil Juvekar",
-        "Ismini Lourentzou"
-      ],
-      "keywords": [
-        "Vision & Generative Media",
-        "3D & Spatial",
-        "3d generation"
-      ],
-      "primary_topic": "Vision & Generative Media",
-      "secondary_topic": "3D & Spatial",
-      "primary_topic_ko": "비전·생성 미디어",
-      "secondary_topic_ko": "3D·공간 지능",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "3d generation"
-      ],
-      "importance_score": 55,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2610.02200",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "VISTA: A Visual Harness for Reasoning in an Interactive World",
-      "summary": "We show that multimodal models possess strong reasoning abilities and that an appropriate harness can unlock their potential to solve tasks across diverse interactive environments. We introduce VISTA, a visual harness that gives a general-purpose multimodal model long-horizon vision. VISTA allows the model to directly perceive the environment through visual observations and maintains a lossless visual memory that preserves past observations in their original form. The model can actively retrieve these observations and reorganize its visual input as it reasons. On ARC-AGI-3, VISTA improves Claude Opus 5.0's Relative Human Action Efficiency score from 40.68 to a perfect 100.00, with the model completing all 25 public games using 57.4% fewer actions than first-time human participants. VISTA's simple design also allows it to extend naturally to diverse visual environments with minimal adaptation. Across three additional benchmarks covering a diverse range of visual games and puzzles, it substantially outperforms baselines using the same underlying model with minimal harnesses. Our results highlight VISTA's potential as a general-purpose visual harness for advancing multimodal agents in complex visual environments.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 추론·인퍼런스입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "여러 단계의 추론에서는 작은 오류가 누적되며, 답이 맞더라도 추론 과정의 검증 가능성이 낮다는 한계가 있습니다.",
-      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
-      "url": "https://arxiv.org/abs/2610.02200v1",
-      "published_at": "2026-10-01T17:59:45+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Qiushi Han",
-        "Keya Hu",
-        "Linlu Qiu",
-        "Cathy Wu",
-        "Kaiming He"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Reasoning & Inference",
-        "reasoning"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Reasoning & Inference",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "추론·인퍼런스",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "reasoning"
-      ],
-      "importance_score": 72,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02199",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "TACO: Ternary Absolute-max Column-wise One-sparse Optimizer for LLM Fine-Tuning",
-      "summary": "Full-parameter fine-tuning of large language models (LLMs) incurs substantial optimizer state memory overhead, limiting the model sizes that fit on modern GPUs. Existing approaches either compress optimizer state, abandon first-order gradients, or change the update geometry while retaining dense state. The recently introduced Muon optimizer reduces optimizer memory through matrix-valued updates. Still, its geometry differs from AdamW and can lead to performance degradation when fine-tuning AdamW-pretrained models. To reduce optimizer memory without sacrificing accuracy or computational efficiency in LLM fine-tuning, we propose Ternary Absolute-max Column-wise One-sparse optimizer, or TACO, which follows Muon's operator-norm steepest-descent view but takes the geometric route further. TACO computes the exact steepest-descent direction under a dimension-normalized $1\\to1$ operator norm by selecting the sign of the largest magnitude entry in each column of two-dimensional weight matrices. This retains first-order gradients while making optimizer state memory nearly negligible. Our practical TACO optimizer maintains only a small set of low precision gradient components per column, reducing persistent optimizer state by $174\\times$ relative to AdamW8bit (from 27.7 GB to 0.16 GB) and peak training memory by $2.9\\times$ (from 80.6 GB to 27.5 GB) on OPT-13B, while achieving comparable accuracy and runtime. TACO further enables full-parameter fine-tuning of 30-32B-parameter models on a single 80 GB H100 GPU across multiple model families and tasks.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
-      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
-      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
-      "url": "https://arxiv.org/abs/2610.02199v1",
-      "published_at": "2026-10-01T17:59:42+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Jichao Jiang",
-        "Cristian McGee",
-        "El Houcine Bergou",
-        "Hanqin Cai",
-        "Aritra Dutta"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Language Models",
-        "language model",
-        "large language model"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Language Models",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "언어 모델",
-      "classification_confidence": 0.834,
-      "matched_terms": [
-        "language model",
-        "large language model",
-        "llm"
-      ],
-      "importance_score": 90,
-      "importance_label": "핵심",
-      "importance_reason": "급상승 주제 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02198",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "FERPO: Forward Entropy-Regularized Policy Optimization",
-      "summary": "Several state-of-the-art methods for online reinforcement learning in continuous control improve policies using action gradients of a learned critic. However, critics are typically trained to predict returns, and accurate value predictions do not necessarily yield accurate action derivatives, potentially leading to unreliable policy updates. We propose Forward Entropy-Regularized Policy Optimization (FERPO), an on-policy maximum entropy reinforcement learning algorithm that performs policy improvement using critic values without differentiating the critic with respect to actions. FERPO derives an optimal target action distribution from a policy-improvement objective regularized by entropy and Kullback-Leibler (KL) divergence. We then fit the actor to this target by minimizing a forward-KL objective, estimated using self-normalized importance sampling (SNIS) with actions drawn from the rollout policy. By limiting the target distribution's deviation from the rollout policy, the KL regularization helps keep these importance weights well behaved. In contrast to reverse-KL objectives, which can favor a subset of the target distribution's modes, the forward-KL objective encourages coverage of multiple high-value modes and thereby promotes exploration. Experiments and ablations on MuJoCo Playground and ManiSkill show competitive performance and sample-efficiency gains. Computational benchmarks also demonstrate faster actor updates than Relative Entropy Pathwise Policy Optimization (REPPO).",
-      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 강화학습입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "희소하거나 잘못 설계된 보상 아래에서 표본 효율과 정책 안정성을 동시에 얻기 어렵습니다.",
-      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 핵심 검증 대상은 강화학습의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02198v1",
-      "published_at": "2026-10-01T17:59:41+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Sebastian Sanokowski",
-        "Alireza Sarmadi",
-        "Majid Khadiv"
-      ],
-      "keywords": [
-        "Embodied & Decision AI",
-        "Reinforcement Learning",
-        "reinforcement learning",
-        "policy optimization"
-      ],
-      "primary_topic": "Embodied & Decision AI",
-      "secondary_topic": "Reinforcement Learning",
-      "primary_topic_ko": "로보틱스·의사결정 AI",
-      "secondary_topic_ko": "강화학습",
-      "classification_confidence": 0.792,
-      "matched_terms": [
-        "reinforcement learning",
-        "policy optimization"
-      ],
       "importance_score": 68,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02197",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "HiPhy: Hierarchical Alignment for Physically-Plausible Multi-Principle Video Generation",
-      "summary": "Video generation models have achieved remarkable visual fidelity and have strong potential to become general-purpose world simulators. Despite this progress, they still fail to generate videos which adhere to laws of physics. The problem becomes even more apparent in realistic settings where multiple physical principles must work together within the same video; for example, \"a balloon floating upward while steam rises from a pot\" requires buoyancy and fluid dynamics to unfold coherently and simultaneously. Yet existing methods largely ignore multi-principle interactions, focusing on a single principle per video. We propose HiPhy (Hierarchical Physical Alignment), a reinforcement learning framework that grounds video generation in physical laws through a dual-level objective: locally enforcing the temporal dynamics of individual physical principles, and globally ensuring the physical and semantic coherence of the entire scene. To support multi-principle generation, we construct a 50K-prompt dataset and introduce a prompt benchmark MultiPhyBench, spanning a diverse range of co-occurring physical events. Our experiments show that HiPhy significantly outperforms prior methods and baselines, improving physical commonsense and semantic alignment significantly across various benchmarks, with the largest gains on scenes involving multiple concurrent physical principles where competing methods degrade most sharply.",
-      "summary_ko": "비전·생성 미디어 분야에 속하며 핵심 연구 주제는 비디오 생성입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "시간축의 움직임과 객체 일관성을 유지하면서도 고해상도 영상을 효율적으로 생성하기 어렵습니다.",
-      "contribution_ko": "새 데이터셋 또는 데이터 구성 절차를 제시해 학습과 평가에 사용할 수 있는 재현 가능한 기반을 넓힙니다. 특히 안전성·강건성·신뢰성 측면의 실패를 줄이는 데 기여합니다.",
-      "url": "https://arxiv.org/abs/2610.02197v1",
-      "published_at": "2026-10-01T17:59:41+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Tahira Kazimi",
-        "Shubhankar Borse",
-        "Munawar Hayat",
-        "Fatih Porikli",
-        "Pinar Yanardag"
-      ],
-      "keywords": [
-        "Vision & Generative Media",
-        "Video Generation",
-        "video generation"
-      ],
-      "primary_topic": "Vision & Generative Media",
-      "secondary_topic": "Video Generation",
-      "primary_topic_ko": "비전·생성 미디어",
-      "secondary_topic_ko": "비디오 생성",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "video generation"
-      ],
-      "importance_score": 55,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2610.02196",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation",
-      "summary": "We study test-time evolution for humanoid loco-manipulation: solving tasks that a controller was never trained for by repurposing its existing skills, improving from its own attempts, and retaining what it learns, without retraining. Our key insight is that a broad controller already holds much of the competence a new task needs, and that this competence becomes accessible through an interface between planning and control that is expressive enough to specify contact-rich, multi-stage interactions, yet executable and measurable enough that execution feedback can guide planning from experience. InterEvolve realizes this interface with two components. First, we develop an object-aware forward-backward (FB) behavioral foundation model, whose object residuals on a frozen body prior turn a new reward about the body or objects into loco-manipulation behavior at test time. Second, we specify tasks as reward programs: staged rewards with completion conditions and tunable constants. A large language model (LLM) agent revises the program structure in context, drawing on execution feedback and a skill library of verified programs, while a numerical optimizer tunes its constants. With every candidate verified across parallel simulation scenarios, the program explores new ways to induce, repurpose, and compose the controller's existing motor competence for the task at hand, and thus improves over iterations. Experiments show that human-designed rewards leave much of the FB model's loco-manipulation competence untapped, whereas the programs InterEvolve evolves release it, sometimes through novel strategies. It further produces behaviors for diverse tasks, complex scenes, and long-horizon compositions in simulation, and evolved skills run autonomously on a physical Unitree G1 from egocentric onboard perception.",
-      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 로보틱스·조작입니다. 에이전트의 계획, 도구 선택과 실행 과정의 정확성·안정성을 살펴봅니다.",
-      "motivation_ko": "시뮬레이션과 실제 환경의 차이, 장기 행동 계획의 오차 때문에 로봇 정책을 현실에 안정적으로 적용하기 어렵습니다.",
-      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 로보틱스·조작의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02196v1",
-      "published_at": "2026-10-01T17:59:40+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Zhuo Lin",
-        "Sirui Xu",
-        "Liuyu Bian",
-        "Yu-Xiong Wang",
-        "Liang-Yan Gui"
-      ],
-      "keywords": [
-        "Embodied & Decision AI",
-        "Robotics & Manipulation",
-        "manipulation"
-      ],
-      "primary_topic": "Embodied & Decision AI",
-      "secondary_topic": "Robotics & Manipulation",
-      "primary_topic_ko": "로보틱스·의사결정 AI",
-      "secondary_topic_ko": "로보틱스·조작",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "manipulation"
-      ],
-      "importance_score": 70,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02195",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Cost-augmented Schrödinger bridges on graphs are exactly solvable: a Feynman-Kac tilt replaces learned control",
-      "summary": "The generalized Schrödinger bridge on a graph moves mass between two distributions while charging a cost for the states visited. It has been approached by learning the rates of a controlled continuous-time Markov chain, with a temporal-difference penalty that restores the cost. A state cost folds into the reference process as a Feynman-Kac tilt. The cost-augmented bridge is then a plain bridge against the tilted reference, and the penalty is unnecessary. The bridge is computed exactly by alternating two endpoint rescalings, each one sparse matrix-exponential application; nothing is discretized in time or learned. The alternation converges at a rate set by the endpoint coupling alone. For a quadratic congestion cost on time-averaged occupancies, damped best response around the exact bridge is gradient descent on a strongly convex function, and its residual bounds its error. On a protein-folding model, a free-energy cost lowers the expected barrier of the folding paths. On the learned approach's road network, roll-outs of the exact bridge match the target within sampling error, and on networks with millions of intersections its memory grows linearly.",
-      "summary_ko": "과학·산업 응용 분야에 속하며 핵심 연구 주제는 생명과학·헬스케어입니다. 환경을 인식하고 행동을 계획·제어하는 로봇 지능의 성능을 다룹니다.",
-      "motivation_ko": "임상·생물 데이터의 희소성 및 기관 간 차이 때문에 높은 정확도와 안전한 일반화가 요구됩니다.",
-      "contribution_ko": "이론적 분석과 검증 가능한 조건을 제시해 방법이 작동하는 범위와 한계를 설명합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
-      "url": "https://arxiv.org/abs/2610.02195v1",
-      "published_at": "2026-10-01T17:59:39+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Akshay Balsubramani"
-      ],
-      "keywords": [
-        "Science & Applications",
-        "Biology & Healthcare",
-        "protein"
-      ],
-      "primary_topic": "Science & Applications",
-      "secondary_topic": "Biology & Healthcare",
-      "primary_topic_ko": "과학·산업 응용",
-      "secondary_topic_ko": "생명과학·헬스케어",
-      "classification_confidence": 0.58,
-      "matched_terms": [
-        "protein"
-      ],
-      "importance_score": 54,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2610.02193",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Hierarchical Continuous Diffusion Language Models",
-      "summary": "Discrete diffusion language models offer a compelling alternative to autoregressive generation for tasks demanding bidirectional reasoning and global constraint satisfaction. Yet they share a structural bottleneck: when decoding in parallel, each token is sampled independently from its marginal, severing the statistical dependencies among the tokens decoded together. Continuous diffusion language models avoid this by denoising a shared continuous state, but their denoiser sees only that state, so nothing ties it to a valid token configuration until it is finally decoded. To address this, we propose Hierarchical Continuous Diffusion Language Models (HC-DLM), which couple discrete token generation with a continuous latent trajectory in a single, principled denoising process, whose training objective is derived from a variational bound on the token likelihood. In contrast to recent methods that attach continuous context to a self-contained discrete chain, HC-DLM makes the latent the only persistent generative state: tokens are read out from it at every step and feed back as a scaffold for the next latent update. On structured reasoning (Sudoku), mathematical planning (Countdown) and language modeling (LM1B), HC-DLM improves over discrete and continuous diffusion baselines at matched model size, in puzzle accuracy on Sudoku and Countdown and in generative perplexity on LM1B. Project page: https://hc-dlm.github.io/.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 생성 품질과 제어 가능성, 학습·추론 효율을 개선하는 방법을 다룹니다.",
-      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
-      "contribution_ko": "이론적 분석과 검증 가능한 조건을 제시해 방법이 작동하는 범위와 한계를 설명합니다. 핵심 검증 대상은 언어 모델의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02193v1",
-      "published_at": "2026-10-01T17:59:39+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Hui Ren",
-        "Zihan Li",
-        "Chang Liu",
-        "Huidong Liu",
-        "Alexander Schwing"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Language Models",
-        "language model"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Language Models",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "언어 모델",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "language model"
-      ],
-      "importance_score": 89,
-      "importance_label": "핵심",
-      "importance_reason": "급상승 주제 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02191",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "The Missing Primitive: Diagnosing and Repairing Mathematical Reasoning in Large Language Models",
-      "summary": "While Large Language Models (LLMs) have demonstrated striking capabilities on frontier mathematical problems, it remains unclear whether they possess the structural mathematical understanding underlying their solutions. In this paper, we take a first step toward systematically studying mathematical understanding in LLMs, from diagnosing its distinct capabilities to leveraging these findings to improve post-training. First, we introduce the notion of Mathematical Primitive to probe structural mathematical understanding and propose \\hlei{}, a novel benchmark that evaluates mathematical reasoning along four distinct dimensions: Discovery, Generation, Digestion, and Execution. Second, our systematic diagnosis shows that solution accuracy masks distinct capability profiles, primitives unlock substantial latent execution capacity, and Discovery is the dominant bottleneck in mathematical reasoning. Our post-training analysis further shows that discovery-limited failures are particularly amenable to repair. Finally, building on these findings, we introduce \\abs{}, a primitive-privileged self-distillation framework that selectively transfers primitive-guided reasoning into the student model. Extensive experiments demonstrate that \\abs{} consistently improves mathematical reasoning over baselines across model scales and challenging benchmarks.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
-      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 특히 새로운 데이터와 환경으로의 일반화 성능을 검증하는 데 초점을 둡니다.",
-      "url": "https://arxiv.org/abs/2610.02191v1",
-      "published_at": "2026-10-01T17:59:32+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Shuo Xing",
-        "Zilin Dai",
-        "Chengyuan Qian",
-        "Fangzhou Lin",
-        "Wenjing Chen",
-        "Ping He",
-        "Pan Lu",
-        "Alvaro Velasquez",
-        "Mohit Bansal",
-        "Zhengzhong Tu"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Language Models",
-        "language model",
-        "large language model"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Language Models",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "언어 모델",
-      "classification_confidence": 0.9,
-      "matched_terms": [
-        "language model",
-        "large language model",
-        "llm"
-      ],
-      "importance_score": 91,
-      "importance_label": "핵심",
-      "importance_reason": "급상승 주제 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02190",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Trust the Direction, Search the Step: Zero-and-First-Order Methods for LLM Fine-Tuning",
-      "summary": "Step-size selection remains a central challenge in large-scale neural network optimization; conservative steps slow convergence, while aggressive steps can destabilize it. We combine \\textbf{Z}ero-and-\\textbf{F}irst-\\textbf{O}rder optimization~(ZFO) and propose a lightweight framework that decouples direction selection from step-size. ZFO uses a trusted first-order optimizer to determine the direction and performs zeroth-order evaluations only along this one-dimensional subspace to choose how far to move. Using the current {gradient information} and two additional objective function evaluations, ZFO instances construct a local model of the objective function along the proposed direction and select a curvature-aware step within a bounded search interval. This yields an adaptive step-selection mechanism that costs less than a full line search. We provide theoretical guarantees to show that shared-sample evaluations produce reliable finite-difference curvature estimates, that the induced local model selects a near-optimal step along the search interval, and that ZFO converges to a neighborhood of a stationary point. Across the evaluated settings, language models and datasets, ZFO frequently improves optimization and final performance relative to fixed-step first-order baselines, with the magnitude and preferred local model depending on the objective. Our code is publicly available at: https://github.com/nizswan/Zeroth-First-Order-Framework.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
-      "contribution_ko": "새 데이터셋 또는 데이터 구성 절차를 제시해 학습과 평가에 사용할 수 있는 재현 가능한 기반을 넓힙니다. 핵심 검증 대상은 언어 모델의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02190v1",
-      "published_at": "2026-10-01T17:59:28+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Cristian McGee",
-        "El Houcine Bergou",
-        "Aritra Dutta"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Language Models",
-        "language model",
-        "llm"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Language Models",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "언어 모델",
-      "classification_confidence": 0.792,
-      "matched_terms": [
-        "language model",
-        "llm"
-      ],
-      "importance_score": 90,
-      "importance_label": "핵심",
-      "importance_reason": "급상승 주제 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02189",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Generative modeling of intrinsically disordered protein regions by reinforcing sparse autoencoder features",
-      "summary": "Intrinsically disordered protein regions (IDRs) play central roles in cellular processes such as transcriptional regulation, signal transduction, and subcellular localization, yet their functional design remains challenging. Structure-based design methods do not readily apply to IDRs, and existing protein language models are trained on full-length protein sequences, thus learning a prior that is biased towards folded domains. Here, we present IDiom, an autoregressive protein language model trained on IDiom-DB, a dataset of 54 million predicted IDRs curated from the AlphaFold Database. IDiom generates diverse sequences that recapitulate the composition, patterning, motifs, and predicted disorder of natural IDRs. To control function-associated sequence patterns, we also introduce reinforcement learning with sparse autoencoder features (RL-SAE), a post-training method that rewards the generation of sequences that activate specified feature sets. Across eight IDR design tasks, RL-SAE sequences activate, on average, 90% of 30 targeted features, compared to 24% for activation steering. We demonstrate that RL-SAE improves the predicted subcellular localization and transcriptional activity of generated IDRs compared to steering and supervised fine-tuning, and enables features associated with distinct biological functions to be combined within individual sequences. Thus, IDiom and RL-SAE enable interpretable and composable IDR design through explicit control of function-associated sequence features. More broadly, RL-SAE could extend to other protein design settings where interpretable features provide useful design targets. Code is available at https://github.com/rotskoff-group/idiom.",
-      "summary_ko": "과학·산업 응용 분야에 속하며 핵심 연구 주제는 생명과학·헬스케어입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "임상·생물 데이터의 희소성 및 기관 간 차이 때문에 높은 정확도와 안전한 일반화가 요구됩니다.",
-      "contribution_ko": "새 데이터셋 또는 데이터 구성 절차를 제시해 학습과 평가에 사용할 수 있는 재현 가능한 기반을 넓힙니다. 핵심 검증 대상은 생명과학·헬스케어의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02189v1",
-      "published_at": "2026-10-01T17:59:20+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Jason X. Liu",
-        "Sebastian Ibarraran",
-        "Frank Hu",
-        "Soojung Yang",
-        "Xinyu A. Feng",
-        "Abigail Park",
-        "Anagha Aneesh",
-        "Lacramioara Bintu",
-        "Alexander R. Dunn",
-        "Grant M. Rotskoff"
-      ],
-      "keywords": [
-        "Science & Applications",
-        "Biology & Healthcare",
-        "protein"
-      ],
-      "primary_topic": "Science & Applications",
-      "secondary_topic": "Biology & Healthcare",
-      "primary_topic_ko": "과학·산업 응용",
-      "secondary_topic_ko": "생명과학·헬스케어",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "protein"
-      ],
-      "importance_score": 55,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2610.02188",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "DMAD: Distribution Matching as Adversarial Distillation for Fast Visual Generation",
-      "summary": "Distribution Matching Distillation (DMD) trains a few-step student from the difference between separately estimated target and student scores, so it must keep an auxiliary diffusion model fitted to the student's evolving distribution at extra memory and computation cost. We introduce DMAD, Distribution Matching as Adversarial Distillation, which recasts distribution matching as classification and learns the required log-density ratios directly. Two discriminator heads on a shared backbone distinguish real data and teacher samples from the student's, and linear losses on their logits train the student without auxiliary score fitting. We prove that at the discriminator optimum these losses recover the distribution-matching gradient underlying DMD, through the classical identity linking discriminator logits to log-density ratios. We further introduce gap-based reweighting, which adapts teacher supervision across noise levels from the real-data head's empirical logit gap between real and teacher samples. DMAD reaches a Fréchet Inception Distance (FID) of 1.04 with one-step generation on ImageNet-64x64, 14.47 with four-step SDXL on COCO-10K, and a VBench total score of 85.15 with four-step Wan2.1-T2V-14B, the best values among the compared few-step methods and the multi-step teachers. On MiniMax-H3-33B, our four-step student achieves overall human preference rates of 79.1% over DMD2 and 84.6% over rCM for joint audio-video generation, excluding ties. Our code, models and demos are available at https://yzmblog.github.io/projects/DMAD.",
-      "summary_ko": "신뢰할 수 있는 AI 분야에 속하며 핵심 연구 주제는 강건성·보안입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "적대적 입력과 분포 변화, 프롬프트 주입 상황에서 성능과 보안이 급격히 저하될 수 있습니다.",
-      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
-      "url": "https://arxiv.org/abs/2610.02188v1",
-      "published_at": "2026-10-01T17:59:01+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Zhengming Yu",
-        "Junkun Yuan",
-        "Haotian Yang",
-        "Gordon Guocheng Qian",
-        "Yizhi Wang",
-        "Angtian Wang",
-        "Yiding Yang",
-        "Bo Liu",
-        "Xin Li",
-        "Wenping Wang",
-        "Chongyang Ma"
-      ],
-      "keywords": [
-        "Trustworthy AI",
-        "Robustness & Security",
-        "adversarial"
-      ],
-      "primary_topic": "Trustworthy AI",
-      "secondary_topic": "Robustness & Security",
-      "primary_topic_ko": "신뢰할 수 있는 AI",
-      "secondary_topic_ko": "강건성·보안",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "adversarial"
-      ],
-      "importance_score": 55,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2610.02186",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Higher-Order Molecular Grammars for Generative and Foundation Models in Chemistry",
-      "summary": "Molecular learning models are strongly shaped by their underlying representations. Yet standard sequential and graph formalisms struggle to explicitly encode higher-order topology, such as ring systems and recurring motifs. Existing higher-order representations can capture these structures directly, but they are often computationally demanding and difficult to decode into valid molecules. Here, we introduce Higher-order Grammar Representation (HGR), a principled, topology-aware framework that lifts molecules to combinatorial complexes and parses each complex into a compact sequence of production rules under a context-free higher-order grammar. By serialising higher-order topology into rule sequences, HGR makes these structures directly compatible with standard sequence models, avoiding the computational overhead of explicit higher-order encodings while preserving topological expressiveness. To reduce benchmark bias towards simple ring systems, we construct RingDiv, a ring-enriched benchmark containing 1.18 million molecules, including the curated RingDiv300k subset, and introduce the ring diversity index (RDI) to quantify ring-system coverage. In molecular generation, HGR-based models uniquely combine 100% validity by construction with leading distributional alignment, ranking first in FCD on all five generation benchmarks. In representation learning, HGR-FM achieves the highest mean AUC across seven MoleculeNet benchmarks under both transfer protocols, improving on the strongest baseline by 8.3 and 3.3 AUC points under probing and full fine-tuning, respectively. Collectively, these results establish HGR as an efficient higher-order representation for molecular generation and transferable representation learning.",
-      "summary_ko": "신뢰할 수 있는 AI 분야에 속하며 핵심 연구 주제는 안전·정렬입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "모델의 의도하지 않은 행동과 우회 공격을 줄이면서 유용성을 유지할 수 있는 검증 방법이 필요합니다.",
-      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
-      "url": "https://arxiv.org/abs/2610.02186v1",
-      "published_at": "2026-10-01T17:58:45+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Yiming Huang",
-        "Yujie Zeng",
-        "Vijay Prakash Dwivedi",
-        "Simone Foti",
-        "Jianmin Wang",
-        "Jure Leskovec",
-        "Tolga Birdal"
-      ],
-      "keywords": [
-        "Trustworthy AI",
-        "Safety & Alignment",
-        "alignment"
-      ],
-      "primary_topic": "Trustworthy AI",
-      "secondary_topic": "Safety & Alignment",
-      "primary_topic_ko": "신뢰할 수 있는 AI",
-      "secondary_topic_ko": "안전·정렬",
-      "classification_confidence": 0.58,
-      "matched_terms": [
-        "alignment"
-      ],
-      "importance_score": 54,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2610.02185",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Decoding Looped Transformers Better for (Almost) Free",
-      "summary": "Looped Transformers achieve parameter efficiency by repeatedly executing a shared block across recurrent loops. Each loop yields an intermediate representation decodable for the same next token, yet standard decoding discards earlier states. Because earlier loops embody less computation, recurrence inherently supplies aligned weak-and-strong prediction pairs without auxiliary models or external training. We introduce LoopCD, a training-free contrastive decoding framework that guides token selection by contrasting the final prediction with an earlier recurrent pass, operating either in logit space with one extra output pass (LoopCD-Logits) or in hidden-state space with zero output overhead (LoopCD-Hidden). Across four looped Transformer families, LoopCD delivers substantial, consistent gains at full recurrent depth: LoopCD-Logits raises Ouro-2.6B-Thinking's AIME 2024 pass@1 from 61.88% to 73.33%, while LoopCD-Hidden lifts Huginn's HumanEval pass@1 from 22.56% to 31.71%. Crucially, these performance gains enable halving the number of recurrent loops while still matching or exceeding full-depth unguided baselines, reducing forward FLOPs by 22.5% to 48.2%. By transforming intermediate recurrent states into effective guidance signals, LoopCD achieves superior decoding quality while substantially reducing inference compute.",
-      "summary_ko": "학습 방법·이론 분야에 속하며 핵심 연구 주제는 일반 머신러닝입니다. 학습·추론 비용을 낮추면서 성능을 유지하거나 높이는 방법을 제안합니다.",
-      "motivation_ko": "새로운 데이터 분포에서도 성능이 유지되고 학습 결과를 재현할 수 있는 일반화가 핵심 과제입니다.",
-      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
-      "url": "https://arxiv.org/abs/2610.02185v1",
-      "published_at": "2026-10-01T17:58:38+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Weihao Liu",
-        "Huangjie Zheng",
-        "Tianrong Chen",
-        "Rohit Dilip",
-        "Richard He Bai",
-        "Yizhu Jiao",
-        "Yuyang Wang",
-        "Ruixiang Zhang"
-      ],
-      "keywords": [
-        "Learning & Theory",
-        "General Machine Learning",
-        "cs.LG"
-      ],
-      "primary_topic": "Learning & Theory",
-      "secondary_topic": "General Machine Learning",
-      "primary_topic_ko": "학습 방법·이론",
-      "secondary_topic_ko": "일반 머신러닝",
-      "classification_confidence": 0.38,
-      "matched_terms": [
-        "cs.LG"
-      ],
-      "importance_score": 73,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02182",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "SoftServe: A Scalable Quasi-Newton Method for Deep Learning",
-      "summary": "Quasi-Newton (QN) methods have long been among the most effective methods for large-scale unconstrained convex optimization. Two obstacles have limited their use in deep learning: non-convexity and enormous parameter sizes. We introduce SoftServe, a family of QN methods designed to overcome these obstacles without line searches or ad hoc curvature corrections. SoftServe derives positivedefinite curvature estimates from the variational objective of Berglund et al. (2025), even in the presence of negative curvature. We develop diagonal and Kroneckerfactored variants that preserve positive definiteness by construction and scale to massive neural networks. Finally, SoftServe relies on the stable coupled Newton-Schulz iteration for the required matrix operations, replacing costly matrix decompositions with GPU-friendly matrix multiplications. SoftServe excels on problems that are severely ill-conditioned, including tasks such as recurrent networks, deep autoencoders, physics-informed neural networks, and a 136M-parameter physics-informed diffusion model, often achieving lower losses than established baselines including Adam, Muon, and SOAP.",
-      "summary_ko": "학습 방법·이론 분야에 속하며 핵심 연구 주제는 일반 머신러닝입니다. 생성 품질과 제어 가능성, 학습·추론 효율을 개선하는 방법을 다룹니다.",
-      "motivation_ko": "새로운 데이터 분포에서도 성능이 유지되고 학습 결과를 재현할 수 있는 일반화가 핵심 과제입니다.",
-      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 핵심 검증 대상은 일반 머신러닝의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02182v1",
-      "published_at": "2026-10-01T17:58:24+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Joohwan Ko",
-        "Tetiana Parshakova",
-        "Diana Cai",
-        "Robert M. Gower"
-      ],
-      "keywords": [
-        "Learning & Theory",
-        "General Machine Learning",
-        "deep learning",
-        "neural network"
-      ],
-      "primary_topic": "Learning & Theory",
-      "secondary_topic": "General Machine Learning",
-      "primary_topic_ko": "학습 방법·이론",
-      "secondary_topic_ko": "일반 머신러닝",
-      "classification_confidence": 0.834,
-      "matched_terms": [
-        "deep learning",
-        "neural network",
-        "optimization"
-      ],
-      "importance_score": 77,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02181",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "OmniSeek: Native Tool Integration for Multi-turn Audio-Visual Reasoning",
-      "summary": "We present OmniSeek, an agentic framework that transforms an Omni Large Language Model (Omni-LLM) into an active, multi-turn reasoning agent with native tool use. Rather than passively processing an entire audio-visual sequence in a single forward pass, OmniSeek makes evidence acquisition part of the reasoning process: it dynamically decides whether to look or listen, and over which temporal window, to retrieve sparse but critical evidence across different modalities within long contexts. Through an iterative multi-turn protocol, the retrieved raw audio or visual segments are appended back into the context to support subsequent reasoning. To cold-start this capability, we build a data engine that synthesizes OmniTraj-170K, a corpus of multi-hop Chain-of-Thought trajectories with interleaved audio and visual evidence. We first supervise the model on these trajectories to instill multi-turn tool-use behavior, and then further optimize the policy via a two-stage reinforcement learning with verifiable rewards. Moreover, we introduce an Audio-Visual Necessity objective that explicitly rewards successful trajectories whose reasoning depends on both modalities, discouraging single-modality shortcuts. Extensive experiments across a wide range of benchmarks demonstrate that OmniSeek learns adaptive cross-modal evidence seeking and consistently improves audio-visual reasoning performance.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 추론·인퍼런스입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "여러 단계의 추론에서는 작은 오류가 누적되며, 답이 맞더라도 추론 과정의 검증 가능성이 낮다는 한계가 있습니다.",
-      "contribution_ko": "새 데이터셋 또는 데이터 구성 절차를 제시해 학습과 평가에 사용할 수 있는 재현 가능한 기반을 넓힙니다. 핵심 검증 대상은 추론·인퍼런스의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02181v1",
-      "published_at": "2026-10-01T17:58:16+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Haibo Wang",
-        "Jiteng Mu",
-        "Jialu Li",
-        "Jingru Yi",
-        "Yuanjun Xiong",
-        "Jianming Zhang",
-        "Lifu Huang",
-        "Mingze Xu"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Reasoning & Inference",
-        "reasoning",
-        "chain-of-thought"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Reasoning & Inference",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "추론·인퍼런스",
-      "classification_confidence": 0.792,
-      "matched_terms": [
-        "reasoning",
-        "chain-of-thought"
-      ],
-      "importance_score": 73,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02180",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Generative Cinematographer: Composing Camera and Object Motion in 3D",
-      "summary": "Current controllable video generation systems often rely on 2D motion trajectories or sparse drag signals for object motion. These controls are ambiguous because the same 2D trajectory can correspond to different 3D motions, especially when the camera and objects move simultaneously. We present Generative Cinematographer (GenCine), a system that lifts a single image into an editable 3D scene scaffold where artists jointly author camera and foreground motion. Artists specify a camera path and move selected foreground regions using local 3D motion handles. Several handles can move different parts of a subject independently, providing a piecewise-rigid approximation to non-rigid motion without a physics simulator or category-specific prior. To communicate these controls to a pretrained video model, we project them into guidance maps. These maps record where the controlled regions appear in each frame, assign each handle a fixed color across frames and encode the current 3D positions of its controlled points in the same world coordinate system as the background. This lets us describe object motion relative to the scene even as the camera moves. For training, we recover controls from the motion observed in real videos and use ground-truth geometry and trajectories from synthetic videos. We train a lightweight guidance branch and LoRA adapters on a pretrained Wan model to follow these controls. Our experiments show consistent camera-relative motion, improved geometric consistency under viewpoint changes, and strong controllability across diverse real-world scenes.",
-      "summary_ko": "비전·생성 미디어 분야에 속하며 핵심 연구 주제는 비디오 생성입니다. 생성 품질과 제어 가능성, 학습·추론 효율을 개선하는 방법을 다룹니다.",
-      "motivation_ko": "시간축의 움직임과 객체 일관성을 유지하면서도 고해상도 영상을 효율적으로 생성하기 어렵습니다. 실제 환경으로 옮겼을 때 발생하는 성능 저하를 줄이는 것이 핵심 동기입니다.",
-      "contribution_ko": "여러 구성 요소를 연결한 시스템 또는 파이프라인을 구현해 실제 사용과 반복 실험이 가능한 형태로 제시합니다. 핵심 검증 대상은 비디오 생성의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02180v1",
-      "published_at": "2026-10-01T17:58:09+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Jiahan Zhang",
-        "Chaohao Yang",
-        "Namitha Guruprasad",
-        "Vivekjyoti Banerjee",
-        "Trong-Tung Nguyen",
-        "Alan Yuille",
-        "Anand Bhattad"
-      ],
-      "keywords": [
-        "Vision & Generative Media",
-        "Video Generation",
-        "video generation"
-      ],
-      "primary_topic": "Vision & Generative Media",
-      "secondary_topic": "Video Generation",
-      "primary_topic_ko": "비전·생성 미디어",
-      "secondary_topic_ko": "비디오 생성",
-      "classification_confidence": 0.58,
-      "matched_terms": [
-        "video generation"
-      ],
-      "importance_score": 54,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2610.02179",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "From Gradients to Capabilities: Understanding Multi-Teacher On-Policy Distillation",
-      "summary": "Multi-teacher on-policy distillation (MOPD) aims to combine the strengths of RL-trained teachers in a single student, but how teacher signals affect parameter changes remains underexplored. We study Qwen3-1.7B with four domain teachers trained with RL from the same initialization as the student, comparing gradients, optimizer updates, and task learning curves, with additional SmolLM3-3B diagnostics. We find that several factors influence teacher signals. First, loss averaging implicitly weights responses: token averaging favors longer responses, and equalizing domain contributions retains this weighting within domains. Second, Adam's first moment reduces differences in parameter updates: the cosine similarity is 0.83 between teachers and 0.96 between averaging rules, despite differences in raw gradients. Third, BF16 rounding hides small changes: about 97\\% of FP32 master weights differ from initialization, but only 7--11\\% of BF16 weights do. Finally, the top-64 intersection KL gradient closely matches Qwen's full-vocabulary gradient, but the effect on task performance depends on averaging: mathematics accuracy is 2.6 points higher than with sampled-token policy-gradient (PG) under response averaging and 2.1 points lower under global token averaging.",
-      "summary_ko": "AI 시스템·평가 분야에 속하며 핵심 연구 주제는 최적화·압축입니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
-      "motivation_ko": "모델 크기와 비용을 줄이면 정확도와 강건성이 함께 저하될 수 있는 절충 문제가 있습니다.",
-      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 최적화·압축의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02179v1",
-      "published_at": "2026-10-01T17:57:44+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Siqi Zhu",
-        "Suozhi Huang",
-        "Kaixuan Zhang",
-        "Yuheng Yang",
-        "Zhanyang Jin",
-        "Yihang Sun",
-        "Jiaxuan You"
-      ],
-      "keywords": [
-        "AI Systems & Evaluation",
-        "Optimization & Compression",
-        "distillation"
-      ],
-      "primary_topic": "AI Systems & Evaluation",
-      "secondary_topic": "Optimization & Compression",
-      "primary_topic_ko": "AI 시스템·평가",
-      "secondary_topic_ko": "최적화·압축",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "distillation"
-      ],
-      "importance_score": 55,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2610.02175",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Effective Resistance and Graph Neural Network Reliability in Tissue-Specific Interactomes",
-      "summary": "Protein function annotation needs to know which predictions to distrust, not only what a model predicts. We ask whether tissue-specific interaction structure carries that information. Our candidate signal is effective resistance, used previously to relieve over-squashing by rewiring. Across 24 tissue-specific interactomes it is dominated by inverse degree, and the degeneration deepens as the co-expression filtered network grows, with a Spearman correlation of -0.955. The residual departure from that limit exceeds degree-preserving null graphs in all 24 networks. Controlling for predictive entropy, degree, annotation cardinality, local structure and feature-only difficulty, the residual explains additional per-node loss in 19 of 24 held-out networks once a permutation floor is subtracted, at every depth, and the effect strengthens monotonically with depth. The increment reaches 0.37% of the variance the controls leave unexplained, 5.6 times a permutation floor, against 1.5 times when the model is retrained in a degree-preserving null world. Selective prediction improves negligibly. The signal is reproducible; degree degeneration bounds it.",
-      "summary_ko": "학습 방법·이론 분야에 속하며 핵심 연구 주제는 그래프 머신러닝입니다. 환경을 인식하고 행동을 계획·제어하는 로봇 지능의 성능을 다룹니다.",
-      "motivation_ko": "큰 그래프의 구조적 의존성을 보존하면서 확장성과 새로운 노드·그래프에 대한 일반화를 확보해야 합니다.",
-      "contribution_ko": "이론적 분석과 검증 가능한 조건을 제시해 방법이 작동하는 범위와 한계를 설명합니다. 핵심 검증 대상은 그래프 머신러닝의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02175v1",
-      "published_at": "2026-10-01T17:57:10+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Jianru Shen"
-      ],
-      "keywords": [
-        "Learning & Theory",
-        "Graph ML",
-        "graph neural"
-      ],
-      "primary_topic": "Learning & Theory",
-      "secondary_topic": "Graph ML",
-      "primary_topic_ko": "학습 방법·이론",
-      "secondary_topic_ko": "그래프 머신러닝",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "graph neural"
-      ],
-      "importance_score": 55,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2610.02173",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Every Ablation Is a Dose: Counterweights and the Semblance of Self-Repair",
-      "summary": "Ablate a component of a language model, and other components often appear to adjust and compensate. This phenomenon, termed self-repair, has been observed repeatedly, but its mechanism remains unclear. The most systematic study to date concluded that self-repair is noisy and unlikely to have a single explanation. We argue that it has one: a gain already present before any ablation. Any intervention on a causally important component can be viewed as a point on a coordinate axis $λ$, the signed strength of a counterfactual contrast. Hence, conventional ablation methods are uncalibrated points on this axis. We show that the causal repair response for a fine-grained unit $r$ is governed by an affine law, $E_r(λ)=\\mathrm{own}_r+γ_rλ$. The slope $γ_r$ is a fixed coefficient that consistently influences the model, with or without ablation, and its sign determines whether the unit counteracts or reinforces the removed signal. On a factual-verdict task across four models from distinct families (Gemma, Qwen, LLaMA, and Mistral), we identify components including MLP neurons, OV neurons, and singular directions that follow this affine law, 68 of 81 downstream directions in all. Moreover, we can anticipate the magnitude of $γ_r$ from the fixed weights. On the IOI circuit of GPT-2 Small, seven of the ten heads the intervention can reach follow the law, and all seven are counterweights. From this perspective, what may appear as self-repair is a counterweight performing its usual operation when the contrastive signal emerges at the core.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 학습·추론 비용을 낮추면서 성능을 유지하거나 높이는 방법을 제안합니다.",
-      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
-      "contribution_ko": "여러 구성 요소를 연결한 시스템 또는 파이프라인을 구현해 실제 사용과 반복 실험이 가능한 형태로 제시합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
-      "url": "https://arxiv.org/abs/2610.02173v1",
-      "published_at": "2026-10-01T17:57:04+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Areeb Ahmad",
-        "Pratinav Seth",
-        "Vinay Kumar Sankarapu"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Language Models",
-        "language model"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Language Models",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "언어 모델",
-      "classification_confidence": 0.58,
-      "matched_terms": [
-        "language model"
-      ],
-      "importance_score": 88,
-      "importance_label": "핵심",
-      "importance_reason": "급상승 주제 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02170",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Watch, Infer, Coordinate: Inferring Robot Partner Constraints for Zero-Shot Coordination",
-      "summary": "Robots operating in the physical world will increasingly need to coordinate with other robots, particularly in manipulation tasks where an object may be too large or heavy for a single robot to carry alone. Physical limitations caused by hardware degradation or actuator faults can restrict the actions a robot can reliably execute, yet these limitations may be unknown to its partner. We study whether a helper can infer a robot partner's physical constraints from observing it coordinate with another robot, then use the inferred capability to coordinate with the same partner on a new task. This is difficult because a demonstration shows what the constrained robot did, but not what it could have done. In physically coupled tasks, the other robot may also compensate for its limitations, making those limitations difficult to identify from the constrained robot's behavior alone. Our key insight is that these constraints shape the joint behavior of the team, making the actions of both robots informative about the constrained partner's capability. We introduce Watch, Infer, Coordinate, a benchmark spanning three physically coupled manipulation settings, together with an inference approach that scores candidate constraints using observed joint behavior. Across all three settings, our method substantially improves constraint inference and zero-shot coordination, approaching an oracle with access to the true constraints.",
-      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 로보틱스·조작입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "시뮬레이션과 실제 환경의 차이, 장기 행동 계획의 오차 때문에 로봇 정책을 현실에 안정적으로 적용하기 어렵습니다.",
-      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 핵심 검증 대상은 로보틱스·조작의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02170v1",
-      "published_at": "2026-10-01T17:56:04+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Suyu Ye",
-        "Zheyuan Zhang",
-        "Vaishnav Tadiparthi",
-        "Hossein Nourkhiz Mahjoub",
-        "Ehsan Moradi Pari",
-        "Tianmin Shu",
-        "Homanga Bharadhwaj",
-        "Nakul Agarwal"
-      ],
-      "keywords": [
-        "Embodied & Decision AI",
-        "Robotics & Manipulation",
-        "robot",
-        "manipulation"
-      ],
-      "primary_topic": "Embodied & Decision AI",
-      "secondary_topic": "Robotics & Manipulation",
-      "primary_topic_ko": "로보틱스·의사결정 AI",
-      "secondary_topic_ko": "로보틱스·조작",
-      "classification_confidence": 0.792,
-      "matched_terms": [
-        "robot",
-        "manipulation"
-      ],
-      "importance_score": 71,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02163",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "AutoCompact: Learning When to Compact Context in Long-Horizon Coding Agents",
-      "summary": "Coding agents solve repository-level software engineering tasks through long trajectories of code inspection, search, editing, and testing. As a task progresses, earlier exploration becomes stale, so managing context is more than avoiding overflow: an agent must decide when to compact, what working state to preserve, and how to continue from it. We introduce AutoCompact, which trains a coding agent to make these decisions as part of its policy. To collect training data, we run the base agent on coding tasks and use a judge to review its compaction decisions, summaries, and actions after compaction. Flawed outputs are replaced with corrected ones before being executed in the environment, so each trajectory continues from the corrected decisions. We use these trajectories for supervised fine-tuning, then jointly optimize coding and compaction through reinforcement learning with task-success rewards. Experiments on SWE-bench Verified and SWE-PolyBench Verified show that AutoCompact improves pass rates over the base model by an absolute 9.2\\% and 5.0\\%, respectively. The improvements hold across all evaluated inference budgets, with a 256K context window that never overflows and with a 16K window whose overflow triggers fallback compaction.",
-      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 강화학습입니다. 에이전트의 계획, 도구 선택과 실행 과정의 정확성·안정성을 살펴봅니다.",
-      "motivation_ko": "희소하거나 잘못 설계된 보상 아래에서 표본 효율과 정책 안정성을 동시에 얻기 어렵습니다.",
-      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 핵심 검증 대상은 강화학습의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02163v1",
-      "published_at": "2026-10-01T17:54:34+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Xuan Zhang",
-        "Longtao Zheng",
-        "Cunxiao Du",
-        "Bo An",
-        "Xin Dong"
-      ],
-      "keywords": [
-        "Embodied & Decision AI",
-        "Reinforcement Learning",
-        "reinforcement learning"
-      ],
-      "primary_topic": "Embodied & Decision AI",
-      "secondary_topic": "Reinforcement Learning",
-      "primary_topic_ko": "로보틱스·의사결정 AI",
-      "secondary_topic_ko": "강화학습",
-      "classification_confidence": 0.58,
-      "matched_terms": [
-        "reinforcement learning"
-      ],
-      "importance_score": 66,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02162",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "World Observer: Joint Actor-Observer Generation for Persistent World Modeling",
-      "summary": "How can a world model continuously observe regions beyond the actor's current view? Video world models simulate how an environment evolves from an agent's actions, yet remain actor-centric. Once an object leaves the actor's view, they lose direct evidence of its evolution, often failing to preserve its state and dynamics upon re-entry. To address this, we introduce World Observer, which decouples observing from acting by jointly generating a perspective actor for the agent-centric view with one or more panoramic observers that watch selected world regions. This allows objects that leave the actor's view to remain visually evolving in an observer, so their updated states are reflected when they re-enter. We ground the actor and observers by warping from a shared panoramic source for explicit geometric correspondence, and introduce an Observer Sink of high-resolution perspective references to restore fine appearance upon re-entry. Since the observers are decoupled from the actor, they can be placed freely across the scene, extended to multiple locations for broader coverage, and driven by control signals to steer out-of-view evolution. To evaluate out-of-view evolution, we further introduce world-space metrics and a benchmark spanning real and synthetic scenes. World Observer substantially improves out-of-view dynamics while remaining competitive in visual fidelity, camera control, and 3D adherence.",
-      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 월드 모델입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "환경의 동역학을 압축해 예측하면서도 장기 롤아웃에서 누적 오차를 억제해야 합니다.",
-      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 핵심 검증 대상은 월드 모델의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02162v1",
-      "published_at": "2026-10-01T17:53:20+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Hyunwook Choi",
-        "Dahyun Chung",
-        "Hyunsung Kim",
-        "Siyoon Jin",
-        "Jinhyeok Choi",
-        "Junyoung Seo",
-        "Seungryong Kim"
-      ],
-      "keywords": [
-        "Embodied & Decision AI",
-        "World Models",
-        "world model"
-      ],
-      "primary_topic": "Embodied & Decision AI",
-      "secondary_topic": "World Models",
-      "primary_topic_ko": "로보틱스·의사결정 AI",
-      "secondary_topic_ko": "월드 모델",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "world model"
-      ],
-      "importance_score": 66,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02161",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "DuoMind: Enabling Distributed Multi-Robot Coordination with Semantic Communication",
-      "summary": "Vision-language models (VLMs) and vision-language-action models (VLAs) have recently driven rapid progress in general-purpose robots, yet most progress has focused on single-robot settings. Extending these capabilities to multi-robot systems remains challenging because robots must coordinate long-horizon behaviors while maintaining reliable, fine-grained execution. We introduce DuoMind, a distributed hierarchical framework for multi-robot coordination through semantic communication. Each robot uses a VLA-based action model for low-level execution and a VLM-based orchestrator for high-level reasoning and inter-agent coordination. At each planning step, the orchestrator at each robot reasons over the task instruction, local observations, and messages received from other robots. It then generates low-level instructions for the action model and semantic messages for peer robots. This architecture exploits the complementary strengths of pretrained models by combining the semantic reasoning capabilities of VLMs with the precise action-generation capabilities of VLAs. To address the scarcity of benchmarks for multi-robot coordination, we further develop RoboPoly, a benchmark comprising long-horizon manipulation tasks that require coordinated, closed-loop execution under distributed control. Experiments on RoboPoly and RoboTwin demonstrate that DuoMind improves multi-robot task performance, while ablation studies confirm the contributions of hierarchical orchestration and semantic communication. More details are available on our project page.",
-      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 로보틱스·조작입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "시뮬레이션과 실제 환경의 차이, 장기 행동 계획의 오차 때문에 로봇 정책을 현실에 안정적으로 적용하기 어렵습니다.",
-      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 핵심 검증 대상은 로보틱스·조작의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02161v1",
-      "published_at": "2026-10-01T17:53:09+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Hanchu Zhou",
-        "Dechen Gao",
-        "Hang Wang",
-        "Brendan Lynch",
-        "Boqi Zhao",
-        "Qiyao Ma",
-        "Raman Goyal",
-        "Junshan Zhang"
-      ],
-      "keywords": [
-        "Embodied & Decision AI",
-        "Robotics & Manipulation",
-        "robot",
-        "manipulation"
-      ],
-      "primary_topic": "Embodied & Decision AI",
-      "secondary_topic": "Robotics & Manipulation",
-      "primary_topic_ko": "로보틱스·의사결정 AI",
-      "secondary_topic_ko": "로보틱스·조작",
-      "classification_confidence": 0.792,
-      "matched_terms": [
-        "robot",
-        "manipulation"
-      ],
-      "importance_score": 71,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02160",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "4Director: Controlling Video World Models with Rigid 3D Geometry",
-      "summary": "Precise control over camera and object motion is essential for professional video production. Existing methods control objects only coarsely, through image-plane cues that are ambiguous in depth and rotation or through 3D tracks and blobs that lack complete geometry and lose consistency across viewpoint changes. We introduce 4Director, a video world model conditioned on an explicit 4D scene representation: each object is reconstructed once from the input image as a canonical mesh and moved by one prescribed rigid transformation per frame. This representation provides an intuitive 3D control interface and prevents unobserved geometry from being regenerated independently in every frame. We render the controlled scene as a depth video and introduce a Motion Adapter that transforms this geometric scaffold into video while synthesizing view-consistent appearance, illumination, and non-rigid dynamics. For training, we construct RealCOD-Rigid, a new dataset of 20,774 clips annotated with rigid 3D scenes by our automatic pipeline. We further introduce Identity-Gated IoU (IG-IoU), which jointly evaluates adherence to prescribed object motion and preservation of object identity. Experiments demonstrate that 4Director consistently outperforms prior methods in visual quality and in camera and object control.",
-      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 월드 모델입니다. 학습·평가용 데이터의 구성과 품질, 활용 방법을 핵심적으로 살펴봅니다.",
-      "motivation_ko": "환경의 동역학을 압축해 예측하면서도 장기 롤아웃에서 누적 오차를 억제해야 합니다.",
-      "contribution_ko": "새 데이터셋 또는 데이터 구성 절차를 제시해 학습과 평가에 사용할 수 있는 재현 가능한 기반을 넓힙니다. 핵심 검증 대상은 월드 모델의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02160v1",
-      "published_at": "2026-10-01T17:52:58+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Wei Cao",
-        "Hao Zhang",
-        "Vikram Voleti",
-        "Yuqun Wu",
-        "Mallikarjun B R",
-        "Shimon Vainer",
-        "Mark Boss",
-        "Yaoyao Liu"
-      ],
-      "keywords": [
-        "Embodied & Decision AI",
-        "World Models",
-        "world model"
-      ],
-      "primary_topic": "Embodied & Decision AI",
-      "secondary_topic": "World Models",
-      "primary_topic_ko": "로보틱스·의사결정 AI",
-      "secondary_topic_ko": "월드 모델",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "world model"
-      ],
-      "importance_score": 66,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02159",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "When Do Intrinsic Rewards Lead to Exploration?",
-      "summary": "Intrinsic rewards are designed to guide exploration in reinforcement learning by assigning value to an agent's experience, for example through prediction error or learning progress. However, maximizing these rewards need not produce the most informative experience available. We propose a formal criterion for exploration that compares policies by the counterfactual information they acquire: how well their histories can substitute for experience under alternative policies. We construct a single, simple environment in which specified count-based, prediction-error, empowerment, and information-gain objectives have maximizing policies that are Pareto-suboptimal at acquiring counterfactual information. We explain these failures and establish conditions under which existing intrinsic rewards successfully encourage optimal exploration. We also construct an objective that assigns a higher value whenever exploration strictly improves under our criterion.",
-      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 강화학습입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "희소하거나 잘못 설계된 보상 아래에서 표본 효율과 정책 안정성을 동시에 얻기 어렵습니다.",
-      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 핵심 검증 대상은 강화학습의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02159v1",
-      "published_at": "2026-10-01T17:52:41+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Scott W. Viteri",
-        "Laura Gomezjurado Gonzalez",
-        "Clark Barrett"
-      ],
-      "keywords": [
-        "Embodied & Decision AI",
-        "Reinforcement Learning",
-        "reinforcement learning"
-      ],
-      "primary_topic": "Embodied & Decision AI",
-      "secondary_topic": "Reinforcement Learning",
-      "primary_topic_ko": "로보틱스·의사결정 AI",
-      "secondary_topic_ko": "강화학습",
-      "classification_confidence": 0.58,
-      "matched_terms": [
-        "reinforcement learning"
-      ],
-      "importance_score": 66,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02158",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Muon meets Tamed Langevin: Momentum Preconditioning beyond Convex and gradient-Lipschitz Potentials",
-      "summary": "We consider the problem of sampling from Gibbs distributions on matrix spaces whose potential energies are neither convex nor globally gradient-Lipschitz. We introduce a family of non-quadratic kinetic energies that lead to a new underdamped Langevin system with momentum preconditioning, in which the gradient of the kinetic energy acts as a smooth spectral taming of the momentum. We prove that, under these relaxed assumptions on the potential, the resulting dynamics leaves the target Gibbs measure invariant, and we establish exponential convergence to equilibrium in a weighted total variation distance. Finally, we show that the corresponding Euler-Maruyama discretization admits moment bounds that are uniform in time, without any modification of the potential gradient, which ensures the stability of the resulting sampling algorithm.",
-      "summary_ko": "학습 방법·이론 분야에 속하며 핵심 연구 주제는 일반 머신러닝입니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
-      "motivation_ko": "새로운 데이터 분포에서도 성능이 유지되고 학습 결과를 재현할 수 있는 일반화가 핵심 과제입니다.",
-      "contribution_ko": "이론적 분석과 검증 가능한 조건을 제시해 방법이 작동하는 범위와 한계를 설명합니다. 핵심 검증 대상은 일반 머신러닝의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02158v1",
-      "published_at": "2026-10-01T17:52:36+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Nikolaos Makras",
-        "Sotirios Sabanis"
-      ],
-      "keywords": [
-        "Learning & Theory",
-        "General Machine Learning",
-        "cs.LG"
-      ],
-      "primary_topic": "Learning & Theory",
-      "secondary_topic": "General Machine Learning",
-      "primary_topic_ko": "학습 방법·이론",
-      "secondary_topic_ko": "일반 머신러닝",
-      "classification_confidence": 0.38,
-      "matched_terms": [
-        "cs.LG"
-      ],
-      "importance_score": 73,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02153",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "MosaiChunk: Compositing Spatio-Temporal Memory for Autoregressive Video Generation",
-      "summary": "Long-horizon autoregressive video generation is limited by a finite context window. When an object or scene falls out of context, its fine-grained visual details may be lost and difficult to recover upon reappearance. To retain access to such visual details, we introduce MosaiChunk, a spatio-temporal memory mechanism that composes a mosaic of selected historical key-value (KV) entries across space and time. Our approach is motivated by the observation that a frozen video generator can directly consume such non-contiguous historical KV and recover the corresponding visual content. We therefore keep the generator fixed and learn only a lightweight router that determines which historical sections to include in the mosaic under a fixed active-memory budget. We further introduce RememBench, a benchmark of long-horizon revisits with prompt-driven text-to-video (T2V) and camera-driven image-to-video (I2V) splits. Our experiments show that MosaiChunk consistently improves revisit consistency over both sliding-window inference and whole-chunk retrieval under matched memory budgets, across both T2V and I2V settings.",
-      "summary_ko": "비전·생성 미디어 분야에 속하며 핵심 연구 주제는 비디오 생성입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "시간축의 움직임과 객체 일관성을 유지하면서도 고해상도 영상을 효율적으로 생성하기 어렵습니다.",
-      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
-      "url": "https://arxiv.org/abs/2610.02153v1",
-      "published_at": "2026-10-01T17:51:05+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Yiwen Zhang",
-        "Haocheng Xi",
-        "Michael Tian-Yue Liu",
-        "Alexei A. Efros",
-        "Hadar Averbuch-Elor",
-        "Qianqian Wang",
-        "Haiwen Feng"
-      ],
-      "keywords": [
-        "Vision & Generative Media",
-        "Video Generation",
-        "video generation",
-        "text-to-video"
-      ],
-      "primary_topic": "Vision & Generative Media",
-      "secondary_topic": "Video Generation",
-      "primary_topic_ko": "비전·생성 미디어",
-      "secondary_topic_ko": "비디오 생성",
-      "classification_confidence": 0.834,
-      "matched_terms": [
-        "video generation",
-        "text-to-video",
-        "image-to-video"
-      ],
-      "importance_score": 56,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2610.02150",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "From Knowledge Access to Source Learning: Developing Source-Specific Competence",
-      "summary": "Large language model (LLM) agents increasingly rely on persistent external sources to solve sequences of knowledge-intensive tasks. Existing methods improve how source content is accessed and organized, while agent-memory systems preserve reusable knowledge from prior interactions, but repeated use of the same source is still largely treated as repeated access rather than an opportunity to progressively improve understanding of that source. We study source learning: developing reusable source-specific competence over a persistent authoritative source. We represent this competence with a persistent source model that captures reusable understanding of the source, including how its knowledge is structured, interpreted, and applied. To construct and progressively refine such models, we propose SourceLearn, which combines two complementary learning mechanisms. Self-Directed Source Learning identifies what remains incompletely understood and adaptively revisits the source, while Task-Guided Source Learning uses downstream experience to reveal local representational gaps and recurring needs in how source knowledge should be organized. In both cases, learning signals determine what should be reconsidered, while persistent updates are reconstructed from the authoritative source. Across five benchmarks and three LLM backends, SourceLearn achieves the best performance in 13 of 15 settings, with gains of up to 22.6 points over Hybrid RAG and substantial overall improvements over static source representations and experience-based memory baselines.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
-      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
-      "url": "https://arxiv.org/abs/2610.02150v1",
-      "published_at": "2026-10-01T17:50:16+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Lucheng Fu",
-        "Kejing Xia",
-        "Yiyang Wang",
-        "Yiqiao Jin",
-        "Jinjin He",
-        "Xiyuan Yang",
-        "Haoxin Liu",
-        "Ye Yu",
-        "Haibo Jin",
-        "Yijia Xiao",
-        "Wenke Lee",
-        "B. Aditya Prakash",
-        "Haohan Wang"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Language Models",
-        "language model",
-        "large language model"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Language Models",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "언어 모델",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "language model",
-        "large language model",
-        "llm"
-      ],
-      "importance_score": 89,
-      "importance_label": "핵심",
-      "importance_reason": "급상승 주제 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02148",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Omni-Embed-Mini: Binding Modalities Without Forgetting via Dense Distillation",
-      "summary": "Extending a text embedding model to new modalities typically degrades text retrieval quality, and existing omni-modal embedders compensate with multi-billion parameters. We present Omni-Embed-Mini, a 0.9B-parameter model that maps text, speech, audio, images, video, and visually-rich documents into a single shared cosine space without updating any text-side parameter. Our key insight is that the teacher signal requires no separate embedding model: each media sample is paired with a dense cascaded caption, and the teacher target is simply the frozen backbone's own embedding of that caption. Because teacher and student share the same backbone weights, they inhabit byte-identical geometry, and lightweight projectors plus phased LoRA adapters on the modality encoders suffice for alignment. Training combines a Matryoshka SigLIP contrastive loss with an online hybrid hard-negative miner whose negatives sharpen as the encoder improves. The recipe carries over to a 2.3B variant by swapping in a native vision-language backbone. Omni-Embed-Mini-0.9B keeps its text weights bit-identical to the backbone, so training cannot regress text retrieval (49.57 nDCG@10 on MTEB-v2 BEIR-8), while extending it to five additional modalities, and is ~2.7x to 9.5x smaller than every open omni embedder we compare against. The 2.3B variant is competitive with the closed gemini-embedding-2, edging ahead of it on the overall-modality average. Models, code, data and evaluation harness are on our project page: https://omniembed.cvmbzuai.com",
-      "summary_ko": "AI 시스템·평가 분야에 속하며 핵심 연구 주제는 최적화·압축입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "모델 크기와 비용을 줄이면 정확도와 강건성이 함께 저하될 수 있는 절충 문제가 있습니다.",
-      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 특히 안전성·강건성·신뢰성 측면의 실패를 줄이는 데 기여합니다.",
-      "url": "https://arxiv.org/abs/2610.02148v1",
-      "published_at": "2026-10-01T17:49:40+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Mohammed Irfan Kurpath",
-        "Jaseel Muhammad Kaithakkodan",
-        "Sahal Shaji Mullappilly",
-        "Ivan Laptev",
-        "Hisham Cholakkal"
-      ],
-      "keywords": [
-        "AI Systems & Evaluation",
-        "Optimization & Compression",
-        "distillation"
-      ],
-      "primary_topic": "AI Systems & Evaluation",
-      "secondary_topic": "Optimization & Compression",
-      "primary_topic_ko": "AI 시스템·평가",
-      "secondary_topic_ko": "최적화·압축",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "distillation"
-      ],
-      "importance_score": 55,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2610.02144",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Faynt: Scaling and Optimizing Policies for Competitive Melee",
-      "summary": "We introduce Faynt, a family of 10M- and 75M-parameter Transformer policies for Super Smash Bros. Melee, each controlling all 26 characters with a single checkpoint. After reinforcement learning (RL), the 10M wins 240 of 244 same-character games (98.4%) against fourteen specialist and multi-character releases on their supported rosters, with a winning record against every release. These opponents retain 21- or 24-frame action delays; Faynt uses no added delay, and we have not isolated the effect of this difference. In a separate evaluation against a privately supplied zero-delay Slippi-AI model, the 10M wins all 68 games across two conditioning settings. We study architecture, optimization, scaling, and hyperparameter transfer to guide pretraining on approximately 840,000 human replays. Post-training combines rank- and outcome-based curricula, 75M-to-10M distillation, and RL restricted to Fox mirror matches. On the initial 152-game benchmark, the supervised 10M wins 69.7% of games, compared with 45.4% for the pretrained 75M, despite higher overall held-out controller-prediction loss. The weighted validation loss used for supervised checkpoint selection agrees with the win-rate ordering of all four pretrained and supervised policies. After supervised post-training, both models take less damage per minute, build larger early leads, and win more often after losing the first life. Optimized inference on recorded game states averages 5.2 ms per decision for the 10M and 8.7 ms for the 75M on an NVIDIA T4, excluding emulator execution and communication. We open-source the weights, both benchmark suites, and a platform for automated model tournaments.",
-      "summary_ko": "AI 시스템·평가 분야에 속하며 핵심 연구 주제는 평가·벤치마크입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "기존 지표가 실제 사용 능력과 실패 유형을 충분히 반영하지 못해 모델 간 공정한 비교가 어렵습니다.",
-      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 특히 새로운 데이터와 환경으로의 일반화 성능을 검증하는 데 초점을 둡니다.",
-      "url": "https://arxiv.org/abs/2610.02144v1",
-      "published_at": "2026-10-01T17:48:38+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Ali Janati",
-        "Nikita Kuzmin",
-        "Rohit Swamy",
-        "Charles Niu"
-      ],
-      "keywords": [
-        "AI Systems & Evaluation",
-        "Evaluation & Benchmarks",
-        "benchmark",
-        "evaluation"
-      ],
-      "primary_topic": "AI Systems & Evaluation",
-      "secondary_topic": "Evaluation & Benchmarks",
-      "primary_topic_ko": "AI 시스템·평가",
-      "secondary_topic_ko": "평가·벤치마크",
-      "classification_confidence": 0.674,
-      "matched_terms": [
-        "benchmark",
-        "evaluation"
-      ],
-      "importance_score": 75,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02142",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Keyword Harnesses Fail Open: A Cheap Diagnostic Ladder for Tool-Use Claims in Small Language Models",
-      "summary": "Keyword-matching benchmarks can credit small models for tool use they never perform. We document such a false positive in a matched-architecture pair of Spanish security language models and propose a ladder of strict, cheap diagnostics. A 661.6M parameter model (approx. 65% code/technical text; no dedicated SFT) and a 1,109M model (web-heavy multi-phase curriculum; 6B-token tool-SFT) share decoder, tokenizer, and special tokens, scoring almost identically on lenient tool-use metrics (B4: 0.660 vs. 0.650). Verbatim-reproduction checks on training examples separate them completely: the 600M emits valid tool calls with generalized arguments on 6/6 examples; the 1B does so on 0/6 across checkpoints. A first-token probe localizes the 1B's failure to a missing prior (prob. $10^{-4}$--$10^{-5}$ on ), which was erased by its web-heavy training phase. A targeted SFT recipe (diverse corpus, 5x higher learning rate, 2,202 steps, ~3.3 GPU-hours) repairs the 1B using three orders of magnitude fewer tokens than the failed phase. On all 269 corpus rows, valid emission rises from 0.100 to 0.959 (600M: 0.926). On 238 unseen prompts, the repaired 1B passes 0.536 vs. the 600M's 0.428 ($p = 0.004$). Embedding-drift checks show the repair did not move the trigger token's tied embedding (97.7% of the bf16 table remains bit-identical), meaning changes live in the surrounding network. Both models over-trigger, rarely answering negative prompts without a call (0.09 for 600M, 0.17 for repaired 1B). Factorial analyses confirm all repair configurations install the format, though suppression benefits from a diverse corpus remain a hypothesis due to seed sensitivity. This cheap diagnostic ladder costs minutes of CPU time and should gate tool-use claims on small models.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
-      "contribution_ko": "새 데이터셋 또는 데이터 구성 절차를 제시해 학습과 평가에 사용할 수 있는 재현 가능한 기반을 넓힙니다. 핵심 검증 대상은 언어 모델의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02142v1",
-      "published_at": "2026-10-01T17:46:38+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Juan S. Santillana"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Language Models",
-        "language model"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Language Models",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "언어 모델",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "language model"
-      ],
-      "importance_score": 89,
-      "importance_label": "핵심",
-      "importance_reason": "급상승 주제 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02140",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Finetuning with Sampling: SFT Learns Better Than You Think",
-      "summary": "Introducing new capabilities to frontier models has long been the goal of posttraining, which predominantly employs supervised finetuning (SFT) and reinforcement learning (RL) to this end. Conventional wisdom dictates that RL enables strong generalization on new tasks without losing existing capabilities, while SFT is prone to weak generalization and catastrophic forgetting. At the same time, SFT can learn from off-policy expert data, whereas RL must rely on a model's ability to find successful trajectories with repeated sampling. In our work, we seek to leverage the strength of on-policy learning while utilizing the privileged information contained in off-policy data. However, rather than modifying the learning objective to accommodate this data, we instead tailor the data distribution to better suit the learner. We introduce a Markov chain Monte Carlo (MCMC) sampling algorithm that progressively transforms off-policy traces to be more on-policy given a reference model for finetuning. Across tasks like scientific skill acquisition, mathematical reasoning, and open-ended expertise, our sampling algorithm enables SFT to rival prevailing posttraining techniques, often generalizing better and forgetting less than strong on-policy baselines. In addition, the resulting finetuned models exhibit strong distributional performance and are capable of learning beyond sharpening the base model distribution. At a higher level, our approach presents sampling as a model-native operator that shapes data for learnability, offering broader utility as a general-purpose primitive throughout the posttraining stack.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 추론·인퍼런스입니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
-      "motivation_ko": "여러 단계의 추론에서는 작은 오류가 누적되며, 답이 맞더라도 추론 과정의 검증 가능성이 낮다는 한계가 있습니다.",
-      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 특히 새로운 데이터와 환경으로의 일반화 성능을 검증하는 데 초점을 둡니다.",
-      "url": "https://arxiv.org/abs/2610.02140v1",
-      "published_at": "2026-10-01T17:45:07+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Aayush Karan",
-        "Sitan Chen",
-        "Yilun Du"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Reasoning & Inference",
-        "reasoning"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Reasoning & Inference",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "추론·인퍼런스",
-      "classification_confidence": 0.58,
-      "matched_terms": [
-        "reasoning"
-      ],
-      "importance_score": 71,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02136",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "MIRTO: a registration-gated, multiverse-tested evaluation protocol for unsupervised anomaly segmentation in brain MRI",
-      "summary": "Unsupervised anomaly detection (UAD) methods for brain MRI are ranked by a single score, yet that score rests on choices that are rarely reported: how each anomaly map is aligned with the reference, how and on which data the threshold is set, and which false-positive budget, metric, aggregation and lesion definition are used. We present MIRTO, an evaluation protocol that makes these choices explicit and measures their effect. It gates the geometry of every comparison with a registration check and label-free diagnostics of known power, sets thresholds on validation data alone and reports the false-positive volume actually realised on test, repeats each comparison over 15,552 defensible evaluation pipelines, and attaches paired subject-bootstrap intervals with multiplicity control. Applied to four UAD methods trained on the same healthy data and tested on 312 BraTS 2020 subjects, MIRTO showed that an axis-order mismatch between stored maps and the reference lowered a diffusion model's voxel AUROC from 0.873 to 0.583 whilst barely moving its slice-level AUROC. Within each metric, the method explained at least 0.95 of the variance in voxel AUROC and AUPRC and 0.77 in Dice, but only 0.14 in lesion sensitivity, where the lesion definition and hit criterion dominated. A Dice advantage that was significant at validation thresholds vanished at equal realised false-positive burden, and an exact identity attributes it to threshold transfer. A training-free change to REFLECT's latent aggregation raised Dice at equal burden by 0.052. Nine hypotheses were tested against explicit criteria; because the same cohort served to develop the protocol, all inference is exploratory.",
-      "summary_ko": "AI 시스템·평가 분야에 속하며 핵심 연구 주제는 평가·벤치마크입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "기존 지표가 실제 사용 능력과 실패 유형을 충분히 반영하지 못해 모델 간 공정한 비교가 어렵습니다.",
-      "contribution_ko": "여러 구성 요소를 연결한 시스템 또는 파이프라인을 구현해 실제 사용과 반복 실험이 가능한 형태로 제시합니다. 특히 새로운 데이터와 환경으로의 일반화 성능을 검증하는 데 초점을 둡니다.",
-      "url": "https://arxiv.org/abs/2610.02136v1",
-      "published_at": "2026-10-01T17:44:22+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Negin Kafee Hernashki",
-        "Soumick Chatterjee"
-      ],
-      "keywords": [
-        "AI Systems & Evaluation",
-        "Evaluation & Benchmarks",
-        "evaluation"
-      ],
-      "primary_topic": "AI Systems & Evaluation",
-      "secondary_topic": "Evaluation & Benchmarks",
-      "primary_topic_ko": "AI 시스템·평가",
-      "secondary_topic_ko": "평가·벤치마크",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "evaluation"
-      ],
-      "importance_score": 75,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02131",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Linear Programming Representations and Strongly Polynomial Algorithms for Robust Markov Decision Processes",
-      "summary": "We study linear programming (LP) representations and strongly polynomial algorithms for robust Markov decision processes (RMDPs) with rational polyhedral state-action rectangular uncertainty in rewards and transitions. By encoding a finite sequence of robust policy-iteration steps, we construct a single LP whose optimal solutions recover the robust optimal value and all optimal stationary randomized policies. At fixed discount, the LP has polynomial dimension and encoding length and can be constructed in strongly polynomial time. We also develop a general complexity analysis of robust policy iteration that combines the cost of minimizing over uncertainty sets with the number of iterations needed to evaluate a policy. For a fixed discount factor, we use this analysis to improve the known complexity bounds for $\\ell_1$ and $\\ell_\\infty$ RMDPs and establish new strongly polynomial bounds for general interval, weighted $\\ell_1$, and Wasserstein RMDPs, as well as turn-based stochastic games with these uncertainty sets.",
-      "summary_ko": "학습 방법·이론 분야에 속하며 핵심 연구 주제는 일반 머신러닝입니다. 모델의 안전성, 신뢰성 및 예상하지 못한 입력에 대한 대응을 분석합니다.",
-      "motivation_ko": "새로운 데이터 분포에서도 성능이 유지되고 학습 결과를 재현할 수 있는 일반화가 핵심 과제입니다.",
-      "contribution_ko": "이론적 분석과 검증 가능한 조건을 제시해 방법이 작동하는 범위와 한계를 설명합니다. 특히 안전성·강건성·신뢰성 측면의 실패를 줄이는 데 기여합니다.",
-      "url": "https://arxiv.org/abs/2610.02131v1",
-      "published_at": "2026-10-01T17:41:29+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Han Zhong",
-        "Yinyu Ye"
-      ],
-      "keywords": [
-        "Learning & Theory",
-        "General Machine Learning",
-        "cs.LG"
-      ],
-      "primary_topic": "Learning & Theory",
-      "secondary_topic": "General Machine Learning",
-      "primary_topic_ko": "학습 방법·이론",
-      "secondary_topic_ko": "일반 머신러닝",
-      "classification_confidence": 0.38,
-      "matched_terms": [
-        "cs.LG"
-      ],
-      "importance_score": 73,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02128",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Sample complexity bounds for categorical Markov random fields via Discrete Diffusions",
-      "summary": "Many applications in statistics, economics, and physics require sampling from high-dimensional categorical distributions with local dependence structures. Examples include finite memory language models, Ising and Potts systems in statistical physics and protein folding, etc. In modern machine learning, discrete diffusions have emerged as a flexible approach for sampling such data, with strong empirical performance. Motivated by this, we develop learning methods with end-to-end sample complexity bounds for discrete diffusion with uniform noising under local dependence, which we model through low order Markov random fields (MRFs). Our main technical insight is a new \\emph{pinning decomposition} of the discrete score. It shows that unlike in continuous diffusions, the score decomposes into components where the dependence on time separates multiplicatively from the dependence on the target. Building on this decomposition, we propose a \\emph{weight-sharing neural score learner} and combine it with $τ$-leaping to obtain an end-to-end sampling procedure. Rather than treating score-learning error as a black-box input, as is common in existing sampling analyses, we study the score learning error from finite data and derive optimal sampling guarantees with explicit dependence on the vocabulary size, the interaction order of the MRF, and the sample size. Moreover, our strategy trains a single score network across uniform noise levels while leaving the sampling discretization to be chosen at inference-time. This allows the same trained model to trade accuracy for computational cost as inference-time budgets vary. Numerical experiments on Potts, Ising, and tree-structured models show that weight-sharing score networks outperform fully connected ones for sampling long sequences.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 생성 품질과 제어 가능성, 학습·추론 효율을 개선하는 방법을 다룹니다.",
-      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
-      "contribution_ko": "이론적 분석과 검증 가능한 조건을 제시해 방법이 작동하는 범위와 한계를 설명합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
-      "url": "https://arxiv.org/abs/2610.02128v1",
-      "published_at": "2026-10-01T17:40:21+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Shivam Kumar",
-        "Nabarun Deb"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Language Models",
-        "language model"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Language Models",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "언어 모델",
-      "classification_confidence": 0.58,
-      "matched_terms": [
-        "language model"
-      ],
-      "importance_score": 88,
-      "importance_label": "핵심",
-      "importance_reason": "급상승 주제 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02126",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Local Support Learning",
-      "summary": "We explore catastrophic forgetting in the context of large pre-trained models. By considering forgetting as a geometric problem in the input space of each weight matrix, we uncover a natural retention objective under which updates produced by gradient-based optimizers are suboptimal. Following this observation, we propose Local Support Learning (LSL), a general-purpose framework that augments gradient-based training for retention of prior capabilities without access to prior data. During a new learning phase, LSL pairs two components with distinct roles: a standard weight adapter, trained as usual to minimize the loss, and a gating function that enables the adapter only on input activations from its own training distribution, making the update local to that distribution. The key challenge is that this gate must route data from all learning phases while training only on data from the current one. We address this with a gate based on a Gaussian Mixture Model (GMM), whose likelihood decays rapidly away from its training data, giving it a natural tendency to stay closed on data from prior phases. We show that this post-training approach can resolve forgetting in LLMs of up to 7 billion parameters, retaining both pretrained and finetuned capabilities across multiple training phases, while being efficient in memory and compute, robust to hyperparameter choice, and showing scaling potential.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 모델의 안전성, 신뢰성 및 예상하지 못한 입력에 대한 대응을 분석합니다.",
-      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
-      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
-      "url": "https://arxiv.org/abs/2610.02126v1",
-      "published_at": "2026-10-01T17:39:03+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Assaf Ben-Kish",
-        "Akarsh Kumar",
-        "James Glass",
-        "Raja Giryes"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Language Models",
-        "llm"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Language Models",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "언어 모델",
-      "classification_confidence": 0.58,
-      "matched_terms": [
-        "llm"
-      ],
-      "importance_score": 88,
-      "importance_label": "핵심",
-      "importance_reason": "급상승 주제 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02123",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Harnessing Domain Specialists in Multimodal Mixture-of-Experts for Efficient Adaptation",
-      "summary": "Mixture-of-Experts (MoE) architectures scale model capacity through sparse computation, routing each token through only a small subset of experts. In this work, we explore whether this sparsity gives rise to emergent intrinsic organization in multimodal MoEs. We find that experts develop strong semantic specialization across modalities and domains despite not being explicitly trained for modularity. Building on this structure, we introduce ExpertLens, a data-free method that identifies domain-specialized experts directly from pretrained model weights by decoding router weights into semantically meaningful vocabulary tokens. We leverage this specialization for efficient multimodal adaptation by selectively fine-tuning experts relevant to a target domain. Across math, medical, and remote sensing tasks, ExpertLens matches or surpasses full fine-tuning while updating only 21.7 - 47.0% of model parameters and achieving a 4.0x average training speedup, and outperforms LoRA in both adaptation performance and training efficiency. These results show that sparsity introduced for efficiency can give rise to semantic modularity that is directly useful for efficient adaptation.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 멀티모달 파운데이션 모델입니다. 텍스트와 이미지 등 여러 입력을 함께 이해하고 연결하는 방법을 다룹니다.",
-      "motivation_ko": "텍스트·이미지·음성 간 표현을 정확히 정렬하고 서로 다른 입력을 근거 있게 결합하는 일이 여전히 어렵습니다.",
-      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
-      "url": "https://arxiv.org/abs/2610.02123v1",
-      "published_at": "2026-10-01T17:37:13+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Damiano Marsili",
-        "Raphi Kang",
-        "Aditya Mehta",
-        "Pietro Perona",
-        "Georgia Gkioxari"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Multimodal Foundation Models",
-        "multimodal"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Multimodal Foundation Models",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "멀티모달 파운데이션 모델",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "multimodal"
-      ],
-      "importance_score": 55,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2610.02122",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Argo-Bench: Evaluating Data Agents on Enterprise-Scale Workflows",
-      "summary": "Real-world enterprise data science and analytics workflows require reasoning across dozens of tables, performing statistical analyses, and acting on the results. Established text-to-SQL benchmarks evaluate query generation alone, and audits have found their answer keys frequently wrong. Because real enterprise warehouses are too sensitive to release, these benchmarks are built on public datasets where a business event fits in a single table. We introduce Argo-Bench, an evaluation framework comprising 210 data science and analytics tasks. Drawing on public data, peer-reviewed industry literature, and regulatory filings, we simulate a food delivery platform in New York City at true scale, with 81 million orders in 2024, grounded economics, fraud patterns, and marketplace incentives. We export this world to an ERP warehouse of 235 tables and 7.5 billion rows, modeled on the Oracle E-Business Suite schema. The simulator's ground-truth state is withheld from the warehouse the agent sees, so tasks require reconstructing facts by navigating the warehouse before acting on them. Argo-Bench goes beyond text-to-SQL: the agent files actions such as banning fraudulent accounts, allocating courier incentive budgets, or issuing back pay, and the grader scores each by its consequences in the simulator. Every task has an executable reference solution that demonstrates solvability using only the warehouse. The strongest of 14 frontier and open-weight models scores 95 or higher on only 34.8% of tasks and averages 59.5 points. We hope Argo-Bench drives progress toward agents that understand, navigate, and act within real data environments.",
-      "summary_ko": "AI 시스템·평가 분야에 속하며 핵심 연구 주제는 평가·벤치마크입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "기존 지표가 실제 사용 능력과 실패 유형을 충분히 반영하지 못해 모델 간 공정한 비교가 어렵습니다. 실제 환경으로 옮겼을 때 발생하는 성능 저하를 줄이는 것이 핵심 동기입니다.",
-      "contribution_ko": "새 데이터셋 또는 데이터 구성 절차를 제시해 학습과 평가에 사용할 수 있는 재현 가능한 기반을 넓힙니다. 핵심 검증 대상은 평가·벤치마크의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02122v1",
-      "published_at": "2026-10-01T17:35:44+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Gabriel Tomitsuka",
-        "Arman Raayatsanati",
-        "Emma Xing",
-        "Duke Gand",
-        "Joseph J Ma"
-      ],
-      "keywords": [
-        "AI Systems & Evaluation",
-        "Evaluation & Benchmarks",
-        "benchmark",
-        "evaluation"
-      ],
-      "primary_topic": "AI Systems & Evaluation",
-      "secondary_topic": "Evaluation & Benchmarks",
-      "primary_topic_ko": "AI 시스템·평가",
-      "secondary_topic_ko": "평가·벤치마크",
-      "classification_confidence": 0.674,
-      "matched_terms": [
-        "benchmark",
-        "evaluation"
-      ],
-      "importance_score": 75,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02120",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "SkeleWAM: Skeleton World-Action Modeling for Efficient Robotic Manipulation",
-      "summary": "World action models (WAMs) combine robot action generation with future state prediction. Existing WAMs typically predict videos or learned visual latents, which represent interaction geometry only implicitly and may retain appearance information unrelated to control. We introduce SkeleWAM, a compact WAM that represents a manipulation scene as a sparse 3D skeleton composed of robot joints, object centers, and interaction points. Constructed online from current RGB-D observations and robot proprioception, the skeleton provides a unified geometric state for action generation and future skeleton prediction. Future skeleton prediction provides additional geometric supervision for action learning without requiring visual reconstruction. At inference, SkeleWAM generates actions directly from the current skeleton and language instruction, while Medoid Action Consensus (MAC) serves as an auxiliary consensus strategy for stochastic action samples. On LIBERO-Plus, SkeleWAM achieves an overall success rate of 85.9% with 57.1M parameters, outperforming Cosmos-Policy by 3.7 percentage points. These results demonstrate that sparse 3D robot--object structure provides an effective state space for robust and parameter-efficient world action learning. The project is available at https://skelewam-project.github.io/.",
-      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 로보틱스·조작입니다. 모델의 안전성, 신뢰성 및 예상하지 못한 입력에 대한 대응을 분석합니다.",
-      "motivation_ko": "시뮬레이션과 실제 환경의 차이, 장기 행동 계획의 오차 때문에 로봇 정책을 현실에 안정적으로 적용하기 어렵습니다.",
-      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
-      "url": "https://arxiv.org/abs/2610.02120v1",
-      "published_at": "2026-10-01T17:35:10+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Juyi Sheng",
-        "Hua Wang",
-        "Mengyuan Liu"
-      ],
-      "keywords": [
-        "Embodied & Decision AI",
-        "Robotics & Manipulation",
-        "robot",
-        "robotic"
-      ],
-      "primary_topic": "Embodied & Decision AI",
-      "secondary_topic": "Robotics & Manipulation",
-      "primary_topic_ko": "로보틱스·의사결정 AI",
-      "secondary_topic_ko": "로보틱스·조작",
-      "classification_confidence": 0.952,
-      "matched_terms": [
-        "robot",
-        "robotic",
-        "manipulation"
-      ],
-      "importance_score": 73,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02117",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic Scenes",
-      "summary": "On-policy self-distillation has recently emerged as an effective approach for improving language-model reasoning by supervising students with a frozen or EMA version of themselves that receives privileged information. Its application to multimodal large language models (MLLMs), however, remains largely unexplored. Recent approaches use privileged visual information, such as image crops corresponding to a question, to improve fine-grained perception, but their gains are confined to tasks that benefit from such visual zooming and require either human-annotated grounding data or external teacher models. We introduce a different form of on-policy self-distillation for MLLMs that provides the teacher with textual, spatially grounded guidance identifying the visual elements relevant to a query. We use procedurally generated scenes with automatically available object identities and spatial coordinates, enabling scalable and annotation-free post-training. The teacher uses this spatial guidance to locate and integrate evidence from multiple relevant image regions, while the student learns to reproduce the resulting behavior from the image and question alone. Our approach consistently improves performance on counting, document and chart understanding benchmarks across multiple models. Importantly, although post-training uses only synthetic scenes, the resulting improvements transfer to real-world perception benchmarks, yielding a 3.23-point gain in average performance across CVBench, V*, ZoomBench, BLINK, HR-Bench, and MME-RealWorld. These results show that spatially grounded privileged information can induce broader perceptual capabilities through on-policy self-distillation, enabling substantial synthetic-to-real transfer beyond the task and data distribution used for post-training. Project page: https://github.com/sirkosophia/Where-OPD",
-      "summary_ko": "AI 시스템·평가 분야에 속하며 핵심 연구 주제는 최적화·압축입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "모델 크기와 비용을 줄이면 정확도와 강건성이 함께 저하될 수 있는 절충 문제가 있습니다. 실제 환경으로 옮겼을 때 발생하는 성능 저하를 줄이는 것이 핵심 동기입니다.",
-      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 특히 새로운 데이터와 환경으로의 일반화 성능을 검증하는 데 초점을 둡니다.",
-      "url": "https://arxiv.org/abs/2610.02117v1",
-      "published_at": "2026-10-01T17:34:10+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Sophia Sirko-Galouchenko",
-        "Monika Wysoczanska",
-        "Andrei Bursuc",
-        "Nicolas Thome",
-        "Spyros Gidaris"
-      ],
-      "keywords": [
-        "AI Systems & Evaluation",
-        "Optimization & Compression",
-        "distillation"
-      ],
-      "primary_topic": "AI Systems & Evaluation",
-      "secondary_topic": "Optimization & Compression",
-      "primary_topic_ko": "AI 시스템·평가",
-      "secondary_topic_ko": "최적화·압축",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "distillation"
-      ],
-      "importance_score": 55,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2610.02116",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "A Comparative Explainability Framework for DeBERTa-v3 in Zero-Shot Medical Abstract Classification",
-      "summary": "A comparative explainability framework is presented to audit DeBERTa-v3 under zero-shot classification of medical abstracts. The work addresses the disagreement problem in Explainable Artificial Intelligence, where different attribution methods produce divergent explanations for the same input and prediction. A natural language inference engine is implemented over the Medical Abstracts corpus with five enriched hypotheses per diagnostic category and a balanced sample of one thousand texts per class. Five explanation methods are compared: SHAP and LIME as model-agnostic approaches, occlusion and Input x Gradient as deep-learning-specific approaches, and Attention x Gradient as a transformer-specific approach. Explanations are standardized through top-token attribution, and pairwise agreement is quantified using the Jaccard index. High predictive accuracy is achieved across well-defined clinical domains, whereas performance degrades under high semantic ambiguity. Explanatory stability directly mirrors predictive certainty, exhibiting strong convergence in univalent categories and a marked drop under diagnostic uncertainty. Furthermore, qualitative error auditing uncovers three systemic failure mechanisms: lexical hypersensitivity, semantic overlap, and loss of attribution coherence. The results support the combined use of several explanation methods and quantitative agreement metrics when auditing transformer-based models in medical text classification, and suggest prioritizing specific clinical ontologies over broad diagnostic labels.",
-      "summary_ko": "과학·산업 응용 분야에 속하며 핵심 연구 주제는 생명과학·헬스케어입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "임상·생물 데이터의 희소성 및 기관 간 차이 때문에 높은 정확도와 안전한 일반화가 요구됩니다.",
-      "contribution_ko": "새 데이터셋 또는 데이터 구성 절차를 제시해 학습과 평가에 사용할 수 있는 재현 가능한 기반을 넓힙니다. 핵심 검증 대상은 생명과학·헬스케어의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02116v1",
-      "published_at": "2026-10-01T17:34:02+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Javier Diaz Esteban-Herreros",
-        "David Muñoz-Valero",
-        "Raquel Martínez-España",
-        "Jose M. Juarez",
-        "Juan Moreno-Garcia"
-      ],
-      "keywords": [
-        "Science & Applications",
-        "Biology & Healthcare",
-        "clinical"
-      ],
-      "primary_topic": "Science & Applications",
-      "secondary_topic": "Biology & Healthcare",
-      "primary_topic_ko": "과학·산업 응용",
-      "secondary_topic_ko": "생명과학·헬스케어",
-      "classification_confidence": 0.58,
-      "matched_terms": [
-        "clinical"
-      ],
-      "importance_score": 54,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2610.02114",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Surface-volume self-supervised representation learning of brain MRI for genetic discovery",
-      "summary": "Existing genome-wide association studies (GWAS) of brain imaging provide predefined or deep-learning-derived imaging phenotypes, yet these phenotypes come from either volumetric scans or cortical surface meshes, so each captures only part of the heritable variation in brain anatomy. Here we introduce MEVA (Mesh-Enhanced Volumetric Autoencoder), a self-supervised framework that encodes voxel-level image intensity together with cortical mesh geometry, including curvature and cortical thickness at each surface vertex, into one shared set of imaging features. Combining the mesh and volumetric inputs in MEVA yields modest performance gains in age and sex prediction over models that use either input alone. When these features serve as phenotypes for GWAS in the UK Biobank, they reveal more genome-wide significant loci than features learned from volumes alone or from meshes alone. These results suggest that adding cortical surface geometry to volumetric self-supervised learning captures additional heritable variation and so increases the number of loci detected.",
-      "summary_ko": "학습 방법·이론 분야에 속하며 핵심 연구 주제는 표현학습·자기지도학습입니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
-      "motivation_ko": "라벨이 적은 환경에서도 전이 가능한 표현을 학습하고 불필요한 편향을 억제해야 합니다.",
-      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 핵심 검증 대상은 표현학습·자기지도학습의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02114v1",
-      "published_at": "2026-10-01T17:32:52+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Tian Xia",
-        "Nuo Chen",
-        "Zihao Zhu",
-        "Huiwen Han",
-        "Ziqian Xie",
-        "Zhiwen Fan",
-        "Degui Zhi"
-      ],
-      "keywords": [
-        "Learning & Theory",
-        "Representation & Self-Supervision",
-        "self-supervised",
-        "representation learning"
-      ],
-      "primary_topic": "Learning & Theory",
-      "secondary_topic": "Representation & Self-Supervision",
-      "primary_topic_ko": "학습 방법·이론",
-      "secondary_topic_ko": "표현학습·자기지도학습",
-      "classification_confidence": 0.869,
-      "matched_terms": [
-        "self-supervised",
-        "representation learning"
-      ],
-      "importance_score": 57,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2610.02110",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "GlassGuard: Verified Glass Plane Mapping for Robot Navigation",
-      "summary": "Transparent and specular surfaces pose a serious challenge to LiDAR-based SLAM and navigation because laser returns may pass through glass, leaving collision boundaries absent from the map. Prior work attempts to reconstruct the missing surfaces, but inaccurate obstacle placement can create the opposite failure: contamination of traversable free space. Recognizing this dual requirement, we present GlassGuard, a navigation-oriented framework for reconstructing planar architectural glass from complementary visual and LiDAR evidence. We formulate success in terms of both glass coverage and free-space contamination and apply this principle throughout proposal verification and global map construction. A foundation vision model provides glass-instance masks, structural 3D cues generate metric plane hypotheses, and depth-free 2D projective geometry checks their orientations before they enter a consolidated global map. We evaluate GlassGuard in nine building-scale scenes spanning diverse glass structures, spatial scales, and lighting conditions, with more than one hour and 2.1 km of real-world robot traversal. GlassGuard achieves 85% of total glass coverage for its panoramic version. Under identical pinhole inputs, GlassGuard achieves 82% total coverage, compared with at most 61% for the evaluated baselines, while producing 5-17x fewer false voxels per frame. Qualitative examples with a navigation planner illustrate the reconstructed planes blocking paths through glass while leaving traversable routes open. The project page is available at https://glassguardproject.github.io/.",
-      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 로보틱스·조작입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "시뮬레이션과 실제 환경의 차이, 장기 행동 계획의 오차 때문에 로봇 정책을 현실에 안정적으로 적용하기 어렵습니다. 실제 환경으로 옮겼을 때 발생하는 성능 저하를 줄이는 것이 핵심 동기입니다.",
-      "contribution_ko": "이론적 분석과 검증 가능한 조건을 제시해 방법이 작동하는 범위와 한계를 설명합니다. 핵심 검증 대상은 로보틱스·조작의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02110v1",
-      "published_at": "2026-10-01T17:31:23+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Hanwen Guo",
-        "Zhengzhi Lin",
-        "Yusen Xie",
-        "Ji Zhang"
-      ],
-      "keywords": [
-        "Embodied & Decision AI",
-        "Robotics & Manipulation",
-        "robot"
-      ],
-      "primary_topic": "Embodied & Decision AI",
-      "secondary_topic": "Robotics & Manipulation",
-      "primary_topic_ko": "로보틱스·의사결정 AI",
-      "secondary_topic_ko": "로보틱스·조작",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "robot"
-      ],
-      "importance_score": 70,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02098",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Are We Recovering Mechanisms? Objective-Level Recovery Gaps in Mechanistic Interpretability",
-      "summary": "Mechanistic interpretability aims to recover the internal computations responsible for model behavior. Progress in automated circuit discovery is often framed as a search problem: better attribution or optimization should identify better mechanisms. This assumes that the evaluation objective can recognize a better circuit once it is found. We show that intervention-defined faithfulness can instead prefer an equally sized circuit that reproduces the model's behavior less well, creating an objective-level recovery gap. Across four human-reference tasks and InterpBench, we compare validation faithfulness with behavior on held-out prompts under fixed ordinary resampling. The behavioral criterion is agreement with the intact model, including its mistakes, except on Greater-Than, where we use semantic accuracy. Controlled reference edits reveal misranking without any discovery algorithm, and outputs of EAP, EAP-IG, ACDC, and Edge-SP exhibit the same failure. Under resampling, KL misranks 9.4%-41.2% of candidate pairs across these methods on the human-reference tasks. We investigate context distortion as an explanation: replacing excluded signals changes the inputs on which retained components operate. Restoring selected signals from the recipient's intact-model execution repairs 96 of 100 persistent KL misrankings from the discovery pool on both validation and held-out prompts. The circuits and their original behavioral scores remain unchanged. These findings show why better discovery alone is insufficient when its objective rewards the wrong candidate.",
-      "summary_ko": "신뢰할 수 있는 AI 분야에 속하며 핵심 연구 주제는 해석 가능성입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "모델 내부 표현과 의사결정 근거를 사람이 검증하기 어려워 오류 원인과 위험을 추적하기 힘듭니다.",
-      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 해석 가능성의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02098v1",
-      "published_at": "2026-10-01T17:25:23+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Chuqin Geng",
-        "Li Zhang",
-        "Haolin Ye",
-        "Mark Zhang",
-        "Luke Zhang",
-        "Xujie Si"
-      ],
-      "keywords": [
-        "Trustworthy AI",
-        "Interpretability",
-        "interpretability",
-        "mechanistic"
-      ],
-      "primary_topic": "Trustworthy AI",
-      "secondary_topic": "Interpretability",
-      "primary_topic_ko": "신뢰할 수 있는 AI",
-      "secondary_topic_ko": "해석 가능성",
-      "classification_confidence": 0.869,
-      "matched_terms": [
-        "interpretability",
-        "mechanistic"
-      ],
-      "importance_score": 57,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2610.02092",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Scalable, Transferable Meta-network for Data Selection Requires a Different Loss (and Why the Obvious Choice is Problematic)",
-      "summary": "Data selection is critical for training large language models on massive and heterogeneous corpora. Meta-learning for Training-data Selection offers a principled alternative to heuristic scoring by learning data weights from a target validation objective, but existing methods face a trade-off between fine-grained valuation and transferability to unseen data. A natural solution is to replace per-sample weights with a selection network. However, we find that directly incorporating such a network into existing MTS objectives leads to unstable optimization and poor generalization, caused by weight suppression and persistent reliance on easy-to-learn features. To address these issues, we propose Transferable Example Scoring and Selection (TESS), a scalable data-selection framework built on a Pointwise Value Matching objective (PVM). Experiments on LLM safety and targeted instruction tuning demonstrate strong transfer across datasets, from subsets to full corpora, and from smaller to larger models.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 학습·평가용 데이터의 구성과 품질, 활용 방법을 핵심적으로 살펴봅니다.",
-      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
-      "contribution_ko": "새 데이터셋 또는 데이터 구성 절차를 제시해 학습과 평가에 사용할 수 있는 재현 가능한 기반을 넓힙니다. 특히 안전성·강건성·신뢰성 측면의 실패를 줄이는 데 기여합니다.",
-      "url": "https://arxiv.org/abs/2610.02092v1",
-      "published_at": "2026-10-01T17:23:29+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Zilin Du",
-        "Bowen Yang",
-        "Boyang Albert Li"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Language Models",
-        "language model",
-        "large language model"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Language Models",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "언어 모델",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "language model",
-        "large language model",
-        "llm"
-      ],
-      "importance_score": 89,
-      "importance_label": "핵심",
-      "importance_reason": "급상승 주제 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02091",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "GeoLatent: Geometry-Guided Latent Structuring with Routed Optimization for 3D Reasoning",
-      "summary": "Despite progress in vision-language models, 3D spatial reasoning from 2D images remains challenging. Text-based methods describe intermediate geometry with discrete tokens, limiting fidelity for continuous spatial relations. Continuous latents offer richer representations, but a single latent type does not explicitly separate the cues needed across spatial tasks. Decomposed spatial latents address this by representing position, direction, and global geometry separately under geometric supervision. Yet the geometry representation can still collapse toward one dominant direction, and unrestricted attention can leave the latents underused during answer learning. We introduce GeoLatent, combining Common--Residual Geometry Alignment (CR-GEO) with routed optimization to structure the geometry states while promoting latent-mediated answer learning. CR-GEO separates shared from residual teacher geometry; routed optimization jointly trains geometry and language, temporarily directs visual answer learning through the latents, and restores full attention with geometry supervision. In controlled comparisons, CR-GEO raises geometry effective rank from 1.00 to 3.87, while blocking latent readout at the bottleneck lowers direction accuracy from 89.1% to 25.8% on 128 fixed questions. After recovery, the differentiated geometry representation and latent-mediated visual route remain available alongside direct image access. GeoLatent achieves 73.0% on SPAR-Bench and 72.1% on SPBench, outperforming previously reported methods on both.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 추론·인퍼런스입니다. 텍스트와 이미지 등 여러 입력을 함께 이해하고 연결하는 방법을 다룹니다.",
-      "motivation_ko": "여러 단계의 추론에서는 작은 오류가 누적되며, 답이 맞더라도 추론 과정의 검증 가능성이 낮다는 한계가 있습니다.",
-      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 특히 안전성·강건성·신뢰성 측면의 실패를 줄이는 데 기여합니다.",
-      "url": "https://arxiv.org/abs/2610.02091v1",
-      "published_at": "2026-10-01T17:22:40+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Yakun Zhu",
-        "Yi Bin",
-        "Yujuan Ding",
-        "Zheng Wang",
-        "Pengpeng Zeng",
-        "Duo Peng",
-        "Jingkuan Song",
-        "Heng Tao Shen"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Reasoning & Inference",
-        "reasoning"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Reasoning & Inference",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "추론·인퍼런스",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "reasoning"
-      ],
-      "importance_score": 72,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02089",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "HumanoidToolBench: Benchmarking Humanoid Tool Use from Selection to Mobile Execution",
-      "summary": "As robotic hardware and learning methods advance, humanoids need tools to perform tasks beyond their inherent physical limits. Successful tool use requires selecting a suitable tool and coordinating manipulation and, when needed, locomotion to complete the task. Existing benchmarks do not jointly evaluate these capabilities on a humanoid. We introduce HumanoidToolBench, an 18-task benchmark spanning three scenarios, three execution levels, and two tool-set modes, together with ToolBook, a dataset of 3.1k demonstrations collected in simulation and on a real Unitree G1. Evaluation of seven policies in simulation and three on the real robot reveals substantial gaps between selecting a suitable tool and completing the task. Focused GR00T N1.7 probes show reduced selection accuracy on unseen tools and continued task execution under unrelated instructions. Code and data are available at https://snu-pi.github.io/HumanoidToolBench/.",
-      "summary_ko": "AI 시스템·평가 분야에 속하며 핵심 연구 주제는 평가·벤치마크입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "기존 지표가 실제 사용 능력과 실패 유형을 충분히 반영하지 못해 모델 간 공정한 비교가 어렵습니다.",
-      "contribution_ko": "새 데이터셋 또는 데이터 구성 절차를 제시해 학습과 평가에 사용할 수 있는 재현 가능한 기반을 넓힙니다. 핵심 검증 대상은 평가·벤치마크의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02089v1",
-      "published_at": "2026-10-01T17:21:54+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Kyochul Jang",
-        "Seohyeon Park",
-        "Ohchul Kwon",
-        "Sangjun Park",
-        "Junhyeok Choi",
-        "Seungyeop Yi",
-        "Chaeyun Kim",
-        "Sangkyu Lee",
-        "Idan Szpektor",
-        "Avi Caciularu",
-        "Jongmin Park",
-        "Youngjae Yu"
-      ],
-      "keywords": [
-        "AI Systems & Evaluation",
-        "Evaluation & Benchmarks",
-        "benchmark",
-        "evaluation"
-      ],
-      "primary_topic": "AI Systems & Evaluation",
-      "secondary_topic": "Evaluation & Benchmarks",
-      "primary_topic_ko": "AI 시스템·평가",
-      "secondary_topic_ko": "평가·벤치마크",
-      "classification_confidence": 0.792,
-      "matched_terms": [
-        "benchmark",
-        "evaluation"
-      ],
-      "importance_score": 76,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02084",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Kolmogorov-Arnold Networks for Free-Boundary Partial Differential Equations",
-      "summary": "We study free-boundary problems within a physics-informed framework using Kolmogorov-Arnold network (KAN) approximations. The proposed approach incorporates obstacle constraints, partial differential equation (PDE) inequalities, complementarity conditions, and boundary conditions through residual-based loss functions. We consider a linear elliptic obstacle problem, a nonlinear $p$-Laplacian obstacle problem, and a time-dependent one-phase Stefan problem. The proposed KAN solver is compared with physics-informed neural network (PINN) and residual-network baselines. Numerical experiments show that KANs achieve low relative $L^2$ and $L^\\infty$ errors while accurately resolving contact regions and moving interfaces. The results indicate that KAN representations provide an effective alternative for solving free-boundary PDEs.",
-      "summary_ko": "학습 방법·이론 분야에 속하며 핵심 연구 주제는 일반 머신러닝입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "새로운 데이터 분포에서도 성능이 유지되고 학습 결과를 재현할 수 있는 일반화가 핵심 과제입니다.",
-      "contribution_ko": "이론적 분석과 검증 가능한 조건을 제시해 방법이 작동하는 범위와 한계를 설명합니다. 핵심 검증 대상은 일반 머신러닝의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02084v1",
-      "published_at": "2026-10-01T17:19:30+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Tan Phuong Dong Le"
-      ],
-      "keywords": [
-        "Learning & Theory",
-        "General Machine Learning",
-        "neural network"
-      ],
-      "primary_topic": "Learning & Theory",
-      "secondary_topic": "General Machine Learning",
-      "primary_topic_ko": "학습 방법·이론",
-      "secondary_topic_ko": "일반 머신러닝",
-      "classification_confidence": 0.58,
-      "matched_terms": [
-        "neural network"
-      ],
-      "importance_score": 75,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02081",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Wasserstein Gradient Flows and Forward-Only Diffusion Are Not Enough for Multimodal Sampling",
-      "summary": "There has been a proliferation of sampling algorithms based on Wasserstein gradient flows (WGF) and forward-only diffusion processes (FODP), often accompanied by theoretical guarantees of exponentially fast convergence to the target distribution. These guarantees are frequently interpreted as evidence that such methods can efficiently sample complex multimodal distributions, often supported by empirical results. In this work, we argue that this interpretation is fundamentally misleading. By invoking the Jordan-Kinderlehrer-Otto (JKO) scheme and Otto calculus, we establish that the canonical WGF sampling dynamics and overdamped forward diffusion share the same density evolution and therefore inherit the same metastability and slow-mixing phenomena long understood in nonequilibrium statistical physics. We analyze this family of samplers using two complementary tools -- spectral analysis and mean first-passage time (MFPT) analysis -- and show that well-separated multimodality can induce exponentially long mixing times associated with small spectral gaps and rare inter-mode transitions. For the commonly adopted log-linear annealing schedule studied here, we find that introducing intermediate distributions does not remove the exponential scaling of the total transport time. The limitation is structural rather than implementation-specific: purely local, gradient-driven transport mechanisms can require exponentially long times to transport probability mass across well-separated modes. We argue that this represents a fundamental limitation of WGF- and FODP-based sampling in their standard forms, and motivates future development of fundamentally nonlocal mechanisms for efficient multimodal sampling.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 멀티모달 파운데이션 모델입니다. 텍스트와 이미지 등 여러 입력을 함께 이해하고 연결하는 방법을 다룹니다.",
-      "motivation_ko": "텍스트·이미지·음성 간 표현을 정확히 정렬하고 서로 다른 입력을 근거 있게 결합하는 일이 여전히 어렵습니다.",
-      "contribution_ko": "이론적 분석과 검증 가능한 조건을 제시해 방법이 작동하는 범위와 한계를 설명합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
-      "url": "https://arxiv.org/abs/2610.02081v1",
-      "published_at": "2026-10-01T17:16:47+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Daniel McBride",
-        "Pratik Khandagale",
-        "Cristina Garcia-Cardona",
-        "Yen Ting Lin"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Multimodal Foundation Models",
-        "multimodal"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Multimodal Foundation Models",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "멀티모달 파운데이션 모델",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "multimodal"
-      ],
-      "importance_score": 55,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2610.02076",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "LLM2Jev: LLMs Are Already Jev-Style Decision Models -- When and How to Fine-Tune Them",
-      "summary": "Jev-style decision models return categorical probability distributions over predefined options without generating free-form text, enabling software systems to act on their outputs directly. In this work, we investigate the extent to which general-purpose LLMs already possess this capability out of the box, and when fine-tuning is actually necessary. We present LLM2Jev, an architecture-preserving framework that extracts calibrated decisions directly from next-token probabilities over bracketed numeric identifiers. LLM2Jev provides both a training-free inference recipe and a fine-tuning objective that optimizes candidate selection via a tree-factorized listwise loss while anchoring auxiliary predictions to the base model using KL divergence penalties. Evaluating on Qwen3.5-4B and Qwen3-0.6B, we find that modern LLMs are inherently effective decision models: without training, the 4B model matches community Jev-style models built on the same backbone, outperforms letter-logit readouts, supports arbitrary option counts, and natively handles multimodal decisions over images. Fine-tuning provides targeted rather than universal benefits -- substantially improving weaker models and specific tasks (such as many-option intent routing), but offering diminishing returns for strong backbones. Crucially, our KL anchors prevent behavioral degradation in conversational text generation, with LoRA delivering the strongest performance on capable models.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 텍스트와 이미지 등 여러 입력을 함께 이해하고 연결하는 방법을 다룹니다.",
-      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
-      "contribution_ko": "여러 구성 요소를 연결한 시스템 또는 파이프라인을 구현해 실제 사용과 반복 실험이 가능한 형태로 제시합니다. 핵심 검증 대상은 언어 모델의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02076v1",
-      "published_at": "2026-10-01T17:15:24+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Yinheng Li",
-        "Justin Wagle"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Language Models",
-        "llm"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Language Models",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "언어 모델",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "llm"
-      ],
-      "importance_score": 89,
-      "importance_label": "핵심",
-      "importance_reason": "급상승 주제 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02074",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Homomorphic Advantage Operator: Stabilizing Reinforcement Learning Under Fully Homomorphic Encryption Constraints",
-      "summary": "Privacy-preserving machine learning presents significant deployment challenges on the cloud for intelligent systems with confidential data. Fully Homomorphic Encryption (FHE) offers a compelling solution for secure computation, preserving data confidentiality of cloud computations. However, applying FHE to reinforcement learning (RL) requires replacing non-linear operations with polynomial approximations, which diverge catastrophically due to a unique recursive error phenomenon known as the Bellman drift. This article introduces the Homomorphic Advantage Operator (HAO), a stabilization framework designed to prevent polynomial approximation divergence in FHE-based deep RL. HAO adapts the zero-mean centering projection from advantage-based value estimation directly to temporal-difference (TD) targets. This linear projection annihilates the uniform state-value baseline that drives the Bellman drift, maintaining per-state action rankings while requiring zero additional non-linear multiplicative depth and avoiding expensive ciphertext bootstrapping. The proposed HAO framework was evaluated using a three-tier experimental methodology, including a tabular Markov Decision Process (MDP), an encrypted CartPole environment using real CKKS cryptographic operations, and a 20-node logistics routing benchmark with dense continuous features. The results demonstrate that the proposed HAO strictly bounds network pre-activations within the safe polynomial approximation domain. The proposed HAO RL agents achieved 0% boundary breaches across all random seeds used, whereas regularization alone (L2 weight decay and gradient clipping) breached the bound on 3 of 5 seeds and the unstabilized baseline did so in 83.8% of episodes. Finally, HAO agents improve optimal policy accuracy by 18.0 percentage points in tabular domains and remain stable when DP-SGD-style Gaussian noise is added to the clipped gradients.",
-      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 강화학습입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "희소하거나 잘못 설계된 보상 아래에서 표본 효율과 정책 안정성을 동시에 얻기 어렵습니다. 실제 환경으로 옮겼을 때 발생하는 성능 저하를 줄이는 것이 핵심 동기입니다.",
-      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 특히 안전성·강건성·신뢰성 측면의 실패를 줄이는 데 기여합니다.",
-      "url": "https://arxiv.org/abs/2610.02074v1",
-      "published_at": "2026-10-01T17:14:32+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Abid Mohamed Nadhir",
-        "Ahmad Al Hanbali",
-        "Beggas Mounir"
-      ],
-      "keywords": [
-        "Embodied & Decision AI",
-        "Reinforcement Learning",
-        "reinforcement learning"
-      ],
-      "primary_topic": "Embodied & Decision AI",
-      "secondary_topic": "Reinforcement Learning",
-      "primary_topic_ko": "로보틱스·의사결정 AI",
-      "secondary_topic_ko": "강화학습",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "reinforcement learning"
-      ],
-      "importance_score": 67,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02072",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "PyPottery: an AI-powered end-to-end suite for pottery processing and publication",
-      "summary": "The study of ceramic materials constitutes a cornerstone of archaeological research, yet the post-production workflow for pottery documentation remains labor-intensive and creates significant publication bottlenecks. This paper presents PyPottery, an open-source, AI-powered suite designed to semi-automate the complete ceramic documentation pipeline. The suite comprises four integrated modules: PyPotteryScan for automated image extraction and handwriting recognition; PyPotteryInk for automatic inking of pencil drawings; PyPotteryTrace for semantically-aware vectorization; and PyPotteryLayout for automated layout generation. Evaluated on 50 hand-drawn sheets containing 240 pottery drawings from the Terramara di Montale (Italy), the framework achieved substantial time savings confirmed by usability study participants, who reported a median perceived speedup of 40$\\times$ over traditional workflows (range: 17.5$\\times$--120$\\times$). These results highlight the potential of AI-assisted tools in archaeological documentation, while the paper addresses the strategic redistribution of cognitive labor toward augmentation rather than automation.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 에이전트·도구 사용입니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
-      "motivation_ko": "에이전트가 계획을 세우고 외부 도구를 호출하는 과정에서 선택 오류가 연쇄적으로 커지고 장기 작업의 안정성이 떨어질 수 있습니다.",
-      "contribution_ko": "여러 구성 요소를 연결한 시스템 또는 파이프라인을 구현해 실제 사용과 반복 실험이 가능한 형태로 제시합니다. 핵심 검증 대상은 에이전트·도구 사용의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02072v1",
-      "published_at": "2026-10-01T17:13:07+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Lorenzo Cardarelli"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Agents & Tool Use",
-        "cs.AI"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Agents & Tool Use",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "에이전트·도구 사용",
-      "classification_confidence": 0.38,
-      "matched_terms": [
-        "cs.AI"
-      ],
-      "importance_score": 74,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02070",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Causal Memory Policy: Making Memory Utility Identifiable by Intervening on Retrieval",
-      "summary": "Memory-augmented large language models must decide which memories to retain, and recent systems do so by estimating each memory's effect on task performance. However, these estimates rely entirely on retrieved memories. When a memory is never retrieved, store-level interventions produce identical outcomes, leaving its utility unidentified. This is a retrieval-level positivity violation, invisible to diagnostics that examine only memory operations. We introduce Causal Memory Policy (CMP), a causal framework that restores identification by intervening on retrieval itself, reserving a fixed number of context slots for memories sampled with known propensities. CMP estimates memory utility by self-normalized inverse propensity weighting under a balanced assignment design. We prove the causal factorization of memory utility through retrieval, the unbiasedness and exact variance of the estimator, and the optimal decision rule under irreversible operations. Empirically, identification fails for 54% of required memories on LongMemEval and 67% on LoCoMo, and the failure persists in a deployed memory system. CMP improves discrimination between required and non-required memories from 0.54 to 0.66 AUC. Finally, we show that identified memory utility alone is insufficient for retention decisions: per-query utility reaches 0.78 AUC on the query for which it is estimated, yet no aggregation available to a retention policy predicts a memory's value on unseen queries. Code is available at: https://anonymous.4open.science/r/cmp-release-D0C3/.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
-      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
-      "contribution_ko": "여러 구성 요소를 연결한 시스템 또는 파이프라인을 구현해 실제 사용과 반복 실험이 가능한 형태로 제시합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
-      "url": "https://arxiv.org/abs/2610.02070v1",
-      "published_at": "2026-10-01T17:11:25+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Arman Behnam",
-        "Binghui Wang"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Language Models",
-        "language model",
-        "large language model"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Language Models",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "언어 모델",
-      "classification_confidence": 0.674,
-      "matched_terms": [
-        "language model",
-        "large language model"
-      ],
-      "importance_score": 89,
-      "importance_label": "핵심",
-      "importance_reason": "급상승 주제 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02069",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "AI Emulation of Stochastic Sudden Stratospheric Warming with Interpretable Latent Structure",
-      "summary": "Rare weather regime transitions pose a challenge for data-driven modeling due to class imbalance. In this study, we develop a probabilistic deep learning emulator for a prototypical system with regime transitions, the stochastic Holton--Mass model of stratospheric variability, and analyze the structure of its learned latent space. The Holton--Mass model exhibits two metastable regimes, a strong and a weak polar vortex, maintained by nonlinear wave--mean flow interactions, with weak stochastic forcing intermittently triggering rare transitions between these regimes that qualitatively represent SSW events. We employ a ResNet-inspired Conditional Variational Autoencoder with six-layer encoder and decoder layers and explicit current-state conditioning to model the distribution of the system's state at the next time step (one day). The emulator accurately reproduces short-term dynamics, steady-state probability distributions, regime persistence statistics, rare transition rates, the transition committor function, and the transition expected lead time of the physical model. Beyond emulation fidelity, we interrogate the learned latent representation to understand how the model internalizes the underlying metastable structure of the dynamics. Principal Component Analysis of the 32-dimensional latent space reveals a clear and unsupervised separation into four physically interpretable clusters corresponding to strong versus weak vortex regimes and stable versus transition-prone configurations. Such emergent regime separation in latent space is hard to identify for deep generative models applied to high-dimensional stochastic systems. Our results show that carefully designed probabilistic emulators can uncover physically meaningful manifolds governing extreme-event dynamics, potentially aiding the development of improved operational advanced warning systems.",
-      "summary_ko": "학습 방법·이론 분야에 속하며 핵심 연구 주제는 일반 머신러닝입니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
-      "motivation_ko": "새로운 데이터 분포에서도 성능이 유지되고 학습 결과를 재현할 수 있는 일반화가 핵심 과제입니다.",
-      "contribution_ko": "여러 구성 요소를 연결한 시스템 또는 파이프라인을 구현해 실제 사용과 반복 실험이 가능한 형태로 제시합니다. 핵심 검증 대상은 일반 머신러닝의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02069v1",
-      "published_at": "2026-10-01T17:11:07+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "C. Daniel Boscu",
-        "Daniel Hernandez",
-        "Fabio Alvarez Ventura",
-        "Justin Finkel",
-        "Ashesh Chattopadhyay",
-        "Pedram Hassanzadeh",
-        "Dorian S. Abbot"
-      ],
-      "keywords": [
-        "Learning & Theory",
-        "General Machine Learning",
-        "deep learning"
-      ],
-      "primary_topic": "Learning & Theory",
-      "secondary_topic": "General Machine Learning",
-      "primary_topic_ko": "학습 방법·이론",
-      "secondary_topic_ko": "일반 머신러닝",
-      "classification_confidence": 0.58,
-      "matched_terms": [
-        "deep learning"
-      ],
-      "importance_score": 75,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02068",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Sequential Capacity of Quantum Processes with Finite Memory",
-      "summary": "How complex can the responses of a quantum device become as it runs longer with a fixed internal memory? We quantify this complexity through sequential response capacity: how many adaptive testing stages, each using a fresh run, can continue to separate possible processes by a prescribed gap in response probabilities. For fixed system and memory sizes, we establish a tight law relating this capacity to run length and probability resolution. At fixed resolution, the capacity grows on the order of $K\\log K$, where $K$ is the number of time steps in each run. Our construction attains this growth using time-dependent phase rotations on a single visible qubit with no additional internal memory; its tests give response probabilities exactly zero or one. Under the same tests, classical stochastic processes that measure in a fixed basis at every step have only linear capacity at fixed sizes and resolution. For phase sequences selected by a stored classical label, we then quantify how known independent Pauli noise changes this logarithmic enhancement. With ideal controls and weak residual phase noise after correction, we prove matching capacity bounds at a fixed small probability gap. These bounds identify the inverse residual phase-flip probability as the coherence timescale that limits the extra logarithmic growth.",
-      "summary_ko": "학습 방법·이론 분야에 속하며 핵심 연구 주제는 일반 머신러닝입니다. 환경을 인식하고 행동을 계획·제어하는 로봇 지능의 성능을 다룹니다.",
-      "motivation_ko": "새로운 데이터 분포에서도 성능이 유지되고 학습 결과를 재현할 수 있는 일반화가 핵심 과제입니다.",
-      "contribution_ko": "이론적 분석과 검증 가능한 조건을 제시해 방법이 작동하는 범위와 한계를 설명합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
-      "url": "https://arxiv.org/abs/2610.02068v1",
-      "published_at": "2026-10-01T17:08:19+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Yibin Wang"
-      ],
-      "keywords": [
-        "Learning & Theory",
-        "General Machine Learning",
-        "cs.LG"
-      ],
-      "primary_topic": "Learning & Theory",
-      "secondary_topic": "General Machine Learning",
-      "primary_topic_ko": "학습 방법·이론",
-      "secondary_topic_ko": "일반 머신러닝",
-      "classification_confidence": 0.38,
-      "matched_terms": [
-        "cs.LG"
-      ],
-      "importance_score": 73,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02067",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Learn the Directions, Normalize the Gains: Post-Training Normalization for LoRA",
-      "summary": "While Low-Rank Adaptation (LoRA) enables efficient task specialization, its learned updates can compromise capabilities beyond the target task. We identify \\textbf{adaptation imbalance}: a few singular directions dominate the trained update, leaving its performance sensitive to how gains are allocated. We argue that \\textbf{learning where to adapt does not ensure that adaptation gains are well balanced}. This motivates \\textbf{LoRA-Norm}, a post-training normalization method that retains learned directions while rebalancing their gains. LoRA-Norm combines spectral rebalancing, a fixed nonlinear transformation of singular values, with nuclear-norm restoration, which preserves the original total spectral mass. It requires no calibration data or additional training and introduces no inference overhead. Across two backbones and three adaptation tasks, LoRA-Norm improves average specialization and capability retention, outperforming the evaluated post-hoc spectral pruning and gradient-guided editing configurations on both measures. Stronger functional equalization brings no consistent additional gains, revealing that balancing adapter gains and equalizing their responses are distinct objectives.",
-      "summary_ko": "AI 시스템·평가 분야에 속하며 핵심 연구 주제는 최적화·압축입니다. 학습·추론 비용을 낮추면서 성능을 유지하거나 높이는 방법을 제안합니다.",
-      "motivation_ko": "모델 크기와 비용을 줄이면 정확도와 강건성이 함께 저하될 수 있는 절충 문제가 있습니다.",
-      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
-      "url": "https://arxiv.org/abs/2610.02067v1",
-      "published_at": "2026-10-01T17:07:21+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Zailong Tian",
-        "Yanzhe Chen",
-        "Zhuoheng Han",
-        "Houfeng Wang",
-        "Lizi Liao"
-      ],
-      "keywords": [
-        "AI Systems & Evaluation",
-        "Optimization & Compression",
-        "pruning",
-        "low-rank"
-      ],
-      "primary_topic": "AI Systems & Evaluation",
-      "secondary_topic": "Optimization & Compression",
-      "primary_topic_ko": "AI 시스템·평가",
-      "secondary_topic_ko": "최적화·압축",
-      "classification_confidence": 0.674,
-      "matched_terms": [
-        "pruning",
-        "low-rank"
-      ],
-      "importance_score": 55,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2610.02066",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "External Observers May See More Clearly: Cross-Model Span-Level Hallucination Detection in Large Language Models via Hidden State Probing",
-      "summary": "As Large Language Models (LLMs) increasingly serve as foundational reasoning engines, their tendency to hallucinate remains a critical vulnerability. While recent internal state probes offer a promising alternative to slow external retrieval systems, they largely reduce hallucination detection to a token-wise binary classification task, failing to capture the structured, sequential boundaries of semantic drift. Here, we introduce an internal hidden state framework for fine-grained, span-level hallucination detection. By inspecting layer-wise activation patterns, we attempt to detect the exact hallucination onset and continuation tokens in an LLM generation. Our experiments show that this approach successfully isolates hallucination onsets, achieving substantial improvements in Precision-Recall AUC over random baselines despite extreme class imbalance. Ultimately, we propose a novel cross-model detection framework in which one model observes the internal representations elicited by another model's generation. We find that an external observer can match or exceed a generator's self-detection of its own hallucination onsets, including when the observer is the smaller model, suggesting that self-detection is not the ceiling for onset localisation.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
-      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
-      "contribution_ko": "이론적 분석과 검증 가능한 조건을 제시해 방법이 작동하는 범위와 한계를 설명합니다. 핵심 검증 대상은 언어 모델의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02066v1",
-      "published_at": "2026-10-01T17:06:53+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Kingshuk Gupta",
-        "Davide Buscaldi"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Language Models",
-        "language model",
-        "large language model"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Language Models",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "언어 모델",
-      "classification_confidence": 0.9,
-      "matched_terms": [
-        "language model",
-        "large language model",
-        "llm"
-      ],
-      "importance_score": 91,
-      "importance_label": "핵심",
-      "importance_reason": "급상승 주제 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02058",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Foundations without Fundamentals: Zero-Shot Blind Spots in Time Series FMs",
-      "summary": "Despite the success of Time Series Foundation Models (TSFMs) on broad benchmarks, their ability to internalize basic temporal logic, especially in settings supported by exogenous covariates, remains under-examined. We introduce SimpleTimeBench, a diagnostic univariate and multivariate \"unit test\" suite for primitives such as monotonic trends, periodic signals and leading indicator covariates, scenarios where near-perfect forecasts should be trivial. Surprisingly, prominent multivariate TSFMs (Chronos-2, Moirai and Toto) frequently produce suboptimal zero-shot forecasts for these inputs. While fine-tuning Chronos-2 improves its behaviour on specific tasks, we show that this adaptation degrades performance on other fundamental patterns rather than enhancing its generalizable foundational capabilities. This reveals a gap between pre-training scale and basic temporal reasoning, suggesting that current TSFMs could potentially lack the inductive biases needed to capture simple predictable functions. We further demonstrate that these failures are not merely synthetic curiosities: they persist in real-world sensor forecasting, where TSFMs consistently underutilize leading indicators available in observed covariates. This inability to capture simple relationships limits the practical utility and reliability of current multivariate models.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 추론·인퍼런스입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "여러 단계의 추론에서는 작은 오류가 누적되며, 답이 맞더라도 추론 과정의 검증 가능성이 낮다는 한계가 있습니다. 실제 환경으로 옮겼을 때 발생하는 성능 저하를 줄이는 것이 핵심 동기입니다.",
-      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 핵심 검증 대상은 추론·인퍼런스의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02058v1",
-      "published_at": "2026-10-01T17:02:16+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Nafiseh Ghoroghchian",
-        "Haipeng Zhang",
-        "Shuyi Han",
-        "Alex Labach",
-        "George Stein"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Reasoning & Inference",
-        "reasoning"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Reasoning & Inference",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "추론·인퍼런스",
-      "classification_confidence": 0.58,
-      "matched_terms": [
-        "reasoning"
-      ],
-      "importance_score": 71,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02054",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "UniWAM: Unified World-Action Model",
-      "summary": "Vision-language-action models benefit from the understanding and reasoning capabilities of pretrained vision-language models, but action-only supervision provides limited grounding in world dynamics. Conversely, world-action models inherit spatiotemporal priors from video generation models, yet remain limited in semantic understanding and reasoning under distribution shifts. We introduce UniWAM, a unified architecture that integrates a physical reasoner, a world generator, and an action predictor to jointly learn semantic understanding of the physical world, visual generation, and action prediction. To ensure the quality of the training data, we developed a rigorous data cleaning and annotation pipeline for both human egocentric data and robot data. To adapt the vision-language component to embodied tasks while preserving its inherited language capabilities, we represent low-level actions in natural language and introduce a pre-training recipe that assigns complementary supervision from visual question answering (VQA) data, human egocentric data, and robot demonstrations to the appropriate model components. During post-training, future visual noise augmentation reduces reliance on precise future predictions, while history-conditioned flow matching uses encoded action history to initialize action generation. Together, these designs significantly reduce denoising steps while maintaining performance. UniWAM achieves state-of-the-art (SOTA) performance across multiple evaluations, including in-distribution performance, robustness, generalization, instruction following, and long-horizon task execution. Furthermore, we uncover a log-linear scaling law of unified human-robot co-training, demonstrating the effectiveness of large-scale pre-training on a mixture of human and robot data.",
-      "summary_ko": "비전·생성 미디어 분야에 속하며 핵심 연구 주제는 비전-언어입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "시각 정보와 언어 지시를 함께 이해할 때 세부 객체·관계·공간 맥락을 놓치는 문제가 남아 있습니다.",
-      "contribution_ko": "여러 구성 요소를 연결한 시스템 또는 파이프라인을 구현해 실제 사용과 반복 실험이 가능한 형태로 제시합니다. 특히 안전성·강건성·신뢰성 측면의 실패를 줄이는 데 기여합니다.",
-      "url": "https://arxiv.org/abs/2610.02054v1",
-      "published_at": "2026-10-01T17:01:27+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Jiayi Chen",
-        "Wenxuan Song",
-        "Jingbo Wang",
-        "Shuai Zhou",
-        "Xicheng Gong",
-        "Zehua Fan",
-        "Ziyang Zhou",
-        "Junwu E",
-        "Haodong Yan",
-        "Fuhao Li",
-        "Qize Yu",
-        "Xu Huang",
-        "Pengwei Wang",
-        "Wen Chen",
-        "Shunbo Zhou",
-        "Haoang Li"
-      ],
-      "keywords": [
-        "Vision & Generative Media",
-        "Vision-Language",
-        "vision-language",
-        "visual question"
-      ],
-      "primary_topic": "Vision & Generative Media",
-      "secondary_topic": "Vision-Language",
-      "primary_topic_ko": "비전·생성 미디어",
-      "secondary_topic_ko": "비전-언어",
-      "classification_confidence": 0.674,
-      "matched_terms": [
-        "vision-language",
-        "visual question"
-      ],
-      "importance_score": 55,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2610.02051",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Learning from Failure: Leveraging Unreliable Predictions in Semi-Supervised Real-World Adverse Weather Removal",
-      "summary": "Adverse weather image restoration aims to recover images degraded by rain, haze, snow, and other weather-induced artifacts, thereby improving the robustness of outdoor vision systems. Existing unified restoration models exhibit limited generalization to real-world scenes due to their reliance on synthetic supervision and insufficient semantic constraints. In this paper, we propose a novel student--teacher semi-supervised framework that addresses both challenges. Specifically, we introduce an unreliable database that preserves failed teacher predictions as informative negative samples for contrastive learning, while a reliable database stores high-quality teacher predictions as positive samples. By jointly exploiting reliable pseudo-ground truths and unreliable teacher outputs, the proposed framework learns to enhance desirable restoration characteristics while avoiding common failures. We further propose a phase spectrum-based semantic constraint that replaces computationally expensive text-based supervision with an efficient and naturally aligned semantic prior. An adaptive phase consistency loss is also designed to dynamically balance supervision between the degraded input and teacher pseudo-ground truths according to degradation severity. Extensive experiments on real-world benchmarks demonstrate that the proposed method consistently outperforms existing state-of-the-art approaches in restoration quality and perceptual fidelity while exhibiting stronger generalization to real-world adverse weather conditions.",
-      "summary_ko": "신뢰할 수 있는 AI 분야에 속하며 핵심 연구 주제는 강건성·보안입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "적대적 입력과 분포 변화, 프롬프트 주입 상황에서 성능과 보안이 급격히 저하될 수 있습니다. 실제 환경으로 옮겼을 때 발생하는 성능 저하를 줄이는 것이 핵심 동기입니다.",
-      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
-      "url": "https://arxiv.org/abs/2610.02051v1",
-      "published_at": "2026-10-01T17:00:17+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Cap Dang Xuan Kiet",
-        "Tat-Jen Cham"
-      ],
-      "keywords": [
-        "Trustworthy AI",
-        "Robustness & Security",
-        "robustness"
-      ],
-      "primary_topic": "Trustworthy AI",
-      "secondary_topic": "Robustness & Security",
-      "primary_topic_ko": "신뢰할 수 있는 AI",
-      "secondary_topic_ko": "강건성·보안",
-      "classification_confidence": 0.58,
-      "matched_terms": [
-        "robustness"
-      ],
-      "importance_score": 54,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "rss:openai-news:b8087b88cb63ae7fc829eff8",
-      "type": "news",
-      "source": "OpenAI News",
-      "title": "The eternal complement",
-      "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
-      "summary_ko": "OpenAI News가 공개한 소식으로, 미분류 분야의 분류 검토 필요 변화에 초점을 둡니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
-      "motivation_ko": "새 연구 결과나 시스템이 기존 접근법의 어떤 한계를 해결하며 실제 적용에 어떤 변화를 만드는지 확인할 필요가 있습니다.",
-      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 제안된 접근법의 성능과 실제 적용 가능성입니다.",
-      "url": "https://openai.com/index/the-eternal-complement",
-      "published_at": "2026-10-01T17:00:00+00:00",
-      "date_label": "2026.10.01",
-      "authors": [],
-      "keywords": [
-        "Unclassified",
-        "Needs Review"
-      ],
-      "primary_topic": "Unclassified",
-      "secondary_topic": "Needs Review",
-      "primary_topic_ko": "미분류",
-      "secondary_topic_ko": "분류 검토 필요",
-      "classification_confidence": 0.18,
-      "matched_terms": [],
-      "importance_score": 46,
-      "importance_label": "일반",
-      "importance_reason": "주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2610.02048",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "HydroJEV: A one-second, training-free screen for cyber-attack and fault attribution in water distribution networks",
-      "summary": "When a SCADA alarm is raised in a water distribution network, operators must decide quickly whether it reflects a cyberattack, a physical fault, a normal transient or a faulty sensor. Supervised classifiers need labelled incidents that utilities rarely have, and frontier large language models (LLMs) take tens of seconds per decision. We tested whether Jev, a training-free model that returns class probabilities in about one second, can serve as the first tier of this triage. On a four-class cause-attribution benchmark built on the C-Town network in EPANET, Jev was compared with a hand-written rule tree, a supervised classifier and seven cloud LLMs on identical evidence in four sealed, pre-registered rounds. With only a label-free prior correction, Jev matched the rule tree (macro-F1 0.62-0.64 against 0.56-0.61 in distribution) and exceeded the supervised classifier by 0.36-0.42 on event subtypes absent from its labels, in all four rounds, and it outperformed the classifier whenever fewer than about four labelled events per class were available. Jev also decided 20-40 times faster than frontier LLMs. Accepting only benign Jev verdicts confirmed by the rule tree spared an LLM reviewer 35-38% of windows on fresh sealed sets without loss of macro-F1. Transferred unchanged to two further networks, this gated cascade stayed within the non-inferiority margin of its reviewer on all four sets. A fast, training-free screen can therefore take over about a third of the review load in SCADA anomaly triage while preserving the accuracy of deliberate review.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
-      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 특히 새로운 데이터와 환경으로의 일반화 성능을 검증하는 데 초점을 둡니다.",
-      "url": "https://arxiv.org/abs/2610.02048v1",
-      "published_at": "2026-10-01T16:57:33+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Tianwei Mu",
-        "Shengyan Jiang",
-        "Mingzhe Yuan",
-        "Qing Luo",
-        "Min Xiao",
-        "Wenhong Wang",
-        "Jun Li",
-        "Manhong Huang"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Language Models",
-        "language model",
-        "large language model"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Language Models",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "언어 모델",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "language model",
-        "large language model",
-        "llm"
-      ],
-      "importance_score": 89,
-      "importance_label": "핵심",
-      "importance_reason": "급상승 주제 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02045",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Form and Void: Entangled Composition through an Autonomous AI Agent",
-      "summary": "Positive and negative space is a fundamental principle in visual composition, supporting visually coherent forms and layered semantic relationships. Generating such compositions is challenging because it requires coordinated control over two semantic concepts that share a common boundary. Although recent text-to-image models and multimodal large language models (MLLMs) have achieved strong performance in image generation and visual understanding, positive-negative space generation remains difficult, particularly under direct single-pass prompting. In this work, we present the \\textbf{F}orm \\textbf{a}nd \\textbf{V}oid \\textbf{A}gent (\\textbf{FaV-A}), a multimodal agent designed for staged positive-negative space generation. FaV-A follows a progressive workflow: it first generates a base object, then analyzes its shape and spatial structure to identify candidate negative-space semantics, and finally produces compositional instructions for the final image generation stage. Experimental results and ablation analyses suggest that FaV-A provides a more effective framework than direct zero-shot MLLM baselines for producing visually coherent and semantically aligned positive-negative space compositions.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 에이전트·도구 사용입니다. 에이전트의 계획, 도구 선택과 실행 과정의 정확성·안정성을 살펴봅니다.",
-      "motivation_ko": "에이전트가 계획을 세우고 외부 도구를 호출하는 과정에서 선택 오류가 연쇄적으로 커지고 장기 작업의 안정성이 떨어질 수 있습니다.",
-      "contribution_ko": "이론적 분석과 검증 가능한 조건을 제시해 방법이 작동하는 범위와 한계를 설명합니다. 핵심 검증 대상은 에이전트·도구 사용의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02045v1",
-      "published_at": "2026-10-01T16:55:37+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Shiwen Wang",
-        "Jian Yang",
-        "Xu Wang",
-        "Xincan Wang",
-        "Weiming Dong"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Agents & Tool Use",
-        "ai agent"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Agents & Tool Use",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "에이전트·도구 사용",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "ai agent"
-      ],
-      "importance_score": 77,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02044",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "DiDE:Direct Injection with Color-Texture DEcoupling for 3D Stylization",
-      "summary": "Recent advances in rectified flow-based image-to-3D generative models have enabled high-fidelity 3D asset generation. Building on this, a growing line of work has exploited these strong 3D priors for training-free stylization, transferring visual attributes from a reference image onto a generated 3D asset. However, existing methods enforce an all-or-nothing paradigm: color and texture are transferred jointly, with no mechanism to control them independently -- a limitation we formalize as Disentangled 3D Stylization(Disen3D). To address this, we propose DiDE, the first training-free framework for Disen3D. Key to our approach is the observation that the structured latent space of image-to-3D models is overcomplete with respect to texture: texture information occupies only a small subset of the style-significant channels, leaving a free subspace available for independent color encoding. DiDE exploits this via a channel partition mechanism that processes a content image, a texture reference, and a color reference through dedicated branches and composes both style signals interference-free at every self-attention layer, preserving content geometry throughout. Experiments on Disen3D-Bench, our newly collected multi-reference benchmark, show that DiDE consistently outperforms 2D and 3D stylization baselines in color fidelity, texture transfer, and content preservation.",
-      "summary_ko": "비전·생성 미디어 분야에 속하며 핵심 연구 주제는 이미지 생성입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "생성 품질뿐 아니라 프롬프트 충실도, 세부 제어와 반복 생성의 일관성을 동시에 확보해야 합니다.",
-      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 특히 새로운 데이터와 환경으로의 일반화 성능을 검증하는 데 초점을 둡니다.",
-      "url": "https://arxiv.org/abs/2610.02044v1",
-      "published_at": "2026-10-01T16:55:19+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Tao Wu",
-        "Alexandra Gomez-Villa",
-        "Senmao Li",
-        "Yaxing Wang",
-        "Joost van de Weijer",
-        "Kai Wang"
-      ],
-      "keywords": [
-        "Vision & Generative Media",
-        "Image Generation",
-        "rectified flow"
-      ],
-      "primary_topic": "Vision & Generative Media",
-      "secondary_topic": "Image Generation",
-      "primary_topic_ko": "비전·생성 미디어",
-      "secondary_topic_ko": "이미지 생성",
-      "classification_confidence": 0.58,
-      "matched_terms": [
-        "rectified flow"
-      ],
-      "importance_score": 54,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2610.02043",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Distributionally Robust Schrödinger Bridge",
-      "summary": "Schrödinger bridge (SB) learns stochastic transport between prescribed initial and target distributions. When the initial distribution shifts at test time, the learned dynamics can fail to recover the target distribution. We introduce the Distributionally Robust Schrödinger Bridge (DRSB), which learns a single controller that accounts for uncertainty in the initial distribution. The DRSB objective consists of control energy and a KL penalty between the resulting terminal distribution and the target distribution. DRSB seeks a single controller that minimizes the worst-case value of this objective as the initial distribution varies within an ambiguity set around the nominal distribution. We derive an exact variational formulation of this objective and connect its fixed-terminal-cost subproblem to stochastic optimal control and distributionally robust optimization. This formulation motivates an alternating algorithm that updates the adversarial initial distribution, estimates the terminal log-density ratio, and trains the controller. We develop Wasserstein and Sinkhorn variants using stochastic control optimality conditions to approximate the gradients required for adversarial updates. Experiments on two-dimensional transport tasks and image-to-image translation show improved robustness to input perturbations relative to standard SB, with a tradeoff in nominal performance. On Gaussian mixture transport, Sinkhorn DRSB also achieves lower mean sliced Wasserstein distance than fixed-level noise augmentation at both tested unseen noise levels.",
-      "summary_ko": "신뢰할 수 있는 AI 분야에 속하며 핵심 연구 주제는 강건성·보안입니다. 모델의 안전성, 신뢰성 및 예상하지 못한 입력에 대한 대응을 분석합니다.",
-      "motivation_ko": "적대적 입력과 분포 변화, 프롬프트 주입 상황에서 성능과 보안이 급격히 저하될 수 있습니다.",
-      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 특히 안전성·강건성·신뢰성 측면의 실패를 줄이는 데 기여합니다.",
-      "url": "https://arxiv.org/abs/2610.02043v1",
-      "published_at": "2026-10-01T16:54:34+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Jinhwan Sul",
-        "Panagiotis Theodoropoulos",
-        "Vincent Pacelli",
-        "Jaemoo Choi",
-        "Evangelos Theodorou"
-      ],
-      "keywords": [
-        "Trustworthy AI",
-        "Robustness & Security",
-        "adversarial",
-        "robustness"
-      ],
-      "primary_topic": "Trustworthy AI",
-      "secondary_topic": "Robustness & Security",
-      "primary_topic_ko": "신뢰할 수 있는 AI",
-      "secondary_topic_ko": "강건성·보안",
-      "classification_confidence": 0.674,
-      "matched_terms": [
-        "adversarial",
-        "robustness"
-      ],
-      "importance_score": 55,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2610.02040",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Typological Alignment of Stack-Based Language Models on Mildly Context-Sensitive Artificial Languages",
-      "summary": "Some properties of languages, e.g., subject-object-verb (SOV) word order, are more prevalent than others among the thousands of attested natural languages (NLs). Such typological commonality is often attributed to learning biases. Computational simulations, recently with language models (LMs), have facilitated the exploration of this theory. In this paper, we extend existing analyses of the relationship between LMs' learning biases and typological commonality on both data and model sides, focusing on: (i) cross-serial dependencies, the upper limit of attested syntactic complexity, and (ii) stack-based LMs (SLMs), potentially facilitating learning of hierarchical patterns. We first evaluate generalization of SLMs on cross-serial dependencies across diverse artificial languages and confirm that they struggle with such constructions. However, SLMs with limited working memory generalize better suggesting a possible basis for such inductive bias and thus the typological commonality of some word order configurations.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 모델의 안전성, 신뢰성 및 예상하지 못한 입력에 대한 대응을 분석합니다.",
-      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
-      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
-      "url": "https://arxiv.org/abs/2610.02040v1",
-      "published_at": "2026-10-01T16:52:08+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Nadine El-Naggar",
-        "Tatsuki Kuribayashi",
-        "Ted Briscoe"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Language Models",
-        "language model"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Language Models",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "언어 모델",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "language model"
-      ],
-      "importance_score": 89,
-      "importance_label": "핵심",
-      "importance_reason": "급상승 주제 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02039",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "CARM: Cancellation-Aware Response Masking for LLM Reinforcement Learning",
-      "summary": "Recent years have witnessed the rapid adoption of reinforcement learning (RL) in large language model (LLM) post-training, with substantial gains in mathematical reasoning and code generation. In practical systems, however, policy updates and differences between rollout and training engines can make sampled responses off-policy. Sequence-level masking addresses this mismatch by deciding whether an entire response should contribute to optimization. A common masking rule uses the length-normalized geometric mean of sampled token probability ratios. Its signed log-ratios can cancel across positions, concealing substantial bidirectional policy drift. We propose \\emph{Cancellation-Aware Response Masking} (CARM), a sequence-level mask that takes the absolute value of each token log-ratio before averaging, preventing opposing probability changes from canceling. We prove that accepted responses satisfy a joint bound on the fraction of sampled-token ratios outside a prescribed band and their mean log-distance beyond its boundaries. Experiments on mathematical reasoning and code generation show that CARM improves mean@16 averaged over AIME 2024/2025/2026 and BeyondAIME by up to $3.13$ percentage points over geometric-mean masking, and increases average pass@1 across four code benchmarks by $2.88$ points over the strongest evaluated baseline. These findings support CARM as a theoretically grounded and effective method for response-level off-policy control in LLM reinforcement learning.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
-      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 핵심 검증 대상은 언어 모델의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02039v1",
-      "published_at": "2026-10-01T16:51:56+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Yafei Zhang",
-        "Songshuo Lu",
-        "Sicong Liao",
-        "Zhi Chen",
-        "Yaohua Tang"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Language Models",
-        "language model",
-        "large language model"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Language Models",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "언어 모델",
-      "classification_confidence": 0.834,
-      "matched_terms": [
-        "language model",
-        "large language model",
-        "llm"
-      ],
-      "importance_score": 90,
-      "importance_label": "핵심",
-      "importance_reason": "급상승 주제 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02038",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Mimir: Physics-Grounded LLM Agents for Long-Horizon Irrigation Control",
-      "summary": "Large language model (LLM) agents increasingly combine reasoning, tool use, and action, but most evidence comes from episodic tasks with relatively immediate feedback and reset failures. Long-running physical control operates in a different regime: actions alter future states, errors compound across decisions, and an agent must improve from experience without being allowed to rewrite the physical rules that make execution safe. We study this regime through irrigation, where daily decisions interact with soil-water dynamics over entire growing seasons. We present Mimir, a physics-grounded LLM agent organized around two repair timescales. At the fast timescale, a structured physical interface and deterministic simulator turn an LLM output into a proposal that we numerically check, revise, and subject to bounded deterministic action selection before execution. At the slow timescale, recurrent failure patterns are consolidated into persistent contextual principles that condition future proposals, while the physical model, evaluator, and execution constraints remain immutable. Under a common retrospective evaluator across multiple sites, crops, and years, Mimir attains the lowest reported aggregate control cost among the evaluated references and uses about 51% less irrigation than the historical schedule replay. The ablation study show higher control cost when forward simulation, verified revision, or persistent context is removed; model-scale and model-family studies show no monotonic gain from increasing LLM size. The resulting lesson show that persistent physical agents can combine semantic reasoning with bounded, evidence-driven self-improvement while reserving physical truth and actuator authority for explicit numerical mechanisms.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 에이전트의 계획, 도구 선택과 실행 과정의 정확성·안정성을 살펴봅니다.",
-      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
-      "contribution_ko": "이론적 분석과 검증 가능한 조건을 제시해 방법이 작동하는 범위와 한계를 설명합니다. 핵심 검증 대상은 언어 모델의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02038v1",
-      "published_at": "2026-10-01T16:50:52+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Yimeng Liu",
-        "Mi Zhang",
-        "Younsuk Dong",
-        "Zhichao Cao"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Language Models",
-        "language model",
-        "large language model"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Language Models",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "언어 모델",
-      "classification_confidence": 0.834,
-      "matched_terms": [
-        "language model",
-        "large language model",
-        "llm"
-      ],
-      "importance_score": 90,
-      "importance_label": "핵심",
-      "importance_reason": "급상승 주제 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02036",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Global Coherence: When Every Agent Is Right and the Team Is Still Wrong - A Local-to-Global Semantic Foundation for Multi-Agent Collaboration",
-      "summary": "AI agents can each make locally valid decisions yet jointly produce an invalid result. We call this the global coherence problem: a failure of shared state, not merely of model intelligence. Our Observation-Aliasing Impossibility Theorem gives the exact boundary. A policy can guarantee a valid action exactly when all worlds producing the same observation share an admissible action. If k indistinguishable worlds require pairwise-disjoint actions, the best randomized worst-case success is 1/k; more reasoning, roles, messages, or samples cannot recover the missing distinction. A stronger model can reason better within its context, but it cannot see beyond it. We then give local-to-global runtime semantics X = (H, C, G, F; D): topology H records overlapping scopes; category C governs state-changing actions; groupoid G retains reversible translations; sheaf F tests whether local views glue into one world; and minimal history D keeps only distinctions that alter legal futures. Models propose; the harness owns shared state and governs commit. Nine studies test both the failure and its boundary. On a controlled revision benchmark, the same frontier model scores 40/40 when the deciding event is visible; when it is hidden, tested arms score 12--17/40, consistent with chance (1/3); restoring one authoritative fact returns 40/40. On TeamBench, ordinary teams exceed a shared budget in 5/5 runs, a visible live count leaves 4/5 violations, and commit enforcement leaves 0/5. In tau2-bench Telecom, current-state checks score 0.07 after silent reverts, while the harness scores 1.00. Where a conventional solver already owns the complete relevant state, it ties the harness as predicted. The counterintuitive conclusion is that local intelligence cannot substitute for missing global state.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 에이전트·도구 사용입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "에이전트가 계획을 세우고 외부 도구를 호출하는 과정에서 선택 오류가 연쇄적으로 커지고 장기 작업의 안정성이 떨어질 수 있습니다.",
-      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 핵심 검증 대상은 에이전트·도구 사용의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02036v1",
-      "published_at": "2026-10-01T16:49:40+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Xin Heng"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Agents & Tool Use",
-        "ai agent",
-        "multi-agent"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Agents & Tool Use",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "에이전트·도구 사용",
-      "classification_confidence": 0.792,
-      "matched_terms": [
-        "ai agent",
-        "multi-agent"
-      ],
-      "importance_score": 78,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02033",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Relative Transitions, Not Absolute Destinations: A Transfer-and-Ground Framework for Target-Trajectory-Free Human Mobility Generation",
-      "summary": "Individual mobility trajectories support urban analysis and location-based services, yet most trajectory generators require observations from their deployment city. This assumption excludes precisely the cities where trajectories are unavailable even though points of interest (POIs) and their attributes can be obtained from public maps. We study target-trajectory-free generation: learning from POIs and trajectories in source cities while utilizing only POI coordinates and categories in a target city, with no target trajectory or trajectory-derived statistic available for training, model selection, or generation. Existing trajectory generators typically predict absolute destinations, entangling reusable movement behavior with city-specific POI identities and spatial layouts. Our core insight is to replace this city-bound output with context-conditioned relative transitions. We propose Nomad, a transfer-and-ground framework that separates learning how people move from determining where those movements are realized. Specifically, a history-conditioned flow-matching model learns from source trajectories a transition prior over semantic displacement between POI contexts, geographic displacement, and elapsed time; at inference, a behavior graph and an exploration--return walk ground sampled transitions onto the target POI map. This factorization enables a direct test of representation level transferability without assuming invariance of the full mobility distribution. Extensive experiments across ten cities and 14 transfers show that Nomad outperforms adaptation baselines in trajectory fidelity and downstream utility, lowering the average error over the best baseline of each metric by about 15% in distributional fidelity and about 3% in downstream utility.",
-      "summary_ko": "학습 방법·이론 분야에 속하며 핵심 연구 주제는 일반 머신러닝입니다. 학습·추론 비용을 낮추면서 성능을 유지하거나 높이는 방법을 제안합니다.",
-      "motivation_ko": "새로운 데이터 분포에서도 성능이 유지되고 학습 결과를 재현할 수 있는 일반화가 핵심 과제입니다. 실제 환경으로 옮겼을 때 발생하는 성능 저하를 줄이는 것이 핵심 동기입니다.",
-      "contribution_ko": "이론적 분석과 검증 가능한 조건을 제시해 방법이 작동하는 범위와 한계를 설명합니다. 특히 새로운 데이터와 환경으로의 일반화 성능을 검증하는 데 초점을 둡니다.",
-      "url": "https://arxiv.org/abs/2610.02033v1",
-      "published_at": "2026-10-01T16:49:30+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Yidi Wang",
-        "Yunhe Zhang",
-        "Bangchao Deng",
-        "Dingqi Yang",
-        "Pengyang Wang"
-      ],
-      "keywords": [
-        "Learning & Theory",
-        "General Machine Learning",
-        "cs.LG"
-      ],
-      "primary_topic": "Learning & Theory",
-      "secondary_topic": "General Machine Learning",
-      "primary_topic_ko": "학습 방법·이론",
-      "secondary_topic_ko": "일반 머신러닝",
-      "classification_confidence": 0.38,
-      "matched_terms": [
-        "cs.LG"
-      ],
-      "importance_score": 73,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02023",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "SPHERE: Adaptive VR Indoor Scene Generation via LLM-Enhanced Spatial Preference Learning and Human-in-the-Loop RL",
-      "summary": "While Large Language Models (LLMs) advance 3D indoor scene synthesis, current pipelines fail to retain user-specific preferences across sessions, making immersive authoring a repetitive and physically fatiguing process. We present SPHERE, an adaptive VR generation framework that transforms isolated synthesis into continuous human-AI co-creation. SPHERE extracts persistent spatial preferences from natural multimodal interactions (speech and controller edits). To ensure geometric resilience against spatial distortions, it abstracts these raw edits into hierarchical constraints modeling both local functional and global topological contexts. Furthermore, a human-in-the-loop reinforcement learning mechanism dynamically updates retrieval policies based on the user's final edited scenes. A mixed-design user study ($N=42$) and an offline ablation demonstrate that SPHERE significantly reduces corrective edits and physical demand, preventing bias toward shallow object-level traits to yield geometrically resilient, profile-aligned layouts. Ultimately, SPHERE demonstrates how capturing demonstrated spatial logic enables controlled spatial adaptation, establishing a reliable, governed human-AI collaboration framework for immersive authoring. Project page and source code will be available at: https://github.com/hyeonmin11/SPHERE",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 텍스트와 이미지 등 여러 입력을 함께 이해하고 연결하는 방법을 다룹니다.",
-      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
-      "contribution_ko": "여러 구성 요소를 연결한 시스템 또는 파이프라인을 구현해 실제 사용과 반복 실험이 가능한 형태로 제시합니다. 핵심 검증 대상은 언어 모델의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2610.02023v1",
-      "published_at": "2026-10-01T16:43:27+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Hyeonmin Lee",
-        "Zheng Wei",
-        "Kyungmin Kwon",
-        "Jumin Seo",
-        "Jiwon Park",
-        "Hayoung Oh"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Language Models",
-        "language model",
-        "large language model"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Language Models",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "언어 모델",
-      "classification_confidence": 0.834,
-      "matched_terms": [
-        "language model",
-        "large language model",
-        "llm"
-      ],
-      "importance_score": 90,
-      "importance_label": "핵심",
-      "importance_reason": "급상승 주제 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2610.02022",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Old Ideas, Novel Problems: The Instability of LLM-Based Novelty Evaluation",
-      "summary": "Automated ideation systems are often evaluated on the novelty of the ideas they produce, and that judgment is increasingly delegated to large language models. Such judges are typically built ad hoc and validated, if at all, on human-authored papers rather than on the generated ideas they are meant to score. So, how do novelty judges perform? Not well. We present a systematic controlled study of novelty evaluation design choices. We first build an evaluation set automatically, mining OpenReview for passages where reviewers explicitly affirm or dispute a paper's originality and keeping only submissions with unanimous agreement at the extremes of their research area; we pair these with ideas from a vanilla LLM generator. Across six judges, we find that small prompt design choices have large consequences; e.g., simply telling the judge that reviewers found one idea novel and the other not can change its verdict on more than half of the identical idea pairs it is shown, shifting pairwise accuracy by over 50 points and occasionally pushing it below chance. The same change helps one judge and hurts another. Retrieval and larger reasoning budgets help little, and two purpose-built novelty evaluators are outperformed by our cheapest prompted baseline. These results raise questions about reported novelty gains of automated ideation systems, and call for robust novelty evaluation methods.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
-      "contribution_ko": "여러 구성 요소를 연결한 시스템 또는 파이프라인을 구현해 실제 사용과 반복 실험이 가능한 형태로 제시합니다. 특히 안전성·강건성·신뢰성 측면의 실패를 줄이는 데 기여합니다.",
-      "url": "https://arxiv.org/abs/2610.02022v1",
-      "published_at": "2026-10-01T16:43:18+00:00",
-      "date_label": "2026.10.01",
-      "authors": [
-        "Noy Sternlicht",
-        "Simra Shahid",
-        "Peter Jansen",
-        "Daniel S. Weld",
-        "Pao Siangliulue",
-        "Tom Hope"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Language Models",
-        "language model",
-        "large language model"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Language Models",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "언어 모델",
-      "classification_confidence": 0.834,
-      "matched_terms": [
-        "language model",
-        "large language model",
-        "llm"
-      ],
-      "importance_score": 90,
-      "importance_label": "핵심",
-      "importance_reason": "급상승 주제 · 신규 논문"
-    },
-    {
-      "external_id": "rss:openai-news:637d3dfa247fa816a4c4160f",
-      "type": "news",
-      "source": "OpenAI News",
-      "title": "How Albertsons Companies is reimagining retail from the inside out",
-      "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-      "summary_ko": "OpenAI News가 공개한 소식으로, 미분류 분야의 분류 검토 필요 변화에 초점을 둡니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
-      "motivation_ko": "새 연구 결과나 시스템이 기존 접근법의 어떤 한계를 해결하며 실제 적용에 어떤 변화를 만드는지 확인할 필요가 있습니다.",
-      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 제안된 접근법의 성능과 실제 적용 가능성입니다.",
-      "url": "https://openai.com/index/albertsons-reimagining-retail",
-      "published_at": "2026-10-01T16:00:00+00:00",
-      "date_label": "2026.10.01",
-      "authors": [],
-      "keywords": [
-        "Unclassified",
-        "Needs Review"
-      ],
-      "primary_topic": "Unclassified",
-      "secondary_topic": "Needs Review",
-      "primary_topic_ko": "미분류",
-      "secondary_topic_ko": "분류 검토 필요",
-      "classification_confidence": 0.18,
-      "matched_terms": [],
-      "importance_score": 46,
-      "importance_label": "일반",
-      "importance_reason": "주요 연구 채널"
-    },
-    {
-      "external_id": "rss:hugging-face:f928531f963725197f57d3d7",
-      "type": "news",
-      "source": "Hugging Face",
-      "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
-      "summary": "",
-      "summary_ko": "Hugging Face가 공개한 소식으로, 미분류 분야의 분류 검토 필요 변화에 초점을 둡니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
-      "motivation_ko": "새 연구 결과나 시스템이 기존 접근법의 어떤 한계를 해결하며 실제 적용에 어떤 변화를 만드는지 확인할 필요가 있습니다.",
-      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 제안된 접근법의 성능과 실제 적용 가능성입니다.",
-      "url": "https://huggingface.co/blog/allenai/olmocore3",
-      "published_at": "2026-10-01T15:01:43+00:00",
-      "date_label": "2026.10.01",
-      "authors": [],
-      "keywords": [
-        "Unclassified",
-        "Needs Review"
-      ],
-      "primary_topic": "Unclassified",
-      "secondary_topic": "Needs Review",
-      "primary_topic_ko": "미분류",
-      "secondary_topic_ko": "분류 검토 필요",
-      "classification_confidence": 0.18,
-      "matched_terms": [],
-      "importance_score": 42,
-      "importance_label": "일반",
-      "importance_reason": "일반 연구 신호"
-    },
-    {
-      "external_id": "rss:openai-news:2167384f51e2a4466793a69c",
-      "type": "news",
-      "source": "OpenAI News",
-      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
-      "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
-      "summary_ko": "OpenAI News가 공개한 소식으로, 미분류 분야의 분류 검토 필요 변화에 초점을 둡니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
-      "motivation_ko": "새 연구 결과나 시스템이 기존 접근법의 어떤 한계를 해결하며 실제 적용에 어떤 변화를 만드는지 확인할 필요가 있습니다.",
-      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 제안된 접근법의 성능과 실제 적용 가능성입니다.",
-      "url": "https://openai.com/index/the-den-family-social",
-      "published_at": "2026-10-01T00:00:00+00:00",
-      "date_label": "2026.10.01",
-      "authors": [],
-      "keywords": [
-        "Unclassified",
-        "Needs Review"
-      ],
-      "primary_topic": "Unclassified",
-      "secondary_topic": "Needs Review",
-      "primary_topic_ko": "미분류",
-      "secondary_topic_ko": "분류 검토 필요",
-      "classification_confidence": 0.18,
-      "matched_terms": [],
-      "importance_score": 46,
-      "importance_label": "일반",
-      "importance_reason": "주요 연구 채널"
-    },
-    {
-      "external_id": "rss:google-deepmind:ce56aa83d0064ef1be25967d",
-      "type": "news",
-      "source": "Google DeepMind",
-      "title": "Gemini 4 Argon: our next era of frontier intelligence",
-      "summary": "",
-      "summary_ko": "Google DeepMind가 공개한 소식으로, 미분류 분야의 분류 검토 필요 변화에 초점을 둡니다. 새로운 방법과 실험 결과, 실제 활용 가능성을 중심으로 핵심 내용을 살펴봅니다.",
-      "motivation_ko": "새 연구 결과나 시스템이 기존 접근법의 어떤 한계를 해결하며 실제 적용에 어떤 변화를 만드는지 확인할 필요가 있습니다.",
-      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 핵심 검증 대상은 제안된 접근법의 성능과 실제 적용 가능성입니다.",
-      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-      "published_at": "2026-09-30T20:01:45+00:00",
-      "date_label": "2026.09.30",
-      "authors": [],
-      "keywords": [
-        "Unclassified",
-        "Needs Review"
-      ],
-      "primary_topic": "Unclassified",
-      "secondary_topic": "Needs Review",
-      "primary_topic_ko": "미분류",
-      "secondary_topic_ko": "분류 검토 필요",
-      "classification_confidence": 0.18,
-      "matched_terms": [],
-      "importance_score": 46,
-      "importance_label": "일반",
-      "importance_reason": "주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2609.40362",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Multimodal Flow: Unified Flow Modeling of Language and Vision in Embedding Spaces",
-      "summary": "We present Multimodal Flow, a fully continuous generative model of language and vision. Most unified multimodal models either model both language and quantized images as discrete tokens or combine discrete language prediction with continuous image generation. The former introduces a visual quantization bottleneck. The latter requires modality-dependent objectives and sampling procedures. Fully continuous modeling avoids these trade-offs and enables a shared generative process, but remains underexplored for multimodal pretraining. Multimodal Flow introduces a unified continuous architecture that integrates multimodal continuous representations with a shared chunk-causal flow backbone. It organizes text blocks and images as ordered continuous hyperchunks, preserving textual token order and visual spatial structure. The backbone learns a single vector field over these hyperchunks through Flow Matching. Joint attention enables cross-modal interaction, while modality-specific feed-forward networks process each modality. The model predicts multiple target chunks in parallel during training and generates hyperchunks sequentially at inference. We instantiate MF-1 and pretrain it on multimodal data. Across 0.6B, 1.2B, and 1.6B scales, continued pretraining consistently improves multimodal modeling. With only 150B pretraining tokens, MF-1 achieves an average score of 82.8 across GenEval and DPG-Bench and 75.3 across VQAv2, MMBench, and POPE, remaining competitive with unified models trained on substantially more data. Under matched data, optimization, and parameter budgets, Multimodal Flow further outperforms representative hybrid and discrete models. These results establish continuous chunk-based embedding flow modeling as a new fully continuous paradigm for unified multimodal modeling. The related code and model are publicly released at https://github.com/hustvl/Multimodal-Flow.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 멀티모달 파운데이션 모델입니다. 텍스트와 이미지 등 여러 입력을 함께 이해하고 연결하는 방법을 다룹니다.",
-      "motivation_ko": "텍스트·이미지·음성 간 표현을 정확히 정렬하고 서로 다른 입력을 근거 있게 결합하는 일이 여전히 어렵습니다.",
-      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
-      "url": "https://arxiv.org/abs/2609.40362v1",
-      "published_at": "2026-09-30T17:59:57+00:00",
-      "date_label": "2026.09.30",
-      "authors": [
-        "Hongyuan Tao",
-        "Xinggang Wang",
-        "Lianghui Zhu",
-        "Yongkang Li",
-        "Yunchao Wei",
-        "Bin Feng",
-        "Shaoyu Chen",
-        "Qian Zhang",
-        "Chang Huang",
-        "Kai Yu"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Multimodal Foundation Models",
-        "multimodal"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Multimodal Foundation Models",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "멀티모달 파운데이션 모델",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "multimodal"
-      ],
-      "importance_score": 55,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2609.40361",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Ranking-Aware Prompt Optimization for Multimodal Clinical Diagnosis",
-      "summary": "Multimodal large language models (MLLMs) are rapidly advancing clinical diagnosis, yet their adaptation pipelines remain anchored to accuracy-based objectives. Clinical data are heavily class-imbalanced: a constant-majority predictor can score above 90% accuracy while being clinically useless. We therefore evaluate and optimize for AUROC, a threshold-free score that ranks positives above negatives and is invariant to class balance. We focus on prompt optimization in MLLMs. Reflective methods such as GEPA use a binary scores matrix with one row per evaluation instance and one column per candidate prompt; cells record per-instance correctness, so the column average is accuracy and drives candidate selection. We introduce pair-level Pareto prompt evolution (Ranking-PE), which replaces each correctness row with a pairwise-ordering row over (positive, negative) instance pairs: the cell is 1 if the candidate scores the positive higher than the paired negative. The column average then equals empirical AUROC (by the Wilcoxon-Mann-Whitney identity). We apply this swap at all three layers the prompt evolution search reads from - the scores matrix that decides Pareto dominance, the per-example feedback to the reflection LM, and final candidate selection - at no extra model calls and with no surrogate loss. Across three diseases on MIMIC, accuracy-based prompt evolution can degrade ranking; Ranking-PE reverses this, beating the accuracy-based recipe by +5.8 AUROC pp on fine-tuned Qwen3-VL-8B and +16.2 pp on MedGemma-4B. Ablations examine each design component and show that a medical-grade visual backbone - via vision-encoder-tuned SFT or medical pretraining - is a prerequisite that prompt search cannot replace - our recipe extends reflective prompt evolution from text-only data to multimodal clinical decision-making.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 멀티모달 파운데이션 모델입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "텍스트·이미지·음성 간 표현을 정확히 정렬하고 서로 다른 입력을 근거 있게 결합하는 일이 여전히 어렵습니다.",
-      "contribution_ko": "여러 구성 요소를 연결한 시스템 또는 파이프라인을 구현해 실제 사용과 반복 실험이 가능한 형태로 제시합니다. 핵심 검증 대상은 멀티모달 파운데이션 모델의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2609.40361v1",
-      "published_at": "2026-09-30T17:59:56+00:00",
-      "date_label": "2026.09.30",
-      "authors": [
-        "Tian Xia",
-        "Minghao Liu",
-        "Yiqing Liang",
-        "Laixi Shi",
-        "Jiayun Wang"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Multimodal Foundation Models",
-        "multimodal"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Multimodal Foundation Models",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "멀티모달 파운데이션 모델",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "multimodal"
-      ],
-      "importance_score": 55,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2609.40360",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Semifactual Credit-Augmented Policy Optimization",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) has improved the reasoning capabilities of large language models (LLMs), yet their predictions remain sensitive to task-irrelevant prompt features. We investigate this sensitivity through semifactual prompt interventions that preserve the underlying problem and its answer. Our analysis reveals substantial variation in token-level sensitivity and shows that suppressing high-drift token candidates during decoding improves reasoning accuracy without updating model weights. These findings highlight a limitation of Group Relative Policy Optimization (GRPO), which assigns the same outcome-derived advantage to every response token and may reinforce potential spurious dependence alongside useful reasoning. Motivated by this observation, we introduce Semifactual Credit-Augmented Policy Optimization (SCAPO), a causally inspired variant of GRPO that incorporates semifactual stability into token-level credit assignment. SCAPO measures token probability drift for fixed responses under semifactual interventions and uses normalized stability scores to reduce advantages for relatively unstable tokens during early training, while granting no additional credit for stability alone. On Qwen3-4B-Base and Qwen3-1.7B-Base, SCAPO improves AIME 2024-2026 accuracy over GRPO by 5.63 and 4.17 percentage points, respectively. At both model scales, SCAPO achieves the best results on most evaluated mathematics benchmarks and all evaluated out-of-distribution benchmarks among the compared methods. These results suggest that semifactual stability provides an effective training signal for improving reasoning and generalization through finer-grained credit assignment in RLVR. The code is available at https://github.com/DtYXs/SCAPO.",
-      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 강화학습입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "희소하거나 잘못 설계된 보상 아래에서 표본 효율과 정책 안정성을 동시에 얻기 어렵습니다.",
-      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 특히 새로운 데이터와 환경으로의 일반화 성능을 검증하는 데 초점을 둡니다.",
-      "url": "https://arxiv.org/abs/2609.40360v1",
-      "published_at": "2026-09-30T17:59:56+00:00",
-      "date_label": "2026.09.30",
-      "authors": [
-        "Junshu Pan",
-        "Zhizhang Fu",
-        "Shulin Huang",
-        "Yiran Ding",
-        "Zifan Cheng",
-        "Wenqi Shao",
-        "Qiaosheng Zhang",
-        "Yue Zhang"
-      ],
-      "keywords": [
-        "Embodied & Decision AI",
-        "Reinforcement Learning",
-        "reinforcement learning",
-        "policy optimization"
-      ],
-      "primary_topic": "Embodied & Decision AI",
-      "secondary_topic": "Reinforcement Learning",
-      "primary_topic_ko": "로보틱스·의사결정 AI",
-      "secondary_topic_ko": "강화학습",
-      "classification_confidence": 0.792,
-      "matched_terms": [
-        "reinforcement learning",
-        "policy optimization"
-      ],
-      "importance_score": 68,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2609.40359",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Removing Timing Shortcuts Improves Non-Invasive Brain-to-Text",
-      "summary": "We find that major reported improvements in decoding words from non-invasive brain recordings are largely reproducible without any brain data. In the influential work of d'Ascoli et al. (2025), time series of brain activity from subjects perceiving continuous speech are segmented into fixed-length windows starting at each word. A neural network then generates predictions for all of the words in a sentence together. Neighbouring windows partially overlap, implicitly revealing the interval between words. Since these intervals indicate the duration of the words spoken, and different words tend to have different durations - for example, \"the\" is much shorter than \"supercalifragilisticexpialidocious\" - the neural network can improve its predictions of words without relying on the underlying brain activity. Consistent with this, the method reaches 22.0% balanced accuracy on synthetic signals containing no brain information, compared with 22.3% on real brain recordings. To prevent the network from learning this shortcut, we make a single, simple change. Instead of jointly encoding all windows in a sentence, we process each independently. As a result, the neural network achieves better performance by learning underlying word-specific information from brain recordings. This makes two existing strategies become much more effective than before. Both aggregating predictions from distinct neural responses to the same word and using a pretrained LLM as a linguistic prior now substantially improve results. On our perceived speech benchmark, this simple recipe (SimpleB2T) achieves a word error rate of 36.6% with five observations per word, approaching past invasive speech decoding performance, albeit under different conditions. The results in this work expose an important shortcut in brain-to-text decoding and show that removing it leads to a simple and considerably more effective strategy.",
-      "summary_ko": "파운데이션 모델 분야에 속하며 핵심 연구 주제는 언어 모델입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "긴 문맥과 새로운 도메인에서 언어 모델의 정확성·일관성이 쉽게 흔들리고, 학습 및 추론 비용도 크다는 문제가 있습니다.",
-      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 핵심 검증 대상은 언어 모델의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2609.40359v1",
-      "published_at": "2026-09-30T17:59:52+00:00",
-      "date_label": "2026.09.30",
-      "authors": [
-        "Dulhan Jayalath",
-        "Oiwi Parker Jones"
-      ],
-      "keywords": [
-        "Foundation Models",
-        "Language Models",
-        "llm"
-      ],
-      "primary_topic": "Foundation Models",
-      "secondary_topic": "Language Models",
-      "primary_topic_ko": "파운데이션 모델",
-      "secondary_topic_ko": "언어 모델",
-      "classification_confidence": 0.58,
-      "matched_terms": [
-        "llm"
-      ],
-      "importance_score": 88,
-      "importance_label": "핵심",
-      "importance_reason": "급상승 주제 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2609.40358",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model",
-      "summary": "Video world models are expected to predict how the physical world evolves, yet they often produce visually plausible videos that violate basic physical principles. Existing approaches commonly assume that natural language is insufficient to represent the physical knowledge required for reliable generation, and therefore introduce additional visual, latent, numerical, or planning-based signals. We revisit this assumption and introduce Physis-Lang, a self-evolving framework that treats physical language as a shared and optimizable representation across data curation, model training, and video generation. Physis-Lang represents physical processes through language that describes their relevant entities, causes, interactions, governing principles, temporal evolution, and effects. To improve this representation, we construct PhysCapBench, which decomposes physical processes into atomic assertions and evaluates captions using recall and precision. An agentic loop iteratively analyzes assertion-level errors and refines the instruction used to produce physical captions. Physis-Lang further converts model deficiencies into textual descriptions and uses language-guided retrieval to identify visually diverse videos that cover missing physical processes. Experiments on four widely used physical video benchmarks with Wan and Cosmos backbones demonstrate consistent improvements in physical plausibility. Notably, starting from open-source Cosmos3-Nano backbones, our Physis-Lang-enhanced models surpass the leading proprietary Veo 3.1 model.",
-      "summary_ko": "로보틱스·의사결정 AI 분야에 속하며 핵심 연구 주제는 월드 모델입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "환경의 동역학을 압축해 예측하면서도 장기 롤아웃에서 누적 오차를 억제해야 합니다.",
-      "contribution_ko": "새 벤치마크와 평가 기준을 제안해 기존 방법의 강점·실패 유형을 동일한 조건에서 비교하도록 합니다. 핵심 검증 대상은 월드 모델의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2609.40358v1",
-      "published_at": "2026-09-30T17:59:51+00:00",
-      "date_label": "2026.09.30",
-      "authors": [
-        "Liming Lu",
-        "Xianzheng Ma",
-        "Wenkun He",
-        "Guanqi Zhan",
-        "Yilin Zhao",
-        "Junyu Chen",
-        "Mengyao Xu",
-        "Jiaojiao Fan",
-        "Wenhang Ge",
-        "Yuchao Gu",
-        "Yunze Liu",
-        "Boyi Li",
-        "Zhen Dong",
-        "Victor Prisacariu",
-        "Ming-Yu Liu",
-        "Song Han",
-        "Han Cai"
-      ],
-      "keywords": [
-        "Embodied & Decision AI",
-        "World Models",
-        "world model"
-      ],
-      "primary_topic": "Embodied & Decision AI",
-      "secondary_topic": "World Models",
-      "primary_topic_ko": "로보틱스·의사결정 AI",
-      "secondary_topic_ko": "월드 모델",
-      "classification_confidence": 0.74,
-      "matched_terms": [
-        "world model"
-      ],
-      "importance_score": 66,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2609.40356",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "ViTeX-Bench: Benchmarking High-Fidelity Video Scene Text Editing",
-      "summary": "Recent video generation is increasingly realistic and controllable, yet video editing remains less developed, particularly for precise local edits that must preserve the original scene dynamics. Video scene text editing replaces text on scene surfaces, such as storefront signs, whiteboards, and product labels, while preserving the surrounding content, motion, and camera dynamics. Although scene text editing is well studied for images, video scene text editing that achieves high visual quality, temporal consistency, and edit locality remains underexplored. Existing resources offer limited paired real-video data, and general video-editing metrics do not directly measure whether the requested text remains correct over time. We introduce ViTeX-Bench, a benchmark suite comprising ViTeX-Dataset and a three-axis evaluation protocol. The dataset contains 387 real-world 720p videos with text-region masks and editing instructions: 230 provide reviewed, pipeline-generated paired edits for training, and 157 form a frozen evaluation split. The protocol evaluates text correctness, visual and temporal quality, and edit locality through 13 metrics, with one primary metric per axis and a Pareto comparison of their trade-offs. OCR calibration, human evaluation, and annotation-sensitivity analyses support the interpretation of these scores. Across eight baselines from four editing families, accurate text, temporal stability, and scene preservation remain difficult to achieve together. We also release ViTeX-Edit-14B, an open-source reference editor fine-tuned on the paired training split with motion-aligned glyph-video conditioning. It achieves CharAcc 0.688, the highest mean among the evaluated video-native editors, and the lowest comparable text-crop Warp among raw editor outputs. ViTeX-Bench provides a reproducible foundation for studying these trade-offs in video scene text editing.",
-      "summary_ko": "AI 시스템·평가 분야에 속하며 핵심 연구 주제는 평가·벤치마크입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "기존 지표가 실제 사용 능력과 실패 유형을 충분히 반영하지 못해 모델 간 공정한 비교가 어렵습니다. 실제 환경으로 옮겼을 때 발생하는 성능 저하를 줄이는 것이 핵심 동기입니다.",
-      "contribution_ko": "새 데이터셋 또는 데이터 구성 절차를 제시해 학습과 평가에 사용할 수 있는 재현 가능한 기반을 넓힙니다. 핵심 검증 대상은 평가·벤치마크의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2609.40356v1",
-      "published_at": "2026-09-30T17:59:33+00:00",
-      "date_label": "2026.09.30",
-      "authors": [
-        "Xinghao Chen",
-        "Xiangbo Gao",
-        "Jiongze Yu",
-        "Yuheng Wu",
-        "Zhengzhong Tu"
-      ],
-      "keywords": [
-        "AI Systems & Evaluation",
-        "Evaluation & Benchmarks",
-        "benchmark",
-        "evaluation"
-      ],
-      "primary_topic": "AI Systems & Evaluation",
-      "secondary_topic": "Evaluation & Benchmarks",
-      "primary_topic_ko": "AI 시스템·평가",
-      "secondary_topic_ko": "평가·벤치마크",
-      "classification_confidence": 0.834,
-      "matched_terms": [
-        "benchmark",
-        "evaluation",
-        "human evaluation"
-      ],
-      "importance_score": 76,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 신규 논문"
-    },
-    {
-      "external_id": "arxiv:2609.40353",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "AssemblyWorld: Rethinking 3D Assembly with General-Purpose Agents",
-      "summary": "The task of 3D assembly requires translating an understanding of parts and their relationships into precise spatial arrangements. Can pretrained general-purpose agents assemble objects through visual interaction without additional assembly-specific fine-tuning? To investigate this question, we introduce AssemblyWorld, an interactive 3D environment in which agents inspect rendered views and manipulate supplied rigid parts, guided by images or assembly manuals when available. Agents perceive part geometry through 2D views rather than direct access to mesh vertices or faces, while their resulting assemblies are evaluated geometrically. Building on this environment, we construct AssemblyWorldBench, comprising 100 assembly tasks across 80 objects spanning furniture, industrial assembly, and fracture reassembly. Evaluating eight agent systems reveals substantial differences in their capabilities. The strongest system achieves 80.9% part accuracy but 59.4% complete-assembly success. The evaluated open-source systems lag substantially behind their stronger closed-source peers in both execution reliability and assembly accuracy. Analyses of visual references, interaction trajectories, and failures show how agents revise assemblies while leaving residual positioning errors. AssemblyWorld provides a common setting for both assessing the capabilities of interactive assembly agents and characterizing the gap between approximate structure recovery and precise reconstruction.",
-      "summary_ko": "비전·생성 미디어 분야에 속하며 핵심 연구 주제는 인지·인식입니다. 에이전트의 계획, 도구 선택과 실행 과정의 정확성·안정성을 살펴봅니다.",
-      "motivation_ko": "실제 환경의 가림·노이즈·분포 변화에서도 객체와 장면을 안정적으로 인식해야 합니다.",
-      "contribution_ko": "여러 구성 요소를 연결한 시스템 또는 파이프라인을 구현해 실제 사용과 반복 실험이 가능한 형태로 제시합니다. 핵심 검증 대상은 인지·인식의 성능과 실제 적용 가능성입니다.",
-      "url": "https://arxiv.org/abs/2609.40353v1",
-      "published_at": "2026-09-30T17:59:14+00:00",
-      "date_label": "2026.09.30",
-      "authors": [
-        "Jiahao Zhang",
-        "Yeying Fan",
-        "Moitreya Chatterjee",
-        "Suhas Lohit",
-        "Bernhard Egger",
-        "Tim K. Marks",
-        "Anoop Cherian",
-        "Stephen Gould"
-      ],
-      "keywords": [
-        "Vision & Generative Media",
-        "Perception & Recognition",
-        "cs.CV"
-      ],
-      "primary_topic": "Vision & Generative Media",
-      "secondary_topic": "Perception & Recognition",
-      "primary_topic_ko": "비전·생성 미디어",
-      "secondary_topic_ko": "인지·인식",
-      "classification_confidence": 0.38,
-      "matched_terms": [
-        "cs.CV"
-      ],
-      "importance_score": 52,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
-    },
-    {
-      "external_id": "arxiv:2609.40347",
-      "type": "paper",
-      "source": "arXiv",
-      "title": "Image Classifiers are Efficient Self-Supervised Video Representation Learners",
-      "summary": "We introduce VideoMSN, a Masked Siamese Network framework for efficient self-supervised spatio-temporal representation learning in videos. Instead of relying on heavy 3D architectures or reconstruction-based autoencoders for learning with unlabeled data, we repurpose standard image Vision Transformers by representing videos as super images which are grids composed of frames sampled from videos. From each super image, we construct two views: one with spatial patch masking and the other with temporal frame masking, ensuring no information leakage across frames. A shared Vision Transformer (ViT) encoder aligns their embeddings using a masked Siamese loss, capturing both motion and appearance cues without reconstruction. Our decoder-free formulation leverages an image foundation model towards efficient video representation learning. Starting from pretrained DINO-v3 and DeiT-v3 image encoders, VideoMSN achieves state-of-the-art performance on Kinetics-400, UCF101, and HMDB51 while requiring up to $32\\times$ fewer and $160\\times$ fewer video pretraining epochs compared to prior video self-supervised learning methods. Our proposed approach also shows strong performance in low-shot classification, confirming the transferability of the learned representations in a label-scarce scenario. Project Page: https://cvir.github.io/projects/videomsn.",
-      "summary_ko": "학습 방법·이론 분야에 속하며 핵심 연구 주제는 표현학습·자기지도학습입니다. 모델과 방법의 성능을 측정하고 기존 접근법과 비교하는 데 초점을 둡니다.",
-      "motivation_ko": "라벨이 적은 환경에서도 전이 가능한 표현을 학습하고 불필요한 편향을 억제해야 합니다.",
-      "contribution_ko": "새 모델·학습법 또는 프레임워크를 제안하고 기존 접근법과의 실험 비교를 통해 효과를 검증합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
-      "url": "https://arxiv.org/abs/2609.40347v1",
-      "published_at": "2026-09-30T17:59:03+00:00",
-      "date_label": "2026.09.30",
-      "authors": [
-        "Owais Iqbal",
-        "Sudipta Sarkar",
-        "Shyam Marjit",
-        "Omprakash Chakraborty",
-        "Anirban Chakraborty",
-        "Abir Das"
-      ],
-      "keywords": [
-        "Learning & Theory",
-        "Representation & Self-Supervision",
-        "self-supervised",
-        "representation learning"
-      ],
-      "primary_topic": "Learning & Theory",
-      "secondary_topic": "Representation & Self-Supervision",
-      "primary_topic_ko": "학습 방법·이론",
-      "secondary_topic_ko": "표현학습·자기지도학습",
-      "classification_confidence": 0.792,
-      "matched_terms": [
-        "self-supervised",
-        "representation learning"
-      ],
-      "importance_score": 56,
-      "importance_label": "주목",
-      "importance_reason": "신규 논문 · 주요 연구 채널"
     }
   ],
   "conferences": [
@@ -12538,9 +12448,9 @@ window.RESEARCH_DATA = {
     {
       "name": "Google DeepMind",
       "kind": "뉴스",
-      "status": "정상",
-      "count": 80,
-      "message": ""
+      "status": "오류",
+      "count": 0,
+      "message": "ParseError: not well-formed (invalid token): line 1, column 0"
     },
     {
       "name": "Hugging Face",
@@ -12685,9 +12595,9 @@ window.RESEARCH_DATA = {
     {
       "name": "arXiv Stats · cs.CY",
       "kind": "논문",
-      "status": "오류",
-      "count": 0,
-      "message": "TimeoutError: The read operation timed out"
+      "status": "정상",
+      "count": 1,
+      "message": ""
     },
     {
       "name": "arXiv Stats · cs.HC",
@@ -12706,9 +12616,9 @@ window.RESEARCH_DATA = {
     {
       "name": "arXiv Stats · cs.LG",
       "kind": "논문",
-      "status": "오류",
-      "count": 0,
-      "message": "HTTPError: HTTP Error 429: Unknown Error"
+      "status": "정상",
+      "count": 1,
+      "message": ""
     },
     {
       "name": "arXiv Stats · cs.MA",
@@ -12741,9 +12651,9 @@ window.RESEARCH_DATA = {
     {
       "name": "arXiv Stats · stat.ML",
       "kind": "논문",
-      "status": "오류",
-      "count": 0,
-      "message": "TimeoutError: The read operation timed out"
+      "status": "정상",
+      "count": 1,
+      "message": ""
     },
     {
       "name": "Official Venues",
