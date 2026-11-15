@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-14T02:37:16+00:00",
+  "generated_at": "2026-11-15T02:03:42+00:00",
   "metrics": {
-    "today": 10,
+    "today": 1,
     "papers": 2690,
     "news": 737,
     "conferences": 12
@@ -61,7 +61,7 @@
       "primary": "Learning & Theory",
       "secondary": "General Machine Learning",
       "label": "General Machine Learning",
-      "score": 72,
+      "score": 70,
       "delta": "→ 유지",
       "count": 38
     },
@@ -69,32 +69,32 @@
       "primary": "Foundation Models",
       "secondary": "Multimodal Foundation Models",
       "label": "Multimodal Foundation Models",
-      "score": 51,
-      "delta": "↗ 1.3×",
+      "score": 50,
+      "delta": "↗ 1.4×",
       "count": 18
-    },
-    {
-      "primary": "Foundation Models",
-      "secondary": "Agents & Tool Use",
-      "label": "Agents & Tool Use",
-      "score": 48,
-      "delta": "→ 유지",
-      "count": 23
     },
     {
       "primary": "Embodied & Decision AI",
       "secondary": "Robotics & Manipulation",
       "label": "Robotics & Manipulation",
-      "score": 48,
-      "delta": "↓ 0.6×",
+      "score": 46,
+      "delta": "↓ 0.7×",
       "count": 27
+    },
+    {
+      "primary": "Foundation Models",
+      "secondary": "Agents & Tool Use",
+      "label": "Agents & Tool Use",
+      "score": 46,
+      "delta": "→ 유지",
+      "count": 23
     },
     {
       "primary": "Trustworthy AI",
       "secondary": "Robustness & Security",
       "label": "Robustness & Security",
-      "score": 46,
-      "delta": "↗ 1.6×",
+      "score": 44,
+      "delta": "↗ 1.7×",
       "count": 13
     },
     {
@@ -102,24 +102,18 @@
       "secondary": "Optimization & Compression",
       "label": "Optimization & Compression",
       "score": 37,
-      "delta": "↗ 1.2×",
+      "delta": "↗ 1.3×",
       "count": 11
     }
   ],
   "statistics": {
     "kpis": {
       "archived_items": 3427,
-      "active_sources": 23,
+      "active_sources": 22,
       "unique_authors": 13292,
       "classified_percent": 87
     },
     "daily_volume": [
-      {
-        "day": "2026-10-18",
-        "count": 0,
-        "papers": 0,
-        "news": 0
-      },
       {
         "day": "2026-10-19",
         "count": 82,
@@ -272,15 +266,21 @@
       },
       {
         "day": "2026-11-13",
-        "count": 10,
+        "count": 9,
         "papers": 0,
-        "news": 10
+        "news": 9
       },
       {
         "day": "2026-11-14",
-        "count": 1,
+        "count": 2,
         "papers": 0,
-        "news": 1
+        "news": 2
+      },
+      {
+        "day": "2026-11-15",
+        "count": 0,
+        "papers": 0,
+        "news": 0
       }
     ],
     "types": [
@@ -1182,6 +1182,40 @@
   },
   "items": [
     {
+      "external_id": "rss:nvidia-technical-blog:275224abf495b9e1132e9fb7",
+      "type": "news",
+      "source": "NVIDIA Technical Blog",
+      "title": "Run Native DLA Inference in Python on NVIDIA Jetson AGX Orin Using cuDLA",
+      "summary": "AI applications at the edge often need to run multiple neural networks within limited compute and power budgets. NVIDIA Deep Learning Accelerator (DLA)...",
+      "summary_ko": "NVIDIA Technical Blog가 공개한 소식으로, 로보틱스·의사결정 AI 분야의 로보틱스·조작 변화에 초점을 둡니다. 학습·추론 비용을 낮추면서 성능을 유지하거나 높이는 방법을 제안합니다.",
+      "motivation_ko": "시뮬레이션과 실제 환경의 차이, 장기 행동 계획의 오차 때문에 로봇 정책을 현실에 안정적으로 적용하기 어렵습니다.",
+      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
+      "url": "https://developer.nvidia.com/blog/run-native-dla-inference-in-python-on-nvidia-jetson-agx-orin-using-cudla/",
+      "published_at": "2026-11-14T16:38:36+00:00",
+      "date_label": "2026.11.14",
+      "authors": [
+        "Nikshay Shrivastava"
+      ],
+      "keywords": [
+        "Embodied & Decision AI",
+        "Robotics & Manipulation",
+        "robot",
+        "robotic"
+      ],
+      "primary_topic": "Embodied & Decision AI",
+      "secondary_topic": "Robotics & Manipulation",
+      "primary_topic_ko": "로보틱스·의사결정 AI",
+      "secondary_topic_ko": "로보틱스·조작",
+      "classification_confidence": 0.674,
+      "matched_terms": [
+        "robot",
+        "robotic"
+      ],
+      "importance_score": 74,
+      "importance_label": "높음",
+      "importance_reason": "주제 모멘텀 · 24시간 내"
+    },
+    {
       "external_id": "rss:nvidia-technical-blog:60d11f76ed8f58f21d6a18e7",
       "type": "news",
       "source": "NVIDIA Technical Blog",
@@ -1272,40 +1306,6 @@
       "importance_score": 53,
       "importance_label": "주목",
       "importance_reason": "24시간 내 · 주요 연구 채널"
-    },
-    {
-      "external_id": "rss:nvidia-technical-blog:275224abf495b9e1132e9fb7",
-      "type": "news",
-      "source": "NVIDIA Technical Blog",
-      "title": "Run Native DLA Inference in Python on NVIDIA Jetson AGX Orin Using cuDLA",
-      "summary": "AI applications at the edge often need to run multiple neural networks within limited compute and power budgets. NVIDIA Deep Learning Accelerator (DLA)...",
-      "summary_ko": "NVIDIA Technical Blog가 공개한 소식으로, 로보틱스·의사결정 AI 분야의 로보틱스·조작 변화에 초점을 둡니다. 학습·추론 비용을 낮추면서 성능을 유지하거나 높이는 방법을 제안합니다.",
-      "motivation_ko": "시뮬레이션과 실제 환경의 차이, 장기 행동 계획의 오차 때문에 로봇 정책을 현실에 안정적으로 적용하기 어렵습니다.",
-      "contribution_ko": "실험과 분석을 통해 기존 접근법의 동작 특성을 설명하고 개선 가능성을 뒷받침하는 근거를 제공합니다. 특히 계산량·메모리·지연 시간을 줄이면서 성능을 유지하는지가 기여의 핵심입니다.",
-      "url": "https://developer.nvidia.com/blog/run-native-dla-inference-in-python-on-nvidia-jetson-agx-orin-using-cudla/",
-      "published_at": "2026-11-13T18:57:35+00:00",
-      "date_label": "2026.11.13",
-      "authors": [
-        "Nikshay Shrivastava"
-      ],
-      "keywords": [
-        "Embodied & Decision AI",
-        "Robotics & Manipulation",
-        "robot",
-        "robotic"
-      ],
-      "primary_topic": "Embodied & Decision AI",
-      "secondary_topic": "Robotics & Manipulation",
-      "primary_topic_ko": "로보틱스·의사결정 AI",
-      "secondary_topic_ko": "로보틱스·조작",
-      "classification_confidence": 0.674,
-      "matched_terms": [
-        "robot",
-        "robotic"
-      ],
-      "importance_score": 74,
-      "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 24시간 내"
     },
     {
       "external_id": "rss:hugging-face:cdc8eef67bc55a0d0fa5ca86",
@@ -1507,9 +1507,9 @@
         "robot",
         "robotic"
       ],
-      "importance_score": 75,
+      "importance_score": 71,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 24시간 내"
+      "importance_reason": "주제 모멘텀 · 최신 자료"
     },
     {
       "external_id": "rss:nvidia-technical-blog:75ec3361be4baf3a7a9efbc7",
@@ -1539,9 +1539,9 @@
       "matched_terms": [
         "llm"
       ],
-      "importance_score": 91,
+      "importance_score": 87,
       "importance_label": "핵심",
-      "importance_reason": "급상승 주제 · 24시간 내"
+      "importance_reason": "급상승 주제 · 최신 자료"
     },
     {
       "external_id": "rss:microsoft-research:c17c8b8a85c8ad445af4c082",
@@ -1568,9 +1568,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 53,
-      "importance_label": "주목",
-      "importance_reason": "24시간 내 · 주요 연구 채널"
+      "importance_score": 49,
+      "importance_label": "일반",
+      "importance_reason": "최신 자료 · 주요 연구 채널"
     },
     {
       "external_id": "rss:openai-news:67672a694e389b29af5588bf",
@@ -1595,9 +1595,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 53,
-      "importance_label": "주목",
-      "importance_reason": "24시간 내 · 주요 연구 채널"
+      "importance_score": 49,
+      "importance_label": "일반",
+      "importance_reason": "최신 자료 · 주요 연구 채널"
     },
     {
       "external_id": "rss:hugging-face:84ec87286cb35a64f463f064",
@@ -1625,9 +1625,9 @@
       "matched_terms": [
         "llm"
       ],
-      "importance_score": 88,
+      "importance_score": 84,
       "importance_label": "핵심",
-      "importance_reason": "급상승 주제 · 24시간 내"
+      "importance_reason": "급상승 주제 · 최신 자료"
     },
     {
       "external_id": "arxiv:2611.17336",
@@ -1670,9 +1670,9 @@
         "video generation",
         "video diffusion"
       ],
-      "importance_score": 63,
+      "importance_score": 59,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2611.17334",
@@ -1713,7 +1713,7 @@
       "matched_terms": [
         "multimodal"
       ],
-      "importance_score": 79,
+      "importance_score": 75,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -1755,7 +1755,7 @@
         "neural network",
         "generalization"
       ],
-      "importance_score": 86,
+      "importance_score": 82,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -1797,7 +1797,7 @@
       "matched_terms": [
         "llm"
       ],
-      "importance_score": 96,
+      "importance_score": 92,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -1831,7 +1831,7 @@
       "matched_terms": [
         "vision language"
       ],
-      "importance_score": 78,
+      "importance_score": 74,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -1866,9 +1866,9 @@
       "matched_terms": [
         "reinforcement learning"
       ],
-      "importance_score": 61,
+      "importance_score": 57,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2611.17324",
@@ -1903,9 +1903,9 @@
         "video generation",
         "video diffusion"
       ],
-      "importance_score": 63,
+      "importance_score": 59,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2611.17323",
@@ -1939,7 +1939,7 @@
       "matched_terms": [
         "agentic"
       ],
-      "importance_score": 77,
+      "importance_score": 73,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -1972,9 +1972,9 @@
       "matched_terms": [
         "3d reconstruction"
       ],
-      "importance_score": 61,
+      "importance_score": 57,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2611.17320",
@@ -2010,7 +2010,7 @@
       "matched_terms": [
         "language model"
       ],
-      "importance_score": 96,
+      "importance_score": 92,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -2045,9 +2045,9 @@
         "3d generation",
         "spatial intelligence"
       ],
-      "importance_score": 63,
+      "importance_score": 59,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2611.17316",
@@ -2085,7 +2085,7 @@
       "matched_terms": [
         "cs.AI"
       ],
-      "importance_score": 75,
+      "importance_score": 71,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -2118,7 +2118,7 @@
       "matched_terms": [
         "neural network"
       ],
-      "importance_score": 86,
+      "importance_score": 82,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -2153,7 +2153,7 @@
       "matched_terms": [
         "language model"
       ],
-      "importance_score": 96,
+      "importance_score": 92,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -2187,9 +2187,9 @@
       "matched_terms": [
         "reasoning"
       ],
-      "importance_score": 61,
+      "importance_score": 57,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2611.17308",
@@ -2220,7 +2220,7 @@
       "matched_terms": [
         "benchmark"
       ],
-      "importance_score": 91,
+      "importance_score": 87,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -2255,7 +2255,7 @@
       "matched_terms": [
         "adversarial"
       ],
-      "importance_score": 77,
+      "importance_score": 72,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -2288,7 +2288,7 @@
       "matched_terms": [
         "benchmark"
       ],
-      "importance_score": 91,
+      "importance_score": 87,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -2326,9 +2326,9 @@
       "matched_terms": [
         "cs.CV"
       ],
-      "importance_score": 59,
+      "importance_score": 55,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2611.17297",
@@ -2367,7 +2367,7 @@
       "matched_terms": [
         "llm"
       ],
-      "importance_score": 96,
+      "importance_score": 92,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -2406,7 +2406,7 @@
       "matched_terms": [
         "evaluation"
       ],
-      "importance_score": 91,
+      "importance_score": 87,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -2444,9 +2444,9 @@
         "reinforcement learning",
         "policy optimization"
       ],
-      "importance_score": 63,
+      "importance_score": 59,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2611.17280",
@@ -2478,7 +2478,7 @@
       "matched_terms": [
         "llm"
       ],
-      "importance_score": 96,
+      "importance_score": 92,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -2520,7 +2520,7 @@
         "benchmark",
         "evaluation"
       ],
-      "importance_score": 93,
+      "importance_score": 89,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -2560,7 +2560,7 @@
         "large language model",
         "llm"
       ],
-      "importance_score": 98,
+      "importance_score": 94,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -2597,7 +2597,7 @@
         "large language model",
         "llm"
       ],
-      "importance_score": 97,
+      "importance_score": 93,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -2632,9 +2632,9 @@
       "matched_terms": [
         "mechanistic"
       ],
-      "importance_score": 61,
+      "importance_score": 57,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2611.17239",
@@ -2664,7 +2664,7 @@
       "matched_terms": [
         "llm"
       ],
-      "importance_score": 96,
+      "importance_score": 92,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -2711,7 +2711,7 @@
         "robot",
         "manipulation"
       ],
-      "importance_score": 79,
+      "importance_score": 75,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -2746,7 +2746,7 @@
         "large language model",
         "llm"
       ],
-      "importance_score": 98,
+      "importance_score": 94,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -2780,7 +2780,7 @@
       "matched_terms": [
         "distillation"
       ],
-      "importance_score": 75,
+      "importance_score": 71,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -2812,8 +2812,8 @@
       "matched_terms": [
         "cs.LG"
       ],
-      "importance_score": 83,
-      "importance_label": "핵심",
+      "importance_score": 79,
+      "importance_label": "높음",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
@@ -2847,7 +2847,7 @@
       "matched_terms": [
         "low-rank"
       ],
-      "importance_score": 74,
+      "importance_score": 70,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -2885,9 +2885,9 @@
       "matched_terms": [
         "medical imaging"
       ],
-      "importance_score": 61,
+      "importance_score": 57,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2611.17223",
@@ -2918,8 +2918,8 @@
       "matched_terms": [
         "cs.LG"
       ],
-      "importance_score": 83,
-      "importance_label": "핵심",
+      "importance_score": 79,
+      "importance_label": "높음",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
@@ -2951,7 +2951,7 @@
       "matched_terms": [
         "llm"
       ],
-      "importance_score": 96,
+      "importance_score": 92,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -2986,7 +2986,7 @@
       "matched_terms": [
         "adversarial"
       ],
-      "importance_score": 78,
+      "importance_score": 73,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -3023,7 +3023,7 @@
       "matched_terms": [
         "robot"
       ],
-      "importance_score": 78,
+      "importance_score": 74,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -3061,9 +3061,9 @@
       "matched_terms": [
         "efficient inference"
       ],
-      "importance_score": 61,
+      "importance_score": 57,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2611.17199",
@@ -3096,9 +3096,9 @@
       "matched_terms": [
         "representation learning"
       ],
-      "importance_score": 62,
+      "importance_score": 58,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "rss:google-deepmind:c7a410ad3b8628097c727867",
@@ -3123,9 +3123,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 53,
-      "importance_label": "주목",
-      "importance_reason": "24시간 내 · 주요 연구 채널"
+      "importance_score": 49,
+      "importance_label": "일반",
+      "importance_reason": "최신 자료 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.17196",
@@ -3158,7 +3158,7 @@
       "matched_terms": [
         "optimization"
       ],
-      "importance_score": 85,
+      "importance_score": 81,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -3196,7 +3196,7 @@
       "matched_terms": [
         "distillation"
       ],
-      "importance_score": 75,
+      "importance_score": 71,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -3229,7 +3229,7 @@
       "matched_terms": [
         "low-rank"
       ],
-      "importance_score": 74,
+      "importance_score": 70,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -3262,7 +3262,7 @@
       "matched_terms": [
         "benchmark"
       ],
-      "importance_score": 92,
+      "importance_score": 88,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -3298,9 +3298,9 @@
       "matched_terms": [
         "federated learning"
       ],
-      "importance_score": 62,
+      "importance_score": 58,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2611.17185",
@@ -3337,7 +3337,7 @@
       "matched_terms": [
         "evaluation"
       ],
-      "importance_score": 91,
+      "importance_score": 87,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -3372,7 +3372,7 @@
         "vision-language",
         "vlm"
       ],
-      "importance_score": 79,
+      "importance_score": 75,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -3408,9 +3408,9 @@
       "matched_terms": [
         "inference-time"
       ],
-      "importance_score": 61,
+      "importance_score": 57,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2611.17169",
@@ -3444,7 +3444,7 @@
       "matched_terms": [
         "benchmark"
       ],
-      "importance_score": 91,
+      "importance_score": 87,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -3485,7 +3485,7 @@
       "matched_terms": [
         "llm"
       ],
-      "importance_score": 95,
+      "importance_score": 91,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -3527,7 +3527,7 @@
         "benchmark",
         "evaluation"
       ],
-      "importance_score": 93,
+      "importance_score": 89,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -3562,7 +3562,7 @@
       "matched_terms": [
         "benchmark"
       ],
-      "importance_score": 91,
+      "importance_score": 87,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -3596,9 +3596,9 @@
       "matched_terms": [
         "retrieval-augmented"
       ],
-      "importance_score": 62,
+      "importance_score": 58,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2611.17160",
@@ -3643,7 +3643,7 @@
         "robotic",
         "embodied"
       ],
-      "importance_score": 79,
+      "importance_score": 75,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -3681,7 +3681,7 @@
         "robot",
         "manipulation"
       ],
-      "importance_score": 78,
+      "importance_score": 74,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -3717,7 +3717,7 @@
       "matched_terms": [
         "benchmark"
       ],
-      "importance_score": 92,
+      "importance_score": 88,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -3751,7 +3751,7 @@
       "matched_terms": [
         "benchmark"
       ],
-      "importance_score": 91,
+      "importance_score": 87,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -3788,7 +3788,7 @@
       "matched_terms": [
         "machine learning"
       ],
-      "importance_score": 85,
+      "importance_score": 81,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -3822,7 +3822,7 @@
       "matched_terms": [
         "optimization"
       ],
-      "importance_score": 85,
+      "importance_score": 81,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -3864,7 +3864,7 @@
       "matched_terms": [
         "manipulation"
       ],
-      "importance_score": 78,
+      "importance_score": 74,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -3896,7 +3896,7 @@
       "matched_terms": [
         "benchmark"
       ],
-      "importance_score": 91,
+      "importance_score": 87,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -3936,9 +3936,9 @@
       "matched_terms": [
         "clinical"
       ],
-      "importance_score": 62,
+      "importance_score": 58,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2611.17129",
@@ -3969,9 +3969,9 @@
       "matched_terms": [
         "federated learning"
       ],
-      "importance_score": 62,
+      "importance_score": 58,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2611.17128",
@@ -4004,7 +4004,7 @@
       "matched_terms": [
         "language model"
       ],
-      "importance_score": 96,
+      "importance_score": 92,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -4039,9 +4039,9 @@
       "matched_terms": [
         "cs.CV"
       ],
-      "importance_score": 59,
+      "importance_score": 55,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2611.17121",
@@ -4072,9 +4072,9 @@
       "matched_terms": [
         "protein"
       ],
-      "importance_score": 61,
+      "importance_score": 57,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2611.17116",
@@ -4105,8 +4105,8 @@
       "matched_terms": [
         "cs.LG"
       ],
-      "importance_score": 83,
-      "importance_label": "핵심",
+      "importance_score": 79,
+      "importance_label": "높음",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
@@ -4139,7 +4139,7 @@
       "matched_terms": [
         "language model"
       ],
-      "importance_score": 96,
+      "importance_score": 92,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -4171,7 +4171,7 @@
       "matched_terms": [
         "ai agent"
       ],
-      "importance_score": 77,
+      "importance_score": 73,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -4208,7 +4208,7 @@
       "matched_terms": [
         "deep learning"
       ],
-      "importance_score": 85,
+      "importance_score": 81,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -4247,7 +4247,7 @@
         "robot",
         "embodied"
       ],
-      "importance_score": 79,
+      "importance_score": 75,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -4280,7 +4280,7 @@
       "matched_terms": [
         "adversarial"
       ],
-      "importance_score": 78,
+      "importance_score": 73,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -4314,7 +4314,7 @@
       "matched_terms": [
         "llm"
       ],
-      "importance_score": 96,
+      "importance_score": 92,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -4349,7 +4349,7 @@
       "matched_terms": [
         "generalization"
       ],
-      "importance_score": 85,
+      "importance_score": 81,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -4387,8 +4387,8 @@
         "vision-language",
         "vlm"
       ],
-      "importance_score": 80,
-      "importance_label": "핵심",
+      "importance_score": 76,
+      "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
     {
@@ -4429,9 +4429,9 @@
       "matched_terms": [
         "cs.CV"
       ],
-      "importance_score": 59,
+      "importance_score": 55,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2611.17103",
@@ -4461,7 +4461,7 @@
       "matched_terms": [
         "pruning"
       ],
-      "importance_score": 74,
+      "importance_score": 70,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -4496,7 +4496,7 @@
         "deep learning",
         "neural network"
       ],
-      "importance_score": 86,
+      "importance_score": 82,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -4535,9 +4535,9 @@
       "matched_terms": [
         "climate"
       ],
-      "importance_score": 61,
+      "importance_score": 57,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 24시간 내"
+      "importance_reason": "신규 논문 · 최신 자료"
     },
     {
       "external_id": "arxiv:2611.17091",
@@ -4567,7 +4567,7 @@
       "matched_terms": [
         "language model"
       ],
-      "importance_score": 95,
+      "importance_score": 91,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -4594,9 +4594,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 53,
-      "importance_label": "주목",
-      "importance_reason": "24시간 내 · 주요 연구 채널"
+      "importance_score": 49,
+      "importance_label": "일반",
+      "importance_reason": "최신 자료 · 주요 연구 채널"
     },
     {
       "external_id": "rss:openai-news:4922ca6fb0dd92994c349853",
@@ -4621,9 +4621,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 53,
-      "importance_label": "주목",
-      "importance_reason": "24시간 내 · 주요 연구 채널"
+      "importance_score": 49,
+      "importance_label": "일반",
+      "importance_reason": "최신 자료 · 주요 연구 채널"
     },
     {
       "external_id": "rss:openai-news:65b96c238445cdedc96b3e82",
@@ -5814,7 +5814,7 @@
         "adversarial",
         "backdoor attack"
       ],
-      "importance_score": 75,
+      "importance_score": 74,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -6435,7 +6435,7 @@
         "adversarial",
         "robustness"
       ],
-      "importance_score": 74,
+      "importance_score": 73,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -6828,7 +6828,7 @@
         "language model",
         "large language model"
       ],
-      "importance_score": 92,
+      "importance_score": 89,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -6863,9 +6863,9 @@
       "matched_terms": [
         "alignment"
       ],
-      "importance_score": 57,
+      "importance_score": 54,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 최신 자료"
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14903",
@@ -6902,9 +6902,9 @@
       "matched_terms": [
         "reinforcement learning"
       ],
-      "importance_score": 58,
+      "importance_score": 55,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 최신 자료"
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14901",
@@ -6935,7 +6935,7 @@
       "matched_terms": [
         "multi-agent"
       ],
-      "importance_score": 74,
+      "importance_score": 71,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -6968,7 +6968,7 @@
       "matched_terms": [
         "benchmark"
       ],
-      "importance_score": 87,
+      "importance_score": 84,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -7002,7 +7002,7 @@
         "multimodal",
         "vision-language"
       ],
-      "importance_score": 75,
+      "importance_score": 72,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -7036,7 +7036,7 @@
       "matched_terms": [
         "manipulation"
       ],
-      "importance_score": 73,
+      "importance_score": 70,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -7072,7 +7072,7 @@
       "matched_terms": [
         "robustness"
       ],
-      "importance_score": 73,
+      "importance_score": 69,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -7106,8 +7106,8 @@
       "matched_terms": [
         "machine learning"
       ],
-      "importance_score": 82,
-      "importance_label": "핵심",
+      "importance_score": 79,
+      "importance_label": "높음",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
@@ -7138,7 +7138,7 @@
       "matched_terms": [
         "ai agent"
       ],
-      "importance_score": 74,
+      "importance_score": 71,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -7173,7 +7173,7 @@
         "language model",
         "large language model"
       ],
-      "importance_score": 92,
+      "importance_score": 89,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -7213,7 +7213,7 @@
         "large language model",
         "llm"
       ],
-      "importance_score": 92,
+      "importance_score": 89,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -7246,7 +7246,7 @@
       "matched_terms": [
         "robot"
       ],
-      "importance_score": 73,
+      "importance_score": 70,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -7280,9 +7280,9 @@
       "matched_terms": [
         "fairness"
       ],
-      "importance_score": 58,
+      "importance_score": 55,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 최신 자료"
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14864",
@@ -7314,7 +7314,7 @@
         "ai agent",
         "tool-using"
       ],
-      "importance_score": 76,
+      "importance_score": 73,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -7351,7 +7351,7 @@
         "large language model",
         "llm"
       ],
-      "importance_score": 92,
+      "importance_score": 89,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -7392,9 +7392,9 @@
       "matched_terms": [
         "cs.CV"
       ],
-      "importance_score": 55,
+      "importance_score": 52,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 최신 자료"
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14856",
@@ -7426,7 +7426,7 @@
       "matched_terms": [
         "robustness"
       ],
-      "importance_score": 74,
+      "importance_score": 70,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -7464,7 +7464,7 @@
         "robot",
         "robotic"
       ],
-      "importance_score": 74,
+      "importance_score": 71,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -7499,7 +7499,7 @@
       "matched_terms": [
         "benchmark"
       ],
-      "importance_score": 87,
+      "importance_score": 84,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -7532,9 +7532,9 @@
       "matched_terms": [
         "reasoning"
       ],
-      "importance_score": 58,
+      "importance_score": 55,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 최신 자료"
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "rss:openai-news:55ff14dc4213127df72a8039",
@@ -7562,9 +7562,9 @@
       "matched_terms": [
         "guardrail"
       ],
-      "importance_score": 53,
+      "importance_score": 50,
       "importance_label": "주목",
-      "importance_reason": "최신 자료 · 주요 연구 채널"
+      "importance_reason": "주요 연구 채널"
     },
     {
       "external_id": "rss:hugging-face:11568aa8dfcf9a3c07504fe2",
@@ -7589,9 +7589,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 45,
+      "importance_score": 42,
       "importance_label": "일반",
-      "importance_reason": "최신 자료"
+      "importance_reason": "일반 연구 신호"
     },
     {
       "external_id": "arxiv:2611.14849",
@@ -7624,7 +7624,7 @@
       "matched_terms": [
         "benchmark"
       ],
-      "importance_score": 87,
+      "importance_score": 84,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -7667,7 +7667,7 @@
         "agentic",
         "multi-agent"
       ],
-      "importance_score": 74,
+      "importance_score": 71,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -7702,7 +7702,7 @@
       "matched_terms": [
         "llm"
       ],
-      "importance_score": 91,
+      "importance_score": 88,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -7739,7 +7739,7 @@
       "matched_terms": [
         "embodied"
       ],
-      "importance_score": 74,
+      "importance_score": 71,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -7775,7 +7775,7 @@
         "vision-language",
         "vlm"
       ],
-      "importance_score": 76,
+      "importance_score": 73,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -7809,7 +7809,7 @@
         "benchmark",
         "evaluation"
       ],
-      "importance_score": 89,
+      "importance_score": 86,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -7848,7 +7848,7 @@
         "robotic",
         "manipulation"
       ],
-      "importance_score": 74,
+      "importance_score": 71,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -7880,9 +7880,9 @@
       "matched_terms": [
         "ai agent"
       ],
-      "importance_score": 70,
+      "importance_score": 67,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 최신 자료"
+      "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14519",
@@ -7913,9 +7913,9 @@
       "matched_terms": [
         "image segmentation"
       ],
-      "importance_score": 58,
+      "importance_score": 55,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 최신 자료"
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14518",
@@ -7950,9 +7950,9 @@
       "matched_terms": [
         "medical imaging"
       ],
-      "importance_score": 57,
+      "importance_score": 54,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 최신 자료"
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14516",
@@ -7982,7 +7982,7 @@
       "matched_terms": [
         "evaluation"
       ],
-      "importance_score": 87,
+      "importance_score": 84,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -8020,7 +8020,7 @@
       "matched_terms": [
         "language model"
       ],
-      "importance_score": 92,
+      "importance_score": 89,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -8055,9 +8055,9 @@
       "matched_terms": [
         "scientific discovery"
       ],
-      "importance_score": 58,
+      "importance_score": 55,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 최신 자료"
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14511",
@@ -8093,7 +8093,7 @@
         "benchmark",
         "evaluation"
       ],
-      "importance_score": 89,
+      "importance_score": 86,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -8125,8 +8125,8 @@
       "matched_terms": [
         "machine learning"
       ],
-      "importance_score": 81,
-      "importance_label": "핵심",
+      "importance_score": 78,
+      "importance_label": "높음",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
@@ -8157,7 +8157,7 @@
       "matched_terms": [
         "benchmark"
       ],
-      "importance_score": 87,
+      "importance_score": 84,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -8189,7 +8189,7 @@
       "matched_terms": [
         "multimodal"
       ],
-      "importance_score": 74,
+      "importance_score": 71,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -8228,7 +8228,7 @@
         "adversarial",
         "robustness"
       ],
-      "importance_score": 76,
+      "importance_score": 72,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -8264,7 +8264,7 @@
       "matched_terms": [
         "adversarial"
       ],
-      "importance_score": 73,
+      "importance_score": 69,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -8301,7 +8301,7 @@
       "matched_terms": [
         "evaluation"
       ],
-      "importance_score": 88,
+      "importance_score": 85,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -8344,7 +8344,7 @@
         "large language model",
         "llm"
       ],
-      "importance_score": 92,
+      "importance_score": 89,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -8384,7 +8384,7 @@
       "matched_terms": [
         "cs.LG"
       ],
-      "importance_score": 79,
+      "importance_score": 76,
       "importance_label": "높음",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -8417,7 +8417,7 @@
       "matched_terms": [
         "robot"
       ],
-      "importance_score": 74,
+      "importance_score": 71,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -8454,7 +8454,7 @@
       "matched_terms": [
         "llm"
       ],
-      "importance_score": 92,
+      "importance_score": 89,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -8492,9 +8492,9 @@
         "interpretability",
         "mechanistic"
       ],
-      "importance_score": 60,
+      "importance_score": 57,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 최신 자료"
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14480",
@@ -8525,7 +8525,7 @@
       "matched_terms": [
         "evaluation"
       ],
-      "importance_score": 88,
+      "importance_score": 85,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -8558,7 +8558,7 @@
       "matched_terms": [
         "benchmark"
       ],
-      "importance_score": 88,
+      "importance_score": 85,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -8592,9 +8592,9 @@
       "matched_terms": [
         "computer vision"
       ],
-      "importance_score": 57,
+      "importance_score": 54,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 최신 자료"
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14470",
@@ -8630,7 +8630,7 @@
       "matched_terms": [
         "robot"
       ],
-      "importance_score": 73,
+      "importance_score": 70,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -8665,7 +8665,7 @@
         "vision-language",
         "vlm"
       ],
-      "importance_score": 76,
+      "importance_score": 73,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -8697,9 +8697,9 @@
       "matched_terms": [
         "diffusion model"
       ],
-      "importance_score": 58,
+      "importance_score": 55,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 최신 자료"
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14467",
@@ -8734,9 +8734,9 @@
       "matched_terms": [
         "policy optimization"
       ],
-      "importance_score": 58,
+      "importance_score": 55,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 최신 자료"
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14463",
@@ -8767,7 +8767,7 @@
       "matched_terms": [
         "evaluation"
       ],
-      "importance_score": 87,
+      "importance_score": 84,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -8802,8 +8802,8 @@
       "matched_terms": [
         "neural network"
       ],
-      "importance_score": 81,
-      "importance_label": "핵심",
+      "importance_score": 78,
+      "importance_label": "높음",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
@@ -8836,7 +8836,7 @@
       "matched_terms": [
         "language model"
       ],
-      "importance_score": 92,
+      "importance_score": 89,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -8872,8 +8872,8 @@
         "optimization",
         "generalization"
       ],
-      "importance_score": 82,
-      "importance_label": "핵심",
+      "importance_score": 79,
+      "importance_label": "높음",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
@@ -8910,9 +8910,9 @@
       "matched_terms": [
         "inference-time"
       ],
-      "importance_score": 57,
+      "importance_score": 54,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 최신 자료"
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14436",
@@ -8945,9 +8945,9 @@
       "matched_terms": [
         "policy optimization"
       ],
-      "importance_score": 58,
+      "importance_score": 55,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 최신 자료"
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14432",
@@ -8985,7 +8985,7 @@
         "evaluation",
         "leaderboard"
       ],
-      "importance_score": 88,
+      "importance_score": 85,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -9021,7 +9021,7 @@
       "matched_terms": [
         "benchmark"
       ],
-      "importance_score": 87,
+      "importance_score": 84,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -9058,7 +9058,7 @@
       "matched_terms": [
         "evaluation"
       ],
-      "importance_score": 87,
+      "importance_score": 84,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -9096,7 +9096,7 @@
       "matched_terms": [
         "cs.LG"
       ],
-      "importance_score": 79,
+      "importance_score": 76,
       "importance_label": "높음",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -9128,7 +9128,7 @@
       "matched_terms": [
         "leaderboard"
       ],
-      "importance_score": 87,
+      "importance_score": 84,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -9165,9 +9165,9 @@
       "matched_terms": [
         "world model"
       ],
-      "importance_score": 58,
+      "importance_score": 55,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 최신 자료"
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14419",
@@ -9201,7 +9201,7 @@
       "matched_terms": [
         "llm"
       ],
-      "importance_score": 92,
+      "importance_score": 89,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -9235,7 +9235,7 @@
       "matched_terms": [
         "benchmark"
       ],
-      "importance_score": 87,
+      "importance_score": 84,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -9269,9 +9269,9 @@
       "matched_terms": [
         "interpretability"
       ],
-      "importance_score": 57,
+      "importance_score": 54,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 최신 자료"
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14414",
@@ -9308,9 +9308,9 @@
       "matched_terms": [
         "motion planning"
       ],
-      "importance_score": 58,
+      "importance_score": 55,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 최신 자료"
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14413",
@@ -9342,7 +9342,7 @@
       "matched_terms": [
         "language model"
       ],
-      "importance_score": 92,
+      "importance_score": 89,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -9378,9 +9378,9 @@
       "matched_terms": [
         "image classification"
       ],
-      "importance_score": 57,
+      "importance_score": 54,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 최신 자료"
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14401",
@@ -9413,7 +9413,7 @@
       "matched_terms": [
         "distillation"
       ],
-      "importance_score": 70,
+      "importance_score": 67,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -9445,9 +9445,9 @@
       "matched_terms": [
         "speculative decoding"
       ],
-      "importance_score": 58,
+      "importance_score": 55,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 최신 자료"
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14397",
@@ -9483,7 +9483,7 @@
       "matched_terms": [
         "robustness"
       ],
-      "importance_score": 74,
+      "importance_score": 70,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -9521,7 +9521,7 @@
       "matched_terms": [
         "language model"
       ],
-      "importance_score": 92,
+      "importance_score": 89,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -9554,8 +9554,8 @@
       "matched_terms": [
         "machine learning"
       ],
-      "importance_score": 82,
-      "importance_label": "핵심",
+      "importance_score": 79,
+      "importance_label": "높음",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
     {
@@ -9591,7 +9591,7 @@
         "large language model",
         "llm"
       ],
-      "importance_score": 94,
+      "importance_score": 91,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -9628,7 +9628,7 @@
       "matched_terms": [
         "multimodal"
       ],
-      "importance_score": 74,
+      "importance_score": 71,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -9664,9 +9664,9 @@
       "matched_terms": [
         "reinforcement learning"
       ],
-      "importance_score": 58,
+      "importance_score": 55,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 최신 자료"
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14373",
@@ -9699,7 +9699,7 @@
       "matched_terms": [
         "multimodal"
       ],
-      "importance_score": 74,
+      "importance_score": 71,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -9735,7 +9735,7 @@
       "matched_terms": [
         "robot"
       ],
-      "importance_score": 74,
+      "importance_score": 71,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -9793,7 +9793,7 @@
       "matched_terms": [
         "benchmark"
       ],
-      "importance_score": 88,
+      "importance_score": 85,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -9822,9 +9822,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 49,
+      "importance_score": 46,
       "importance_label": "일반",
-      "importance_reason": "최신 자료 · 주요 연구 채널"
+      "importance_reason": "주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14357",
@@ -9858,7 +9858,7 @@
       "matched_terms": [
         "cs.LG"
       ],
-      "importance_score": 79,
+      "importance_score": 76,
       "importance_label": "높음",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -9898,7 +9898,7 @@
       "matched_terms": [
         "llm"
       ],
-      "importance_score": 92,
+      "importance_score": 89,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -9932,7 +9932,7 @@
       "matched_terms": [
         "language model"
       ],
-      "importance_score": 92,
+      "importance_score": 89,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -9969,7 +9969,7 @@
         "large language model",
         "llm"
       ],
-      "importance_score": 94,
+      "importance_score": 91,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -10005,7 +10005,7 @@
       "matched_terms": [
         "evaluation"
       ],
-      "importance_score": 87,
+      "importance_score": 84,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -10043,7 +10043,7 @@
       "matched_terms": [
         "llm"
       ],
-      "importance_score": 92,
+      "importance_score": 89,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -10075,7 +10075,7 @@
       "matched_terms": [
         "language model"
       ],
-      "importance_score": 91,
+      "importance_score": 88,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -10108,7 +10108,7 @@
       "matched_terms": [
         "llm"
       ],
-      "importance_score": 92,
+      "importance_score": 89,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -10143,7 +10143,7 @@
       "matched_terms": [
         "llm"
       ],
-      "importance_score": 92,
+      "importance_score": 89,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -10180,9 +10180,9 @@
       "matched_terms": [
         "differential privacy"
       ],
-      "importance_score": 57,
+      "importance_score": 54,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 최신 자료"
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14312",
@@ -10223,9 +10223,9 @@
       "matched_terms": [
         "alignment"
       ],
-      "importance_score": 58,
+      "importance_score": 55,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 최신 자료"
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14311",
@@ -10255,7 +10255,7 @@
       "matched_terms": [
         "multimodal"
       ],
-      "importance_score": 75,
+      "importance_score": 72,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -10294,7 +10294,7 @@
         "benchmark",
         "evaluation"
       ],
-      "importance_score": 88,
+      "importance_score": 85,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -10330,9 +10330,9 @@
       "matched_terms": [
         "video generation"
       ],
-      "importance_score": 58,
+      "importance_score": 55,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 최신 자료"
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14286",
@@ -10372,7 +10372,7 @@
       "matched_terms": [
         "benchmark"
       ],
-      "importance_score": 87,
+      "importance_score": 84,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -10413,7 +10413,7 @@
         "large language model",
         "llm"
       ],
-      "importance_score": 94,
+      "importance_score": 91,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -10454,9 +10454,9 @@
         "clinical",
         "healthcare"
       ],
-      "importance_score": 59,
+      "importance_score": 56,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 최신 자료"
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14281",
@@ -10490,9 +10490,9 @@
       "matched_terms": [
         "flow matching"
       ],
-      "importance_score": 57,
+      "importance_score": 54,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 최신 자료"
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14279",
@@ -10529,7 +10529,7 @@
       "matched_terms": [
         "evaluation"
       ],
-      "importance_score": 87,
+      "importance_score": 84,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -10563,7 +10563,7 @@
       "matched_terms": [
         "stat.ML"
       ],
-      "importance_score": 79,
+      "importance_score": 76,
       "importance_label": "높음",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -10600,7 +10600,7 @@
         "robot",
         "manipulation"
       ],
-      "importance_score": 75,
+      "importance_score": 72,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -10640,9 +10640,9 @@
       "matched_terms": [
         "federated learning"
       ],
-      "importance_score": 58,
+      "importance_score": 55,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 최신 자료"
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14267",
@@ -10675,7 +10675,7 @@
         "neural network",
         "generalization"
       ],
-      "importance_score": 83,
+      "importance_score": 80,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -10711,9 +10711,9 @@
       "matched_terms": [
         "representation learning"
       ],
-      "importance_score": 58,
+      "importance_score": 55,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 최신 자료"
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14263",
@@ -10749,7 +10749,7 @@
         "large language model",
         "llm"
       ],
-      "importance_score": 94,
+      "importance_score": 91,
       "importance_label": "핵심",
       "importance_reason": "급상승 주제 · 신규 논문"
     },
@@ -10783,9 +10783,9 @@
       "matched_terms": [
         "reinforcement learning"
       ],
-      "importance_score": 58,
+      "importance_score": 55,
       "importance_label": "주목",
-      "importance_reason": "신규 논문 · 최신 자료"
+      "importance_reason": "신규 논문 · 주요 연구 채널"
     },
     {
       "external_id": "arxiv:2611.14260",
@@ -10821,7 +10821,7 @@
       "matched_terms": [
         "multi-agent"
       ],
-      "importance_score": 74,
+      "importance_score": 71,
       "importance_label": "높음",
       "importance_reason": "주제 모멘텀 · 신규 논문"
     },
@@ -10848,9 +10848,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 49,
+      "importance_score": 46,
       "importance_label": "일반",
-      "importance_reason": "최신 자료 · 주요 연구 채널"
+      "importance_reason": "주요 연구 채널"
     },
     {
       "external_id": "rss:nvidia-technical-blog:dc4eef24bb6da7243e336373",
@@ -10882,9 +10882,9 @@
         "agentic",
         "ai agent"
       ],
-      "importance_score": 70,
+      "importance_score": 67,
       "importance_label": "높음",
-      "importance_reason": "주제 모멘텀 · 최신 자료"
+      "importance_reason": "주제 모멘텀 · 주요 연구 채널"
     },
     {
       "external_id": "rss:nvidia-technical-blog:33779f3ea0309945f6583dc7",
@@ -10911,9 +10911,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 49,
+      "importance_score": 46,
       "importance_label": "일반",
-      "importance_reason": "최신 자료 · 주요 연구 채널"
+      "importance_reason": "주요 연구 채널"
     },
     {
       "external_id": "rss:google-deepmind:f321c904268bcef29356d2d1",
@@ -10938,9 +10938,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 49,
+      "importance_score": 46,
       "importance_label": "일반",
-      "importance_reason": "최신 자료 · 주요 연구 채널"
+      "importance_reason": "주요 연구 채널"
     },
     {
       "external_id": "rss:openai-news:0f0020abcf733229d29f4d40",
@@ -10965,9 +10965,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 49,
+      "importance_score": 46,
       "importance_label": "일반",
-      "importance_reason": "최신 자료 · 주요 연구 채널"
+      "importance_reason": "주요 연구 채널"
     },
     {
       "external_id": "rss:google-deepmind:d0f9bf46fa9dba7cc8efaedf",
@@ -10992,9 +10992,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 49,
+      "importance_score": 46,
       "importance_label": "일반",
-      "importance_reason": "최신 자료 · 주요 연구 채널"
+      "importance_reason": "주요 연구 채널"
     },
     {
       "external_id": "rss:openai-news:991ad48e8559b2fefa9ff7bc",
@@ -11019,9 +11019,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 49,
+      "importance_score": 46,
       "importance_label": "일반",
-      "importance_reason": "최신 자료 · 주요 연구 채널"
+      "importance_reason": "주요 연구 채널"
     },
     {
       "external_id": "rss:openai-news:69d4d9d74efa01629a6c751d",
@@ -11046,9 +11046,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 49,
+      "importance_score": 46,
       "importance_label": "일반",
-      "importance_reason": "최신 자료 · 주요 연구 채널"
+      "importance_reason": "주요 연구 채널"
     },
     {
       "external_id": "rss:openai-news:9092d5eb66f29547408d30e0",
@@ -11073,9 +11073,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 49,
+      "importance_score": 46,
       "importance_label": "일반",
-      "importance_reason": "최신 자료 · 주요 연구 채널"
+      "importance_reason": "주요 연구 채널"
     },
     {
       "external_id": "rss:openai-news:f3fc54cd1d78c100d666a9c2",
@@ -11100,9 +11100,9 @@
       "secondary_topic_ko": "분류 검토 필요",
       "classification_confidence": 0.18,
       "matched_terms": [],
-      "importance_score": 49,
+      "importance_score": 46,
       "importance_label": "일반",
-      "importance_reason": "최신 자료 · 주요 연구 채널"
+      "importance_reason": "주요 연구 채널"
     },
     {
       "external_id": "rss:nvidia-technical-blog:497dd159a57faebec9f88d30",
@@ -12344,9 +12344,9 @@
     {
       "name": "Google DeepMind",
       "kind": "뉴스",
-      "status": "정상",
-      "count": 80,
-      "message": ""
+      "status": "오류",
+      "count": 0,
+      "message": "ParseError: not well-formed (invalid token): line 1, column 0"
     },
     {
       "name": "Hugging Face",
